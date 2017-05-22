@@ -6015,3 +6015,290 @@ Purging the undo buffer...
 [2017.05.22-20.22.36:101][206]LogSavePackage: Save=87.71ms
 [2017.05.22-20.22.36:101][206]LogSavePackage: Moving 'D:/SkaGameSVN/SkaGame/SkaGame/Saved/SideScrollerExampleMap_BuiltData9AF97F1744AE991C5DC1948CD47AD7B8.tmp' to 'D:/SkaGameSVN/SkaGame/SkaGame/Content/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData.uasset'
 [2017.05.22-20.22.36:104][206]LogSavePackage:Display: Finished SavePackage D:/SkaGameSVN/SkaGame/SkaGame/Content/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData.uasset
+[2017.05.22-20.23.29:665][967]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.05.22-20.24.00:124][443]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.22-20.24.00:133][443]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.05.22-20.24.00:133][443]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.22-20.24.00:133][443]PIE: New page: PIE session: SideScrollerExampleMap (May 22, 2017, 12:24:00 PM)
+[2017.05.22-20.24.00:133][443]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2017.05.22-20.24.00:150][443]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016332s)
+[2017.05.22-20.24.00:150][443]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2017.05.22-20.24.00:151][443]LogPlayLevel: PIE: World Init took: (0.000928s)
+[2017.05.22-20.24.00:151][443]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.017598s)
+[2017.05.22-20.24.00:170][443]LogInit: XAudio2 using 'Speakers (Dell AC511 USB SoundBar)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.22-20.24.00:177][443]LogInit: FAudioDevice initialized.
+[2017.05.22-20.24.00:205][443]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.05.22-20.24.00:207][443]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2017.05.22-16.24.00
+[2017.05.22-20.24.00:207][443]LogWorld: Bringing up level for play took: 0.001547
+[2017.05.22-20.24.00:208][443]Cmd: stat FPS
+[2017.05.22-20.24.00:208][443]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 0.804
+[2017.05.22-20.24.00:208][443]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.05.22-20.24.04:307][915]Cmd: LevelEditor.ToggleImmersive
+[2017.05.22-20.24.49:125][588]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.05.22-20.24.49:227][588]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.05.22-20.25.27:953][700]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SkaGameAssets/Brad/Materials/BradMasterMaterial" FILE="D:/SkaGameSVN/SkaGame/SkaGame/Content/SkaGameAssets/Brad/Materials/BradMasterMaterial.uasset" SILENT=true
+[2017.05.22-20.25.27:963][700]LogSavePackage: Save=8.86ms
+[2017.05.22-20.25.27:963][700]LogSavePackage: Moving 'D:/SkaGameSVN/SkaGame/SkaGame/Saved/BradMasterMaterialB54DB7CB489ADC79D60A069A1875AC77.tmp' to 'D:/SkaGameSVN/SkaGame/SkaGame/Content/SkaGameAssets/Brad/Materials/BradMasterMaterial.uasset'
+[2017.05.22-20.25.27:967][700]LogSavePackage:Display: Finished SavePackage D:/SkaGameSVN/SkaGame/SkaGame/Content/SkaGameAssets/Brad/Materials/BradMasterMaterial.uasset
+[2017.05.22-20.25.28:081][700]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SkaGameAssets/Brad/Materials/Bone" FILE="D:/SkaGameSVN/SkaGame/SkaGame/Content/SkaGameAssets/Brad/Materials/Bone.uasset" SILENT=true
+[2017.05.22-20.25.28:085][700]LogSavePackage: Save=1.32ms
+[2017.05.22-20.25.28:085][700]LogSavePackage: Moving 'D:/SkaGameSVN/SkaGame/SkaGame/Saved/Bone19859DB74AC9BD9095E20FA63C0B1268.tmp' to 'D:/SkaGameSVN/SkaGame/SkaGame/Content/SkaGameAssets/Brad/Materials/Bone.uasset'
+[2017.05.22-20.25.28:088][700]LogSavePackage:Display: Finished SavePackage D:/SkaGameSVN/SkaGame/SkaGame/Content/SkaGameAssets/Brad/Materials/Bone.uasset
+[2017.05.22-20.25.28:089][700]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SkaGameAssets/Brad/Materials/Shirt" FILE="D:/SkaGameSVN/SkaGame/SkaGame/Content/SkaGameAssets/Brad/Materials/Shirt.uasset" SILENT=true
+[2017.05.22-20.25.28:093][700]LogSavePackage: Save=1.33ms
+[2017.05.22-20.25.28:093][700]LogSavePackage: Moving 'D:/SkaGameSVN/SkaGame/SkaGame/Saved/ShirtA64A3AC64076F09442D0BF8A3C646D6E.tmp' to 'D:/SkaGameSVN/SkaGame/SkaGame/Content/SkaGameAssets/Brad/Materials/Shirt.uasset'
+[2017.05.22-20.25.28:096][700]LogSavePackage:Display: Finished SavePackage D:/SkaGameSVN/SkaGame/SkaGame/Content/SkaGameAssets/Brad/Materials/Shirt.uasset
+[2017.05.22-20.25.28:098][700]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SkaGameAssets/Brad/Materials/Pants" FILE="D:/SkaGameSVN/SkaGame/SkaGame/Content/SkaGameAssets/Brad/Materials/Pants.uasset" SILENT=true
+[2017.05.22-20.25.28:114][700]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Pants, compiling. 
+[2017.05.22-20.25.28:115][700]LogTemp:Display: Added material ShaderMap 0x0000018B193C0480 with Material 0x0000018B4F0C7A00 to ShaderMapsBeingCompiled
+[2017.05.22-20.25.28:420][700]LogTemp:Display: Finished compile of shader map 0x0000018B193C0480
+[2017.05.22-20.25.28:420][700]LogTemp:Display: Shader map FDebugViewModeMaterialProxy Pants complete, GameThreadShaderMap 0x0000018B193C0480, marking material FDebugViewModeMaterialProxy Pants as finished
+[2017.05.22-20.25.28:420][700]LogTemp:Display: Marking material as finished 0x0000018B4F0C7A00
+[2017.05.22-20.25.28:422][700]TextureStreamingBuild:Display: Compiling optional shaders took 0.311 seconds.
+[2017.05.22-20.25.28:440][700]LogSavePackage: Save=1.35ms
+[2017.05.22-20.25.28:440][700]LogSavePackage: Moving 'D:/SkaGameSVN/SkaGame/SkaGame/Saved/PantsBC3939BC4A7BD48CACBDAFB4002EF686.tmp' to 'D:/SkaGameSVN/SkaGame/SkaGame/Content/SkaGameAssets/Brad/Materials/Pants.uasset'
+[2017.05.22-20.25.28:442][700]LogSavePackage:Display: Finished SavePackage D:/SkaGameSVN/SkaGame/SkaGame/Content/SkaGameAssets/Brad/Materials/Pants.uasset
+[2017.05.22-20.25.28:444][700]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SkaGameAssets/Brad/Brad_PivitFixed" FILE="D:/SkaGameSVN/SkaGame/SkaGame/Content/SkaGameAssets/Brad/Brad_PivitFixed.uasset" SILENT=true
+[2017.05.22-20.25.28:452][700]LogSavePackage: Save=5.74ms
+[2017.05.22-20.25.28:452][700]LogSavePackage: Moving 'D:/SkaGameSVN/SkaGame/SkaGame/Saved/Brad_PivitFixed890033A741620524673C96818F409CBF.tmp' to 'D:/SkaGameSVN/SkaGame/SkaGame/Content/SkaGameAssets/Brad/Brad_PivitFixed.uasset'
+[2017.05.22-20.25.28:454][700]LogSavePackage:Display: Finished SavePackage D:/SkaGameSVN/SkaGame/SkaGame/Content/SkaGameAssets/Brad/Brad_PivitFixed.uasset
+[2017.05.22-20.25.54:935][531]LogEditorViewport: Clicking on Actor (LMB): SideScrollerCharacter_C (SideScrollerCharacter)
+[2017.05.22-20.26.07:535][119]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SkaGameAssets/Brad/Brad_PivitFixed" FILE="D:/SkaGameSVN/SkaGame/SkaGame/Content/SkaGameAssets/Brad/Brad_PivitFixed.uasset" SILENT=true
+[2017.05.22-20.26.07:550][119]LogSavePackage: Save=12.46ms
+[2017.05.22-20.26.07:550][119]LogSavePackage: Moving 'D:/SkaGameSVN/SkaGame/SkaGame/Saved/Brad_PivitFixedCB99B1F04C1B2C3F963A61819F89FCE8.tmp' to 'D:/SkaGameSVN/SkaGame/SkaGame/Content/SkaGameAssets/Brad/Brad_PivitFixed.uasset'
+[2017.05.22-20.26.07:554][119]LogSavePackage:Display: Finished SavePackage D:/SkaGameSVN/SkaGame/SkaGame/Content/SkaGameAssets/Brad/Brad_PivitFixed.uasset
+[2017.05.22-20.26.18:777][893]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.22-20.26.18:786][893]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.05.22-20.26.18:786][893]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.22-20.26.18:786][893]PIE: New page: PIE session: SideScrollerExampleMap (May 22, 2017, 12:26:18 PM)
+[2017.05.22-20.26.18:786][893]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2017.05.22-20.26.18:803][893]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016596s)
+[2017.05.22-20.26.18:803][893]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2017.05.22-20.26.18:804][893]LogPlayLevel: PIE: World Init took: (0.000870s)
+[2017.05.22-20.26.18:804][893]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.017746s)
+[2017.05.22-20.26.18:848][893]LogInit: XAudio2 using 'Speakers (Dell AC511 USB SoundBar)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.22-20.26.18:854][893]LogInit: FAudioDevice initialized.
+[2017.05.22-20.26.18:884][893]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.05.22-20.26.18:887][893]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2017.05.22-16.26.18
+[2017.05.22-20.26.18:887][893]LogWorld: Bringing up level for play took: 0.001507
+[2017.05.22-20.26.18:887][893]Cmd: stat FPS
+[2017.05.22-20.26.18:888][893]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap -0.517
+[2017.05.22-20.26.18:888][893]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.05.22-20.26.26:018][695]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.05.22-20.26.26:105][695]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.05.22-20.26.27:060][752]LogSavePackage: Save=130.44ms
+[2017.05.22-20.26.27:060][752]LogSavePackage: Moving 'D:/SkaGameSVN/SkaGame/SkaGame/Saved/SideScrollerExampleMap80681F4F4BD21662714BA884386F98D6.tmp' to 'D:/SkaGameSVN/SkaGame/SkaGame/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap'
+[2017.05.22-20.26.27:064][752]LogSavePackage:Display: Finished SavePackage D:/SkaGameSVN/SkaGame/SkaGame/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap
+[2017.05.22-20.26.27:170][752]LogSavePackage: Save=86.31ms
+[2017.05.22-20.26.27:170][752]LogSavePackage: Moving 'D:/SkaGameSVN/SkaGame/SkaGame/Saved/SideScrollerExampleMap_BuiltDataA536698A4299B1CCBA41978FFB0F588C.tmp' to 'D:/SkaGameSVN/SkaGame/SkaGame/Content/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData.uasset'
+[2017.05.22-20.26.27:172][752]LogSavePackage:Display: Finished SavePackage D:/SkaGameSVN/SkaGame/SkaGame/Content/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData.uasset
+[2017.05.22-20.27.12:331][810]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/SkaGameSVN/SkaGame/Graphics/Brad_PivitFixed1.fbx)
+[2017.05.22-20.27.12:337][810]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.05.22-20.27.12:337][810]LogFbx: ItemName: NodeAttribute, ItemCount : 32
+[2017.05.22-20.27.12:337][810]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.05.22-20.27.12:337][810]LogFbx: ItemName: Model, ItemCount : 33
+[2017.05.22-20.27.12:337][810]LogFbx: ItemName: Pose, ItemCount : 1
+[2017.05.22-20.27.12:337][810]LogFbx: ItemName: Deformer, ItemCount : 29
+[2017.05.22-20.27.12:337][810]LogFbx: ItemName: Material, ItemCount : 5
+[2017.05.22-20.27.12:337][810]LogFbx: ItemName: AnimationStack, ItemCount : 2
+[2017.05.22-20.27.12:337][810]LogFbx: ItemName: AnimationLayer, ItemCount : 2
+[2017.05.22-20.27.12:337][810]LogFbx: ItemName: AnimationCurveNode, ItemCount : 174
+[2017.05.22-20.27.12:337][810]LogFbx: ItemName: AnimationCurve, ItemCount : 522
+[2017.05.22-20.27.12:341][810]LogFbx: Loading FBX Scene from D:/SkaGameSVN/SkaGame/Graphics/Brad_PivitFixed1.fbx
+[2017.05.22-20.27.12:373][810]LogFbx: FBX Scene Loaded Succesfully
+[2017.05.22-20.27.15:933][810]LogFbx: Loading FBX Scene from D:/SkaGameSVN/SkaGame/Graphics/Brad_PivitFixed1.fbx
+[2017.05.22-20.27.15:964][810]LogFbx: FBX Scene Loaded Succesfully
+[2017.05.22-20.27.15:967][810]LogFbx: =================================================
+[2017.05.22-20.27.15:967][810]LogFbx: Dumping Node START [Brad] 
+[2017.05.22-20.27.15:967][810]LogFbx: 	Total Deformer Count 380032272.
+[2017.05.22-20.27.15:967][810]LogFbx: 		[Node 1] Brad_Armature (Type Skin).
+[2017.05.22-20.27.15:967][810]LogFbx: =================================================
+[2017.05.22-20.27.15:967][810]LogFbx: 	Attribute (Brad_Mesh) Type (4).
+[2017.05.22-20.27.15:967][810]LogFbx: 		[Node Attribute Child 1] Brad (Type Mesh).
+[2017.05.22-20.27.15:967][810]LogFbx: Dumping Node END [Brad]
+[2017.05.22-20.27.15:968][810]LogFbx: =================================================
+[2017.05.22-20.27.15:968][810]LogFbx: Dumping Node START [Brad] 
+[2017.05.22-20.27.15:968][810]LogFbx: 	Total Deformer Count 380041776.
+[2017.05.22-20.27.15:968][810]LogFbx: 		[Node 1] Brad_Armature (Type Skin).
+[2017.05.22-20.27.15:968][810]LogFbx: =================================================
+[2017.05.22-20.27.15:968][810]LogFbx: 	Attribute (Brad_Mesh) Type (4).
+[2017.05.22-20.27.15:968][810]LogFbx: 		[Node Attribute Child 1] Brad (Type Mesh).
+[2017.05.22-20.27.15:968][810]LogFbx: Dumping Node END [Brad]
+[2017.05.22-20.27.15:968][810]LogFbx: Valid bind pose for Pose (Brad_Mesh) - Brad
+[2017.05.22-20.27.15:969][810]LogMaterial:Warning: Material /Game/SkaGameAssets/Brad/Bone.Bone needed to have new flag set bUsedWithSkeletalMesh !
+[2017.05.22-20.27.15:971][810]LogMaterial: Missing cached shader map for material Bone, compiling. 
+[2017.05.22-20.27.15:972][810]LogTemp:Display: Added material ShaderMap 0x0000018B7230A780 with Material 0x0000018AB85E3100 to ShaderMapsBeingCompiled
+[2017.05.22-20.27.15:996][810]LogTemp:Display: Kicking off shader compilation for Bone, GameThreadShaderMap 0x0000018B7230A780
+[2017.05.22-20.27.15:996][810]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.22-20.27.15:998][810]LogMaterial: Missing cached shader map for material Bone, compiling. 
+[2017.05.22-20.27.15:999][810]LogTemp:Display: Added material ShaderMap 0x0000018B71607580 with Material 0x0000018AB85E3100 to ShaderMapsBeingCompiled
+[2017.05.22-20.27.16:022][810]LogTemp:Display: Kicking off shader compilation for Bone, GameThreadShaderMap 0x0000018B71607580
+[2017.05.22-20.27.16:024][810]LogMaterial:Warning: Material /Game/SkaGameAssets/Brad/Hole.Hole needed to have new flag set bUsedWithSkeletalMesh !
+[2017.05.22-20.27.16:026][810]LogMaterial: Missing cached shader map for material Hole, compiling. 
+[2017.05.22-20.27.16:026][810]LogTemp:Display: Added material ShaderMap 0x0000018AE27EE080 with Material 0x0000018B19DFA980 to ShaderMapsBeingCompiled
+[2017.05.22-20.27.16:050][810]LogTemp:Display: Kicking off shader compilation for Hole, GameThreadShaderMap 0x0000018AE27EE080
+[2017.05.22-20.27.16:051][810]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.22-20.27.16:052][810]LogMaterial: Missing cached shader map for material Hole, compiling. 
+[2017.05.22-20.27.16:053][810]LogTemp:Display: Added material ShaderMap 0x0000018B4099AE80 with Material 0x0000018B19DFA980 to ShaderMapsBeingCompiled
+[2017.05.22-20.27.16:085][810]LogTemp:Display: Kicking off shader compilation for Hole, GameThreadShaderMap 0x0000018B4099AE80
+[2017.05.22-20.27.16:087][810]LogMaterial:Warning: Material /Game/SkaGameAssets/Brad/Shirt.Shirt needed to have new flag set bUsedWithSkeletalMesh !
+[2017.05.22-20.27.16:089][810]LogMaterial: Missing cached shader map for material Shirt, compiling. 
+[2017.05.22-20.27.16:090][810]LogTemp:Display: Added material ShaderMap 0x0000018B38C53580 with Material 0x0000018AB8599F00 to ShaderMapsBeingCompiled
+[2017.05.22-20.27.16:123][810]LogTemp:Display: Kicking off shader compilation for Shirt, GameThreadShaderMap 0x0000018B38C53580
+[2017.05.22-20.27.16:123][810]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.22-20.27.16:126][810]LogMaterial: Missing cached shader map for material Shirt, compiling. 
+[2017.05.22-20.27.16:126][810]LogTemp:Display: Added material ShaderMap 0x0000018AAB32EE80 with Material 0x0000018AB8599F00 to ShaderMapsBeingCompiled
+[2017.05.22-20.27.16:157][810]LogTemp:Display: Kicking off shader compilation for Shirt, GameThreadShaderMap 0x0000018AAB32EE80
+[2017.05.22-20.27.16:160][810]LogMaterial:Warning: Material /Game/SkaGameAssets/Brad/Pants.Pants needed to have new flag set bUsedWithSkeletalMesh !
+[2017.05.22-20.27.16:161][810]LogMaterial: Missing cached shader map for material Pants, compiling. 
+[2017.05.22-20.27.16:162][810]LogTemp:Display: Added material ShaderMap 0x0000018AABBD0F00 with Material 0x0000018AB92DC880 to ShaderMapsBeingCompiled
+[2017.05.22-20.27.16:188][810]LogTemp:Display: Kicking off shader compilation for Pants, GameThreadShaderMap 0x0000018AABBD0F00
+[2017.05.22-20.27.16:188][810]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.22-20.27.16:192][810]LogMaterial: Missing cached shader map for material Pants, compiling. 
+[2017.05.22-20.27.16:192][810]LogTemp:Display: Added material ShaderMap 0x0000018B6E0DF580 with Material 0x0000018AB92DC880 to ShaderMapsBeingCompiled
+[2017.05.22-20.27.16:227][810]LogTemp:Display: Kicking off shader compilation for Pants, GameThreadShaderMap 0x0000018B6E0DF580
+[2017.05.22-20.27.16:230][810]LogMaterial:Warning: Material /Game/SkaGameAssets/Brad/Shoes.Shoes needed to have new flag set bUsedWithSkeletalMesh !
+[2017.05.22-20.27.16:232][810]LogMaterial: Missing cached shader map for material Shoes, compiling. 
+[2017.05.22-20.27.16:233][810]LogTemp:Display: Added material ShaderMap 0x0000018B82A2D980 with Material 0x0000018B1635CE80 to ShaderMapsBeingCompiled
+[2017.05.22-20.27.16:271][810]LogTemp:Display: Kicking off shader compilation for Shoes, GameThreadShaderMap 0x0000018B82A2D980
+[2017.05.22-20.27.16:271][810]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.22-20.27.16:274][810]LogMaterial: Missing cached shader map for material Shoes, compiling. 
+[2017.05.22-20.27.16:275][810]LogTemp:Display: Added material ShaderMap 0x0000018B7C0DFC80 with Material 0x0000018B1635CE80 to ShaderMapsBeingCompiled
+[2017.05.22-20.27.16:310][810]LogTemp:Display: Kicking off shader compilation for Shoes, GameThreadShaderMap 0x0000018B7C0DFC80
+[2017.05.22-20.27.16:312][810]LogFbx: Triangulating skeletal mesh Brad
+[2017.05.22-20.27.16:601][810]LogFbx:Warning: Bones digested - 34  Depth of hierarchy - 11
+[2017.05.22-20.27.16:662][810]LogSkeletalMesh: Section 0: 1021 vertices, 24 active bones
+[2017.05.22-20.27.16:662][810]LogSkeletalMesh: Section 1: 72 vertices, 1 active bones
+[2017.05.22-20.27.16:662][810]LogSkeletalMesh: Section 2: 198 vertices, 16 active bones
+[2017.05.22-20.27.16:662][810]LogSkeletalMesh: Section 3: 226 vertices, 8 active bones
+[2017.05.22-20.27.16:662][810]LogSkeletalMesh: Section 4: 68 vertices, 6 active bones
+[2017.05.22-20.27.16:664][810]LogSkeletalMesh: Section 0: Material=0, 1768 triangles
+[2017.05.22-20.27.16:664][810]LogSkeletalMesh: Section 1: Material=1, 76 triangles
+[2017.05.22-20.27.16:664][810]LogSkeletalMesh: Section 2: Material=2, 354 triangles
+[2017.05.22-20.27.16:664][810]LogSkeletalMesh: Section 3: Material=3, 449 triangles
+[2017.05.22-20.27.16:664][810]LogSkeletalMesh: Section 4: Material=4, 76 triangles
+[2017.05.22-20.27.16:666][810]LogLinker: Can't find file '/Game/SkaGameAssets/Brad/Brad_PivitFixed1_PhysicsAsset'
+[2017.05.22-20.27.16:666][810]LogLinker: Can't find file '/Game/SkaGameAssets/Brad/Brad_PivitFixed1_PhysicsAsset'
+[2017.05.22-20.27.16:851][810]LogLinker: Can't find file '/Game/SkaGameAssets/Brad/Brad_PivitFixed1_Skeleton'
+[2017.05.22-20.27.16:851][810]LogLinker: Can't find file '/Game/SkaGameAssets/Brad/Brad_PivitFixed1_Skeleton'
+[2017.05.22-20.27.16:857][810]LogFbx: =================================================
+[2017.05.22-20.27.16:857][810]LogFbx: Dumping Node START [Brad] 
+[2017.05.22-20.27.16:857][810]LogFbx: 	Total Deformer Count -1202207216.
+[2017.05.22-20.27.16:857][810]LogFbx: 		[Node 1] Brad_Armature (Type Skin).
+[2017.05.22-20.27.16:857][810]LogFbx: =================================================
+[2017.05.22-20.27.16:857][810]LogFbx: 	Attribute (Brad_Mesh) Type (4).
+[2017.05.22-20.27.16:857][810]LogFbx: 		[Node Attribute Child 1] Brad (Type Mesh).
+[2017.05.22-20.27.16:857][810]LogFbx: Dumping Node END [Brad]
+[2017.05.22-20.27.16:858][810]LogFbx: =================================================
+[2017.05.22-20.27.16:858][810]LogFbx: Dumping Node START [Brad] 
+[2017.05.22-20.27.16:858][810]LogFbx: 	Total Deformer Count -1202196176.
+[2017.05.22-20.27.16:858][810]LogFbx: 		[Node 1] Brad_Armature (Type Skin).
+[2017.05.22-20.27.16:858][810]LogFbx: =================================================
+[2017.05.22-20.27.16:858][810]LogFbx: 	Attribute (Brad_Mesh) Type (4).
+[2017.05.22-20.27.16:858][810]LogFbx: 		[Node Attribute Child 1] Brad (Type Mesh).
+[2017.05.22-20.27.16:858][810]LogFbx: Dumping Node END [Brad]
+[2017.05.22-20.27.16:858][810]LogFbx: SortedLinks :(0) Brad_Armature
+[2017.05.22-20.27.16:858][810]LogFbx: SortedLinks :(1) ROOT
+[2017.05.22-20.27.16:858][810]LogFbx: SortedLinks :(2) Abdomen
+[2017.05.22-20.27.16:858][810]LogFbx: SortedLinks :(3) Ribs
+[2017.05.22-20.27.16:858][810]LogFbx: SortedLinks :(4) Neck
+[2017.05.22-20.27.16:858][810]LogFbx: SortedLinks :(5) Head
+[2017.05.22-20.27.16:858][810]LogFbx: SortedLinks :(6) Jaw
+[2017.05.22-20.27.16:858][810]LogFbx: SortedLinks :(7) Jaw_end
+[2017.05.22-20.27.16:858][810]LogFbx: SortedLinks :(8) Clavical_R
+[2017.05.22-20.27.16:858][810]LogFbx: SortedLinks :(9) Upperarm_R
+[2017.05.22-20.27.16:858][810]LogFbx: SortedLinks :(10) Forearm_R
+[2017.05.22-20.27.16:858][810]LogFbx: SortedLinks :(11) Palm_R
+[2017.05.22-20.27.16:858][810]LogFbx: SortedLinks :(12) Fingers_R
+[2017.05.22-20.27.16:858][810]LogFbx: SortedLinks :(13) FingerTips_R
+[2017.05.22-20.27.16:858][810]LogFbx: SortedLinks :(14) FingerTips_R_end
+[2017.05.22-20.27.16:858][810]LogFbx: SortedLinks :(15) Clavical_L
+[2017.05.22-20.27.16:858][810]LogFbx: SortedLinks :(16) Upperarm_L
+[2017.05.22-20.27.16:858][810]LogFbx: SortedLinks :(17) Forearm_L
+[2017.05.22-20.27.16:858][810]LogFbx: SortedLinks :(18) Palm_L
+[2017.05.22-20.27.16:858][810]LogFbx: SortedLinks :(19) Fingers_L
+[2017.05.22-20.27.16:858][810]LogFbx: SortedLinks :(20) FingerTips_L
+[2017.05.22-20.27.16:858][810]LogFbx: SortedLinks :(21) FingerTips_L_end
+[2017.05.22-20.27.16:858][810]LogFbx: SortedLinks :(22) Thigh_R
+[2017.05.22-20.27.16:858][810]LogFbx: SortedLinks :(23) Lowerleg_R
+[2017.05.22-20.27.16:858][810]LogFbx: SortedLinks :(24) Ankle_R
+[2017.05.22-20.27.16:858][810]LogFbx: SortedLinks :(25) Foot_R
+[2017.05.22-20.27.16:858][810]LogFbx: SortedLinks :(26) Toes_R
+[2017.05.22-20.27.16:858][810]LogFbx: SortedLinks :(27) Toes_R_end
+[2017.05.22-20.27.16:858][810]LogFbx: SortedLinks :(28) Thigh_L
+[2017.05.22-20.27.16:858][810]LogFbx: SortedLinks :(29) Lowerleg_L
+[2017.05.22-20.27.16:858][810]LogFbx: SortedLinks :(30) Ankle_L
+[2017.05.22-20.27.16:858][810]LogFbx: SortedLinks :(31) Foot_L
+[2017.05.22-20.27.16:858][810]LogFbx: SortedLinks :(32) Toes_L
+[2017.05.22-20.27.16:858][810]LogFbx: SortedLinks :(33) Toes_L_end
+[2017.05.22-20.27.16:858][810]LogFbx: SortedLinks :(0) Brad_Armature
+[2017.05.22-20.27.16:858][810]LogFbx: SortedLinks :(1) ROOT
+[2017.05.22-20.27.16:858][810]LogFbx: SortedLinks :(2) Abdomen
+[2017.05.22-20.27.16:858][810]LogFbx: SortedLinks :(3) Ribs
+[2017.05.22-20.27.16:858][810]LogFbx: SortedLinks :(4) Neck
+[2017.05.22-20.27.16:858][810]LogFbx: SortedLinks :(5) Head
+[2017.05.22-20.27.16:858][810]LogFbx: SortedLinks :(6) Jaw
+[2017.05.22-20.27.16:858][810]LogFbx: SortedLinks :(7) Jaw_end
+[2017.05.22-20.27.16:858][810]LogFbx: SortedLinks :(8) Clavical_R
+[2017.05.22-20.27.16:858][810]LogFbx: SortedLinks :(9) Upperarm_R
+[2017.05.22-20.27.16:858][810]LogFbx: SortedLinks :(10) Forearm_R
+[2017.05.22-20.27.16:858][810]LogFbx: SortedLinks :(11) Palm_R
+[2017.05.22-20.27.16:858][810]LogFbx: SortedLinks :(12) Fingers_R
+[2017.05.22-20.27.16:858][810]LogFbx: SortedLinks :(13) FingerTips_R
+[2017.05.22-20.27.16:858][810]LogFbx: SortedLinks :(14) FingerTips_R_end
+[2017.05.22-20.27.16:858][810]LogFbx: SortedLinks :(15) Clavical_L
+[2017.05.22-20.27.16:858][810]LogFbx: SortedLinks :(16) Upperarm_L
+[2017.05.22-20.27.16:858][810]LogFbx: SortedLinks :(17) Forearm_L
+[2017.05.22-20.27.16:858][810]LogFbx: SortedLinks :(18) Palm_L
+[2017.05.22-20.27.16:858][810]LogFbx: SortedLinks :(19) Fingers_L
+[2017.05.22-20.27.16:858][810]LogFbx: SortedLinks :(20) FingerTips_L
+[2017.05.22-20.27.16:858][810]LogFbx: SortedLinks :(21) FingerTips_L_end
+[2017.05.22-20.27.16:858][810]LogFbx: SortedLinks :(22) Thigh_R
+[2017.05.22-20.27.16:858][810]LogFbx: SortedLinks :(23) Lowerleg_R
+[2017.05.22-20.27.16:858][810]LogFbx: SortedLinks :(24) Ankle_R
+[2017.05.22-20.27.16:858][810]LogFbx: SortedLinks :(25) Foot_R
+[2017.05.22-20.27.16:858][810]LogFbx: SortedLinks :(26) Toes_R
+[2017.05.22-20.27.16:858][810]LogFbx: SortedLinks :(27) Toes_R_end
+[2017.05.22-20.27.16:858][810]LogFbx: SortedLinks :(28) Thigh_L
+[2017.05.22-20.27.16:858][810]LogFbx: SortedLinks :(29) Lowerleg_L
+[2017.05.22-20.27.16:858][810]LogFbx: SortedLinks :(30) Ankle_L
+[2017.05.22-20.27.16:858][810]LogFbx: SortedLinks :(31) Foot_L
+[2017.05.22-20.27.16:858][810]LogFbx: SortedLinks :(32) Toes_L
+[2017.05.22-20.27.16:858][810]LogFbx: SortedLinks :(33) Toes_L_end
+[2017.05.22-20.27.16:860][810]LogFbx: Parsing AnimStack Brad_Armature|Brad_Idle
+[2017.05.22-20.27.16:862][810]LogLinker: Can't find file '/Game/SkaGameAssets/Brad/Brad_PivitFixed1_Anim_Brad_Armature_Brad_Idle'
+[2017.05.22-20.27.16:863][810]LogLinker: Can't find file '/Game/SkaGameAssets/Brad/Brad_PivitFixed1_Anim_Brad_Armature_Brad_Idle'
+[2017.05.22-20.27.17:026][810]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/SkaGameAssets/Brad/Brad_PivitFixed1_Anim_Brad_Armature_Brad_Idle.Brad_PivitFixed1_Anim_Brad_Armature_Brad_Idle
+[2017.05.22-20.27.17:030][810]LogFbx: Parsing AnimStack Brad_Armature|Brad_Punch
+[2017.05.22-20.27.17:033][810]LogLinker: Can't find file '/Game/SkaGameAssets/Brad/Brad_PivitFixed1_Anim_Brad_Armature_Brad_Punch'
+[2017.05.22-20.27.17:033][810]LogLinker: Can't find file '/Game/SkaGameAssets/Brad/Brad_PivitFixed1_Anim_Brad_Armature_Brad_Punch'
+[2017.05.22-20.27.17:189][810]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/SkaGameAssets/Brad/Brad_PivitFixed1_Anim_Brad_Armature_Brad_Punch.Brad_PivitFixed1_Anim_Brad_Armature_Brad_Punch
+[2017.05.22-20.27.17:203][810]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.05.22-20.27.17:203][810]FBXImport:Warning: Warning The following bones are missing from the bind pose:
+Jaw_end  
+FingerTips_R_end  
+FingerTips_L_end  
+Toes_R_end  
+Toes_L_end  
+
+This can happen for bones that are not vert weighted. If they are not in the correct orientation after importing,
+please set the "Use T0 as ref pose" option or add them to the bind pose and reimport the skeletal mesh. 
+[2017.05.22-20.27.17:203][810]FBXImport:Warning: Warning Mesh 'Brad' has no UV set. Creating a default set. 
+[2017.05.22-20.27.17:203][810]FBXImport:Warning: Warning The bone size is too small to create Physics Asset 'Brad_PivitFixed1_PhysicsAsset' from Skeletal Mesh 'Brad_PivitFixed1'. You will have to create physics asset manually. 
+[2017.05.22-20.27.20:046][924]LogTemp:Display: Finished compile of shader map 0x0000018B71607580
+[2017.05.22-20.27.20:046][924]LogTemp:Display: Shader map Bone complete, GameThreadShaderMap 0x0000018B71607580, marking material Bone as finished
+[2017.05.22-20.27.20:046][924]LogTemp:Display: Marking material as finished 0x0000018AB85E3100
+[2017.05.22-20.27.22:398][ 69]LogTemp:Display: Finished compile of shader map 0x0000018B4099AE80
+[2017.05.22-20.27.22:398][ 69]LogTemp:Display: Shader map Hole complete, GameThreadShaderMap 0x0000018B4099AE80, marking material Hole as finished
+[2017.05.22-20.27.22:398][ 69]LogTemp:Display: Marking material as finished 0x0000018B19DFA980
+[2017.05.22-20.27.24:676][174]LogTemp:Display: Finished compile of shader map 0x0000018AAB32EE80
+[2017.05.22-20.27.24:676][174]LogTemp:Display: Shader map Shirt complete, GameThreadShaderMap 0x0000018AAB32EE80, marking material Shirt as finished
+[2017.05.22-20.27.24:676][174]LogTemp:Display: Marking material as finished 0x0000018AB8599F00
+[2017.05.22-20.27.27:190][287]LogTemp:Display: Finished compile of shader map 0x0000018B6E0DF580
+[2017.05.22-20.27.27:190][287]LogTemp:Display: Shader map Pants complete, GameThreadShaderMap 0x0000018B6E0DF580, marking material Pants as finished
+[2017.05.22-20.27.27:190][287]LogTemp:Display: Marking material as finished 0x0000018AB92DC880
+[2017.05.22-20.27.28:368][338]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_65:PersistentLevel.Actor_14.DebugSkelMeshComponent_32) Already registered. Aborting.
+[2017.05.22-20.27.29:145][356]LogTemp:Display: Finished compile of shader map 0x0000018B7C0DFC80
+[2017.05.22-20.27.29:145][356]LogTemp:Display: Shader map Shoes complete, GameThreadShaderMap 0x0000018B7C0DFC80, marking material Shoes as finished
+[2017.05.22-20.27.29:145][356]LogTemp:Display: Marking material as finished 0x0000018B1635CE80
+[2017.05.22-20.27.29:916][384]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_68:PersistentLevel.Actor_15.DebugSkelMeshComponent_35) Already registered. Aborting.
