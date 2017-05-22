@@ -5674,3 +5674,344 @@ Purging the undo buffer...
 [2017.05.22-19.46.09:410][639]LogTemp:Display: Marking material as finished 0x0000018B5140B100
 [2017.05.22-19.46.09:412][639]TextureStreamingBuild:Display: Compiling optional shaders took 0.272 seconds.
 [2017.05.22-19.47.57:249][116]SourceControl: Info Source control is disabled
+[2017.05.22-19.52.16:925][ 78]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.22-19.52.16:937][ 78]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.05.22-19.52.16:937][ 78]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.22-19.52.16:938][ 78]PIE: New page: PIE session: SideScrollerExampleMap (May 22, 2017, 11:52:16 AM)
+[2017.05.22-19.52.16:938][ 78]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2017.05.22-19.52.16:964][ 78]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026112s)
+[2017.05.22-19.52.16:965][ 78]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2017.05.22-19.52.16:965][ 78]LogPlayLevel: PIE: World Init took: (0.001111s)
+[2017.05.22-19.52.16:965][ 78]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.027592s)
+[2017.05.22-19.52.17:015][ 78]LogInit: XAudio2 using 'Speakers (Dell AC511 USB SoundBar)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.22-19.52.17:022][ 78]LogInit: FAudioDevice initialized.
+[2017.05.22-19.52.17:051][ 78]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.05.22-19.52.17:054][ 78]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2017.05.22-15.52.17
+[2017.05.22-19.52.17:054][ 78]LogWorld: Bringing up level for play took: 0.001568
+[2017.05.22-19.52.17:054][ 78]Cmd: stat FPS
+[2017.05.22-19.52.17:055][ 78]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap -0.322
+[2017.05.22-19.52.17:055][ 78]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.05.22-19.52.35:283][261]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.05.22-19.52.35:368][261]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.05.22-19.55.02:332][474]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SideScrollerBP/Maps/SideScrollerExampleMap' took 0.014
+[2017.05.22-19.55.02:333][474]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SkaGameAssets/Brad/Shoes_Inst] ([1] browsable assets)...
+[2017.05.22-19.55.02:386][474]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/SkaGameAssets/Brad/Shoes_Inst.Shoes_Inst]
+[2017.05.22-19.55.02:386][474]OBJ SavePackage: Finished generating thumbnails for package [/Game/SkaGameAssets/Brad/Shoes_Inst]
+[2017.05.22-19.55.02:386][474]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SkaGameAssets/Brad/Shoes_Inst" FILE="D:/SkaGameSVN/SkaGame/SkaGame/Saved/Autosaves/Game/SkaGameAssets/Brad/Shoes_Inst_Auto7.uasset" SILENT=false AUTOSAVING=true
+[2017.05.22-19.55.02:396][474]LogSavePackage: Save=8.54ms
+[2017.05.22-19.55.02:396][474]LogSavePackage: Moving 'D:/SkaGameSVN/SkaGame/SkaGame/Saved/Shoes_Inst_Auto7EEB41A4F440B2A258F94BDBFF9ED580A.tmp' to 'D:/SkaGameSVN/SkaGame/SkaGame/Saved/Autosaves/Game/SkaGameAssets/Brad/Shoes_Inst_Auto7.uasset'
+[2017.05.22-19.55.02:398][474]LogSavePackage:Display: Finished SavePackage D:/SkaGameSVN/SkaGame/SkaGame/Saved/Autosaves/Game/SkaGameAssets/Brad/Shoes_Inst_Auto7.uasset
+[2017.05.22-19.55.02:398][474]LogFileHelpers: Auto-saving content packages took 0.066
+[2017.05.22-20.08.54:219][243]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.22-20.08.54:227][243]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.05.22-20.08.54:228][243]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.22-20.08.54:228][243]PIE: New page: PIE session: SideScrollerExampleMap (May 22, 2017, 12:08:54 PM)
+[2017.05.22-20.08.54:228][243]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2017.05.22-20.08.54:244][243]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016405s)
+[2017.05.22-20.08.54:245][243]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2017.05.22-20.08.54:245][243]LogPlayLevel: PIE: World Init took: (0.000815s)
+[2017.05.22-20.08.54:245][243]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.017531s)
+[2017.05.22-20.08.54:292][243]LogInit: XAudio2 using 'Speakers (Dell AC511 USB SoundBar)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.22-20.08.54:299][243]LogInit: FAudioDevice initialized.
+[2017.05.22-20.08.54:328][243]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.05.22-20.08.54:331][243]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2017.05.22-16.08.54
+[2017.05.22-20.08.54:331][243]LogWorld: Bringing up level for play took: 0.001630
+[2017.05.22-20.08.54:332][243]Cmd: stat FPS
+[2017.05.22-20.08.54:332][243]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 0.935
+[2017.05.22-20.08.54:332][243]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.05.22-20.09.13:371][511]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.05.22-20.09.13:455][511]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.05.22-20.12.04:269][946]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.22-20.12.04:278][946]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.05.22-20.12.04:278][946]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.22-20.12.04:278][946]PIE: New page: PIE session: SideScrollerExampleMap (May 22, 2017, 12:12:04 PM)
+[2017.05.22-20.12.04:278][946]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2017.05.22-20.12.04:294][946]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016375s)
+[2017.05.22-20.12.04:295][946]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2017.05.22-20.12.04:295][946]LogPlayLevel: PIE: World Init took: (0.000821s)
+[2017.05.22-20.12.04:295][946]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.017516s)
+[2017.05.22-20.12.04:347][946]LogInit: XAudio2 using 'Speakers (Dell AC511 USB SoundBar)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.22-20.12.04:354][946]LogInit: FAudioDevice initialized.
+[2017.05.22-20.12.04:383][946]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.05.22-20.12.04:386][946]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2017.05.22-16.12.04
+[2017.05.22-20.12.04:386][946]LogWorld: Bringing up level for play took: 0.001654
+[2017.05.22-20.12.04:387][946]Cmd: stat FPS
+[2017.05.22-20.12.04:387][946]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 0.987
+[2017.05.22-20.12.04:387][946]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.05.22-20.15.06:491][435]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.05.22-20.15.06:574][435]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.05.22-20.15.07:681][481]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_51:PersistentLevel.Actor_10.DebugSkelMeshComponent_28) Already registered. Aborting.
+[2017.05.22-20.15.22:761][979]LogTemp:Display: Removed shader map 0x0000018B3A706780 from material 0x0000018B199A3280
+[2017.05.22-20.15.22:761][979]LogTemp:Display: Removed shader map 0x0000018B33FEA080 from material 0x0000018ADC83B700
+[2017.05.22-20.15.22:761][979]LogTemp:Display: Removed shader map 0x0000018B3371D980 from material 0x0000018AAC674A00
+[2017.05.22-20.15.37:154][689]LogMaterial: Missing cached shader map for material Bone, compiling. 
+[2017.05.22-20.15.37:154][689]LogTemp:Display: Added material ShaderMap 0x0000018B5AD0B200 with Material 0x0000018B32B8F380 to ShaderMapsBeingCompiled
+[2017.05.22-20.15.37:173][689]LogTemp:Display: Kicking off shader compilation for Bone, GameThreadShaderMap 0x0000018B5AD0B200
+[2017.05.22-20.15.37:244][689]LogMaterial: Missing cached shader map for material Bone, compiling. 
+[2017.05.22-20.15.37:245][689]LogTemp:Display: Added material ShaderMap 0x0000018B5DFAFC80 with Material 0x0000018B32B8F380 to ShaderMapsBeingCompiled
+[2017.05.22-20.15.37:264][689]LogTemp:Display: Kicking off shader compilation for Bone, GameThreadShaderMap 0x0000018B5DFAFC80
+[2017.05.22-20.15.37:264][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.22-20.15.37:289][689]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.05.22-20.15.37:290][689]LogTemp:Display: Added material ShaderMap 0x0000018B7DA88800 with Material 0x0000018B3908F100 to ShaderMapsBeingCompiled
+[2017.05.22-20.15.37:291][689]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_0, GameThreadShaderMap 0x0000018B7DA88800
+[2017.05.22-20.15.39:773][802]LogTemp:Display: Finished compile of shader map 0x0000018B5DFAFC80
+[2017.05.22-20.15.39:773][802]LogTemp:Display: Shader map Bone complete, GameThreadShaderMap 0x0000018B5DFAFC80, marking material Bone as finished
+[2017.05.22-20.15.39:773][802]LogTemp:Display: Marking material as finished 0x0000018B32B8F380
+[2017.05.22-20.15.39:795][803]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 80 instructions
+[2017.05.22-20.15.39:795][803]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.05.22-20.15.39:795][803]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.05.22-20.15.39:832][805]LogTemp:Display: Finished compile of shader map 0x0000018B7DA88800
+[2017.05.22-20.15.39:832][805]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionVectorParameter_0 complete, GameThreadShaderMap 0x0000018B7DA88800, marking material FMatExpressionPreview MaterialExpressionVectorParameter_0 as finished
+[2017.05.22-20.15.39:832][805]LogTemp:Display: Marking material as finished 0x0000018B3908F100
+[2017.05.22-20.15.46:288][124]LogTemp:Display: Removed shader map 0x0000018A9944C100 from material 0x0000018A806BAB00
+[2017.05.22-20.15.46:290][124]LogTemp:Display: Removed shader map 0x0000018B5AD0B200 from material 0x0000018B32B8F380
+[2017.05.22-20.15.58:938][824]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SkaGameAssets/Brad/Bone" FILE="D:/SkaGameSVN/SkaGame/SkaGame/Content/SkaGameAssets/Brad/Bone.uasset" SILENT=true
+[2017.05.22-20.15.58:948][824]LogSavePackage: Save=8.53ms
+[2017.05.22-20.15.58:948][824]LogSavePackage: Moving 'D:/SkaGameSVN/SkaGame/SkaGame/Saved/BoneB47121AD4162A79F1634A0BA1B61A3DA.tmp' to 'D:/SkaGameSVN/SkaGame/SkaGame/Content/SkaGameAssets/Brad/Bone.uasset'
+[2017.05.22-20.15.58:951][824]LogSavePackage:Display: Finished SavePackage D:/SkaGameSVN/SkaGame/SkaGame/Content/SkaGameAssets/Brad/Bone.uasset
+[2017.05.22-20.16.01:833][  2]LogMaterial: Missing cached shader map for material Hole, compiling. 
+[2017.05.22-20.16.01:833][  2]LogTemp:Display: Added material ShaderMap 0x0000018B4E6D4100 with Material 0x0000018A92641A80 to ShaderMapsBeingCompiled
+[2017.05.22-20.16.01:853][  2]LogTemp:Display: Kicking off shader compilation for Hole, GameThreadShaderMap 0x0000018B4E6D4100
+[2017.05.22-20.16.01:917][  2]LogMaterial: Missing cached shader map for material Hole, compiling. 
+[2017.05.22-20.16.01:918][  2]LogTemp:Display: Added material ShaderMap 0x0000018B7C5AC480 with Material 0x0000018A92641A80 to ShaderMapsBeingCompiled
+[2017.05.22-20.16.01:937][  2]LogTemp:Display: Kicking off shader compilation for Hole, GameThreadShaderMap 0x0000018B7C5AC480
+[2017.05.22-20.16.01:937][  2]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.22-20.16.01:965][  2]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.05.22-20.16.01:966][  2]LogTemp:Display: Added material ShaderMap 0x0000018B64B80100 with Material 0x0000018AA28C5C00 to ShaderMapsBeingCompiled
+[2017.05.22-20.16.01:968][  2]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_0, GameThreadShaderMap 0x0000018B64B80100
+[2017.05.22-20.16.04:454][116]LogTemp:Display: Finished compile of shader map 0x0000018B7C5AC480
+[2017.05.22-20.16.04:454][116]LogTemp:Display: Shader map Hole complete, GameThreadShaderMap 0x0000018B7C5AC480, marking material Hole as finished
+[2017.05.22-20.16.04:454][116]LogTemp:Display: Marking material as finished 0x0000018A92641A80
+[2017.05.22-20.16.04:474][117]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 80 instructions
+[2017.05.22-20.16.04:474][117]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.05.22-20.16.04:474][117]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.05.22-20.16.04:521][120]LogTemp:Display: Finished compile of shader map 0x0000018B64B80100
+[2017.05.22-20.16.04:521][120]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionVectorParameter_0 complete, GameThreadShaderMap 0x0000018B64B80100, marking material FMatExpressionPreview MaterialExpressionVectorParameter_0 as finished
+[2017.05.22-20.16.04:521][120]LogTemp:Display: Marking material as finished 0x0000018AA28C5C00
+[2017.05.22-20.16.24:348][469]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SkaGameAssets/Brad/Bone" FILE="D:/SkaGameSVN/SkaGame/SkaGame/Content/SkaGameAssets/Brad/Bone.uasset" SILENT=true
+[2017.05.22-20.16.24:362][469]LogTemp:Display: Removed shader map 0x0000018B4E6D4100 from material 0x0000018A92641A80
+[2017.05.22-20.16.24:365][469]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Bone, compiling. 
+[2017.05.22-20.16.24:365][469]LogTemp:Display: Added material ShaderMap 0x0000018A8B2BE400 with Material 0x0000018B7C53F400 to ShaderMapsBeingCompiled
+[2017.05.22-20.16.24:459][469]LogTemp:Display: Finished compile of shader map 0x0000018A8B2BE400
+[2017.05.22-20.16.24:459][469]LogTemp:Display: Shader map FDebugViewModeMaterialProxy Bone complete, GameThreadShaderMap 0x0000018A8B2BE400, marking material FDebugViewModeMaterialProxy Bone as finished
+[2017.05.22-20.16.24:459][469]LogTemp:Display: Marking material as finished 0x0000018B7C53F400
+[2017.05.22-20.16.24:461][469]TextureStreamingBuild:Display: Compiling optional shaders took 0.099 seconds.
+[2017.05.22-20.16.24:483][469]LogSavePackage: Save=8.44ms
+[2017.05.22-20.16.24:483][469]LogSavePackage: Moving 'D:/SkaGameSVN/SkaGame/SkaGame/Saved/BoneB4375D04411AC23C3E027387B80DE745.tmp' to 'D:/SkaGameSVN/SkaGame/SkaGame/Content/SkaGameAssets/Brad/Bone.uasset'
+[2017.05.22-20.16.24:487][469]LogSavePackage:Display: Finished SavePackage D:/SkaGameSVN/SkaGame/SkaGame/Content/SkaGameAssets/Brad/Bone.uasset
+[2017.05.22-20.16.46:465][816]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SkaGameAssets/Brad/Materials/Hole" FILE="D:/SkaGameSVN/SkaGame/SkaGame/Content/SkaGameAssets/Brad/Materials/Hole.uasset" SILENT=true
+[2017.05.22-20.16.46:475][816]LogSavePackage: Save=8.87ms
+[2017.05.22-20.16.46:475][816]LogSavePackage: Moving 'D:/SkaGameSVN/SkaGame/SkaGame/Saved/HoleD08865364EF5022FD6ED6294E6CDBA9D.tmp' to 'D:/SkaGameSVN/SkaGame/SkaGame/Content/SkaGameAssets/Brad/Materials/Hole.uasset'
+[2017.05.22-20.16.46:479][816]LogSavePackage:Display: Finished SavePackage D:/SkaGameSVN/SkaGame/SkaGame/Content/SkaGameAssets/Brad/Materials/Hole.uasset
+[2017.05.22-20.16.46:558][816]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SkaGameAssets/Brad/Bone" FILE="D:/SkaGameSVN/SkaGame/SkaGame/Content/SkaGameAssets/Brad/Bone.uasset" SILENT=true
+[2017.05.22-20.16.46:561][816]LogSavePackage: Save=1.31ms
+[2017.05.22-20.16.46:561][816]LogSavePackage: Moving 'D:/SkaGameSVN/SkaGame/SkaGame/Saved/Bone7AEAAB7646ACCFF379D102AD72745F8F.tmp' to 'D:/SkaGameSVN/SkaGame/SkaGame/Content/SkaGameAssets/Brad/Bone.uasset'
+[2017.05.22-20.16.46:563][816]LogSavePackage:Display: Finished SavePackage D:/SkaGameSVN/SkaGame/SkaGame/Content/SkaGameAssets/Brad/Bone.uasset
+[2017.05.22-20.16.49:133][994]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SkaGameAssets/Brad/Materials/Bone" FILE="D:/SkaGameSVN/SkaGame/SkaGame/Content/SkaGameAssets/Brad/Materials/Bone.uasset" SILENT=true
+[2017.05.22-20.16.49:142][994]LogSavePackage: Save=8.32ms
+[2017.05.22-20.16.49:142][994]LogSavePackage: Moving 'D:/SkaGameSVN/SkaGame/SkaGame/Saved/BoneE8E69022443B86616880D2A12FA20454.tmp' to 'D:/SkaGameSVN/SkaGame/SkaGame/Content/SkaGameAssets/Brad/Materials/Bone.uasset'
+[2017.05.22-20.16.49:146][994]LogSavePackage:Display: Finished SavePackage D:/SkaGameSVN/SkaGame/SkaGame/Content/SkaGameAssets/Brad/Materials/Bone.uasset
+[2017.05.22-20.16.59:886][597]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_55:PersistentLevel.Actor_11.DebugSkelMeshComponent_29) Already registered. Aborting.
+[2017.05.22-20.17.48:291][687]LogMaterial: Missing cached shader map for material Hole, compiling. 
+[2017.05.22-20.17.48:292][687]LogTemp:Display: Added material ShaderMap 0x0000018B72558F00 with Material 0x0000018B3435F380 to ShaderMapsBeingCompiled
+[2017.05.22-20.17.48:311][687]LogTemp:Display: Kicking off shader compilation for Hole, GameThreadShaderMap 0x0000018B72558F00
+[2017.05.22-20.17.48:376][687]LogMaterial: Missing cached shader map for material Hole, compiling. 
+[2017.05.22-20.17.48:377][687]LogTemp:Display: Added material ShaderMap 0x0000018B71828480 with Material 0x0000018B3435F380 to ShaderMapsBeingCompiled
+[2017.05.22-20.17.48:396][687]LogTemp:Display: Kicking off shader compilation for Hole, GameThreadShaderMap 0x0000018B71828480
+[2017.05.22-20.17.48:397][687]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.22-20.17.48:423][687]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.05.22-20.17.48:424][687]LogTemp:Display: Added material ShaderMap 0x0000018B71607580 with Material 0x0000018B71613A00 to ShaderMapsBeingCompiled
+[2017.05.22-20.17.48:427][687]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_0, GameThreadShaderMap 0x0000018B71607580
+[2017.05.22-20.17.50:963][797]LogTemp:Display: Finished compile of shader map 0x0000018B71828480
+[2017.05.22-20.17.50:963][797]LogTemp:Display: Shader map Hole complete, GameThreadShaderMap 0x0000018B71828480, marking material Hole as finished
+[2017.05.22-20.17.50:963][797]LogTemp:Display: Marking material as finished 0x0000018B3435F380
+[2017.05.22-20.17.50:985][798]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 80 instructions
+[2017.05.22-20.17.50:985][798]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.05.22-20.17.50:985][798]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.05.22-20.17.50:986][798]LogTemp:Display: Finished compile of shader map 0x0000018B71607580
+[2017.05.22-20.17.50:986][798]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionVectorParameter_0 complete, GameThreadShaderMap 0x0000018B71607580, marking material FMatExpressionPreview MaterialExpressionVectorParameter_0 as finished
+[2017.05.22-20.17.50:986][798]LogTemp:Display: Marking material as finished 0x0000018B71613A00
+[2017.05.22-20.17.56:111][156]LogMaterial: Missing cached shader map for material Hole, compiling. 
+[2017.05.22-20.17.56:112][156]LogTemp:Display: Added material ShaderMap 0x0000018B64745980 with Material 0x0000018B3435F380 to ShaderMapsBeingCompiled
+[2017.05.22-20.17.56:130][156]LogTemp:Display: Kicking off shader compilation for Hole, GameThreadShaderMap 0x0000018B64745980
+[2017.05.22-20.17.56:130][156]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.22-20.17.58:359][267]LogTemp:Display: Finished compile of shader map 0x0000018B64745980
+[2017.05.22-20.17.58:359][267]LogTemp:Display: Shader map Hole complete, GameThreadShaderMap 0x0000018B64745980, marking material Hole as finished
+[2017.05.22-20.17.58:359][267]LogTemp:Display: Marking material as finished 0x0000018B3435F380
+[2017.05.22-20.17.58:375][268]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 80 instructions
+[2017.05.22-20.17.58:375][268]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.05.22-20.17.58:375][268]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.05.22-20.17.59:382][339]LogMaterial: Missing cached shader map for material Hole, compiling. 
+[2017.05.22-20.17.59:382][339]LogTemp:Display: Added material ShaderMap 0x0000018B64653580 with Material 0x0000018B3435F380 to ShaderMapsBeingCompiled
+[2017.05.22-20.17.59:401][339]LogTemp:Display: Kicking off shader compilation for Hole, GameThreadShaderMap 0x0000018B64653580
+[2017.05.22-20.17.59:402][339]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.22-20.18.01:057][421]LogMaterial: Missing cached shader map for material Hole, compiling. 
+[2017.05.22-20.18.01:058][421]LogTemp:Display: Added material ShaderMap 0x0000018B7179D600 with Material 0x0000018B3435F380 to ShaderMapsBeingCompiled
+[2017.05.22-20.18.01:083][421]LogTemp:Display: Kicking off shader compilation for Hole, GameThreadShaderMap 0x0000018B7179D600
+[2017.05.22-20.18.01:083][421]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.22-20.18.01:146][424]LogTemp:Display: Finished compile of shader map 0x0000018B64653580
+[2017.05.22-20.18.01:146][424]LogTemp:Display: Shader map Hole complete, GameThreadShaderMap 0x0000018B64653580, marking material Hole as finished
+[2017.05.22-20.18.01:146][424]LogTemp:Display: Marking material as finished 0x0000018B3435F380
+[2017.05.22-20.18.03:352][534]LogTemp:Display: Finished compile of shader map 0x0000018B7179D600
+[2017.05.22-20.18.03:352][534]LogTemp:Display: Shader map Hole complete, GameThreadShaderMap 0x0000018B7179D600, marking material Hole as finished
+[2017.05.22-20.18.03:352][534]LogTemp:Display: Marking material as finished 0x0000018B3435F380
+[2017.05.22-20.18.03:367][535]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 83 instructions
+[2017.05.22-20.18.03:367][535]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.05.22-20.18.03:367][535]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.05.22-20.18.03:633][554]LogMaterial: Missing cached shader map for material Hole, compiling. 
+[2017.05.22-20.18.03:634][554]LogTemp:Display: Added material ShaderMap 0x0000018B644BF900 with Material 0x0000018B3435F380 to ShaderMapsBeingCompiled
+[2017.05.22-20.18.03:652][554]LogTemp:Display: Kicking off shader compilation for Hole, GameThreadShaderMap 0x0000018B644BF900
+[2017.05.22-20.18.03:653][554]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.22-20.18.05:904][664]LogTemp:Display: Finished compile of shader map 0x0000018B644BF900
+[2017.05.22-20.18.05:904][664]LogTemp:Display: Shader map Hole complete, GameThreadShaderMap 0x0000018B644BF900, marking material Hole as finished
+[2017.05.22-20.18.05:904][664]LogTemp:Display: Marking material as finished 0x0000018B3435F380
+[2017.05.22-20.18.05:919][665]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 83 instructions
+[2017.05.22-20.18.05:919][665]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.05.22-20.18.05:919][665]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.05.22-20.18.06:112][679]LogMaterial: Missing cached shader map for material Hole, compiling. 
+[2017.05.22-20.18.06:113][679]LogTemp:Display: Added material ShaderMap 0x0000018B64A6E780 with Material 0x0000018B3435F380 to ShaderMapsBeingCompiled
+[2017.05.22-20.18.06:132][679]LogTemp:Display: Kicking off shader compilation for Hole, GameThreadShaderMap 0x0000018B64A6E780
+[2017.05.22-20.18.06:132][679]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.22-20.18.08:345][788]LogTemp:Display: Finished compile of shader map 0x0000018B64A6E780
+[2017.05.22-20.18.08:345][788]LogTemp:Display: Shader map Hole complete, GameThreadShaderMap 0x0000018B64A6E780, marking material Hole as finished
+[2017.05.22-20.18.08:345][788]LogTemp:Display: Marking material as finished 0x0000018B3435F380
+[2017.05.22-20.18.08:359][789]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 83 instructions
+[2017.05.22-20.18.08:359][789]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.05.22-20.18.08:359][789]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.05.22-20.18.09:077][840]LogMaterial: Missing cached shader map for material Hole, compiling. 
+[2017.05.22-20.18.09:077][840]LogTemp:Display: Added material ShaderMap 0x0000018B7179E780 with Material 0x0000018B3435F380 to ShaderMapsBeingCompiled
+[2017.05.22-20.18.09:096][840]LogTemp:Display: Kicking off shader compilation for Hole, GameThreadShaderMap 0x0000018B7179E780
+[2017.05.22-20.18.09:096][840]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.22-20.18.11:310][950]LogMaterial: Missing cached shader map for material Hole, compiling. 
+[2017.05.22-20.18.11:311][950]LogTemp:Display: Added material ShaderMap 0x0000018B644A4F00 with Material 0x0000018B3435F380 to ShaderMapsBeingCompiled
+[2017.05.22-20.18.11:335][950]LogTemp:Display: Kicking off shader compilation for Hole, GameThreadShaderMap 0x0000018B644A4F00
+[2017.05.22-20.18.11:335][950]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.22-20.18.11:379][952]LogTemp:Display: Finished compile of shader map 0x0000018B7179E780
+[2017.05.22-20.18.11:379][952]LogTemp:Display: Shader map Hole complete, GameThreadShaderMap 0x0000018B7179E780, marking material Hole as finished
+[2017.05.22-20.18.11:379][952]LogTemp:Display: Marking material as finished 0x0000018B3435F380
+[2017.05.22-20.18.13:590][ 63]LogTemp:Display: Finished compile of shader map 0x0000018B644A4F00
+[2017.05.22-20.18.13:590][ 63]LogTemp:Display: Shader map Hole complete, GameThreadShaderMap 0x0000018B644A4F00, marking material Hole as finished
+[2017.05.22-20.18.13:590][ 63]LogTemp:Display: Marking material as finished 0x0000018B3435F380
+[2017.05.22-20.18.13:605][ 64]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 83 instructions
+[2017.05.22-20.18.13:605][ 64]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.05.22-20.18.13:605][ 64]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.05.22-20.18.13:682][ 70]LogMaterialEditor: Applying material Hole
+[2017.05.22-20.18.14:213][ 70]LogMaterial: Missing cached shader map for material Hole, compiling. 
+[2017.05.22-20.18.14:213][ 70]LogTemp:Display: Added material ShaderMap 0x0000018B731C2080 with Material 0x0000018B3435F380 to ShaderMapsBeingCompiled
+[2017.05.22-20.18.14:241][ 70]LogTemp:Display: Kicking off shader compilation for Hole, GameThreadShaderMap 0x0000018B731C2080
+[2017.05.22-20.18.14:241][ 70]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.22-20.18.14:250][ 70]LogTemp:Display: Removed shader map 0x0000018B1B7D5600 from material 0x0000018AFC281C00
+[2017.05.22-20.18.14:255][ 70]LogMaterial: Missing cached shader map for material Hole, compiling. 
+[2017.05.22-20.18.14:255][ 70]LogTemp:Display: Added material ShaderMap 0x0000018B73163580 with Material 0x0000018AFC280D00 to ShaderMapsBeingCompiled
+[2017.05.22-20.18.14:290][ 70]LogTemp:Display: Kicking off shader compilation for Hole, GameThreadShaderMap 0x0000018B73163580
+[2017.05.22-20.18.14:293][ 70]LogMaterial: Missing cached shader map for material Hole, compiling. 
+[2017.05.22-20.18.14:294][ 70]LogTemp:Display: Added material ShaderMap 0x0000018B730DCF00 with Material 0x0000018AFC280D00 to ShaderMapsBeingCompiled
+[2017.05.22-20.18.14:331][ 70]LogTemp:Display: Kicking off shader compilation for Hole, GameThreadShaderMap 0x0000018B730DCF00
+[2017.05.22-20.18.14:333][ 70]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.22-20.18.14:373][ 70]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Hole, compiling. 
+[2017.05.22-20.18.14:374][ 70]LogTemp:Display: Added material ShaderMap 0x0000018A99247900 with Material 0x0000018B7EFBA500 to ShaderMapsBeingCompiled
+[2017.05.22-20.18.16:111][ 70]LogTemp:Display: Finished compile of shader map 0x0000018A99247900
+[2017.05.22-20.18.16:111][ 70]LogTemp:Display: Shader map FDebugViewModeMaterialProxy Hole complete, GameThreadShaderMap 0x0000018A99247900, marking material FDebugViewModeMaterialProxy Hole as finished
+[2017.05.22-20.18.16:111][ 70]LogTemp:Display: Marking material as finished 0x0000018B7EFBA500
+[2017.05.22-20.18.16:114][ 70]TextureStreamingBuild:Display: Compiling optional shaders took 1.748 seconds.
+[2017.05.22-20.18.16:269][ 73]LogTemp:Display: Finished compile of shader map 0x0000018B731C2080
+[2017.05.22-20.18.16:269][ 73]LogTemp:Display: Shader map Hole complete, GameThreadShaderMap 0x0000018B731C2080, marking material Hole as finished
+[2017.05.22-20.18.16:269][ 73]LogTemp:Display: Marking material as finished 0x0000018B3435F380
+[2017.05.22-20.18.19:445][214]LogTemp:Display: Finished compile of shader map 0x0000018B730DCF00
+[2017.05.22-20.18.19:445][214]LogTemp:Display: Shader map Hole complete, GameThreadShaderMap 0x0000018B730DCF00, marking material Hole as finished
+[2017.05.22-20.18.19:445][214]LogTemp:Display: Marking material as finished 0x0000018AFC280D00
+[2017.05.22-20.18.19:459][215]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 83 instructions
+[2017.05.22-20.18.19:459][215]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.05.22-20.18.19:459][215]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.05.22-20.18.20:370][275]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Shirt, compiling. 
+[2017.05.22-20.18.20:371][275]LogTemp:Display: Added material ShaderMap 0x0000018B7B76C800 with Material 0x0000018B63F25300 to ShaderMapsBeingCompiled
+[2017.05.22-20.18.20:455][275]LogTemp:Display: Finished compile of shader map 0x0000018B7B76C800
+[2017.05.22-20.18.20:455][275]LogTemp:Display: Shader map FDebugViewModeMaterialProxy Shirt complete, GameThreadShaderMap 0x0000018B7B76C800, marking material FDebugViewModeMaterialProxy Shirt as finished
+[2017.05.22-20.18.20:455][275]LogTemp:Display: Marking material as finished 0x0000018B63F25300
+[2017.05.22-20.18.20:458][275]TextureStreamingBuild:Display: Compiling optional shaders took 0.090 seconds.
+[2017.05.22-20.18.49:482][136]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SkaGameAssets/Brad/Materials/Shirt" FILE="D:/SkaGameSVN/SkaGame/SkaGame/Content/SkaGameAssets/Brad/Materials/Shirt.uasset" SILENT=true
+[2017.05.22-20.18.49:499][136]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Shirt, compiling. 
+[2017.05.22-20.18.49:500][136]LogTemp:Display: Added material ShaderMap 0x0000018B5A40FC80 with Material 0x0000018B1EA25C00 to ShaderMapsBeingCompiled
+[2017.05.22-20.18.49:795][136]LogTemp:Display: Finished compile of shader map 0x0000018B5A40FC80
+[2017.05.22-20.18.49:795][136]LogTemp:Display: Shader map FDebugViewModeMaterialProxy Shirt complete, GameThreadShaderMap 0x0000018B5A40FC80, marking material FDebugViewModeMaterialProxy Shirt as finished
+[2017.05.22-20.18.49:795][136]LogTemp:Display: Marking material as finished 0x0000018B1EA25C00
+[2017.05.22-20.18.49:797][136]TextureStreamingBuild:Display: Compiling optional shaders took 0.300 seconds.
+[2017.05.22-20.18.49:819][136]LogSavePackage: Save=9.87ms
+[2017.05.22-20.18.49:819][136]LogSavePackage: Moving 'D:/SkaGameSVN/SkaGame/SkaGame/Saved/Shirt6234972D4C068D0F3C6F3B97D443F9A2.tmp' to 'D:/SkaGameSVN/SkaGame/SkaGame/Content/SkaGameAssets/Brad/Materials/Shirt.uasset'
+[2017.05.22-20.18.49:823][136]LogSavePackage:Display: Finished SavePackage D:/SkaGameSVN/SkaGame/SkaGame/Content/SkaGameAssets/Brad/Materials/Shirt.uasset
+[2017.05.22-20.19.04:588][ 35]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_61:PersistentLevel.Actor_12.DebugSkelMeshComponent_30) Already registered. Aborting.
+[2017.05.22-20.19.34:320][ 22]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SideScrollerBP/Maps/SideScrollerExampleMap' took 0.015
+[2017.05.22-20.19.34:322][ 22]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SkaGameAssets/Brad/Materials/Hole] ([1] browsable assets)...
+[2017.05.22-20.19.34:344][ 22]OBJ SavePackage:     Rendered thumbnail for [Material /Game/SkaGameAssets/Brad/Materials/Hole.Hole]
+[2017.05.22-20.19.34:344][ 22]OBJ SavePackage: Finished generating thumbnails for package [/Game/SkaGameAssets/Brad/Materials/Hole]
+[2017.05.22-20.19.34:344][ 22]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SkaGameAssets/Brad/Materials/Hole" FILE="D:/SkaGameSVN/SkaGame/SkaGame/Saved/Autosaves/Game/SkaGameAssets/Brad/Materials/Hole_Auto8.uasset" SILENT=false AUTOSAVING=true
+[2017.05.22-20.19.34:355][ 22]LogSavePackage: Save=8.73ms
+[2017.05.22-20.19.34:355][ 22]LogSavePackage: Moving 'D:/SkaGameSVN/SkaGame/SkaGame/Saved/Hole_Auto8C350BCD44182AD9D37A0C5A8D5344A58.tmp' to 'D:/SkaGameSVN/SkaGame/SkaGame/Saved/Autosaves/Game/SkaGameAssets/Brad/Materials/Hole_Auto8.uasset'
+[2017.05.22-20.19.34:358][ 22]LogSavePackage:Display: Finished SavePackage D:/SkaGameSVN/SkaGame/SkaGame/Saved/Autosaves/Game/SkaGameAssets/Brad/Materials/Hole_Auto8.uasset
+[2017.05.22-20.19.34:359][ 22]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SkaGameAssets/Brad/Hole_Inst" FILE="D:/SkaGameSVN/SkaGame/SkaGame/Saved/Autosaves/Game/SkaGameAssets/Brad/Hole_Inst_Auto8.uasset" SILENT=false AUTOSAVING=true
+[2017.05.22-20.19.34:360][ 22]LogSavePackage: Save=0.64ms
+[2017.05.22-20.19.34:360][ 22]LogSavePackage: Moving 'D:/SkaGameSVN/SkaGame/SkaGame/Saved/Hole_Inst_Auto8AF7534674D48C46773532BB34AA980A2.tmp' to 'D:/SkaGameSVN/SkaGame/SkaGame/Saved/Autosaves/Game/SkaGameAssets/Brad/Hole_Inst_Auto8.uasset'
+[2017.05.22-20.19.34:363][ 22]LogSavePackage:Display: Finished SavePackage D:/SkaGameSVN/SkaGame/SkaGame/Saved/Autosaves/Game/SkaGameAssets/Brad/Hole_Inst_Auto8.uasset
+[2017.05.22-20.19.34:363][ 22]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SkaGameAssets/Brad/Hole" FILE="D:/SkaGameSVN/SkaGame/SkaGame/Saved/Autosaves/Game/SkaGameAssets/Brad/Hole_Auto8.uasset" SILENT=false AUTOSAVING=true
+[2017.05.22-20.19.34:364][ 22]LogSavePackage: Save=0.58ms
+[2017.05.22-20.19.34:364][ 22]LogSavePackage: Moving 'D:/SkaGameSVN/SkaGame/SkaGame/Saved/Hole_Auto854E4D62A4E94968A4D4B5EAC3BE7C46D.tmp' to 'D:/SkaGameSVN/SkaGame/SkaGame/Saved/Autosaves/Game/SkaGameAssets/Brad/Hole_Auto8.uasset'
+[2017.05.22-20.19.34:367][ 22]LogSavePackage:Display: Finished SavePackage D:/SkaGameSVN/SkaGame/SkaGame/Saved/Autosaves/Game/SkaGameAssets/Brad/Hole_Auto8.uasset
+[2017.05.22-20.19.34:367][ 22]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SkaGameAssets/Brad/Brad_PivitFixed] ([1] browsable assets)...
+[2017.05.22-20.19.34:381][ 22]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/SkaGameAssets/Brad/Brad_PivitFixed.Brad_PivitFixed]
+[2017.05.22-20.19.34:381][ 22]OBJ SavePackage: Finished generating thumbnails for package [/Game/SkaGameAssets/Brad/Brad_PivitFixed]
+[2017.05.22-20.19.34:394][ 22]LogSavePackage: Save=12.26ms
+[2017.05.22-20.19.34:394][ 22]LogSavePackage: Moving 'D:/SkaGameSVN/SkaGame/SkaGame/Saved/Brad_PivitFixed_Auto8DC7A0C2B43F079A5D9DA40A1AECA6E1C.tmp' to 'D:/SkaGameSVN/SkaGame/SkaGame/Saved/Autosaves/Game/SkaGameAssets/Brad/Brad_PivitFixed_Auto8.uasset'
+[2017.05.22-20.19.34:397][ 22]LogSavePackage:Display: Finished SavePackage D:/SkaGameSVN/SkaGame/SkaGame/Saved/Autosaves/Game/SkaGameAssets/Brad/Brad_PivitFixed_Auto8.uasset
+[2017.05.22-20.19.34:397][ 22]LogFileHelpers: Auto-saving content packages took 0.076
+[2017.05.22-20.19.43:350][635]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.05.22-20.19.43:350][635]LogTemp:Display: Added material ShaderMap 0x0000018B40FABC80 with Material 0x0000018B409B1800 to ShaderMapsBeingCompiled
+[2017.05.22-20.19.43:370][635]LogTemp:Display: Kicking off shader compilation for PreviewMaterial_0, GameThreadShaderMap 0x0000018B40FABC80
+[2017.05.22-20.19.43:438][635]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.05.22-20.19.43:438][635]LogTemp:Display: Added material ShaderMap 0x0000018B640C2780 with Material 0x0000018B409B1800 to ShaderMapsBeingCompiled
+[2017.05.22-20.19.43:457][635]LogTemp:Display: Kicking off shader compilation for PreviewMaterial_0, GameThreadShaderMap 0x0000018B640C2780
+[2017.05.22-20.19.43:457][635]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.22-20.19.43:487][635]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.05.22-20.19.43:488][635]LogTemp:Display: Added material ShaderMap 0x0000018B728F7580 with Material 0x0000018B64804A00 to ShaderMapsBeingCompiled
+[2017.05.22-20.19.43:491][635]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_0, GameThreadShaderMap 0x0000018B728F7580
+[2017.05.22-20.19.45:988][746]LogTemp:Display: Finished compile of shader map 0x0000018B640C2780
+[2017.05.22-20.19.45:988][746]LogTemp:Display: Shader map PreviewMaterial_0 complete, GameThreadShaderMap 0x0000018B640C2780, marking material PreviewMaterial_0 as finished
+[2017.05.22-20.19.45:988][746]LogTemp:Display: Marking material as finished 0x0000018B409B1800
+[2017.05.22-20.19.46:007][747]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 83 instructions
+[2017.05.22-20.19.46:007][747]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.05.22-20.19.46:007][747]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.05.22-20.19.46:023][748]LogTemp:Display: Finished compile of shader map 0x0000018B728F7580
+[2017.05.22-20.19.46:023][748]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionVectorParameter_0 complete, GameThreadShaderMap 0x0000018B728F7580, marking material FMatExpressionPreview MaterialExpressionVectorParameter_0 as finished
+[2017.05.22-20.19.46:023][748]LogTemp:Display: Marking material as finished 0x0000018B64804A00
+[2017.05.22-20.19.55:598][283]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_63:PersistentLevel.Actor_13.DebugSkelMeshComponent_31) Already registered. Aborting.
+[2017.05.22-20.20.08:743][841]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SkaGameAssets/Brad/Brad_PivitFixed" FILE="D:/SkaGameSVN/SkaGame/SkaGame/Content/SkaGameAssets/Brad/Brad_PivitFixed.uasset" SILENT=true
+[2017.05.22-20.20.08:756][841]LogSavePackage: Save=12.36ms
+[2017.05.22-20.20.08:757][841]LogSavePackage: Moving 'D:/SkaGameSVN/SkaGame/SkaGame/Saved/Brad_PivitFixed90E8696C496498FF15B00589D7AB8845.tmp' to 'D:/SkaGameSVN/SkaGame/SkaGame/Content/SkaGameAssets/Brad/Brad_PivitFixed.uasset'
+[2017.05.22-20.20.08:760][841]LogSavePackage:Display: Finished SavePackage D:/SkaGameSVN/SkaGame/SkaGame/Content/SkaGameAssets/Brad/Brad_PivitFixed.uasset
+[2017.05.22-20.20.32:430][968]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SkaGameAssets/Brad/Materials/Pants" FILE="D:/SkaGameSVN/SkaGame/SkaGame/Content/SkaGameAssets/Brad/Materials/Pants.uasset" SILENT=true
+[2017.05.22-20.20.32:444][968]LogTemp:Display: Removed shader map 0x0000018B40FABC80 from material 0x0000018B409B1800
+[2017.05.22-20.20.32:447][968]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Pants, compiling. 
+[2017.05.22-20.20.32:448][968]LogTemp:Display: Added material ShaderMap 0x0000018B7C596780 with Material 0x0000018B69951C00 to ShaderMapsBeingCompiled
+[2017.05.22-20.20.32:702][968]LogTemp:Display: Finished compile of shader map 0x0000018B7C596780
+[2017.05.22-20.20.32:702][968]LogTemp:Display: Shader map FDebugViewModeMaterialProxy Pants complete, GameThreadShaderMap 0x0000018B7C596780, marking material FDebugViewModeMaterialProxy Pants as finished
+[2017.05.22-20.20.32:702][968]LogTemp:Display: Marking material as finished 0x0000018B69951C00
+[2017.05.22-20.20.32:704][968]TextureStreamingBuild:Display: Compiling optional shaders took 0.259 seconds.
+[2017.05.22-20.20.32:726][968]LogSavePackage: Save=9.34ms
+[2017.05.22-20.20.32:726][968]LogSavePackage: Moving 'D:/SkaGameSVN/SkaGame/SkaGame/Saved/Pants491990F14246D701FCE1A499FD9C03EB.tmp' to 'D:/SkaGameSVN/SkaGame/SkaGame/Content/SkaGameAssets/Brad/Materials/Pants.uasset'
+[2017.05.22-20.20.32:730][968]LogSavePackage:Display: Finished SavePackage D:/SkaGameSVN/SkaGame/SkaGame/Content/SkaGameAssets/Brad/Materials/Pants.uasset
+[2017.05.22-20.20.42:603][490]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SkaGameAssets/Brad/Brad_PivitFixed" FILE="D:/SkaGameSVN/SkaGame/SkaGame/Content/SkaGameAssets/Brad/Brad_PivitFixed.uasset" SILENT=true
+[2017.05.22-20.20.42:618][490]LogSavePackage: Save=12.25ms
+[2017.05.22-20.20.42:618][490]LogSavePackage: Moving 'D:/SkaGameSVN/SkaGame/SkaGame/Saved/Brad_PivitFixedBAE9281A46751CD0F4AE849BB3EEDCC1.tmp' to 'D:/SkaGameSVN/SkaGame/SkaGame/Content/SkaGameAssets/Brad/Brad_PivitFixed.uasset'
+[2017.05.22-20.20.42:622][490]LogSavePackage:Display: Finished SavePackage D:/SkaGameSVN/SkaGame/SkaGame/Content/SkaGameAssets/Brad/Brad_PivitFixed.uasset
+[2017.05.22-20.22.05:810][ 49]LogSavePackage: Save=132.44ms
+[2017.05.22-20.22.05:810][ 49]LogSavePackage: Moving 'D:/SkaGameSVN/SkaGame/SkaGame/Saved/SideScrollerExampleMap11B4C0664B6366239215FC88401B99ED.tmp' to 'D:/SkaGameSVN/SkaGame/SkaGame/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap'
+[2017.05.22-20.22.05:815][ 49]LogSavePackage:Display: Finished SavePackage D:/SkaGameSVN/SkaGame/SkaGame/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap
+[2017.05.22-20.22.05:921][ 49]LogSavePackage: Save=86.71ms
+[2017.05.22-20.22.05:921][ 49]LogSavePackage: Moving 'D:/SkaGameSVN/SkaGame/SkaGame/Saved/SideScrollerExampleMap_BuiltData65C01ECF4FDDEAAA36D450B90DED175A.tmp' to 'D:/SkaGameSVN/SkaGame/SkaGame/Content/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData.uasset'
+[2017.05.22-20.22.05:925][ 49]LogSavePackage:Display: Finished SavePackage D:/SkaGameSVN/SkaGame/SkaGame/Content/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData.uasset
+[2017.05.22-20.22.35:860][206]LogTemp:Display: Removed shader map 0x0000018B72558F00 from material 0x0000018B3435F380
+[2017.05.22-20.22.35:991][206]LogSavePackage: Save=129.30ms
+[2017.05.22-20.22.35:991][206]LogSavePackage: Moving 'D:/SkaGameSVN/SkaGame/SkaGame/Saved/SideScrollerExampleMap3A3C5DA14BEF31D43CBEEAA57B8D148E.tmp' to 'D:/SkaGameSVN/SkaGame/SkaGame/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap'
+[2017.05.22-20.22.35:994][206]LogSavePackage:Display: Finished SavePackage D:/SkaGameSVN/SkaGame/SkaGame/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap
+[2017.05.22-20.22.36:101][206]LogSavePackage: Save=87.71ms
+[2017.05.22-20.22.36:101][206]LogSavePackage: Moving 'D:/SkaGameSVN/SkaGame/SkaGame/Saved/SideScrollerExampleMap_BuiltData9AF97F1744AE991C5DC1948CD47AD7B8.tmp' to 'D:/SkaGameSVN/SkaGame/SkaGame/Content/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData.uasset'
+[2017.05.22-20.22.36:104][206]LogSavePackage:Display: Finished SavePackage D:/SkaGameSVN/SkaGame/SkaGame/Content/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData.uasset
