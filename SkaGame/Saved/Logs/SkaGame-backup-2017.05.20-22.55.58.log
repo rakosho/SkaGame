@@ -1,0 +1,943 @@
+﻿Log file open, 05/20/17 22:23:22
+LogInit:Display: Running engine for game: SkaGame
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1652801960) SRandInit(-1652801960).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.074748
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3416026
+LogInit: Engine Version: 4.15.2-3416026+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): May  1 2017 13:11:28
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.05.21-02.23.23:067][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.21-02.23.23:067][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.05.21-02.23.23:078][  0]LogInit: Computer: DESKTOP-58CNULQ
+[2017.05.21-02.23.23:078][  0]LogInit: User: Ethan
+[2017.05.21-02.23.23:078][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.05.21-02.23.23:078][  0]LogInit: High frequency timer resolution =3.312789 MHz
+[2017.05.21-02.23.23:078][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.05.21-02.23.23:078][  0]LogMemory: Platform Memory Stats for Windows
+[2017.05.21-02.23.23:078][  0]LogMemory: Process Physical Memory: 262.63 MB used, 262.63 MB peak
+[2017.05.21-02.23.23:078][  0]LogMemory: Process Virtual Memory: 263.04 MB used, 263.04 MB peak
+[2017.05.21-02.23.23:078][  0]LogMemory: Physical Memory: 6587.22 MB used,  9691.96 MB free, 16279.18 MB total
+[2017.05.21-02.23.23:078][  0]LogMemory: Virtual Memory: 645.45 MB used,  9691.96 MB free, 134217728.00 MB total
+[2017.05.21-02.23.23:156][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.05.21-02.23.23:725][  0]LogD3D11RHI: D3D11 adapters:
+[2017.05.21-02.23.23:752][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 660' (Feature Level 11_0)
+[2017.05.21-02.23.23:752][  0]LogD3D11RHI:       1505/0/8139 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.05.21-02.23.23:755][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4000' (Feature Level 11_0)
+[2017.05.21-02.23.23:755][  0]LogD3D11RHI:       32/0/1760 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2017.05.21-02.23.23:756][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.05.21-02.23.23:756][  0]LogD3D11RHI:       0/0/8139 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.05.21-02.23.23:756][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.05.21-02.23.23:761][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.05.21-02.23.23:761][  0]LogD3D11RHI:     GPU DeviceId: 0x1185 (for the marketing name, search the web for "GPU Device Id")
+[2017.05.21-02.23.23:761][  0]LogWindows: EnumDisplayDevices:
+[2017.05.21-02.23.23:761][  0]LogWindows:    0. 'NVIDIA GeForce GTX 660' (P:1 D:1)
+[2017.05.21-02.23.23:761][  0]LogWindows:    1. 'NVIDIA GeForce GTX 660' (P:0 D:0)
+[2017.05.21-02.23.23:761][  0]LogWindows:    2. 'NVIDIA GeForce GTX 660' (P:0 D:0)
+[2017.05.21-02.23.23:761][  0]LogWindows:    3. 'NVIDIA GeForce GTX 660' (P:0 D:0)
+[2017.05.21-02.23.23:761][  0]LogWindows:    4. 'Intel(R) HD Graphics 4000' (P:0 D:1)
+[2017.05.21-02.23.23:762][  0]LogWindows:    5. 'Intel(R) HD Graphics 4000' (P:0 D:0)
+[2017.05.21-02.23.23:762][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2017.05.21-02.23.23:762][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 660
+[2017.05.21-02.23.23:762][  0]LogD3D11RHI:   Driver Version: 376.53 (internal:21.21.13.7653, unified:376.53)
+[2017.05.21-02.23.23:762][  0]LogD3D11RHI:      Driver Date: 12-29-2016
+[2017.05.21-02.23.23:762][  0]LogRHI: Texture pool is 1053 MB (70% of 1505 MB)
+[2017.05.21-02.23.23:774][  0]LogD3D11RHI:Warning: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
+[2017.05.21-02.23.23:776][  0]LogD3D11RHI: [Aftermath] Aftermath enabled but failed to initialize due to reason: DriverVersionNotSupported
+[2017.05.21-02.23.23:776][  0]LogD3D11RHI: Async texture creation enabled
+[2017.05.21-02.23.23:788][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.05.21-02.23.23:838][  0]LogShaderCompilers: Guid format shader working directory is 8 characters bigger than the processId version (../../../../../../SVN/SkaGame2/SkaGame/Intermediate/Shaders/WorkingDirectory/6036/).
+[2017.05.21-02.23.23:838][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Ethan/AppData/Local/Temp/UnrealShaderWorkingDir/3AB20A6A457FFDC3AAE974B552709D2C/'.
+[2017.05.21-02.23.23:838][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.05.21-02.23.24:984][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.05.21-02.23.25:058][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.05.21-02.23.25:138][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.05.21-02.23.25:212][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.05.21-02.23.25:282][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.05.21-02.23.25:345][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.05.21-02.23.25:418][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.05.21-02.23.25:475][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.05.21-02.23.25:547][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.05.21-02.23.25:604][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.05.21-02.23.25:659][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.05.21-02.23.25:714][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.05.21-02.23.25:770][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.05.21-02.23.25:825][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.05.21-02.23.25:880][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.05.21-02.23.25:992][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.05.21-02.23.25:992][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.05.21-02.23.26:031][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.05.21-02.23.26:129][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.05.21-02.23.26:188][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.05.21-02.23.26:246][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.05.21-02.23.26:301][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.05.21-02.23.26:357][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.05.21-02.23.26:413][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.05.21-02.23.26:413][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.05.21-02.23.26:857][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.05.21-02.23.26:903][  0]LogDerivedDataCache: Loaded boot cache 0.05s 50MB C:/Users/Ethan/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.05.21-02.23.26:903][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Ethan/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.05.21-02.23.26:903][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../SVN/SkaGame2/SkaGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.05.21-02.23.26:903][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.05.21-02.23.26:903][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../SVN/SkaGame2/SkaGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.05.21-02.23.26:903][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.05.21-02.23.26:920][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.05.21-02.23.26:932][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Ethan/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.05.21-02.23.26:942][  0]LogSlate: Using Freetype 2.6.0
+[2017.05.21-02.23.26:943][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.21-02.23.26:943][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.21-02.23.27:274][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.21-02.23.27:278][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.05.21-02.23.27:494][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.05.21-02.23.27:539][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.05.21-02.23.27:588][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.05.21-02.23.27:588][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.05.21-02.23.27:588][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.05.21-02.23.28:232][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: skagame, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 2367570535
+[2017.05.21-02.23.28:287][  0]LogAssetRegistry: FAssetRegistry took 0.0213 seconds to start up
+[2017.05.21-02.23.28:331][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.019830 seconds
+[2017.05.21-02.23.28:338][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.05.21-02.23.28:338][  0]LogUObjectAllocator: 7077032 out of 0 bytes used by permanent object pool.
+[2017.05.21-02.23.28:338][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.05.21-02.23.28:420][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.05.21-02.23.30:088][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.05.21-02.23.30:128][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.05.21-02.23.30:607][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.05.21-02.23.31:010][  0]SourceControl: Info Source control is disabled
+[2017.05.21-02.23.31:011][  0]SourceControl: Info Source control is disabled
+[2017.05.21-02.23.31:057][  0]SourceControl: Info Source control is disabled
+[2017.05.21-02.23.31:104][  0]SourceControl: Info Source control is disabled
+[2017.05.21-02.23.32:385][  0]LogEngine: Initializing Engine...
+[2017.05.21-02.23.32:385][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.05.21-02.23.32:500][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.05.21-02.23.32:500][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.05.21-02.23.32:627][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.05.21-02.23.32:648][  0]LogInit: XAudio2 using 'Speakers (5- Logitech G930 Gaming Headset)' : 8 channels at 48 kHz using 16 bits per sample (channel mask 0x63f)
+[2017.05.21-02.23.32:667][  0]LogInit: FAudioDevice initialized.
+[2017.05.21-02.23.32:693][  0]LogDerivedDataCache: Saved boot cache 0.03s 50MB C:/Users/Ethan/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.05.21-02.23.32:704][  0]LogInit: Texture streaming: Enabled
+[2017.05.21-02.23.32:806][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.05.21-02.23.32:899][  0]LogInit: Transaction tracking system initialized
+[2017.05.21-02.23.33:276][  0]BlueprintLog: New page: Editor Load
+[2017.05.21-02.23.34:215][  0]LocalizationService: Info Localization service is disabled
+[2017.05.21-02.23.34:920][  0]LogConsoleResponse:Display: 
+[2017.05.21-02.23.35:050][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.05.21-02.23.35:051][  0]LogCook:Display: Mobile HDR setting 1
+[2017.05.21-02.23.36:080][  0]LogFileCache: Scanning file cache for directory 'C:/SVN/SkaGame2/SkaGame/Content/' took 0.01s
+[2017.05.21-02.23.36:125][  0]SourceControl: Info Source control is disabled
+[2017.05.21-02.23.36:125][  0]Cmd: MAP LOAD FILE="../../../../../../SVN/SkaGame2/SkaGame/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.21-02.23.36:125][  0]LightingResults: New page: Lighting Build
+[2017.05.21-02.23.36:169][  0]MapCheck: New page: Map Check
+[2017.05.21-02.23.36:169][  0]LightingResults: New page: Lighting Build
+[2017.05.21-02.23.36:596][  0]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2017.05.21-02.23.36:622][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.21-02.23.36:623][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.21-02.23.36:668][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 44.704ms to complete.
+[2017.05.21-02.23.36:668][  0]LogFileHelpers: Loading map 'SideScrollerExampleMap' took 0.543
+[2017.05.21-02.23.36:851][  0]LogCollectionManager: Loaded 0 collections in 0.001624 seconds
+[2017.05.21-02.23.36:950][  0]LogFileCache: Scanning file cache for directory 'C:/SVN/SkaGame2/SkaGame/Saved/Collections/' took 0.01s
+[2017.05.21-02.23.36:950][  0]LogFileCache: Scanning file cache for directory 'C:/SVN/SkaGame2/SkaGame/Content/Developers/Ethan/Collections/' took 0.01s
+[2017.05.21-02.23.36:950][  0]LogFileCache: Scanning file cache for directory 'C:/SVN/SkaGame2/SkaGame/Content/Collections/' took 0.01s
+[2017.05.21-02.23.36:950][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.05.21-02.23.36:961][  0]LogContentBrowser: Native class hierarchy populated in 0.0101 seconds. Added 2245 classes and 453 folders.
+[2017.05.21-02.23.37:031][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.05.21-02.23.37:065][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.05.21-02.23.37:111][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.05.21-02.23.37:163][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.05.21-02.23.37:169][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.05.21-02.23.37:236][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.05.21-02.23.37:237][  0]LogLoad: (Engine Initialization) Total time: 16.06 seconds
+[2017.05.21-02.23.37:237][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.17 seconds
+[2017.05.21-02.23.37:237][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.05.21-02.23.37:237][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.05.21-02.23.37:576][  0]LogOcInput: OculusInput pre-init called
+[2017.05.21-02.23.37:603][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.05.21-02.23.37:604][  0]LogSlate: Took 0.000182 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.05.21-02.23.37:608][  0]LogSlate: Took 0.000249 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.05.21-02.23.37:615][  0]LogSlate: Took 0.000224 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.05.21-02.23.37:736][  0]LogSlate: Took 0.000276 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.21-02.23.37:911][  1]LogRenderer: Reallocating scene render targets to support 828x540 NumSamples 1 (Frame:2).
+[2017.05.21-02.23.38:265][  2]LogAssetRegistry: Asset discovery search completed in 10.0004 seconds
+[2017.05.21-02.23.38:265][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000012 seconds (found 0 objects)
+[2017.05.21-02.23.38:266][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000045 seconds (updated 0 objects)
+[2017.05.21-02.23.47:414][453]LogRenderer: Reallocating scene render targets to support 1208x556 NumSamples 1 (Frame:440).
+[2017.05.21-02.23.48:637][580]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.21-02.23.48:651][580]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.05.21-02.23.48:651][580]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.21-02.23.48:652][580]PIE: New page: PIE session: SideScrollerExampleMap (May 20, 2017, 6:23:48 PM)
+[2017.05.21-02.23.48:652][580]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2017.05.21-02.23.48:674][580]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022691s)
+[2017.05.21-02.23.48:675][580]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2017.05.21-02.23.48:675][580]LogPlayLevel: PIE: World Init took: (0.000808s)
+[2017.05.21-02.23.48:675][580]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.023791s)
+[2017.05.21-02.23.48:705][580]LogInit: XAudio2 using 'Speakers (5- Logitech G930 Gaming Headset)' : 8 channels at 48 kHz using 16 bits per sample (channel mask 0x63f)
+[2017.05.21-02.23.48:721][580]LogInit: FAudioDevice initialized.
+[2017.05.21-02.23.48:771][580]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.05.21-02.23.48:774][580]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2017.05.20-22.23.48
+[2017.05.21-02.23.48:774][580]LogWorld: Bringing up level for play took: 0.001993
+[2017.05.21-02.23.48:818][580]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2017.05.21-02.23.48:819][580]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap -0.426
+[2017.05.21-02.23.48:819][580]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.05.21-02.24.19:110][205]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.05.21-02.24.19:145][205]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.05.21-02.24.28:988][364]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.21-02.24.29:003][364]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.05.21-02.24.29:003][364]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.21-02.24.29:003][364]PIE: New page: PIE session: SideScrollerExampleMap (May 20, 2017, 6:24:29 PM)
+[2017.05.21-02.24.29:003][364]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2017.05.21-02.24.29:022][364]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018462s)
+[2017.05.21-02.24.29:023][364]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2017.05.21-02.24.29:023][364]LogPlayLevel: PIE: World Init took: (0.000947s)
+[2017.05.21-02.24.29:023][364]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.019706s)
+[2017.05.21-02.24.29:048][364]LogInit: XAudio2 using 'Speakers (5- Logitech G930 Gaming Headset)' : 8 channels at 48 kHz using 16 bits per sample (channel mask 0x63f)
+[2017.05.21-02.24.29:063][364]LogInit: FAudioDevice initialized.
+[2017.05.21-02.24.29:096][364]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.05.21-02.24.29:099][364]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2017.05.20-22.24.29
+[2017.05.21-02.24.29:099][364]LogWorld: Bringing up level for play took: 0.002155
+[2017.05.21-02.24.29:100][364]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap -0.145
+[2017.05.21-02.24.29:100][364]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.05.21-02.24.43:302][ 44]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.05.21-02.24.43:331][ 44]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.05.21-02.27.14:780][668]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall3)
+[2017.05.21-02.27.15:423][722]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.21-02.27.15:437][722]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.05.21-02.27.15:437][722]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.21-02.27.15:437][722]PIE: New page: PIE session: SideScrollerExampleMap (May 20, 2017, 6:27:15 PM)
+[2017.05.21-02.27.15:437][722]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2017.05.21-02.27.15:455][722]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017469s)
+[2017.05.21-02.27.15:455][722]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2017.05.21-02.27.15:456][722]LogPlayLevel: PIE: World Init took: (0.001038s)
+[2017.05.21-02.27.15:456][722]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.018787s)
+[2017.05.21-02.27.15:482][722]LogInit: XAudio2 using 'Speakers (5- Logitech G930 Gaming Headset)' : 8 channels at 48 kHz using 16 bits per sample (channel mask 0x63f)
+[2017.05.21-02.27.15:496][722]LogInit: FAudioDevice initialized.
+[2017.05.21-02.27.15:529][722]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.05.21-02.27.15:535][722]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2017.05.20-22.27.15
+[2017.05.21-02.27.15:535][722]LogWorld: Bringing up level for play took: 0.004192
+[2017.05.21-02.27.15:537][722]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 0.292
+[2017.05.21-02.27.15:537][722]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.05.21-02.27.28:892][318]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.05.21-02.27.28:955][318]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.05.21-02.27.55:311][490]LogSlate: Took 0.000190 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.21-02.27.55:361][490]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:/Ethan's Data/Downloads/TexturesCom_AsphaltCloseups0090_1_XL.jpg)
+[2017.05.21-02.27.56:099][490]LogTexture:Display: Building textures: TexturesCom_AsphaltCloseups0090_1_XL (AutoDXT, 4500X4500) - 109 MB total VRAM
+[2017.05.21-02.28.26:889][496]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.05.21-02.28.56:836][721]LogMaterial: Missing cached shader map for material GroundTest, compiling. 
+[2017.05.21-02.28.56:837][721]LogTemp:Display: Added material ShaderMap 0x000001A4A8716400 with Material 0x000001A48898CB80 to ShaderMapsBeingCompiled
+[2017.05.21-02.28.56:854][721]LogTemp:Display: Kicking off shader compilation for GroundTest, GameThreadShaderMap 0x000001A4A8716400
+[2017.05.21-02.28.56:923][721]LogMaterial: Missing cached shader map for material GroundTest, compiling. 
+[2017.05.21-02.28.56:923][721]LogTemp:Display: Added material ShaderMap 0x000001A49DFC6B00 with Material 0x000001A48898CB80 to ShaderMapsBeingCompiled
+[2017.05.21-02.28.56:932][721]LogTemp:Display: Kicking off shader compilation for GroundTest, GameThreadShaderMap 0x000001A49DFC6B00
+[2017.05.21-02.28.56:932][721]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.21-02.28.56:964][721]LogSlate: Took 0.000193 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.05.21-02.28.57:961][763]LogTemp:Display: Finished compile of shader map 0x000001A49DFC6B00
+[2017.05.21-02.28.57:961][763]LogTemp:Display: Shader map GroundTest complete, GameThreadShaderMap 0x000001A49DFC6B00, marking material GroundTest as finished
+[2017.05.21-02.28.57:961][763]LogTemp:Display: Marking material as finished 0x000001A48898CB80
+[2017.05.21-02.28.57:975][764]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 80 instructions
+[2017.05.21-02.28.57:975][764]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.05.21-02.28.57:975][764]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.05.21-02.29.04:063][ 22]LogMaterial: Missing cached shader map for material GroundTest, compiling. 
+[2017.05.21-02.29.04:064][ 22]LogTemp:Display: Added material ShaderMap 0x000001A4A3EC4B80 with Material 0x000001A48898CB80 to ShaderMapsBeingCompiled
+[2017.05.21-02.29.04:072][ 22]LogTemp:Display: Kicking off shader compilation for GroundTest, GameThreadShaderMap 0x000001A4A3EC4B80
+[2017.05.21-02.29.04:072][ 22]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.21-02.29.04:073][ 22]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.05.21-02.29.04:074][ 22]LogTemp:Display: Added material ShaderMap 0x000001A4A7790800 with Material 0x000001A49E69C400 to ShaderMapsBeingCompiled
+[2017.05.21-02.29.04:076][ 22]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_0, GameThreadShaderMap 0x000001A4A7790800
+[2017.05.21-02.29.04:083][ 22]LogTemp:Display: Removed shader map 0x000001A4A7790800 from material 0x000001A49E69C400
+[2017.05.21-02.29.04:106][ 22]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.05.21-02.29.04:107][ 22]LogTemp:Display: Added material ShaderMap 0x000001A4A7793200 with Material 0x000001A49E69C400 to ShaderMapsBeingCompiled
+[2017.05.21-02.29.04:109][ 22]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_0, GameThreadShaderMap 0x000001A4A7793200
+[2017.05.21-02.29.05:211][ 46]LogTemp:Display: Finished compile of shader map 0x000001A4A3EC4B80
+[2017.05.21-02.29.05:211][ 46]LogTemp:Display: Shader map GroundTest complete, GameThreadShaderMap 0x000001A4A3EC4B80, marking material GroundTest as finished
+[2017.05.21-02.29.05:211][ 46]LogTemp:Display: Marking material as finished 0x000001A48898CB80
+[2017.05.21-02.29.05:213][ 46]LogTemp:Display: Finished compile of shader map 0x000001A4A7793200
+[2017.05.21-02.29.05:213][ 46]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSample_0 complete, GameThreadShaderMap 0x000001A4A7793200, marking material FMatExpressionPreview MaterialExpressionTextureSample_0 as finished
+[2017.05.21-02.29.05:213][ 46]LogTemp:Display: Marking material as finished 0x000001A49E69C400
+[2017.05.21-02.29.05:225][ 47]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 80 instructions
+[2017.05.21-02.29.05:225][ 47]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.05.21-02.29.05:226][ 47]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.05.21-02.29.08:438][294]LogMaterial: Missing cached shader map for material GroundTest, compiling. 
+[2017.05.21-02.29.08:439][294]LogTemp:Display: Added material ShaderMap 0x000001A4A76B9600 with Material 0x000001A48898CB80 to ShaderMapsBeingCompiled
+[2017.05.21-02.29.08:448][294]LogTemp:Display: Kicking off shader compilation for GroundTest, GameThreadShaderMap 0x000001A4A76B9600
+[2017.05.21-02.29.08:448][294]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.21-02.29.08:477][294]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.05.21-02.29.08:478][294]LogTemp:Display: Added material ShaderMap 0x000001A4C5697C80 with Material 0x000001A49E5CAB00 to ShaderMapsBeingCompiled
+[2017.05.21-02.29.08:481][294]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_0, GameThreadShaderMap 0x000001A4C5697C80
+[2017.05.21-02.29.09:258][333]LogTemp:Display: Finished compile of shader map 0x000001A4A76B9600
+[2017.05.21-02.29.09:258][333]LogTemp:Display: Shader map GroundTest complete, GameThreadShaderMap 0x000001A4A76B9600, marking material GroundTest as finished
+[2017.05.21-02.29.09:258][333]LogTemp:Display: Marking material as finished 0x000001A48898CB80
+[2017.05.21-02.29.09:276][334]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 81 instructions
+[2017.05.21-02.29.09:276][334]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.05.21-02.29.09:276][334]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.05.21-02.29.09:318][337]LogTemp:Display: Finished compile of shader map 0x000001A4C5697C80
+[2017.05.21-02.29.09:318][337]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSample_0 complete, GameThreadShaderMap 0x000001A4C5697C80, marking material FMatExpressionPreview MaterialExpressionTextureSample_0 as finished
+[2017.05.21-02.29.09:318][337]LogTemp:Display: Marking material as finished 0x000001A49E5CAB00
+[2017.05.21-02.29.14:792][755]LogMaterial: Missing cached shader map for material GroundTest, compiling. 
+[2017.05.21-02.29.14:793][755]LogTemp:Display: Added material ShaderMap 0x000001A49E60A400 with Material 0x000001A48898CB80 to ShaderMapsBeingCompiled
+[2017.05.21-02.29.14:801][755]LogTemp:Display: Kicking off shader compilation for GroundTest, GameThreadShaderMap 0x000001A49E60A400
+[2017.05.21-02.29.14:802][755]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.21-02.29.14:804][755]LogMaterial: Missing cached shader map for material GroundTest, compiling. 
+[2017.05.21-02.29.14:804][755]LogTemp:Display: Added material ShaderMap 0x000001A4C5284F00 with Material 0x000001A48898CB80 to ShaderMapsBeingCompiled
+[2017.05.21-02.29.14:813][755]LogTemp:Display: Kicking off shader compilation for GroundTest, GameThreadShaderMap 0x000001A4C5284F00
+[2017.05.21-02.29.14:814][755]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.21-02.29.15:588][795]LogTemp:Display: Finished compile of shader map 0x000001A4C5284F00
+[2017.05.21-02.29.15:588][795]LogTemp:Display: Shader map GroundTest complete, GameThreadShaderMap 0x000001A4C5284F00, marking material GroundTest as finished
+[2017.05.21-02.29.15:588][795]LogTemp:Display: Marking material as finished 0x000001A48898CB80
+[2017.05.21-02.29.15:600][796]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 81 instructions
+[2017.05.21-02.29.15:600][796]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.05.21-02.29.15:601][796]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.05.21-02.29.21:198][239]LogMaterial: Missing cached shader map for material GroundTest, compiling. 
+[2017.05.21-02.29.21:198][239]LogTemp:Display: Added material ShaderMap 0x000001A49E68EE80 with Material 0x000001A48898CB80 to ShaderMapsBeingCompiled
+[2017.05.21-02.29.21:207][239]LogTemp:Display: Kicking off shader compilation for GroundTest, GameThreadShaderMap 0x000001A49E68EE80
+[2017.05.21-02.29.21:207][239]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.21-02.29.21:209][239]LogMaterial: Missing cached shader map for material GroundTest, compiling. 
+[2017.05.21-02.29.21:210][239]LogTemp:Display: Added material ShaderMap 0x000001A4A7837580 with Material 0x000001A48898CB80 to ShaderMapsBeingCompiled
+[2017.05.21-02.29.21:218][239]LogTemp:Display: Kicking off shader compilation for GroundTest, GameThreadShaderMap 0x000001A4A7837580
+[2017.05.21-02.29.21:218][239]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.21-02.29.22:031][282]LogTemp:Display: Finished compile of shader map 0x000001A4A7837580
+[2017.05.21-02.29.22:031][282]LogTemp:Display: Shader map GroundTest complete, GameThreadShaderMap 0x000001A4A7837580, marking material GroundTest as finished
+[2017.05.21-02.29.22:031][282]LogTemp:Display: Marking material as finished 0x000001A48898CB80
+[2017.05.21-02.29.22:045][283]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 84 instructions
+[2017.05.21-02.29.22:045][283]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.05.21-02.29.22:045][283]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.05.21-02.29.28:083][755]LogMaterial: Missing cached shader map for material GroundTest, compiling. 
+[2017.05.21-02.29.28:084][755]LogTemp:Display: Added material ShaderMap 0x000001A4C74BF900 with Material 0x000001A48898CB80 to ShaderMapsBeingCompiled
+[2017.05.21-02.29.28:093][755]LogTemp:Display: Kicking off shader compilation for GroundTest, GameThreadShaderMap 0x000001A4C74BF900
+[2017.05.21-02.29.28:093][755]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.21-02.29.28:883][798]LogTemp:Display: Finished compile of shader map 0x000001A4C74BF900
+[2017.05.21-02.29.28:883][798]LogTemp:Display: Shader map GroundTest complete, GameThreadShaderMap 0x000001A4C74BF900, marking material GroundTest as finished
+[2017.05.21-02.29.28:883][798]LogTemp:Display: Marking material as finished 0x000001A48898CB80
+[2017.05.21-02.29.28:897][799]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 84 instructions
+[2017.05.21-02.29.28:897][799]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.05.21-02.29.28:898][799]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.05.21-02.29.31:453][994]LogMaterial: Missing cached shader map for material GroundTest, compiling. 
+[2017.05.21-02.29.31:454][994]LogTemp:Display: Added material ShaderMap 0x000001A4A3EC5600 with Material 0x000001A48898CB80 to ShaderMapsBeingCompiled
+[2017.05.21-02.29.31:463][994]LogTemp:Display: Kicking off shader compilation for GroundTest, GameThreadShaderMap 0x000001A4A3EC5600
+[2017.05.21-02.29.31:463][994]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.21-02.29.32:250][ 36]LogTemp:Display: Finished compile of shader map 0x000001A4A3EC5600
+[2017.05.21-02.29.32:250][ 36]LogTemp:Display: Shader map GroundTest complete, GameThreadShaderMap 0x000001A4A3EC5600, marking material GroundTest as finished
+[2017.05.21-02.29.32:250][ 36]LogTemp:Display: Marking material as finished 0x000001A48898CB80
+[2017.05.21-02.29.32:264][ 37]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 84 instructions
+[2017.05.21-02.29.32:264][ 37]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.05.21-02.29.32:264][ 37]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.05.21-02.29.34:632][223]LogMaterial: Missing cached shader map for material GroundTest, compiling. 
+[2017.05.21-02.29.34:633][223]LogTemp:Display: Added material ShaderMap 0x000001A4C7193C80 with Material 0x000001A48898CB80 to ShaderMapsBeingCompiled
+[2017.05.21-02.29.34:642][223]LogTemp:Display: Kicking off shader compilation for GroundTest, GameThreadShaderMap 0x000001A4C7193C80
+[2017.05.21-02.29.34:642][223]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.21-02.29.35:420][264]LogTemp:Display: Finished compile of shader map 0x000001A4C7193C80
+[2017.05.21-02.29.35:420][264]LogTemp:Display: Shader map GroundTest complete, GameThreadShaderMap 0x000001A4C7193C80, marking material GroundTest as finished
+[2017.05.21-02.29.35:420][264]LogTemp:Display: Marking material as finished 0x000001A48898CB80
+[2017.05.21-02.29.35:433][265]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 84 instructions
+[2017.05.21-02.29.35:433][265]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.05.21-02.29.35:433][265]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.05.21-02.29.36:829][374]LogMaterial: Missing cached shader map for material GroundTest, compiling. 
+[2017.05.21-02.29.36:830][374]LogTemp:Display: Added material ShaderMap 0x000001A4C5696400 with Material 0x000001A48898CB80 to ShaderMapsBeingCompiled
+[2017.05.21-02.29.36:839][374]LogTemp:Display: Kicking off shader compilation for GroundTest, GameThreadShaderMap 0x000001A4C5696400
+[2017.05.21-02.29.36:839][374]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.21-02.29.37:620][417]LogTemp:Display: Finished compile of shader map 0x000001A4C5696400
+[2017.05.21-02.29.37:620][417]LogTemp:Display: Shader map GroundTest complete, GameThreadShaderMap 0x000001A4C5696400, marking material GroundTest as finished
+[2017.05.21-02.29.37:620][417]LogTemp:Display: Marking material as finished 0x000001A48898CB80
+[2017.05.21-02.29.37:633][418]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 84 instructions
+[2017.05.21-02.29.37:633][418]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.05.21-02.29.37:633][418]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.05.21-02.29.39:809][590]LogMaterialEditor: Applying material GroundTest
+[2017.05.21-02.29.40:365][590]LogMaterial: Missing cached shader map for material GroundTest, compiling. 
+[2017.05.21-02.29.40:366][590]LogTemp:Display: Added material ShaderMap 0x000001A4C5694480 with Material 0x000001A48898CB80 to ShaderMapsBeingCompiled
+[2017.05.21-02.29.40:384][590]LogTemp:Display: Kicking off shader compilation for GroundTest, GameThreadShaderMap 0x000001A4C5694480
+[2017.05.21-02.29.40:384][590]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.21-02.29.40:401][590]LogMaterial: Missing cached shader map for material GroundTest, compiling. 
+[2017.05.21-02.29.40:401][590]LogTemp:Display: Added material ShaderMap 0x000001A4C6640F00 with Material 0x000001A4873C9C00 to ShaderMapsBeingCompiled
+[2017.05.21-02.29.40:422][590]LogTemp:Display: Kicking off shader compilation for GroundTest, GameThreadShaderMap 0x000001A4C6640F00
+[2017.05.21-02.29.40:424][590]LogMaterial: Missing cached shader map for material GroundTest, compiling. 
+[2017.05.21-02.29.40:425][590]LogTemp:Display: Added material ShaderMap 0x000001A4C7138800 with Material 0x000001A4873C9C00 to ShaderMapsBeingCompiled
+[2017.05.21-02.29.40:443][590]LogTemp:Display: Kicking off shader compilation for GroundTest, GameThreadShaderMap 0x000001A4C7138800
+[2017.05.21-02.29.40:444][590]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.21-02.29.40:468][590]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy GroundTest, compiling. 
+[2017.05.21-02.29.40:469][590]LogTemp:Display: Added material ShaderMap 0x000001A4C6E32E80 with Material 0x000001A4C6E27400 to ShaderMapsBeingCompiled
+[2017.05.21-02.29.41:096][590]LogTemp:Display: Finished compile of shader map 0x000001A4C6E32E80
+[2017.05.21-02.29.41:097][590]LogTemp:Display: Shader map FDebugViewModeMaterialProxy GroundTest complete, GameThreadShaderMap 0x000001A4C6E32E80, marking material FDebugViewModeMaterialProxy GroundTest as finished
+[2017.05.21-02.29.41:097][590]LogTemp:Display: Marking material as finished 0x000001A4C6E27400
+[2017.05.21-02.29.41:099][590]TextureStreamingBuild:Display: Compiling optional shaders took 0.638 seconds.
+[2017.05.21-02.29.41:124][590]LogTemp:Display: Finished compile of shader map 0x000001A4C5694480
+[2017.05.21-02.29.41:124][590]LogTemp:Display: Shader map GroundTest complete, GameThreadShaderMap 0x000001A4C5694480, marking material GroundTest as finished
+[2017.05.21-02.29.41:124][590]LogTemp:Display: Marking material as finished 0x000001A48898CB80
+[2017.05.21-02.29.42:601][687]LogTemp:Display: Finished compile of shader map 0x000001A4C7138800
+[2017.05.21-02.29.42:601][687]LogTemp:Display: Shader map GroundTest complete, GameThreadShaderMap 0x000001A4C7138800, marking material GroundTest as finished
+[2017.05.21-02.29.42:601][687]LogTemp:Display: Marking material as finished 0x000001A4873C9C00
+[2017.05.21-02.29.42:611][688]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 84 instructions
+[2017.05.21-02.29.42:611][688]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.05.21-02.29.42:611][688]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.05.21-02.29.51:968][552]LogMaterial:Warning: Material /Game/GroundTest.GroundTest needed to have new flag set bUsedWithStaticLighting !
+[2017.05.21-02.29.51:968][552]LogMaterial:Warning: Material /Engine/Transient.GroundTest needed to have new flag set bUsedWithStaticLighting !
+[2017.05.21-02.29.51:970][552]LogMaterial: Missing cached shader map for material GroundTest, compiling. 
+[2017.05.21-02.29.51:971][552]LogTemp:Display: Added material ShaderMap 0x000001A4C6643900 with Material 0x000001A48898CB80 to ShaderMapsBeingCompiled
+[2017.05.21-02.29.51:982][552]LogTemp:Display: Kicking off shader compilation for GroundTest, GameThreadShaderMap 0x000001A4C6643900
+[2017.05.21-02.29.51:982][552]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.21-02.29.51:984][552]LogMaterial: Missing cached shader map for material GroundTest, compiling. 
+[2017.05.21-02.29.51:984][552]LogTemp:Display: Added material ShaderMap 0x000001A4C70C8F00 with Material 0x000001A4873C9C00 to ShaderMapsBeingCompiled
+[2017.05.21-02.29.52:010][552]LogTemp:Display: Kicking off shader compilation for GroundTest, GameThreadShaderMap 0x000001A4C70C8F00
+[2017.05.21-02.29.52:010][552]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.21-02.29.52:942][620]LogTemp:Display: Finished compile of shader map 0x000001A4C6643900
+[2017.05.21-02.29.52:942][620]LogTemp:Display: Shader map GroundTest complete, GameThreadShaderMap 0x000001A4C6643900, marking material GroundTest as finished
+[2017.05.21-02.29.52:943][620]LogTemp:Display: Marking material as finished 0x000001A48898CB80
+[2017.05.21-02.29.54:977][805]LogTemp:Display: Finished compile of shader map 0x000001A4C70C8F00
+[2017.05.21-02.29.54:977][805]LogTemp:Display: Shader map GroundTest complete, GameThreadShaderMap 0x000001A4C70C8F00, marking material GroundTest as finished
+[2017.05.21-02.29.54:977][805]LogTemp:Display: Marking material as finished 0x000001A4873C9C00
+[2017.05.21-02.29.54:986][806]MaterialEditorStats: Info Base pass shader with static lighting: 110 instructions
+[2017.05.21-02.29.54:986][806]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 84 instructions
+[2017.05.21-02.29.54:986][806]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.05.21-02.29.54:986][806]MaterialEditorStats: Info Texture samplers: 4/16
+[2017.05.21-02.30.08:587][236]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.21-02.30.08:601][236]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.05.21-02.30.08:601][236]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.21-02.30.08:602][236]PIE: New page: PIE session: SideScrollerExampleMap (May 20, 2017, 6:30:08 PM)
+[2017.05.21-02.30.08:602][236]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2017.05.21-02.30.08:619][236]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017726s)
+[2017.05.21-02.30.08:620][236]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2017.05.21-02.30.08:620][236]LogPlayLevel: PIE: World Init took: (0.000866s)
+[2017.05.21-02.30.08:621][236]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.018868s)
+[2017.05.21-02.30.08:645][236]LogInit: XAudio2 using 'Speakers (5- Logitech G930 Gaming Headset)' : 8 channels at 48 kHz using 16 bits per sample (channel mask 0x63f)
+[2017.05.21-02.30.08:660][236]LogInit: FAudioDevice initialized.
+[2017.05.21-02.30.08:690][236]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.05.21-02.30.08:693][236]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2017.05.20-22.30.08
+[2017.05.21-02.30.08:693][236]LogWorld: Bringing up level for play took: 0.002067
+[2017.05.21-02.30.08:694][236]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap -0.551
+[2017.05.21-02.30.08:695][236]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.05.21-02.31.16:561][360]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.05.21-02.31.16:628][360]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.05.21-02.32.10:174][636]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.21-02.32.10:204][636]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.05.21-02.32.10:204][636]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.21-02.32.10:205][636]PIE: New page: PIE session: SideScrollerExampleMap (May 20, 2017, 6:32:10 PM)
+[2017.05.21-02.32.10:205][636]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2017.05.21-02.32.10:240][636]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034781s)
+[2017.05.21-02.32.10:241][636]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2017.05.21-02.32.10:241][636]LogPlayLevel: PIE: World Init took: (0.001541s)
+[2017.05.21-02.32.10:242][636]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.036766s)
+[2017.05.21-02.32.10:274][636]LogInit: XAudio2 using 'Speakers (5- Logitech G930 Gaming Headset)' : 8 channels at 48 kHz using 16 bits per sample (channel mask 0x63f)
+[2017.05.21-02.32.10:289][636]LogInit: FAudioDevice initialized.
+[2017.05.21-02.32.10:323][636]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.05.21-02.32.10:328][636]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2017.05.20-22.32.10
+[2017.05.21-02.32.10:329][636]LogWorld: Bringing up level for play took: 0.004137
+[2017.05.21-02.32.10:330][636]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 1.085
+[2017.05.21-02.32.10:331][636]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.05.21-02.34.00:044][769]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.05.21-02.34.00:106][769]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.05.21-02.34.01:324][875]LogSlate: Took 0.000224 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.05.21-02.34.09:445][804]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.21-02.34.09:459][804]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.05.21-02.34.09:459][804]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.21-02.34.09:459][804]PIE: New page: PIE session: SideScrollerExampleMap (May 20, 2017, 6:34:09 PM)
+[2017.05.21-02.34.09:459][804]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2017.05.21-02.34.09:476][804]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017138s)
+[2017.05.21-02.34.09:477][804]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2017.05.21-02.34.09:477][804]LogPlayLevel: PIE: World Init took: (0.000874s)
+[2017.05.21-02.34.09:477][804]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.018271s)
+[2017.05.21-02.34.09:500][804]LogInit: XAudio2 using 'Speakers (5- Logitech G930 Gaming Headset)' : 8 channels at 48 kHz using 16 bits per sample (channel mask 0x63f)
+[2017.05.21-02.34.09:515][804]LogInit: FAudioDevice initialized.
+[2017.05.21-02.34.09:548][804]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.05.21-02.34.09:550][804]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2017.05.20-22.34.09
+[2017.05.21-02.34.09:551][804]LogWorld: Bringing up level for play took: 0.002251
+[2017.05.21-02.34.09:553][804]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 0.308
+[2017.05.21-02.34.09:553][804]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.05.21-02.34.20:512][111]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.05.21-02.34.20:646][111]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.05.21-02.34.23:074][379]LogSlate: Took 0.000167 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.21-02.34.27:205][806]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.05.21-02.34.30:908][144]MapCheck: New page: Map Check
+[2017.05.21-02.34.30:920][144]LightingResults: New page: Lighting Build - May 20, 2017, 6:34:30 PM
+[2017.05.21-02.34.30:955][144]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.05.21-02.34.31:003][144]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.05.21-02.34.31:013][144]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.05.21-02.34.31:527][144]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.05.21-02.34.31:527][144]LogSwarmInterface: [TryOpenConnection] Local Process ID is 6036
+[2017.05.21-02.34.33:817][144]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.05.21-02.34.33:817][144]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.05.21-02.34.33:817][144]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.05.21-02.34.33:817][144]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.05.21-02.34.33:817][144]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.05.21-02.34.34:075][144]LogEditorBuildUtils: Build time 0:03
+[2017.05.21-02.34.34:088][144]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer GroundTest, compiling. 
+[2017.05.21-02.34.34:089][144]LogTemp:Display: Added material ShaderMap 0x000001A4B3000F00 with Material 0x000001A4CA16F100 to ShaderMapsBeingCompiled
+[2017.05.21-02.34.34:092][144]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer GroundTest, GameThreadShaderMap 0x000001A4B3000F00
+[2017.05.21-02.34.34:097][144]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer GroundTest, compiling. 
+[2017.05.21-02.34.34:099][144]LogTemp:Display: Added material ShaderMap 0x000001A4C656F580 with Material 0x000001A4CA16F400 to ShaderMapsBeingCompiled
+[2017.05.21-02.34.34:104][144]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer GroundTest, GameThreadShaderMap 0x000001A4C656F580
+[2017.05.21-02.34.34:596][145]LogTemp:Display: Finished compile of shader map 0x000001A4B3000F00
+[2017.05.21-02.34.34:596][145]LogTemp:Display: Shader map FLightmassMaterialRenderer GroundTest complete, GameThreadShaderMap 0x000001A4B3000F00, marking material FLightmassMaterialRenderer GroundTest as finished
+[2017.05.21-02.34.34:596][145]LogTemp:Display: Marking material as finished 0x000001A4CA16F100
+[2017.05.21-02.34.34:598][145]LogTemp:Display: Finished compile of shader map 0x000001A4C656F580
+[2017.05.21-02.34.34:598][145]LogTemp:Display: Shader map FLightmassMaterialRenderer GroundTest complete, GameThreadShaderMap 0x000001A4C656F580, marking material FLightmassMaterialRenderer GroundTest as finished
+[2017.05.21-02.34.34:598][145]LogTemp:Display: Marking material as finished 0x000001A4CA16F400
+[2017.05.21-02.34.44:821][789]Job is a success!
+[2017.05.21-02.34.45:940][790]LogTexture:Display: Building textures: SkyOcclusion1_1 (AutoDXT, 2048X1024) - 120 MB total VRAM
+[2017.05.21-02.34.45:940][790]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 2048X2048) - 120 MB total VRAM
+[2017.05.21-02.34.45:940][790]LogTexture:Display: Building textures: SkyOcclusion1_2 (AutoDXT, 64X32) - 120 MB total VRAM
+[2017.05.21-02.34.45:940][790]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1, 2048X2048) - 120 MB total VRAM
+[2017.05.21-02.34.45:941][790]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64) - 120 MB total VRAM
+[2017.05.21-02.34.45:941][790]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64) - 120 MB total VRAM
+[2017.05.21-02.34.46:140][790]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (G8, 32X32) - 120 MB total VRAM
+[2017.05.21-02.34.46:231][790]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (G8, 1024X1024) - 120 MB total VRAM
+[2017.05.21-02.34.46:244][790]Lightmass on DESKTOP-58CNULQ: 10.9 sec total, 106 ms importing, 19 ms setup, 2.49 sec photons, 8.30 sec processing, 0 ms extra exporting [10/10 mappings]. Threads: 58.0 sec total, 8.82 sec processing.
+[2017.05.21-02.34.46:263][790]LogStaticLightingSystem: Illumination: 15.3 sec (1.01 sec encoding lightmaps, 286 ms encoding shadowmaps)
+[2017.05.21-02.34.46:263][790]LogStaticLightingSystem: Lightmap texture memory:  10.7 MB (10.7 MB streaming, 0.0 MB non-streaming), 4 textures
+[2017.05.21-02.34.46:263][790]LogStaticLightingSystem: Shadowmap texture memory: 1.3 MB (1.3 MB streaming, 0.0 MB non-streaming), 2 textures
+[2017.05.21-02.34.46:823][790]DumpUnbuiltLightIteractions
+[2017.05.21-02.34.46:823][790]Lights with unbuilt interactions: 0
+[2017.05.21-02.34.46:823][790]
+[2017.05.21-02.34.46:823][790]Primitives with unbuilt interactions: 0
+[2017.05.21-02.34.46:843][791]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.05.21-02.34.46:843][791]MapCheck: New page: SideScrollerExampleMap - May 20, 2017, 6:34:46 PM
+[2017.05.21-02.34.46:915][791]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 71.201ms to complete.
+[2017.05.21-02.34.52:344][365]LogMaterial: Missing cached shader map for material CelTest, compiling. 
+[2017.05.21-02.34.52:345][365]LogTemp:Display: Added material ShaderMap 0x000001A4A8714B80 with Material 0x000001A4C6E80900 to ShaderMapsBeingCompiled
+[2017.05.21-02.34.52:350][365]LogTemp:Display: Kicking off shader compilation for CelTest, GameThreadShaderMap 0x000001A4A8714B80
+[2017.05.21-02.34.52:432][365]LogMaterial: Missing cached shader map for material CelTest, compiling. 
+[2017.05.21-02.34.52:432][365]LogTemp:Display: Added material ShaderMap 0x000001A4CA0DA780 with Material 0x000001A4C6E80900 to ShaderMapsBeingCompiled
+[2017.05.21-02.34.52:437][365]LogTemp:Display: Kicking off shader compilation for CelTest, GameThreadShaderMap 0x000001A4CA0DA780
+[2017.05.21-02.34.52:437][365]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.21-02.34.52:467][365]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.05.21-02.34.52:983][381]LogTemp:Display: Finished compile of shader map 0x000001A4CA0DA780
+[2017.05.21-02.34.52:983][381]LogTemp:Display: Shader map CelTest complete, GameThreadShaderMap 0x000001A4CA0DA780, marking material CelTest as finished
+[2017.05.21-02.34.52:983][381]LogTemp:Display: Marking material as finished 0x000001A4C6E80900
+[2017.05.21-02.34.52:997][382]MaterialEditorStats: Info Base pass shader without light map: 60 instructions
+[2017.05.21-02.34.52:997][382]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.05.21-02.34.52:997][382]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.05.21-02.34.56:022][584]LogMaterial: Missing cached shader map for material CelTest, compiling. 
+[2017.05.21-02.34.56:023][584]LogTemp:Display: Added material ShaderMap 0x000001A52EC4CB80 with Material 0x000001A4C6E80900 to ShaderMapsBeingCompiled
+[2017.05.21-02.34.56:027][584]LogTemp:Display: Kicking off shader compilation for CelTest, GameThreadShaderMap 0x000001A52EC4CB80
+[2017.05.21-02.34.56:027][584]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.21-02.34.56:053][584]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.05.21-02.34.56:515][605]LogTemp:Display: Finished compile of shader map 0x000001A52EC4CB80
+[2017.05.21-02.34.56:515][605]LogTemp:Display: Shader map CelTest complete, GameThreadShaderMap 0x000001A52EC4CB80, marking material CelTest as finished
+[2017.05.21-02.34.56:515][605]LogTemp:Display: Marking material as finished 0x000001A4C6E80900
+[2017.05.21-02.34.56:529][606]MaterialEditorStats: Info Base pass shader without light map: 60 instructions
+[2017.05.21-02.34.56:529][606]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.05.21-02.34.56:529][606]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.05.21-02.34.57:514][675]LogMaterialEditor: Applying material CelTest
+[2017.05.21-02.34.58:072][675]LogMaterial: Missing cached shader map for material CelTest, compiling. 
+[2017.05.21-02.34.58:073][675]LogTemp:Display: Added material ShaderMap 0x000001A52EBEB200 with Material 0x000001A4C6E80900 to ShaderMapsBeingCompiled
+[2017.05.21-02.34.58:080][675]LogTemp:Display: Kicking off shader compilation for CelTest, GameThreadShaderMap 0x000001A52EBEB200
+[2017.05.21-02.34.58:080][675]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.21-02.34.58:095][675]LogMaterial: Missing cached shader map for material CelTest, compiling. 
+[2017.05.21-02.34.58:096][675]LogTemp:Display: Added material ShaderMap 0x000001A4C6E30800 with Material 0x000001A487F45900 to ShaderMapsBeingCompiled
+[2017.05.21-02.34.58:108][675]LogTemp:Display: Kicking off shader compilation for CelTest, GameThreadShaderMap 0x000001A4C6E30800
+[2017.05.21-02.34.58:111][675]LogMaterial: Missing cached shader map for material CelTest, compiling. 
+[2017.05.21-02.34.58:112][675]LogTemp:Display: Added material ShaderMap 0x000001A52E22F580 with Material 0x000001A487F45900 to ShaderMapsBeingCompiled
+[2017.05.21-02.34.58:121][675]LogTemp:Display: Kicking off shader compilation for CelTest, GameThreadShaderMap 0x000001A52E22F580
+[2017.05.21-02.34.58:123][675]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.21-02.34.58:139][675]TextureStreamingBuild:Display: Compiling optional shaders took 0.000 seconds.
+[2017.05.21-02.34.58:615][695]LogTemp:Display: Finished compile of shader map 0x000001A52EBEB200
+[2017.05.21-02.34.58:615][695]LogTemp:Display: Shader map CelTest complete, GameThreadShaderMap 0x000001A52EBEB200, marking material CelTest as finished
+[2017.05.21-02.34.58:615][695]LogTemp:Display: Marking material as finished 0x000001A4C6E80900
+[2017.05.21-02.34.59:831][768]LogTemp:Display: Finished compile of shader map 0x000001A52E22F580
+[2017.05.21-02.34.59:831][768]LogTemp:Display: Shader map CelTest complete, GameThreadShaderMap 0x000001A52E22F580, marking material CelTest as finished
+[2017.05.21-02.34.59:831][768]LogTemp:Display: Marking material as finished 0x000001A487F45900
+[2017.05.21-02.34.59:846][769]MaterialEditorStats: Info Base pass shader without light map: 60 instructions
+[2017.05.21-02.34.59:846][769]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.05.21-02.34.59:846][769]MaterialEditorStats: Info Texture samplers: 4/16
+[2017.05.21-02.35.04:953][ 75]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.21-02.35.04:968][ 75]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.05.21-02.35.04:968][ 75]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.21-02.35.04:968][ 75]PIE: New page: PIE session: SideScrollerExampleMap (May 20, 2017, 6:35:04 PM)
+[2017.05.21-02.35.04:968][ 75]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2017.05.21-02.35.04:981][ 75]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013273s)
+[2017.05.21-02.35.04:982][ 75]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2017.05.21-02.35.04:982][ 75]LogPlayLevel: PIE: World Init took: (0.001139s)
+[2017.05.21-02.35.04:982][ 75]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.014635s)
+[2017.05.21-02.35.05:005][ 75]LogInit: XAudio2 using 'Speakers (5- Logitech G930 Gaming Headset)' : 8 channels at 48 kHz using 16 bits per sample (channel mask 0x63f)
+[2017.05.21-02.35.05:020][ 75]LogInit: FAudioDevice initialized.
+[2017.05.21-02.35.05:050][ 75]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.05.21-02.35.05:055][ 75]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2017.05.20-22.35.05
+[2017.05.21-02.35.05:055][ 75]LogWorld: Bringing up level for play took: 0.004186
+[2017.05.21-02.35.05:057][ 75]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap -0.188
+[2017.05.21-02.35.05:057][ 75]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.05.21-02.35.57:598][668]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.05.21-02.35.57:667][668]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.05.21-02.38.40:847][596]LogSavePackage: Save=202.69ms
+[2017.05.21-02.38.40:847][596]LogSavePackage: Moving '../../../../../../SVN/SkaGame2/SkaGame/Saved/SideScrollerExampleMap_Auto105CC7344445F8A497BB8B7995477202B.tmp' to '../../../../../../SVN/SkaGame2/SkaGame/Saved/Autosaves/Game/SideScrollerBP/Maps/SideScrollerExampleMap_Auto1.umap'
+[2017.05.21-02.38.40:849][596]LogSavePackage:Display: Finished SavePackage ../../../../../../SVN/SkaGame2/SkaGame/Saved/Autosaves/Game/SideScrollerBP/Maps/SideScrollerExampleMap_Auto1.umap
+[2017.05.21-02.38.40:853][596]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SideScrollerBP/Maps/SideScrollerExampleMap' took 0.255
+[2017.05.21-02.38.40:853][596]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.255
+[2017.05.21-02.38.40:855][596]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData] ([1] browsable assets)...
+[2017.05.21-02.38.40:855][596]OBJ SavePackage: Finished generating thumbnails for package [/Game/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData]
+[2017.05.21-02.38.40:889][596]LogSavePackage: Save=25.23ms
+[2017.05.21-02.38.40:889][596]LogSavePackage: Moving '../../../../../../SVN/SkaGame2/SkaGame/Saved/SideScrollerExampleMap_BuiltData_Auto13F6E8867452D89D10AC2D7A9AD92124B.tmp' to '../../../../../../SVN/SkaGame2/SkaGame/Saved/Autosaves/Game/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData_Auto1.uasset'
+[2017.05.21-02.38.40:890][596]LogSavePackage:Display: Finished SavePackage ../../../../../../SVN/SkaGame2/SkaGame/Saved/Autosaves/Game/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData_Auto1.uasset
+[2017.05.21-02.38.40:890][596]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/CelTest] ([1] browsable assets)...
+[2017.05.21-02.38.40:918][596]OBJ SavePackage:     Rendered thumbnail for [Material /Game/CelTest.CelTest]
+[2017.05.21-02.38.40:918][596]OBJ SavePackage: Finished generating thumbnails for package [/Game/CelTest]
+[2017.05.21-02.38.40:918][596]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CelTest" FILE="../../../../../../SVN/SkaGame2/SkaGame/Saved/Autosaves/Game/CelTest_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.05.21-02.38.40:942][596]LogSavePackage: Save=15.71ms
+[2017.05.21-02.38.40:942][596]LogSavePackage: Moving '../../../../../../SVN/SkaGame2/SkaGame/Saved/CelTest_Auto193BDD7024E992694437A259EE743E6CC.tmp' to '../../../../../../SVN/SkaGame2/SkaGame/Saved/Autosaves/Game/CelTest_Auto1.uasset'
+[2017.05.21-02.38.40:943][596]LogSavePackage:Display: Finished SavePackage ../../../../../../SVN/SkaGame2/SkaGame/Saved/Autosaves/Game/CelTest_Auto1.uasset
+[2017.05.21-02.38.40:943][596]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TexturesCom_AsphaltCloseups0090_1_XL] ([1] browsable assets)...
+[2017.05.21-02.38.40:954][596]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/TexturesCom_AsphaltCloseups0090_1_XL.TexturesCom_AsphaltCloseups0090_1_XL]
+[2017.05.21-02.38.40:954][596]OBJ SavePackage: Finished generating thumbnails for package [/Game/TexturesCom_AsphaltCloseups0090_1_XL]
+[2017.05.21-02.38.41:004][596]LogSavePackage: Save=48.22ms
+[2017.05.21-02.38.41:004][596]LogSavePackage: Moving '../../../../../../SVN/SkaGame2/SkaGame/Saved/TexturesCom_AsphaltCloseups0090_1_XL_Auto168D8554B4F6441F754B579A48A0F0036.tmp' to '../../../../../../SVN/SkaGame2/SkaGame/Saved/Autosaves/Game/TexturesCom_AsphaltCloseups0090_1_XL_Auto1.uasset'
+[2017.05.21-02.38.41:005][596]LogSavePackage:Display: Finished SavePackage ../../../../../../SVN/SkaGame2/SkaGame/Saved/Autosaves/Game/TexturesCom_AsphaltCloseups0090_1_XL_Auto1.uasset
+[2017.05.21-02.38.41:005][596]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/GroundTest] ([1] browsable assets)...
+[2017.05.21-02.38.41:045][596]OBJ SavePackage:     Rendered thumbnail for [Material /Game/GroundTest.GroundTest]
+[2017.05.21-02.38.41:045][596]OBJ SavePackage: Finished generating thumbnails for package [/Game/GroundTest]
+[2017.05.21-02.38.41:045][596]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GroundTest" FILE="../../../../../../SVN/SkaGame2/SkaGame/Saved/Autosaves/Game/GroundTest_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.05.21-02.38.41:072][596]LogSavePackage: Save=24.39ms
+[2017.05.21-02.38.41:072][596]LogSavePackage: Moving '../../../../../../SVN/SkaGame2/SkaGame/Saved/GroundTest_Auto1E8094EB74162F5B45553EEA9DDA07A09.tmp' to '../../../../../../SVN/SkaGame2/SkaGame/Saved/Autosaves/Game/GroundTest_Auto1.uasset'
+[2017.05.21-02.38.41:073][596]LogSavePackage:Display: Finished SavePackage ../../../../../../SVN/SkaGame2/SkaGame/Saved/Autosaves/Game/GroundTest_Auto1.uasset
+[2017.05.21-02.38.41:073][596]LogFileHelpers: Auto-saving content packages took 0.219
+[2017.05.21-02.38.44:221][923]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.21-02.38.44:235][923]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.05.21-02.38.44:235][923]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.21-02.38.44:235][923]PIE: New page: PIE session: SideScrollerExampleMap (May 20, 2017, 6:38:44 PM)
+[2017.05.21-02.38.44:236][923]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2017.05.21-02.38.44:264][923]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027995s)
+[2017.05.21-02.38.44:264][923]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2017.05.21-02.38.44:265][923]LogPlayLevel: PIE: World Init took: (0.001158s)
+[2017.05.21-02.38.44:265][923]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.029453s)
+[2017.05.21-02.38.44:291][923]LogInit: XAudio2 using 'Speakers (5- Logitech G930 Gaming Headset)' : 8 channels at 48 kHz using 16 bits per sample (channel mask 0x63f)
+[2017.05.21-02.38.44:306][923]LogInit: FAudioDevice initialized.
+[2017.05.21-02.38.44:337][923]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.05.21-02.38.44:340][923]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2017.05.20-22.38.44
+[2017.05.21-02.38.44:340][923]LogWorld: Bringing up level for play took: 0.002167
+[2017.05.21-02.38.44:341][923]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 1.096
+[2017.05.21-02.38.44:341][923]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.05.21-02.39.32:608][708]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.05.21-02.39.32:675][708]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.05.21-02.39.51:723][884]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CelTest" FILE="../../../../../../SVN/SkaGame2/SkaGame/Content/CelTest.uasset" SILENT=true
+[2017.05.21-02.39.51:736][884]LogSavePackage: Save=6.64ms
+[2017.05.21-02.39.51:736][884]LogSavePackage: Moving '../../../../../../SVN/SkaGame2/SkaGame/Saved/CelTestACFF45D749837B50F5298E975D334C35.tmp' to '../../../../../../SVN/SkaGame2/SkaGame/Content/CelTest.uasset'
+[2017.05.21-02.39.51:742][884]LogSavePackage:Display: Finished SavePackage ../../../../../../SVN/SkaGame2/SkaGame/Content/CelTest.uasset
+[2017.05.21-02.39.51:812][884]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GroundTest" FILE="../../../../../../SVN/SkaGame2/SkaGame/Content/GroundTest.uasset" SILENT=true
+[2017.05.21-02.39.51:842][884]LogSavePackage: Save=26.68ms
+[2017.05.21-02.39.51:842][884]LogSavePackage: Moving '../../../../../../SVN/SkaGame2/SkaGame/Saved/GroundTest2FCD16434F263E0B7A6222B17391CD80.tmp' to '../../../../../../SVN/SkaGame2/SkaGame/Content/GroundTest.uasset'
+[2017.05.21-02.39.51:849][884]LogSavePackage:Display: Finished SavePackage ../../../../../../SVN/SkaGame2/SkaGame/Content/GroundTest.uasset
+[2017.05.21-02.39.52:140][884]LogSavePackage: Save=204.51ms
+[2017.05.21-02.39.52:140][884]LogSavePackage: Moving '../../../../../../SVN/SkaGame2/SkaGame/Saved/SideScrollerExampleMapA8EBD7E04C6B96DB276BFE8C05F1B7DE.tmp' to '../../../../../../SVN/SkaGame2/SkaGame/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap'
+[2017.05.21-02.39.52:146][884]LogSavePackage:Display: Finished SavePackage ../../../../../../SVN/SkaGame2/SkaGame/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap
+[2017.05.21-02.39.52:194][884]LogFileHelpers: Saving map 'SideScrollerExampleMap' took 0.340
+[2017.05.21-02.39.52:420][884]LogSavePackage: Save=212.31ms
+[2017.05.21-02.39.52:420][884]LogSavePackage: Moving '../../../../../../SVN/SkaGame2/SkaGame/Saved/SideScrollerExampleMap_BuiltData78130FF74E21D2732CEC00A2EB0C7647.tmp' to '../../../../../../SVN/SkaGame2/SkaGame/Content/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData.uasset'
+[2017.05.21-02.39.52:425][884]LogSavePackage:Display: Finished SavePackage ../../../../../../SVN/SkaGame2/SkaGame/Content/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData.uasset
+[2017.05.21-02.39.52:439][884]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TexturesCom_AsphaltCloseups0090_1_XL" FILE="../../../../../../SVN/SkaGame2/SkaGame/Content/TexturesCom_AsphaltCloseups0090_1_XL.uasset" SILENT=true
+[2017.05.21-02.39.55:779][884]LogSavePackage: Save=3339.34ms
+[2017.05.21-02.39.55:779][884]LogSavePackage: Moving '../../../../../../SVN/SkaGame2/SkaGame/Saved/TexturesCom_AsphaltCloseups0090_1_XLF801808D46B91C21D288EE8450A5F1E4.tmp' to '../../../../../../SVN/SkaGame2/SkaGame/Content/TexturesCom_AsphaltCloseups0090_1_XL.uasset'
+[2017.05.21-02.39.55:783][884]LogSavePackage:Display: Finished SavePackage ../../../../../../SVN/SkaGame2/SkaGame/Content/TexturesCom_AsphaltCloseups0090_1_XL.uasset
+[2017.05.21-02.39.56:044][884]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.05.21-02.39.56:272][885]Cmd: QUIT_EDITOR
+[2017.05.21-02.39.57:139][885]LogExit: Preparing to exit.
+[2017.05.21-02.39.57:534][885]LogDirectoryWatcher: A directory notification for 'C:/SVN/SkaGame2/SkaGame/Content/' was aborted.
+[2017.05.21-02.39.57:561][885]LogExit: Editor shut down
+[2017.05.21-02.39.57:561][885]LogExit: Transaction tracking system shut down
+[2017.05.21-02.39.57:575][885]LogTemp:Display: Removed shader map 0x000001A4A8714B80 from material 0x000001A4C6E80900
+[2017.05.21-02.39.57:575][885]LogTemp:Display: Removed shader map 0x000001A4C6E30800 from material 0x000001A487F45900
+[2017.05.21-02.39.57:581][885]LogTemp:Display: Removed shader map 0x000001A4A8716400 from material 0x000001A48898CB80
+[2017.05.21-02.39.57:581][885]LogTemp:Display: Removed shader map 0x000001A49E60A400 from material 0x000001A48898CB80
+[2017.05.21-02.39.57:581][885]LogTemp:Display: Removed shader map 0x000001A49E68EE80 from material 0x000001A48898CB80
+[2017.05.21-02.39.57:581][885]LogTemp:Display: Removed shader map 0x000001A4C6640F00 from material 0x000001A4873C9C00
+[2017.05.21-02.39.57:637][885]LogObj: Freed 0b from 0 cluster array pools.
+[2017.05.21-02.39.57:637][885]LogExit: Object subsystem successfully closed.
+[2017.05.21-02.39.57:654][885]LogD3D11RHI: Shutdown
+[2017.05.21-02.39.57:654][885]LogD3D11RHI: CleanupD3DDevice
+[2017.05.21-02.39.57:744][885]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.05.21-02.39.57:758][885]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (504)
+[2017.05.21-02.39.57:758][885]LogModuleManager: Shutting down and abandoning module MaterialEditor (502)
+[2017.05.21-02.39.57:758][885]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (500)
+[2017.05.21-02.39.57:758][885]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (498)
+[2017.05.21-02.39.57:758][885]LogModuleManager: Shutting down and abandoning module CrashTracker (496)
+[2017.05.21-02.39.57:758][885]LogModuleManager: Shutting down and abandoning module SceneOutliner (494)
+[2017.05.21-02.39.57:758][885]LogModuleManager: Shutting down and abandoning module AddContentDialog (492)
+[2017.05.21-02.39.57:758][885]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.15/FeaturePacks/' was aborted.
+[2017.05.21-02.39.57:759][885]LogModuleManager: Shutting down and abandoning module WidgetCarousel (491)
+[2017.05.21-02.39.57:759][885]LogModuleManager: Shutting down and abandoning module EditorWidgets (488)
+[2017.05.21-02.39.57:759][885]LogModuleManager: Shutting down and abandoning module CollectionManager (486)
+[2017.05.21-02.39.57:759][885]LogDirectoryWatcher: A directory notification for 'C:/SVN/SkaGame2/SkaGame/Content/Collections/' was aborted.
+[2017.05.21-02.39.57:759][885]LogDirectoryWatcher: A directory notification for 'C:/SVN/SkaGame2/SkaGame/Content/Developers/Ethan/Collections/' was aborted.
+[2017.05.21-02.39.57:759][885]LogDirectoryWatcher: A directory notification for 'C:/SVN/SkaGame2/SkaGame/Saved/Collections/' was aborted.
+[2017.05.21-02.39.57:759][885]LogModuleManager: Shutting down and abandoning module StatsViewer (484)
+[2017.05.21-02.39.57:759][885]LogModuleManager: Shutting down and abandoning module FoliageEdit (482)
+[2017.05.21-02.39.57:759][885]LogModuleManager: Shutting down and abandoning module LandscapeEditor (480)
+[2017.05.21-02.39.57:759][885]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (478)
+[2017.05.21-02.39.57:759][885]LogModuleManager: Shutting down and abandoning module ActorPickerMode (476)
+[2017.05.21-02.39.57:759][885]LogModuleManager: Shutting down and abandoning module GeometryMode (474)
+[2017.05.21-02.39.57:759][885]LogModuleManager: Shutting down and abandoning module TextureAlignMode (472)
+[2017.05.21-02.39.57:759][885]LogModuleManager: Shutting down and abandoning module BspMode (470)
+[2017.05.21-02.39.57:759][885]LogModuleManager: Shutting down and abandoning module HardwareSurvey (468)
+[2017.05.21-02.39.57:759][885]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (466)
+[2017.05.21-02.39.57:759][885]LogModuleManager: Shutting down and abandoning module AutomationWorker (464)
+[2017.05.21-02.39.57:759][885]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (462)
+[2017.05.21-02.39.57:759][885]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (460)
+[2017.05.21-02.39.57:759][885]LogModuleManager: Shutting down and abandoning module PlacementMode (459)
+[2017.05.21-02.39.57:759][885]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (456)
+[2017.05.21-02.39.57:759][885]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (454)
+[2017.05.21-02.39.57:759][885]LogModuleManager: Shutting down and abandoning module MfMediaFactory (452)
+[2017.05.21-02.39.57:759][885]LogModuleManager: Shutting down and abandoning module MfMediaEditor (450)
+[2017.05.21-02.39.57:759][885]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (448)
+[2017.05.21-02.39.57:759][885]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (446)
+[2017.05.21-02.39.57:759][885]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (444)
+[2017.05.21-02.39.57:759][885]LogModuleManager: Shutting down and abandoning module Media (443)
+[2017.05.21-02.39.57:759][885]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (440)
+[2017.05.21-02.39.57:759][885]LogModuleManager: Shutting down and abandoning module CharacterAI (438)
+[2017.05.21-02.39.57:759][885]LogModuleManager: Shutting down and abandoning module AudioCapture (436)
+[2017.05.21-02.39.57:759][885]LogModuleManager: Shutting down and abandoning module SequenceRecorder (435)
+[2017.05.21-02.39.57:759][885]LogModuleManager: Shutting down and abandoning module SmartSnapping (432)
+[2017.05.21-02.39.57:759][885]LogModuleManager: Shutting down and abandoning module SessionServices (430)
+[2017.05.21-02.39.57:759][885]LogModuleManager: Shutting down and abandoning module ViewportSnapping (428)
+[2017.05.21-02.39.57:759][885]LogModuleManager: Shutting down and abandoning module ViewportInteraction (426)
+[2017.05.21-02.39.57:759][885]LogModuleManager: Shutting down and abandoning module LogVisualizer (424)
+[2017.05.21-02.39.57:760][885]LogModuleManager: Shutting down and abandoning module IntroTutorials (422)
+[2017.05.21-02.39.57:760][885]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (421)
+[2017.05.21-02.39.57:760][885]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (418)
+[2017.05.21-02.39.57:760][885]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (416)
+[2017.05.21-02.39.57:760][885]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (414)
+[2017.05.21-02.39.57:760][885]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (412)
+[2017.05.21-02.39.57:760][885]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (411)
+[2017.05.21-02.39.57:866][885]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (408)
+[2017.05.21-02.39.57:866][885]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (406)
+[2017.05.21-02.39.57:866][885]LogModuleManager: Shutting down and abandoning module InputBindingEditor (404)
+[2017.05.21-02.39.57:866][885]LogModuleManager: Shutting down and abandoning module NiagaraEditor (402)
+[2017.05.21-02.39.57:866][885]LogModuleManager: Shutting down and abandoning module MergeActors (400)
+[2017.05.21-02.39.57:866][885]LogModuleManager: Shutting down and abandoning module SizeMap (398)
+[2017.05.21-02.39.57:866][885]LogModuleManager: Shutting down and abandoning module TreeMap (396)
+[2017.05.21-02.39.57:866][885]LogModuleManager: Shutting down and abandoning module ReferenceViewer (394)
+[2017.05.21-02.39.57:866][885]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (392)
+[2017.05.21-02.39.57:866][885]LogModuleManager: Shutting down and abandoning module LocalizationService (391)
+[2017.05.21-02.39.57:866][885]LogModuleManager: Shutting down and abandoning module HardwareTargeting (388)
+[2017.05.21-02.39.57:866][885]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (386)
+[2017.05.21-02.39.57:866][885]LogModuleManager: Shutting down and abandoning module UndoHistory (384)
+[2017.05.21-02.39.57:866][885]LogModuleManager: Shutting down and abandoning module UserFeedback (382)
+[2017.05.21-02.39.57:866][885]LogModuleManager: Shutting down and abandoning module XmlParser (380)
+[2017.05.21-02.39.57:866][885]LogModuleManager: Shutting down and abandoning module Blutility (378)
+[2017.05.21-02.39.57:866][885]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (376)
+[2017.05.21-02.39.57:867][885]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (375)
+[2017.05.21-02.39.57:867][885]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (372)
+[2017.05.21-02.39.57:867][885]LogModuleManager: Shutting down and abandoning module SettingsEditor (370)
+[2017.05.21-02.39.57:867][885]LogModuleManager: Shutting down and abandoning module ProjectLauncher (368)
+[2017.05.21-02.39.57:867][885]LogModuleManager: Shutting down and abandoning module SessionFrontend (366)
+[2017.05.21-02.39.57:867][885]LogModuleManager: Shutting down and abandoning module ProfilerClient (364)
+[2017.05.21-02.39.57:867][885]LogModuleManager: Shutting down and abandoning module DeviceManager (362)
+[2017.05.21-02.39.57:867][885]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (361)
+[2017.05.21-02.39.57:908][885]LogModuleManager: Shutting down and abandoning module AutomationController (358)
+[2017.05.21-02.39.57:908][885]LogModuleManager: Shutting down and abandoning module AutomationWindow (356)
+[2017.05.21-02.39.57:908][885]LogModuleManager: Shutting down and abandoning module Layers (354)
+[2017.05.21-02.39.57:908][885]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (352)
+[2017.05.21-02.39.57:908][885]LogModuleManager: Shutting down and abandoning module DetailCustomizations (350)
+[2017.05.21-02.39.57:908][885]LogModuleManager: Shutting down and abandoning module PackagesDialog (348)
+[2017.05.21-02.39.57:909][885]LogModuleManager: Shutting down and abandoning module Persona (346)
+[2017.05.21-02.39.57:909][885]LogModuleManager: Shutting down and abandoning module AnimGraph (345)
+[2017.05.21-02.39.57:909][885]LogModuleManager: Shutting down and abandoning module Kismet (342)
+[2017.05.21-02.39.57:909][885]LogModuleManager: Shutting down and abandoning module GraphEditor (340)
+[2017.05.21-02.39.57:910][885]LogModuleManager: Shutting down and abandoning module ClassViewer (338)
+[2017.05.21-02.39.57:910][885]LogModuleManager: Shutting down and abandoning module Toolbox (336)
+[2017.05.21-02.39.57:910][885]LogModuleManager: Shutting down and abandoning module ModuleUI (334)
+[2017.05.21-02.39.57:910][885]LogModuleManager: Shutting down and abandoning module MovieSceneTools (332)
+[2017.05.21-02.39.57:910][885]LogModuleManager: Shutting down and abandoning module OutputLog (330)
+[2017.05.21-02.39.57:910][885]LogModuleManager: Shutting down and abandoning module GammaUI (328)
+[2017.05.21-02.39.57:910][885]LogModuleManager: Shutting down and abandoning module Documentation (326)
+[2017.05.21-02.39.57:910][885]LogModuleManager: Shutting down and abandoning module Niagara (324)
+[2017.05.21-02.39.57:910][885]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (322)
+[2017.05.21-02.39.57:910][885]LogModuleManager: Shutting down and abandoning module AnalyticsET (320)
+[2017.05.21-02.39.57:910][885]LogModuleManager: Shutting down and abandoning module PortalServices (318)
+[2017.05.21-02.39.57:910][885]LogModuleManager: Shutting down and abandoning module PortalRpc (316)
+[2017.05.21-02.39.57:910][885]LogModuleManager: Shutting down and abandoning module MessagingRpc (314)
+[2017.05.21-02.39.57:910][885]LogModuleManager: Shutting down and abandoning module AIModule (312)
+[2017.05.21-02.39.57:910][885]LogModuleManager: Shutting down and abandoning module GameplayDebugger (311)
+[2017.05.21-02.39.57:910][885]LogModuleManager: Shutting down and abandoning module AITestSuite (309)
+[2017.05.21-02.39.57:910][885]LogModuleManager: Shutting down and abandoning module ProfilerService (306)
+[2017.05.21-02.39.58:099][885]LogModuleManager: Shutting down and abandoning module TaskGraph (304)
+[2017.05.21-02.39.58:099][885]LogModuleManager: Shutting down and abandoning module SteamVRController (302)
+[2017.05.21-02.39.58:099][885]LogModuleManager: Shutting down and abandoning module SteamVR (300)
+[2017.05.21-02.39.58:099][885]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (298)
+[2017.05.21-02.39.58:099][885]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (296)
+[2017.05.21-02.39.58:099][885]LogModuleManager: Shutting down and abandoning module OculusLibrary (294)
+[2017.05.21-02.39.58:099][885]LogModuleManager: Shutting down and abandoning module OculusInput (292)
+[2017.05.21-02.39.58:099][885]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (290)
+[2017.05.21-02.39.58:099][885]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (288)
+[2017.05.21-02.39.58:099][885]LogModuleManager: Shutting down and abandoning module CableComponent (286)
+[2017.05.21-02.39.58:099][885]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (284)
+[2017.05.21-02.39.58:099][885]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (280)
+[2017.05.21-02.39.58:099][885]LogModuleManager: Shutting down and abandoning module HTML5Networking (278)
+[2017.05.21-02.39.58:099][885]LogModuleManager: Shutting down and abandoning module AlembicImporter (276)
+[2017.05.21-02.39.58:099][885]LogModuleManager: Shutting down and abandoning module AlembicLibrary (275)
+[2017.05.21-02.39.58:099][885]LogModuleManager: Shutting down and abandoning module GeometryCache (274)
+[2017.05.21-02.39.58:099][885]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (273)
+[2017.05.21-02.39.58:099][885]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (268)
+[2017.05.21-02.39.58:099][885]LogModuleManager: Shutting down and abandoning module SuperSearch (267)
+[2017.05.21-02.39.58:099][885]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (264)
+[2017.05.21-02.39.58:099][885]LogModuleManager: Shutting down and abandoning module PluginBrowser (262)
+[2017.05.21-02.39.58:099][885]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (260)
+[2017.05.21-02.39.58:099][885]LogModuleManager: Shutting down and abandoning module EpicSurvey (258)
+[2017.05.21-02.39.58:099][885]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (256)
+[2017.05.21-02.39.58:100][885]LogModuleManager: Shutting down and abandoning module DesktopPlatform (255)
+[2017.05.21-02.39.58:100][885]LogModuleManager: Shutting down and abandoning module UObjectPlugin (252)
+[2017.05.21-02.39.58:100][885]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (250)
+[2017.05.21-02.39.58:100][885]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (248)
+[2017.05.21-02.39.58:100][885]LogModuleManager: Shutting down and abandoning module GitSourceControl (246)
+[2017.05.21-02.39.58:100][885]LogModuleManager: Shutting down and abandoning module SourceControl (245)
+[2017.05.21-02.39.58:100][885]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (242)
+[2017.05.21-02.39.58:100][885]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (240)
+[2017.05.21-02.39.58:100][885]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (238)
+[2017.05.21-02.39.58:100][885]LogModuleManager: Shutting down and abandoning module Paper2DEditor (236)
+[2017.05.21-02.39.58:100][885]LogModuleManager: Shutting down and abandoning module MeshPaint (235)
+[2017.05.21-02.39.58:100][885]LogModuleManager: Shutting down and abandoning module LevelEditor (233)
+[2017.05.21-02.39.58:100][885]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (232)
+[2017.05.21-02.39.58:100][885]LogModuleManager: Shutting down and abandoning module MainFrame (230)
+[2017.05.21-02.39.58:100][885]LogModuleManager: Shutting down and abandoning module HotReload (229)
+[2017.05.21-02.39.58:101][885]LogModuleManager: Shutting down and abandoning module ContentBrowser (225)
+[2017.05.21-02.39.58:102][885]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (222)
+[2017.05.21-02.39.58:102][885]LogModuleManager: Shutting down and abandoning module PhysXVehicles (220)
+[2017.05.21-02.39.58:102][885]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (218)
+[2017.05.21-02.39.58:102][885]LogModuleManager: Shutting down and abandoning module UdpMessaging (216)
+[2017.05.21-02.39.58:203][885]LogModuleManager: Shutting down and abandoning module TcpMessaging (214)
+[2017.05.21-02.39.58:362][885]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (212)
+[2017.05.21-02.39.58:363][885]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (210)
+[2017.05.21-02.39.58:363][885]LogModuleManager: Shutting down and abandoning module FacialAnimation (208)
+[2017.05.21-02.39.58:363][885]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (206)
+[2017.05.21-02.39.58:363][885]LogModuleManager: Shutting down and abandoning module Paper2D (204)
+[2017.05.21-02.39.58:363][885]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (202)
+[2017.05.21-02.39.58:363][885]LogModuleManager: Shutting down and abandoning module WmfMedia (200)
+[2017.05.21-02.39.58:363][885]LogModuleManager: Shutting down and abandoning module MfMedia (198)
+[2017.05.21-02.39.58:363][885]LogModuleManager: Shutting down and abandoning module MediaAssets (196)
+[2017.05.21-02.39.58:363][885]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (194)
+[2017.05.21-02.39.58:363][885]LogModuleManager: Shutting down and abandoning module VREditor (192)
+[2017.05.21-02.39.58:363][885]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (190)
+[2017.05.21-02.39.58:363][885]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (188)
+[2017.05.21-02.39.58:363][885]LogModuleManager: Shutting down and abandoning module FunctionalTesting (186)
+[2017.05.21-02.39.58:363][885]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (184)
+[2017.05.21-02.39.58:363][885]LogModuleManager: Shutting down and abandoning module UMG (182)
+[2017.05.21-02.39.58:363][885]LogModuleManager: Shutting down and abandoning module UMGEditor (181)
+[2017.05.21-02.39.58:363][885]LogModuleManager: Shutting down and abandoning module Sequencer (180)
+[2017.05.21-02.39.58:363][885]LogModuleManager: Shutting down and abandoning module AssetTools (178)
+[2017.05.21-02.39.58:364][885]LogModuleManager: Shutting down and abandoning module MessageLog (177)
+[2017.05.21-02.39.58:364][885]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (176)
+[2017.05.21-02.39.58:364][885]LogModuleManager: Shutting down and abandoning module SlateReflector (170)
+[2017.05.21-02.39.58:364][885]LogModuleManager: Shutting down and abandoning module Slate (168)
+[2017.05.21-02.39.58:364][885]LogModuleManager: Shutting down and abandoning module EditorStyle (166)
+[2017.05.21-02.39.58:384][885]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (164)
+[2017.05.21-02.39.58:384][885]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (162)
+[2017.05.21-02.39.58:384][885]LogModuleManager: Shutting down and abandoning module XAudio2 (160)
+[2017.05.21-02.39.58:384][885]LogModuleManager: Shutting down and abandoning module Networking (158)
+[2017.05.21-02.39.58:384][885]LogModuleManager: Shutting down and abandoning module Core (154)
+[2017.05.21-02.39.58:385][885]LogModuleManager: Shutting down and abandoning module AssetRegistry (152)
+[2017.05.21-02.39.58:418][885]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.05.21-02.39.58:418][885]LogDirectoryWatcher: A directory notification for '../../../../../../SVN/SkaGame2/SkaGame/Content/' was aborted.
+[2017.05.21-02.39.58:418][885]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.05.21-02.39.58:418][885]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (151)
+[2017.05.21-02.39.58:418][885]LogModuleManager: Shutting down and abandoning module KismetCompiler (148)
+[2017.05.21-02.39.58:418][885]LogModuleManager: Shutting down and abandoning module PhysXFormats (146)
+[2017.05.21-02.39.58:418][885]LogModuleManager: Shutting down and abandoning module MeshUtilities (144)
+[2017.05.21-02.39.58:418][885]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (143)
+[2017.05.21-02.39.58:418][885]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (141)
+[2017.05.21-02.39.58:418][885]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (139)
+[2017.05.21-02.39.58:418][885]LogModuleManager: Shutting down and abandoning module PropertyEditor (137)
+[2017.05.21-02.39.58:418][885]LogModuleManager: Shutting down and abandoning module DerivedDataCache (134)
+[2017.05.21-02.39.58:490][885]LogDerivedDataCache: Shutdown
+[2017.05.21-02.39.58:490][885]LogModuleManager: Shutting down and abandoning module TargetPlatform (132)
+[2017.05.21-02.39.58:490][885]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (131)
+[2017.05.21-02.39.58:490][885]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (129)
+[2017.05.21-02.39.58:491][885]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (127)
+[2017.05.21-02.39.58:491][885]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (125)
+[2017.05.21-02.39.58:491][885]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (123)
+[2017.05.21-02.39.58:491][885]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (121)
+[2017.05.21-02.39.58:491][885]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (119)
+[2017.05.21-02.39.58:491][885]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (117)
+[2017.05.21-02.39.58:491][885]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (115)
+[2017.05.21-02.39.58:491][885]LogModuleManager: Shutting down and abandoning module ImageWrapper (114)
+[2017.05.21-02.39.58:491][885]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (111)
+[2017.05.21-02.39.58:491][885]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (109)
+[2017.05.21-02.39.58:491][885]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (107)
+[2017.05.21-02.39.58:491][885]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (105)
+[2017.05.21-02.39.58:491][885]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (103)
+[2017.05.21-02.39.58:491][885]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (101)
+[2017.05.21-02.39.58:491][885]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (99)
+[2017.05.21-02.39.58:491][885]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (97)
+[2017.05.21-02.39.58:491][885]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (95)
+[2017.05.21-02.39.58:491][885]LogModuleManager: Shutting down and abandoning module Messaging (93)
+[2017.05.21-02.39.58:491][885]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (91)
+[2017.05.21-02.39.58:491][885]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (89)
+[2017.05.21-02.39.58:491][885]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (87)
+[2017.05.21-02.39.58:491][885]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (85)
+[2017.05.21-02.39.58:491][885]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (83)
+[2017.05.21-02.39.58:491][885]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (81)
+[2017.05.21-02.39.58:491][885]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (79)
+[2017.05.21-02.39.58:491][885]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (77)
+[2017.05.21-02.39.58:491][885]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (75)
+[2017.05.21-02.39.58:491][885]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (73)
+[2017.05.21-02.39.58:491][885]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (71)
+[2017.05.21-02.39.58:491][885]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (69)
+[2017.05.21-02.39.58:491][885]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (67)
+[2017.05.21-02.39.58:491][885]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (65)
+[2017.05.21-02.39.58:491][885]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (63)
+[2017.05.21-02.39.58:491][885]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (61)
+[2017.05.21-02.39.58:491][885]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (59)
+[2017.05.21-02.39.58:491][885]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (57)
+[2017.05.21-02.39.58:491][885]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (55)
+[2017.05.21-02.39.58:491][885]LogModuleManager: Shutting down and abandoning module InputCore (52)
+[2017.05.21-02.39.58:491][885]LogModuleManager: Shutting down and abandoning module Settings (50)
+[2017.05.21-02.39.58:491][885]LogModuleManager: Shutting down and abandoning module OculusRift (48)
+[2017.05.21-02.39.58:491][885]LogModuleManager: Shutting down and abandoning module GearVR (46)
+[2017.05.21-02.39.58:491][885]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
+[2017.05.21-02.39.58:491][885]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
+[2017.05.21-02.39.58:491][885]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
+[2017.05.21-02.39.58:492][885]LogOnline:Display: Unloading online subsystem: NULL
+[2017.05.21-02.39.58:492][885]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2017.05.21-02.39.58:492][885]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2017.05.21-02.39.58:492][885]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.05.21-02.39.58:492][885]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B129E624D-4733-A613-9D50-A78B2023D05A%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.2-3416026%2B%2B%2BUE4%2BRelease-4.15&UserID=27a260b74bf32bfc714e53b0493334c1%7C96e91b22db194cfa8006f4b66d834199%7C3dabaf2d-b3bf-48c3-a165-143585034302&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.05.21-02.39.58:524][885]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2017.05.21-02.39.58:527][885]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.05.21-02.39.58:527][885]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.05.21-02.39.58:527][885]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.05.21-02.39.58:527][885]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.05.21-02.39.58:527][885]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.05.21-02.39.58:529][885]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.05.21-02.39.58:529][885]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.05.21-02.39.58:529][885]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.05.21-02.39.58:529][885]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.05.21-02.39.58:529][885]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.05.21-02.39.58:529][885]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.05.21-02.39.58:529][885]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.05.21-02.39.58:529][885]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.05.21-02.39.58:529][885]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.05.21-02.39.58:529][885]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.05.21-02.39.58:532][885]LogExit: Exiting.
+[2017.05.21-02.39.58:559][885]Log file closed, 05/20/17 22:39:58
