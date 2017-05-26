@@ -1,0 +1,569 @@
+﻿Log file open, 05/25/17 12:17:33
+LogInit:Display: Running engine for game: SkaGame3
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-883021106) SRandInit(-883021106).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.087295
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+OCULUS: Info: [CAPI] LibOVR module is located at C:\Program Files\Oculus\Support\oculus-runtime\LibOVRRT64_1.dll
+OCULUS: Debug: Connected to the server running version (prod = 1).1.14.0(build = 378771) feature version = 0. Client runs version (prod = 1).1.14.0(build = 378771) feature version = 0
+LogHMD: GearVR: Emulating GearVR using Oculus Rift!
+LogInit: Build: ++UE4+Release-4.15-CL-3450819
+LogInit: Engine Version: 4.15.3-3450819+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): May 21 2017 11:02:34
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.05.25-16.17.34:981][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.25-16.17.34:981][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.05.25-16.17.34:989][  0]LogInit: Computer: ETB330-024
+[2017.05.25-16.17.34:989][  0]LogInit: User: LabUser
+[2017.05.25-16.17.34:989][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.05.25-16.17.34:989][  0]LogInit: High frequency timer resolution =3.410086 MHz
+[2017.05.25-16.17.34:989][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2017.05.25-16.17.34:989][  0]LogMemory: Platform Memory Stats for Windows
+[2017.05.25-16.17.34:989][  0]LogMemory: Process Physical Memory: 268.30 MB used, 268.30 MB peak
+[2017.05.25-16.17.34:989][  0]LogMemory: Process Virtual Memory: 264.94 MB used, 264.94 MB peak
+[2017.05.25-16.17.34:989][  0]LogMemory: Physical Memory: 7204.63 MB used,  25505.39 MB free, 32710.02 MB total
+[2017.05.25-16.17.34:989][  0]LogMemory: Virtual Memory: 682.37 MB used,  25505.39 MB free, 134217728.00 MB total
+[2017.05.25-16.17.35:075][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.05.25-16.17.35:795][  0]LogD3D11RHI: D3D11 adapters:
+[2017.05.25-16.17.35:820][  0]LogD3D11RHI:    0. 'NVIDIA Quadro K4200' (Feature Level 11_0)
+[2017.05.25-16.17.35:820][  0]LogD3D11RHI:       4027/0/16355 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.05.25-16.17.35:822][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.05.25-16.17.35:822][  0]LogD3D11RHI:       0/0/16355 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.05.25-16.17.35:822][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.05.25-16.17.35:826][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.05.25-16.17.35:826][  0]LogD3D11RHI:     GPU DeviceId: 0x11b4 (for the marketing name, search the web for "GPU Device Id")
+[2017.05.25-16.17.35:826][  0]LogWindows: EnumDisplayDevices:
+[2017.05.25-16.17.35:826][  0]LogWindows:    0. 'NVIDIA Quadro K4200' (P:0 D:1)
+[2017.05.25-16.17.35:826][  0]LogWindows:    1. 'NVIDIA Quadro K4200' (P:1 D:1)
+[2017.05.25-16.17.35:827][  0]LogWindows:    2. 'NVIDIA Quadro K4200' (P:0 D:0)
+[2017.05.25-16.17.35:827][  0]LogWindows:    3. 'NVIDIA Quadro K4200' (P:0 D:0)
+[2017.05.25-16.17.35:827][  0]LogWindows:    4. 'DameWare Development Mirror Driver 64-bit' (P:1 D:1)
+[2017.05.25-16.17.35:827][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2017.05.25-16.17.35:827][  0]LogD3D11RHI:     Adapter Name: NVIDIA Quadro K4200
+[2017.05.25-16.17.35:827][  0]LogD3D11RHI:   Driver Version: 354.13 (internal:10.18.13.5413, unified:354.13)
+[2017.05.25-16.17.35:827][  0]LogD3D11RHI:      Driver Date: 9-10-2015
+[2017.05.25-16.17.35:827][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.05.25-16.17.35:840][  0]LogD3D11RHI:Warning: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
+[2017.05.25-16.17.35:842][  0]LogD3D11RHI: NvAPI_D3D_GetCurrentSLIState failed: 0xfffffff7
+[2017.05.25-16.17.35:842][  0]LogD3D11RHI: Async texture creation enabled
+[2017.05.25-16.17.35:859][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.05.25-16.17.35:861][  0]LogShaderCompilers: Guid format shader working directory is 19 characters bigger than the processId version (D:/SVNSkaGame/skagame/SkaGame/Intermediate/Shaders/WorkingDirectory/8100/).
+[2017.05.25-16.17.35:861][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/LabUser/AppData/Local/Temp/UnrealShaderWorkingDir/E8542DF94E2D30A99419ADB18AF6D716/'.
+[2017.05.25-16.17.35:861][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.05.25-16.17.37:002][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.05.25-16.17.37:069][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.05.25-16.17.37:134][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.05.25-16.17.37:201][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.05.25-16.17.37:267][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.05.25-16.17.37:336][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.05.25-16.17.37:402][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.05.25-16.17.37:466][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.05.25-16.17.37:522][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.05.25-16.17.37:586][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.05.25-16.17.37:650][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.05.25-16.17.37:714][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.05.25-16.17.37:777][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.05.25-16.17.37:842][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.05.25-16.17.37:906][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.05.25-16.17.38:035][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.05.25-16.17.38:035][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.05.25-16.17.38:086][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.05.25-16.17.38:195][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.05.25-16.17.38:232][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.05.25-16.17.38:295][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.05.25-16.17.38:359][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.05.25-16.17.38:423][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.05.25-16.17.38:487][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.05.25-16.17.38:487][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.05.25-16.17.38:999][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.05.25-16.17.39:048][  0]LogDerivedDataCache: Loaded boot cache 0.05s 50MB C:/Users/LabUser/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.05.25-16.17.39:048][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/LabUser/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.05.25-16.17.39:048][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/SVNSkaGame/skagame/SkaGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.05.25-16.17.39:048][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.05.25-16.17.39:048][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/SVNSkaGame/skagame/SkaGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.05.25-16.17.39:048][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.05.25-16.17.39:066][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.05.25-16.17.39:078][  0]LogDerivedDataCache: Using Local data cache path C:/Users/LabUser/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.05.25-16.17.39:087][  0]LogSlate: Using Freetype 2.6.0
+[2017.05.25-16.17.39:088][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.25-16.17.39:088][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.25-16.17.39:401][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.25-16.17.39:403][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.05.25-16.17.39:630][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.05.25-16.17.39:685][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.05.25-16.17.39:748][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.05.25-16.17.39:748][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.05.25-16.17.39:748][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.05.25-16.17.40:292][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: skagame3, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 2118841436
+[2017.05.25-16.17.40:342][  0]LogAssetRegistry: FAssetRegistry took 0.0213 seconds to start up
+[2017.05.25-16.17.40:404][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.032958 seconds
+[2017.05.25-16.17.40:409][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.05.25-16.17.40:409][  0]LogUObjectAllocator: 7077024 out of 0 bytes used by permanent object pool.
+[2017.05.25-16.17.40:409][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.05.25-16.17.40:489][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.05.25-16.17.42:641][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.05.25-16.17.42:687][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.05.25-16.17.43:245][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.05.25-16.17.43:721][  0]SourceControl: Info Source control is disabled
+[2017.05.25-16.17.43:722][  0]SourceControl: Info Source control is disabled
+[2017.05.25-16.17.43:786][  0]SourceControl: Info Source control is disabled
+[2017.05.25-16.17.43:846][  0]SourceControl: Info Source control is disabled
+[2017.05.25-16.17.45:413][  0]LogEngine: Initializing Engine...
+[2017.05.25-16.17.45:414][  0]LogHMD: Oculus plugin initialized. Version: 4.15.3-3450819+++UE4+Release-4.15, LibOVR: 1.14.0, SDK: 1.10.0, built May 21 2017, 11:08:57
+[2017.05.25-16.17.45:516][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.05.25-16.17.45:516][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.05.25-16.17.45:674][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.05.25-16.17.45:682][  0]LogInit: XAudio2 using 'Speakers (Dell AC511 USB SoundBar)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.25-16.17.45:693][  0]LogInit: FAudioDevice initialized.
+[2017.05.25-16.17.45:717][  0]LogDerivedDataCache: Saved boot cache 0.02s 50MB C:/Users/LabUser/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.05.25-16.17.45:721][  0]LogInit: Texture streaming: Enabled
+[2017.05.25-16.17.45:820][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.05.25-16.17.45:927][  0]LogInit: Transaction tracking system initialized
+[2017.05.25-16.17.46:375][  0]BlueprintLog: New page: Editor Load
+[2017.05.25-16.17.47:433][  0]LocalizationService: Info Localization service is disabled
+[2017.05.25-16.17.48:261][  0]LogConsoleResponse:Display: 
+[2017.05.25-16.17.48:392][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.05.25-16.17.48:392][  0]LogCook:Display: Mobile HDR setting 1
+[2017.05.25-16.17.49:349][  0]LogFileCache: Scanning file cache for directory 'D:/SVNSkaGame/skagame/SkaGame/Content/' took 0.01s
+[2017.05.25-16.17.49:714][  0]SourceControl: Info Source control is disabled
+[2017.05.25-16.17.49:767][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.05.25-16.17.49:796][  0]LogSlate: Took 0.000324 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.05.25-16.18.04:200][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.05.25-16.18.04:201][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.05.25-16.18.08:292][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.05.25-16.18.08:293][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.05.25-16.18.08:307][  0]Cmd: MAP LOAD FILE="D:/SVNSkaGame/skagame/SkaGame/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.25-16.18.08:311][  0]LightingResults: New page: Lighting Build
+[2017.05.25-16.18.08:375][  0]MapCheck: New page: Map Check
+[2017.05.25-16.18.08:375][  0]LightingResults: New page: Lighting Build
+[2017.05.25-16.18.08:473][  0]LogBlueprint:Error: [Compiler Brad_Anim_BP] Error The current value (0, 0, 0) of the ' Velocity ' pin is invalid: 'Velocity' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2017.05.25-16.18.08:473][  0]LogBlueprint:Error: [Compiler Brad_Anim_BP] Error The current value (0, 0, 0) of the ' Base Rotation ' pin is invalid: 'Base Rotation' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2017.05.25-16.18.08:474][  0]LogBlueprint:Warning: [Compiler Brad_Anim_BP] Warning [0036.27] Compile of Brad_Anim_BP failed. 2 Fatal Issue(s) 0 Warning(s) [in 2 ms] (/Game/SkaGameAssets/Brad/Animations/Brad_Anim_BP.Brad_Anim_BP)
+[2017.05.25-16.18.08:474][  0]LogBlueprint:Warning: [Compiler Brad_Anim_BP] Warning [0036.27] Compile of Brad_Anim_BP failed. 2 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/SkaGameAssets/Brad/Animations/Brad_Anim_BP.Brad_Anim_BP)
+[2017.05.25-16.18.08:474][  0]LogBlueprint:Warning: [Compiler Brad_Anim_BP] Warning [0036.27] Compile of Brad_Anim_BP failed. 2 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/SkaGameAssets/Brad/Animations/Brad_Anim_BP.Brad_Anim_BP)
+[2017.05.25-16.18.08:640][  0]LogMaterial: Missing cached shader map for material Bone, compiling. 
+[2017.05.25-16.18.08:641][  0]LogTemp:Display: Added material ShaderMap 0x000001B51F04F200 with Material 0x000001B522A81780 to ShaderMapsBeingCompiled
+[2017.05.25-16.18.08:693][  0]LogTemp:Display: Kicking off shader compilation for Bone, GameThreadShaderMap 0x000001B51F04F200
+[2017.05.25-16.18.08:696][  0]LogTexture:Display: Building textures: CLUT00 (BGRA8, 1X128) - 65 MB total VRAM
+[2017.05.25-16.18.08:697][  0]LogMaterial: Missing cached shader map for material CLUT00Material, compiling. 
+[2017.05.25-16.18.08:699][  0]LogTemp:Display: Added material ShaderMap 0x000001B51F5D1D00 with Material 0x000001B51F134A00 to ShaderMapsBeingCompiled
+[2017.05.25-16.18.08:704][  0]LogTemp:Display: Kicking off shader compilation for CLUT00Material, GameThreadShaderMap 0x000001B51F5D1D00
+[2017.05.25-16.18.08:758][  0]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 2048X2048) - 65 MB total VRAM
+[2017.05.25-16.18.09:255][  0]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 1024X1024) - 65 MB total VRAM
+[2017.05.25-16.18.09:315][  0]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 64X64) - 65 MB total VRAM
+[2017.05.25-16.18.09:360][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 2048X2048) - 65 MB total VRAM
+[2017.05.25-16.18.09:609][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 1024X1024) - 65 MB total VRAM
+[2017.05.25-16.18.09:656][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1, 64X64) - 65 MB total VRAM
+[2017.05.25-16.18.09:689][  0]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT, 2048X1024) - 65 MB total VRAM
+[2017.05.25-16.18.09:882][  0]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT, 1024X512) - 65 MB total VRAM
+[2017.05.25-16.18.09:910][  0]LogTexture:Display: Building textures: SkyOcclusion1_3 (AutoDXT, 64X32) - 65 MB total VRAM
+[2017.05.25-16.18.09:922][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (G8, 1024X1024) - 65 MB total VRAM
+[2017.05.25-16.18.09:968][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (G8, 16X512) - 65 MB total VRAM
+[2017.05.25-16.18.09:976][  0]LogMaterial: Missing cached shader map for material CubeMaterial, compiling. 
+[2017.05.25-16.18.09:977][  0]LogTemp:Display: Added material ShaderMap 0x000001B51F501980 with Material 0x000001B51F10D900 to ShaderMapsBeingCompiled
+[2017.05.25-16.18.10:006][  0]LogTemp:Display: Kicking off shader compilation for CubeMaterial, GameThreadShaderMap 0x000001B51F501980
+[2017.05.25-16.18.10:140][  0]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2017.05.25-16.18.10:176][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.25-16.18.10:177][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.25-16.18.10:317][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 140.442ms to complete.
+[2017.05.25-16.18.10:317][  0]LogFileHelpers: Loading map 'SideScrollerExampleMap' took 2.010
+[2017.05.25-16.18.10:648][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//SplashScreenThread///Thread_2530_0///####STATCAT_Advanced#### old //STATGROUP_Threads//SplashScreenThread///Thread_2078_0///####STATCAT_Advanced####
+[2017.05.25-16.18.10:648][  0]LogCollectionManager: Loaded 0 collections in 0.002816 seconds
+[2017.05.25-16.18.10:812][  0]LogFileCache: Scanning file cache for directory 'D:/SVNSkaGame/skagame/SkaGame/Saved/Collections/' took 0.01s
+[2017.05.25-16.18.10:812][  0]LogFileCache: Scanning file cache for directory 'D:/SVNSkaGame/skagame/SkaGame/Content/Developers/LabUser/Collections/' took 0.01s
+[2017.05.25-16.18.10:812][  0]LogFileCache: Scanning file cache for directory 'D:/SVNSkaGame/skagame/SkaGame/Content/Collections/' took 0.01s
+[2017.05.25-16.18.10:812][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2017.05.25-16.18.10:827][  0]LogContentBrowser: Native class hierarchy populated in 0.0142 seconds. Added 2245 classes and 453 folders.
+[2017.05.25-16.18.10:958][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2017.05.25-16.18.11:554][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2017.05.25-16.18.11:646][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2017.05.25-16.18.11:733][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.05.25-16.18.11:895][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2017.05.25-16.18.11:895][  0]LogLoad: (Engine Initialization) Total time: 39.69 seconds
+[2017.05.25-16.18.11:896][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.15 seconds
+[2017.05.25-16.18.11:896][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.05.25-16.18.12:235][  0]LogOcInput: OculusInput pre-init called
+[2017.05.25-16.18.12:256][  0]LogOcInput: OculusInput is initialized. Init status 0. Runtime version: 1.14.0
+[2017.05.25-16.18.12:300][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.05.25-16.18.12:302][  0]LogSlate: Took 0.000336 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.05.25-16.18.12:331][  0]LogSlate: Took 0.021869 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.05.25-16.18.12:659][  0]LogSlate: Took 0.024264 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.25-16.18.12:694][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:2).
+[2017.05.25-16.18.13:202][  1]LogAssetRegistry: Asset discovery search completed in 32.8811 seconds
+[2017.05.25-16.18.13:202][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000008 seconds (found 0 objects)
+[2017.05.25-16.18.13:202][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000027 seconds (updated 0 objects)
+[2017.05.25-16.18.13:851][  3]LogTemp:Display: Finished compile of shader map 0x000001B51F04F200
+[2017.05.25-16.18.13:851][  3]LogTemp:Display: Shader map Bone complete, GameThreadShaderMap 0x000001B51F04F200, marking material Bone as finished
+[2017.05.25-16.18.13:851][  3]LogTemp:Display: Marking material as finished 0x000001B522A81780
+[2017.05.25-16.18.13:855][  3]LogTemp:Display: Finished compile of shader map 0x000001B51F5D1D00
+[2017.05.25-16.18.13:855][  3]LogTemp:Display: Shader map CLUT00Material complete, GameThreadShaderMap 0x000001B51F5D1D00, marking material CLUT00Material as finished
+[2017.05.25-16.18.13:855][  3]LogTemp:Display: Marking material as finished 0x000001B51F134A00
+[2017.05.25-16.18.14:512][  5]LogTemp:Display: Finished compile of shader map 0x000001B51F501980
+[2017.05.25-16.18.14:512][  5]LogTemp:Display: Shader map CubeMaterial complete, GameThreadShaderMap 0x000001B51F501980, marking material CubeMaterial as finished
+[2017.05.25-16.18.14:512][  5]LogTemp:Display: Marking material as finished 0x000001B51F10D900
+[2017.05.25-16.18.19:097][514]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.25-16.18.19:107][514]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.05.25-16.18.19:108][514]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.25-16.18.22:929][514]PIE: New page: PIE session: SideScrollerExampleMap (May 25, 2017, 8:18:22 AM)
+[2017.05.25-16.18.22:929][514]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2017.05.25-16.18.22:957][514]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027520s)
+[2017.05.25-16.18.22:958][514]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2017.05.25-16.18.22:958][514]LogPlayLevel: PIE: World Init took: (0.001189s)
+[2017.05.25-16.18.22:958][514]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.029115s)
+[2017.05.25-16.18.22:977][514]LogInit: XAudio2 using 'Speakers (Dell AC511 USB SoundBar)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.25-16.18.22:984][514]LogInit: FAudioDevice initialized.
+[2017.05.25-16.18.23:035][514]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.05.25-16.18.23:051][514]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2017.05.25-12.18.23
+[2017.05.25-16.18.23:052][514]LogWorld: Bringing up level for play took: 0.001225
+[2017.05.25-16.18.23:126][514]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2017.05.25-16.18.23:128][514]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 3.424
+[2017.05.25-16.18.23:145][514]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.05.25-16.18.44:541][ 74]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.05.25-16.18.44:595][ 74]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.05.25-16.18.47:669][426]LogEditorViewport: Clicking on Actor (LMB): SideScrollerCharacter_C (SideScrollerCharacter)
+[2017.05.25-16.18.49:001][507]LogSlate: Took 0.026427 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.05.25-16.18.50:426][641]LogSlate: Took 0.000252 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.25-16.18.50:939][641]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 112 classes and 0 folders.
+[2017.05.25-16.18.51:633][641]LogSlate: Took 0.011932 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.05.25-16.19.02:305][290]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.05.25-16.19.02:868][324]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.25-16.19.02:880][324]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.05.25-16.19.02:880][324]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.25-16.19.02:881][324]PIE: New page: PIE session: SideScrollerExampleMap (May 25, 2017, 8:19:02 AM)
+[2017.05.25-16.19.02:881][324]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2017.05.25-16.19.02:899][324]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018558s)
+[2017.05.25-16.19.02:900][324]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2017.05.25-16.19.02:900][324]LogPlayLevel: PIE: World Init took: (0.000791s)
+[2017.05.25-16.19.02:900][324]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.019559s)
+[2017.05.25-16.19.02:924][324]LogInit: XAudio2 using 'Speakers (Dell AC511 USB SoundBar)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.25-16.19.02:931][324]LogInit: FAudioDevice initialized.
+[2017.05.25-16.19.02:958][324]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.05.25-16.19.02:960][324]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2017.05.25-12.19.02
+[2017.05.25-16.19.02:960][324]LogWorld: Bringing up level for play took: 0.001093
+[2017.05.25-16.19.02:962][324]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap -0.742
+[2017.05.25-16.19.02:962][324]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.05.25-16.19.12:964][129]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.05.25-16.19.13:015][129]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.05.25-16.19.20:830][549]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.05.25-16.19.21:096][557]LogTemp:Display: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.SkaGame3
+
+[2017.05.25-16.19.21:096][557]LogTemp:Display: CWD: C:\Program Files\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2017.05.25-16.19.21:096][557]LogTemp:Display: Initial Dir: C:\Program Files\Epic Games\UE_4.15
+
+[2017.05.25-16.19.21:096][557]LogTemp:Display: Env CWD: C:\Program Files\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2017.05.25-16.19.21:115][558]LogTemp:Display: BranchPath = ETB330-024/C/Program Files/Epic Games/UE_4.15/Engine/Binaries --- GameBranchPath = ETB330-024/C/Program Files/Epic Games/UE_4.15/Engine/Binaries
+
+[2017.05.25-16.19.21:210][563]LogTemp:Display: IPP ERROR: Application exception: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\LabUser\AppData\Local\Apple Computer\MobileDevice\Provisioning Profiles'.
+
+[2017.05.25-16.19.21:210][563]LogTemp:Display:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+
+[2017.05.25-16.19.21:210][563]LogTemp:Display:    at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+
+[2017.05.25-16.19.21:210][563]LogTemp:Display:    at System.IO.Directory.EnumerateFiles(String path, String searchPattern)
+
+[2017.05.25-16.19.21:210][563]LogTemp:Display:    at iPhonePackager.CodeSignatureBuilder.FindProvisions(String CFBundleIdentifier)
+
+[2017.05.25-16.19.21:210][563]LogTemp:Display:    at iPhonePackager.Program.Main(String[] args)
+
+[2017.05.25-16.19.42:405][728]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.25-16.19.42:416][728]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.05.25-16.19.42:416][728]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.25-16.19.42:416][728]PIE: New page: PIE session: SideScrollerExampleMap (May 25, 2017, 8:19:42 AM)
+[2017.05.25-16.19.42:416][728]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2017.05.25-16.19.42:435][728]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019441s)
+[2017.05.25-16.19.42:436][728]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2017.05.25-16.19.42:436][728]LogPlayLevel: PIE: World Init took: (0.000701s)
+[2017.05.25-16.19.42:436][728]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.020374s)
+[2017.05.25-16.19.42:458][728]LogInit: XAudio2 using 'Speakers (Dell AC511 USB SoundBar)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.25-16.19.42:464][728]LogInit: FAudioDevice initialized.
+[2017.05.25-16.19.42:497][728]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.05.25-16.19.42:498][728]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2017.05.25-12.19.42
+[2017.05.25-16.19.42:498][728]LogWorld: Bringing up level for play took: 0.000989
+[2017.05.25-16.19.42:500][728]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 0.796
+[2017.05.25-16.19.42:500][728]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.05.25-16.20.07:943][619]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.05.25-16.20.07:996][619]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.05.25-16.20.57:260][396]BlueprintLog: New page: Compile SideScrollerCharacter
+[2017.05.25-16.20.57:285][396]LogBlueprint:Error: [Compiler Brad_Anim_BP] Error The current value (0, 0, 0) of the ' Velocity ' pin is invalid: 'Velocity' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2017.05.25-16.20.57:285][396]LogBlueprint:Error: [Compiler Brad_Anim_BP] Error The current value (0, 0, 0) of the ' Base Rotation ' pin is invalid: 'Base Rotation' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2017.05.25-16.21.29:333][290]LogMetaData: Removing '/Game/SkaGameAssets/Brad/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C' ref from Metadata '/Game/Mannequin/Animations/ThirdPerson_AnimBP.PackageMetaData'
+[2017.05.25-16.21.29:333][290]LogMetaData: Removing '/Game/SkaGameAssets/Brad/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP:AnimGraph.AnimGraphNode_StateMachine_1.Default.AnimStateTransitionNode_4.Transition.AnimGraphNode_TransitionResult_26' ref from Metadata '/Game/Mannequin/Animations/ThirdPerson_AnimBP.PackageMetaData'
+[2017.05.25-16.21.29:333][290]LogMetaData: Removing '/Game/SkaGameAssets/Brad/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP:AnimGraph.AnimGraphNode_StateMachine_1.Default.AnimStateTransitionNode_6.Transition.AnimGraphNode_TransitionResult_37' ref from Metadata '/Game/Mannequin/Animations/ThirdPerson_AnimBP.PackageMetaData'
+[2017.05.25-16.21.29:333][290]LogMetaData: Removing '/Game/SkaGameAssets/Brad/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP:AnimGraph.AnimGraphNode_StateMachine_1.Default.AnimStateTransitionNode_2.Transition.AnimGraphNode_TransitionResult_15' ref from Metadata '/Game/Mannequin/Animations/ThirdPerson_AnimBP.PackageMetaData'
+[2017.05.25-16.21.29:333][290]LogMetaData: Removing '/Game/SkaGameAssets/Brad/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP:AnimGraph.AnimGraphNode_StateMachine_1.Default.AnimStateTransitionNode_8.Transition.AnimGraphNode_TransitionResult_48' ref from Metadata '/Game/Mannequin/Animations/ThirdPerson_AnimBP.PackageMetaData'
+[2017.05.25-16.21.29:333][290]LogMetaData: Removing '/Game/SkaGameAssets/Brad/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP' ref from Metadata '/Game/Mannequin/Animations/ThirdPerson_AnimBP.PackageMetaData'
+[2017.05.25-16.21.29:333][290]LogMetaData: Removing '/Game/SkaGameAssets/Brad/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:BlueprintUpdateAnimation' ref from Metadata '/Game/Mannequin/Animations/ThirdPerson_AnimBP.PackageMetaData'
+[2017.05.25-16.21.29:333][290]LogMetaData: Removing '/Game/SkaGameAssets/Brad/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:IsInAir?' ref from Metadata '/Game/Mannequin/Animations/ThirdPerson_AnimBP.PackageMetaData'
+[2017.05.25-16.21.29:333][290]LogMetaData: Removing '/Game/SkaGameAssets/Brad/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:Speed' ref from Metadata '/Game/Mannequin/Animations/ThirdPerson_AnimBP.PackageMetaData'
+[2017.05.25-16.21.29:333][290]LogMetaData: Removing '/Game/SkaGameAssets/Brad/Animations/ThirdPerson_AnimBP.SKEL_ThirdPerson_AnimBP_C:Speed' ref from Metadata '/Game/Mannequin/Animations/ThirdPerson_AnimBP.PackageMetaData'
+[2017.05.25-16.21.29:333][290]LogMetaData: Removing '/Game/SkaGameAssets/Brad/Animations/ThirdPerson_AnimBP.SKEL_ThirdPerson_AnimBP_C:IsInAir?' ref from Metadata '/Game/Mannequin/Animations/ThirdPerson_AnimBP.PackageMetaData'
+[2017.05.25-16.21.29:333][290]LogMetaData: Removing '/Game/SkaGameAssets/Brad/Animations/ThirdPerson_AnimBP.SKEL_ThirdPerson_AnimBP_C:BlueprintUpdateAnimation' ref from Metadata '/Game/Mannequin/Animations/ThirdPerson_AnimBP.PackageMetaData'
+[2017.05.25-16.21.29:333][290]LogMetaData: Removing '/Game/SkaGameAssets/Brad/Animations/ThirdPerson_AnimBP.SKEL_ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP' ref from Metadata '/Game/Mannequin/Animations/ThirdPerson_AnimBP.PackageMetaData'
+[2017.05.25-16.21.29:333][290]LogMetaData: Removing '/Game/SkaGameAssets/Brad/Animations/ThirdPerson_AnimBP.SKEL_ThirdPerson_AnimBP_C' ref from Metadata '/Game/Mannequin/Animations/ThirdPerson_AnimBP.PackageMetaData'
+[2017.05.25-16.21.29:379][290]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SkaGameAssets/Brad/Animations/ThirdPerson_AnimBP" FILE="D:/SVNSkaGame/skagame/SkaGame/Content/SkaGameAssets/Brad/Animations/ThirdPerson_AnimBP.uasset" SILENT=true
+[2017.05.25-16.21.29:414][290]LogSavePackage: Save=32.95ms
+[2017.05.25-16.21.29:414][290]LogSavePackage: Moving 'D:/SVNSkaGame/skagame/SkaGame/Saved/ThirdPerson_AnimBP23A9C3504CF38B4F9B2D8FACC4FEEA8F.tmp' to 'D:/SVNSkaGame/skagame/SkaGame/Content/SkaGameAssets/Brad/Animations/ThirdPerson_AnimBP.uasset'
+[2017.05.25-16.21.29:418][290]LogSavePackage:Display: Finished SavePackage D:/SVNSkaGame/skagame/SkaGame/Content/SkaGameAssets/Brad/Animations/ThirdPerson_AnimBP.uasset
+[2017.05.25-16.21.29:586][290]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SideScrollerBP/Blueprints/SideScrollerCharacter" FILE="D:/SVNSkaGame/skagame/SkaGame/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset" SILENT=true
+[2017.05.25-16.21.29:625][290]LogSavePackage: Save=35.41ms
+[2017.05.25-16.21.29:625][290]LogSavePackage: Moving 'D:/SVNSkaGame/skagame/SkaGame/Saved/SideScrollerCharacter1A9A4D734866EBB186E2E0BFB70E76E6.tmp' to 'D:/SVNSkaGame/skagame/SkaGame/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
+[2017.05.25-16.21.29:629][290]LogSavePackage:Display: Finished SavePackage D:/SVNSkaGame/skagame/SkaGame/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset
+[2017.05.25-16.21.32:009][409]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.05.25-16.21.32:121][409]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.05.25-16.21.32:181][409]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_8:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2017.05.25-16.22.49:415][153]Cmd: TRANSACTION UNDO
+[2017.05.25-16.22.49:415][153]LogEditorTransaction: Undo Move Node
+[2017.05.25-16.22.49:434][153]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.05.25-16.22.49:445][153]LogSlate: Took 0.000407 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.25-16.22.49:760][164]Cmd: TRANSACTION UNDO
+[2017.05.25-16.22.49:760][164]LogEditorTransaction: Undo Change Key Value
+[2017.05.25-16.22.49:762][164]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.05.25-16.22.52:225][307]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.05.25-16.22.52:847][341]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.25-16.22.52:858][341]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.05.25-16.22.52:858][341]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.05.25-16.22.52:858][341]LogPlayLevel: [PlayLevel] Compiling SideScrollerCharacter before play...
+[2017.05.25-16.22.52:878][341]LogPlayLevel: [PlayLevel]   Compiling Brad_Anim_BP as a dependent...
+[2017.05.25-16.22.52:881][341]LogBlueprint:Error: [Compiler Brad_Anim_BP] Error The current value (0, 0, 0) of the ' Velocity ' pin is invalid: 'Velocity' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2017.05.25-16.22.52:881][341]LogBlueprint:Error: [Compiler Brad_Anim_BP] Error The current value (0, 0, 0) of the ' Base Rotation ' pin is invalid: 'Base Rotation' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2017.05.25-16.22.53:240][341]LogPlayLevel: PlayLevel: Blueprint regeneration took 382 ms (2 blueprints)
+[2017.05.25-16.22.56:013][341]PIE: New page: PIE session: SideScrollerExampleMap (May 25, 2017, 8:22:56 AM)
+[2017.05.25-16.22.56:013][341]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2017.05.25-16.22.56:033][341]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020583s)
+[2017.05.25-16.22.56:034][341]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2017.05.25-16.22.56:034][341]LogPlayLevel: PIE: World Init took: (0.000953s)
+[2017.05.25-16.22.56:035][341]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.021780s)
+[2017.05.25-16.22.56:056][341]LogInit: XAudio2 using 'Speakers (Dell AC511 USB SoundBar)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.25-16.22.56:063][341]LogInit: FAudioDevice initialized.
+[2017.05.25-16.22.56:098][341]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.05.25-16.22.56:099][341]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2017.05.25-12.22.56
+[2017.05.25-16.22.56:100][341]LogWorld: Bringing up level for play took: 0.001041
+[2017.05.25-16.22.56:101][341]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 2.391
+[2017.05.25-16.22.56:101][341]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.05.25-16.23.07:734][274]LogMetaData: Removing '/Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C' ref from Metadata '/Game/SkaGameAssets/Brad/Animations/ThirdPerson_AnimBP.PackageMetaData'
+[2017.05.25-16.23.07:734][274]LogMetaData: Removing '/Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:Speed' ref from Metadata '/Game/SkaGameAssets/Brad/Animations/ThirdPerson_AnimBP.PackageMetaData'
+[2017.05.25-16.23.07:734][274]LogMetaData: Removing '/Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:IsInAir?' ref from Metadata '/Game/SkaGameAssets/Brad/Animations/ThirdPerson_AnimBP.PackageMetaData'
+[2017.05.25-16.23.07:734][274]LogMetaData: Removing '/Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP' ref from Metadata '/Game/SkaGameAssets/Brad/Animations/ThirdPerson_AnimBP.PackageMetaData'
+[2017.05.25-16.23.07:734][274]LogMetaData: Removing '/Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:BlueprintUpdateAnimation' ref from Metadata '/Game/SkaGameAssets/Brad/Animations/ThirdPerson_AnimBP.PackageMetaData'
+[2017.05.25-16.23.07:734][274]LogMetaData: Removing '/Game/Mannequin/Animations/ThirdPerson_AnimBP.SKEL_ThirdPerson_AnimBP_C' ref from Metadata '/Game/SkaGameAssets/Brad/Animations/ThirdPerson_AnimBP.PackageMetaData'
+[2017.05.25-16.23.07:734][274]LogMetaData: Removing '/Game/Mannequin/Animations/ThirdPerson_AnimBP.SKEL_ThirdPerson_AnimBP_C:Speed' ref from Metadata '/Game/SkaGameAssets/Brad/Animations/ThirdPerson_AnimBP.PackageMetaData'
+[2017.05.25-16.23.07:734][274]LogMetaData: Removing '/Game/Mannequin/Animations/ThirdPerson_AnimBP.SKEL_ThirdPerson_AnimBP_C:IsInAir?' ref from Metadata '/Game/SkaGameAssets/Brad/Animations/ThirdPerson_AnimBP.PackageMetaData'
+[2017.05.25-16.23.07:734][274]LogMetaData: Removing '/Game/Mannequin/Animations/ThirdPerson_AnimBP.SKEL_ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP' ref from Metadata '/Game/SkaGameAssets/Brad/Animations/ThirdPerson_AnimBP.PackageMetaData'
+[2017.05.25-16.23.07:734][274]LogMetaData: Removing '/Game/Mannequin/Animations/ThirdPerson_AnimBP.SKEL_ThirdPerson_AnimBP_C:BlueprintUpdateAnimation' ref from Metadata '/Game/SkaGameAssets/Brad/Animations/ThirdPerson_AnimBP.PackageMetaData'
+[2017.05.25-16.23.07:734][274]LogMetaData: Removing '/Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP:AnimGraph.AnimGraphNode_StateMachine_1.Default.AnimStateTransitionNode_4.Transition.AnimGraphNode_TransitionResult_26' ref from Metadata '/Game/SkaGameAssets/Brad/Animations/ThirdPerson_AnimBP.PackageMetaData'
+[2017.05.25-16.23.07:734][274]LogMetaData: Removing '/Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP:AnimGraph.AnimGraphNode_StateMachine_1.Default.AnimStateTransitionNode_8.Transition.AnimGraphNode_TransitionResult_48' ref from Metadata '/Game/SkaGameAssets/Brad/Animations/ThirdPerson_AnimBP.PackageMetaData'
+[2017.05.25-16.23.07:734][274]LogMetaData: Removing '/Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP:AnimGraph.AnimGraphNode_StateMachine_1.Default.AnimStateTransitionNode_6.Transition.AnimGraphNode_TransitionResult_37' ref from Metadata '/Game/SkaGameAssets/Brad/Animations/ThirdPerson_AnimBP.PackageMetaData'
+[2017.05.25-16.23.07:734][274]LogMetaData: Removing '/Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP:AnimGraph.AnimGraphNode_StateMachine_1.Default.AnimStateTransitionNode_2.Transition.AnimGraphNode_TransitionResult_15' ref from Metadata '/Game/SkaGameAssets/Brad/Animations/ThirdPerson_AnimBP.PackageMetaData'
+[2017.05.25-16.23.07:752][274]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mannequin/Animations/ThirdPerson_AnimBP" FILE="D:/SVNSkaGame/skagame/SkaGame/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset" SILENT=true
+[2017.05.25-16.23.07:784][274]LogSavePackage: Save=30.48ms
+[2017.05.25-16.23.07:784][274]LogSavePackage: Moving 'D:/SVNSkaGame/skagame/SkaGame/Saved/ThirdPerson_AnimBP1E1DD1AE4680B49FE5F559AA8E0F6BC8.tmp' to 'D:/SVNSkaGame/skagame/SkaGame/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset'
+[2017.05.25-16.23.07:808][274]LogSavePackage:Display: Finished SavePackage D:/SVNSkaGame/skagame/SkaGame/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset
+[2017.05.25-16.23.07:835][274]LogGarbage:Warning: GC detected illegal reference to PIE object from content [possibly via ObjectProperty /Script/UnrealEd.EditorEngine:PlayWorld]:
+[2017.05.25-16.23.07:835][274]LogGarbage:Warning:       PIE object: World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap
+[2017.05.25-16.23.07:835][274]LogGarbage:Warning:   NON-PIE object: UnrealEdEngine /Engine/Transient.UnrealEdEngine_0
+[2017.05.25-16.23.07:845][274]LogGarbage:Warning: GC detected illegal reference to PIE object from content [possibly via ObjectProperty /Game/SkaGameAssets/HUD.HUD_C:My Character]:
+[2017.05.25-16.23.07:845][274]LogGarbage:Warning:       PIE object: SideScrollerCharacter_C /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerCharacter_78
+[2017.05.25-16.23.07:845][274]LogGarbage:Warning:   NON-PIE object: HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_0
+[2017.05.25-16.23.07:911][274]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SideScrollerBP/Blueprints/SideScrollerCharacter" FILE="D:/SVNSkaGame/skagame/SkaGame/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset" SILENT=true
+[2017.05.25-16.23.07:948][274]LogSavePackage: Save=35.15ms
+[2017.05.25-16.23.07:948][274]LogSavePackage: Moving 'D:/SVNSkaGame/skagame/SkaGame/Saved/SideScrollerCharacter6CA49E8445E1C42C6A9BC18E29A777B7.tmp' to 'D:/SVNSkaGame/skagame/SkaGame/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
+[2017.05.25-16.23.07:953][274]LogSavePackage:Display: Finished SavePackage D:/SVNSkaGame/skagame/SkaGame/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset
+[2017.05.25-16.23.10:661][470]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_12:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2017.05.25-16.23.52:690][477]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.05.25-16.23.52:763][477]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.05.25-16.24.16:483][219]LogSlate: Took 0.014942 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.05.25-16.26.40:157][413]BlueprintLog: New page: Compile Brad_Anim_BP
+[2017.05.25-16.26.40:262][413]BlueprintEditorCompileResults: Info  Result  was visible but ignored
+[2017.05.25-16.27.18:364][959]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.25-16.27.18:375][959]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.05.25-16.27.18:375][959]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.25-16.27.18:376][959]PIE: New page: PIE session: SideScrollerExampleMap (May 25, 2017, 8:27:18 AM)
+[2017.05.25-16.27.18:376][959]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2017.05.25-16.27.18:398][959]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022445s)
+[2017.05.25-16.27.18:399][959]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2017.05.25-16.27.18:400][959]LogPlayLevel: PIE: World Init took: (0.001332s)
+[2017.05.25-16.27.18:400][959]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.024206s)
+[2017.05.25-16.27.18:420][959]LogInit: XAudio2 using 'Speakers (Dell AC511 USB SoundBar)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.25-16.27.18:427][959]LogInit: FAudioDevice initialized.
+[2017.05.25-16.27.18:460][959]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.05.25-16.27.18:461][959]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2017.05.25-12.27.18
+[2017.05.25-16.27.18:461][959]LogWorld: Bringing up level for play took: 0.001001
+[2017.05.25-16.27.18:463][959]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 0.743
+[2017.05.25-16.27.18:463][959]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.05.25-16.27.47:589][449]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.05.25-16.27.47:659][449]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.05.25-16.27.51:458][767]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.05.25-16.27.51:510][768]LogTemp:Display: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.SkaGame3
+
+[2017.05.25-16.27.51:510][768]LogTemp:Display: CWD: C:\Program Files\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2017.05.25-16.27.51:510][768]LogTemp:Display: Initial Dir: C:\Program Files\Epic Games\UE_4.15
+
+[2017.05.25-16.27.51:510][768]LogTemp:Display: Env CWD: C:\Program Files\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2017.05.25-16.27.51:510][768]LogTemp:Display: BranchPath = ETB330-024/C/Program Files/Epic Games/UE_4.15/Engine/Binaries --- GameBranchPath = ETB330-024/C/Program Files/Epic Games/UE_4.15/Engine/Binaries
+
+[2017.05.25-16.27.51:510][768]LogTemp:Display: IPP ERROR: Application exception: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\LabUser\AppData\Local\Apple Computer\MobileDevice\Provisioning Profiles'.
+
+[2017.05.25-16.27.51:510][768]LogTemp:Display:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+
+[2017.05.25-16.27.51:510][768]LogTemp:Display:    at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+
+[2017.05.25-16.27.51:510][768]LogTemp:Display:    at System.IO.Directory.EnumerateFiles(String path, String searchPattern)
+
+[2017.05.25-16.27.51:510][768]LogTemp:Display:    at iPhonePackager.CodeSignatureBuilder.FindProvisions(String CFBundleIdentifier)
+
+[2017.05.25-16.27.51:510][768]LogTemp:Display:    at iPhonePackager.Program.Main(String[] args)
+
+[2017.05.25-16.28.05:899][ 98]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.25-16.28.05:909][ 98]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.05.25-16.28.05:909][ 98]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.25-16.28.05:909][ 98]PIE: New page: PIE session: SideScrollerExampleMap (May 25, 2017, 8:28:05 AM)
+[2017.05.25-16.28.05:909][ 98]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2017.05.25-16.28.05:929][ 98]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019507s)
+[2017.05.25-16.28.05:930][ 98]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2017.05.25-16.28.05:930][ 98]LogPlayLevel: PIE: World Init took: (0.000958s)
+[2017.05.25-16.28.05:930][ 98]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.020774s)
+[2017.05.25-16.28.05:954][ 98]LogInit: XAudio2 using 'Speakers (Dell AC511 USB SoundBar)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.25-16.28.05:961][ 98]LogInit: FAudioDevice initialized.
+[2017.05.25-16.28.05:994][ 98]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.05.25-16.28.05:996][ 98]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2017.05.25-12.28.05
+[2017.05.25-16.28.05:996][ 98]LogWorld: Bringing up level for play took: 0.000927
+[2017.05.25-16.28.05:997][ 98]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 0.277
+[2017.05.25-16.28.05:998][ 98]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.05.25-16.28.40:808][271]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.05.25-16.28.40:871][271]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.05.25-16.30.55:085][ 96]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/SkaGameAssets/Brad/Animations/Brad_PivitFixed1_Anim_Brad_Armature_Brad_Idle.Brad_PivitFixed1_Anim_Brad_Armature_Brad_Idle
+[2017.05.25-16.30.55:446][120]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/SkaGameAssets/Brad/Animations/Brad_PivitFixed1_Anim_Brad_Armature_Brad_Punch.Brad_PivitFixed1_Anim_Brad_Armature_Brad_Punch
+[2017.05.25-16.31.36:460][947]BlueprintLog: New page: Compile Brad_Anim_BP
+[2017.05.25-16.31.36:560][947]BlueprintEditorCompileResults: Info  Result  was visible but ignored
+[2017.05.25-16.31.44:691][481]LogUObjectBase:Warning: NULL object
+[2017.05.25-16.31.44:737][481]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.046 s
+[2017.05.25-16.31.44:737][481]LogOutputDevice:Error: === Handled ensure: ===
+[2017.05.25-16.31.44:737][481]LogOutputDevice:Error: 
+[2017.05.25-16.31.44:737][481]LogOutputDevice:Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.15+Compile\Sync\Engine\Source\Editor\Kismet\Private\SKismetInspector.cpp] [Line: 540]
+[2017.05.25-16.31.44:737][481]LogOutputDevice:Error: Object in KismetInspector is invalid, see TTP 281915
+[2017.05.25-16.31.44:737][481]LogOutputDevice:Error: Stack: 
+[2017.05.25-16.31.44:737][481]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000778E95E6
+[2017.05.25-16.31.44:737][481]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000077699B82
+[2017.05.25-16.31.44:737][481]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000776AB666
+[2017.05.25-16.31.44:737][481]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x0000000071BB8AD1
+[2017.05.25-16.31.44:737][481]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x0000000071BB54F6
+[2017.05.25-16.31.44:737][481]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000084378C02
+[2017.05.25-16.31.44:737][481]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x000000008437778E
+[2017.05.25-16.31.44:737][481]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000828FCECC
+[2017.05.25-16.31.44:737][481]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000084378C55
+[2017.05.25-16.31.44:737][481]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000084377ABE
+[2017.05.25-16.31.44:737][481]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000084378C55
+[2017.05.25-16.31.44:737][481]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000084379060
+[2017.05.25-16.31.44:737][481]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000084377C08
+[2017.05.25-16.31.44:737][481]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000084378C55
+[2017.05.25-16.31.44:737][481]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x000000008437778E
+[2017.05.25-16.31.44:737][481]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000084378C55
+[2017.05.25-16.31.44:737][481]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000084379060
+[2017.05.25-16.31.44:737][481]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000829791BD
+[2017.05.25-16.31.44:737][481]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000084378C55
+[2017.05.25-16.31.44:737][481]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x000000008437778E
+[2017.05.25-16.31.44:737][481]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000084378C55
+[2017.05.25-16.31.44:737][481]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000084379060
+[2017.05.25-16.31.44:737][481]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000829791BD
+[2017.05.25-16.31.44:737][481]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000084378C55
+[2017.05.25-16.31.44:737][481]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x000000008437778E
+[2017.05.25-16.31.44:737][481]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000084378C55
+[2017.05.25-16.31.44:737][481]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000084379060
+[2017.05.25-16.31.44:737][481]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000829791BD
+[2017.05.25-16.31.44:737][481]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000084378C55
+[2017.05.25-16.31.44:737][481]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000084377ABE
+[2017.05.25-16.31.44:737][481]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000084378C55
+[2017.05.25-16.31.44:737][481]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x000000008437778E
+[2017.05.25-16.31.44:737][481]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000084378C55
+[2017.05.25-16.31.44:737][481]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000084379060
+[2017.05.25-16.31.44:737][481]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000084377C08
+[2017.05.25-16.31.44:737][481]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000084378C55
+[2017.05.25-16.31.44:737][481]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x000000008437778E
+[2017.05.25-16.31.44:737][481]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000084378C55
+[2017.05.25-16.31.44:737][481]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x000000008437778E
+[2017.05.25-16.31.44:737][481]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000828FCECC
+[2017.05.25-16.31.44:737][481]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000084378C55
+[2017.05.25-16.31.44:737][481]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000084377ABE
+[2017.05.25-16.31.44:737][481]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000084378C55
+[2017.05.25-16.31.44:737][481]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000084379060
+[2017.05.25-16.31.44:737][481]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000084377C08
+[2017.05.25-16.31.44:737][481]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000084378C55
+[2017.05.25-16.31.44:737][481]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x000000008437778E
+[2017.05.25-16.31.44:737][481]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000084378C55
+[2017.05.25-16.31.44:737][481]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000084379060
+[2017.05.25-16.31.44:737][481]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000829791BD
+[2017.05.25-16.31.44:737][481]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000084378C55
+[2017.05.25-16.31.44:737][481]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000084377ABE
+[2017.05.25-16.31.44:737][481]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000084378C55
+[2017.05.25-16.31.44:737][481]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x000000008437778E
+[2017.05.25-16.31.44:737][481]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000084378C55
+[2017.05.25-16.31.44:737][481]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000084379060
+[2017.05.25-16.31.44:737][481]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000084377C08
+[2017.05.25-16.31.44:737][481]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000084378C55
+[2017.05.25-16.31.44:737][481]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000084379060
+[2017.05.25-16.31.44:737][481]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000084377C08
+[2017.05.25-16.31.44:737][481]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000084378C55
+[2017.05.25-16.31.44:737][481]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000084377ABE
+[2017.05.25-16.31.44:737][481]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000084378C55
+[2017.05.25-16.31.44:737][481]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x000000008437778E
+[2017.05.25-16.31.44:737][481]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000084377CAA
+[2017.05.25-16.31.44:737][481]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000084378C55
+[2017.05.25-16.31.44:737][481]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000827430FD
+[2017.05.25-16.31.44:737][481]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000008274411C
+[2017.05.25-16.31.44:737][481]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000008277CF94
+[2017.05.25-16.31.44:737][481]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000827441C0
+[2017.05.25-16.31.44:737][481]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000827A2674
+[2017.05.25-16.31.44:737][481]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000827A15C0
+[2017.05.25-16.31.44:737][481]LogOutputDevice:Error: UE4Editor.exe!0x000000004821EA1D
+[2017.05.25-16.31.44:737][481]LogOutputDevice:Error: UE4Editor.exe!0x000000004820EB40
+[2017.05.25-16.31.44:738][481]LogOutputDevice:Error: UE4Editor.exe!0x000000004820EBBA
+[2017.05.25-16.31.44:738][481]LogOutputDevice:Error: UE4Editor.exe!0x0000000048220A29
+[2017.05.25-16.31.44:738][481]LogOutputDevice:Error: UE4Editor.exe!0x00000000482222B6
+[2017.05.25-16.31.44:738][481]LogOutputDevice:Error: KERNEL32.DLL!0x00000000AFEA8364
+[2017.05.25-16.31.44:738][481]LogOutputDevice:Error: ntdll.dll!0x00000000B16370D1
+[2017.05.25-16.31.44:738][481]LogOutputDevice:Error: 
+[2017.05.25-16.31.44:741][481]LogStats:                SubmitErrorReport -  0.000 s
