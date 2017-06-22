@@ -1,0 +1,1603 @@
+﻿Log file open, 06/20/17 15:42:59
+LogInit:Display: Running engine for game: SkaGame3
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1944667802) SRandInit(1944667802).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.079766
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+OCULUS: Info: [CAPI] LibOVR module is located at C:\Program Files\Oculus\Support\oculus-runtime\LibOVRRT64_1.dll
+OCULUS: Debug: Connected to the server running version (prod = 1).1.14.0(build = 378771) feature version = 0. Client runs version (prod = 1).1.14.0(build = 378771) feature version = 0
+LogHMD: GearVR: Emulating GearVR using Oculus Rift!
+LogInit: Build: ++UE4+Release-4.15-CL-3450819
+LogInit: Engine Version: 4.15.3-3450819+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): May 21 2017 11:02:34
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.06.20-19.43.01:085][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.20-19.43.01:085][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.06.20-19.43.01:111][  0]LogInit: Computer: ETB118-003
+[2017.06.20-19.43.01:111][  0]LogInit: User: LabUser
+[2017.06.20-19.43.01:111][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.06.20-19.43.01:111][  0]LogInit: High frequency timer resolution =3.410080 MHz
+[2017.06.20-19.43.01:111][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2017.06.20-19.43.01:111][  0]LogMemory: Platform Memory Stats for Windows
+[2017.06.20-19.43.01:111][  0]LogMemory: Process Physical Memory: 271.20 MB used, 271.20 MB peak
+[2017.06.20-19.43.01:111][  0]LogMemory: Process Virtual Memory: 265.64 MB used, 265.64 MB peak
+[2017.06.20-19.43.01:111][  0]LogMemory: Physical Memory: 6289.95 MB used,  26420.07 MB free, 32710.02 MB total
+[2017.06.20-19.43.01:111][  0]LogMemory: Virtual Memory: 686.41 MB used,  26420.07 MB free, 134217728.00 MB total
+[2017.06.20-19.43.01:188][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.06.20-19.43.01:899][  0]LogD3D11RHI: D3D11 adapters:
+[2017.06.20-19.43.01:923][  0]LogD3D11RHI:    0. 'NVIDIA Quadro K4200' (Feature Level 11_0)
+[2017.06.20-19.43.01:923][  0]LogD3D11RHI:       4063/0/16355 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.06.20-19.43.01:924][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.06.20-19.43.01:924][  0]LogD3D11RHI:       0/0/16355 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.06.20-19.43.01:924][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.06.20-19.43.01:928][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.06.20-19.43.01:928][  0]LogD3D11RHI:     GPU DeviceId: 0x11b4 (for the marketing name, search the web for "GPU Device Id")
+[2017.06.20-19.43.01:928][  0]LogWindows: EnumDisplayDevices:
+[2017.06.20-19.43.01:928][  0]LogWindows:    0. 'NVIDIA Quadro K4200' (P:0 D:1)
+[2017.06.20-19.43.01:929][  0]LogWindows:    1. 'NVIDIA Quadro K4200' (P:1 D:1)
+[2017.06.20-19.43.01:929][  0]LogWindows:    2. 'NVIDIA Quadro K4200' (P:0 D:0)
+[2017.06.20-19.43.01:929][  0]LogWindows:    3. 'NVIDIA Quadro K4200' (P:0 D:0)
+[2017.06.20-19.43.01:929][  0]LogWindows:    4. 'DameWare Development Mirror Driver 64-bit' (P:0 D:0)
+[2017.06.20-19.43.01:929][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2017.06.20-19.43.01:929][  0]LogD3D11RHI:     Adapter Name: NVIDIA Quadro K4200
+[2017.06.20-19.43.01:929][  0]LogD3D11RHI:   Driver Version: 377.35 (internal:21.21.13.7735, unified:377.35)
+[2017.06.20-19.43.01:929][  0]LogD3D11RHI:      Driver Date: 5-1-2017
+[2017.06.20-19.43.01:929][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.06.20-19.43.01:941][  0]LogD3D11RHI:Warning: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
+[2017.06.20-19.43.01:942][  0]LogD3D11RHI: Async texture creation enabled
+[2017.06.20-19.43.01:957][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.06.20-19.43.01:959][  0]LogShaderCompilers: Guid format shader working directory is -16 characters bigger than the processId version (../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Intermediate/Shaders/WorkingDirectory/4192/).
+[2017.06.20-19.43.01:960][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/LabUser/AppData/Local/Temp/UnrealShaderWorkingDir/07F1F6F24526BB5AD68A58B545343EED/'.
+[2017.06.20-19.43.01:960][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.06.20-19.43.03:038][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.06.20-19.43.03:101][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.06.20-19.43.03:164][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.06.20-19.43.03:227][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.06.20-19.43.03:290][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.06.20-19.43.03:355][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.06.20-19.43.03:419][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.06.20-19.43.03:481][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.06.20-19.43.03:536][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.06.20-19.43.03:599][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.06.20-19.43.03:662][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.06.20-19.43.03:746][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.06.20-19.43.03:812][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.06.20-19.43.03:876][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.06.20-19.43.03:940][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.06.20-19.43.04:065][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.06.20-19.43.04:065][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.06.20-19.43.04:114][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.06.20-19.43.04:222][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.06.20-19.43.04:256][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.06.20-19.43.04:317][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.06.20-19.43.04:378][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.06.20-19.43.04:439][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.06.20-19.43.04:500][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.06.20-19.43.04:500][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.06.20-19.43.04:975][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.06.20-19.43.05:024][  0]LogDerivedDataCache: Loaded boot cache 0.05s 50MB C:/Users/LabUser/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.06.20-19.43.05:024][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/LabUser/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.06.20-19.43.05:024][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.06.20-19.43.05:024][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.06.20-19.43.05:024][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.06.20-19.43.05:024][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.06.20-19.43.05:042][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.06.20-19.43.05:054][  0]LogDerivedDataCache: Using Local data cache path C:/Users/LabUser/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.06.20-19.43.05:063][  0]LogSlate: Using Freetype 2.6.0
+[2017.06.20-19.43.05:064][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.20-19.43.05:064][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.20-19.43.05:401][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.20-19.43.05:404][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.06.20-19.43.05:622][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.06.20-19.43.05:673][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.06.20-19.43.05:731][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.06.20-19.43.05:731][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.06.20-19.43.05:731][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.06.20-19.43.06:262][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: skagame3, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 2118841436
+[2017.06.20-19.43.06:306][  0]LogAssetRegistry: FAssetRegistry took 0.0213 seconds to start up
+[2017.06.20-19.43.06:378][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.047926 seconds
+[2017.06.20-19.43.06:384][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.06.20-19.43.06:384][  0]LogUObjectAllocator: 7077024 out of 0 bytes used by permanent object pool.
+[2017.06.20-19.43.06:384][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.06.20-19.43.06:447][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.06.20-19.43.08:356][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.06.20-19.43.08:399][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.06.20-19.43.08:931][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.06.20-19.43.09:384][  0]SourceControl: Info Source control is disabled
+[2017.06.20-19.43.09:386][  0]SourceControl: Info Source control is disabled
+[2017.06.20-19.43.09:445][  0]SourceControl: Info Source control is disabled
+[2017.06.20-19.43.09:504][  0]SourceControl: Info Source control is disabled
+[2017.06.20-19.43.11:023][  0]LogEngine: Initializing Engine...
+[2017.06.20-19.43.11:024][  0]LogHMD: Oculus plugin initialized. Version: 4.15.3-3450819+++UE4+Release-4.15, LibOVR: 1.14.0, SDK: 1.10.0, built May 21 2017, 11:08:57
+[2017.06.20-19.43.11:125][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.06.20-19.43.11:125][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.06.20-19.43.11:267][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.06.20-19.43.11:276][  0]LogInit: XAudio2 using 'Speakers (Dell AC511 USB SoundBar)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.20-19.43.11:285][  0]LogInit: FAudioDevice initialized.
+[2017.06.20-19.43.11:309][  0]LogDerivedDataCache: Saved boot cache 0.02s 50MB C:/Users/LabUser/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.06.20-19.43.11:312][  0]LogInit: Texture streaming: Enabled
+[2017.06.20-19.43.11:405][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.06.20-19.43.11:509][  0]LogInit: Transaction tracking system initialized
+[2017.06.20-19.43.11:923][  0]BlueprintLog: New page: Editor Load
+[2017.06.20-19.43.12:941][  0]LocalizationService: Info Localization service is disabled
+[2017.06.20-19.43.13:733][  0]LogConsoleResponse:Display: 
+[2017.06.20-19.43.13:858][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.06.20-19.43.13:858][  0]LogCook:Display: Mobile HDR setting 1
+[2017.06.20-19.43.14:742][  0]LogFileCache: Scanning file cache for directory 'C:/Users/LabUser/Documents/GitHub/skagame/SkaGame/Content/' took 0.02s
+[2017.06.20-19.43.15:098][  0]SourceControl: Info Source control is disabled
+[2017.06.20-19.43.15:098][  0]Cmd: MAP LOAD FILE="../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Content/SkaGameAssets/Levels/Graveyard_Test.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.20-19.43.15:098][  0]LightingResults: New page: Lighting Build
+[2017.06.20-19.43.15:147][  0]MapCheck: New page: Map Check
+[2017.06.20-19.43.15:147][  0]LightingResults: New page: Lighting Build
+[2017.06.20-19.43.16:005][  0]LogAIModule: Creating AISystem for world Graveyard_Test
+[2017.06.20-19.43.16:027][  0]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.06.20-19.43.16:032][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.20-19.43.16:033][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.20-19.43.16:129][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 96.702ms to complete.
+[2017.06.20-19.43.16:129][  0]LogFileHelpers: Loading map 'Graveyard_Test' took 1.032
+[2017.06.20-19.43.16:187][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.06.20-19.43.16:298][  0]LogCollectionManager: Loaded 0 collections in 0.001887 seconds
+[2017.06.20-19.43.16:388][  0]LogFileCache: Scanning file cache for directory 'C:/Users/LabUser/Documents/GitHub/skagame/SkaGame/Saved/Collections/' took 0.01s
+[2017.06.20-19.43.16:388][  0]LogFileCache: Scanning file cache for directory 'C:/Users/LabUser/Documents/GitHub/skagame/SkaGame/Content/Developers/LabUser/Collections/' took 0.01s
+[2017.06.20-19.43.16:388][  0]LogFileCache: Scanning file cache for directory 'C:/Users/LabUser/Documents/GitHub/skagame/SkaGame/Content/Collections/' took 0.01s
+[2017.06.20-19.43.16:388][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.06.20-19.43.16:396][  0]LogContentBrowser: Native class hierarchy populated in 0.0081 seconds. Added 2245 classes and 453 folders.
+[2017.06.20-19.43.16:468][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.06.20-19.43.16:540][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.06.20-19.43.16:590][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.06.20-19.43.16:636][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.06.20-19.43.16:641][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.06.20-19.43.16:717][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.06.20-19.43.16:717][  0]LogLoad: (Engine Initialization) Total time: 18.47 seconds
+[2017.06.20-19.43.16:717][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.34 seconds
+[2017.06.20-19.43.16:717][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.06.20-19.43.16:717][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.06.20-19.43.16:726][  0]LogOcInput: OculusInput pre-init called
+[2017.06.20-19.43.16:738][  0]LogOcInput: OculusInput is initialized. Init status 0. Runtime version: 1.14.0
+[2017.06.20-19.43.16:756][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.06.20-19.43.16:758][  0]LogSlate: Took 0.000374 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.20-19.43.16:761][  0]LogSlate: Took 0.000296 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.06.20-19.43.16:766][  0]LogSlate: Took 0.000249 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.06.20-19.43.16:896][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:2).
+[2017.06.20-19.43.16:933][  0]LogSlate: Took 0.000323 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.20-19.43.16:985][  1]LogAssetRegistry: Asset discovery search completed in 10.7001 seconds
+[2017.06.20-19.43.16:985][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000007 seconds (found 0 objects)
+[2017.06.20-19.43.16:985][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000020 seconds (updated 0 objects)
+[2017.06.20-19.43.17:755][ 68]LogSlate: Took 0.000291 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.20-19.43.53:289][294]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight)
+[2017.06.20-19.43.57:755][712]LogEditorViewport: Clicking on Actor (LMB): DirectLight_C (DirectLight)
+[2017.06.20-19.45.14:775][682]LogActorFactory: Actor Factory created Checkpoint_Cymbal_
+[2017.06.20-19.45.15:701][774]LogActorFactory: Actor Factory created Checkpoint_Cymbal_
+[2017.06.20-19.45.18:864][101]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.06.20-19.45.24:382][708]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Checkpoint_Cymbal_)
+[2017.06.20-19.45.27:587][ 23]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.06.20-19.45.37:049][ 80]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Checkpoint_Cymbal_)
+[2017.06.20-19.45.38:290][205]Cmd: DELETE
+[2017.06.20-19.45.38:290][205]Cmd: ACTOR DELETE
+[2017.06.20-19.45.38:291][205]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.20-19.45.38:314][205]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2017.06.20-19.46.13:611][480]LogSlate: Took 0.000314 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.20-19.46.13:627][480]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/LabUser/Downloads/PilPol.fbx)
+[2017.06.20-19.46.13:643][480]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.06.20-19.46.13:643][480]LogFbx: ItemName: NodeAttribute, ItemCount : 32
+[2017.06.20-19.46.13:643][480]LogFbx: ItemName: Geometry, ItemCount : 3
+[2017.06.20-19.46.13:643][480]LogFbx: ItemName: Model, ItemCount : 35
+[2017.06.20-19.46.13:643][480]LogFbx: ItemName: Pose, ItemCount : 3
+[2017.06.20-19.46.13:643][480]LogFbx: ItemName: Deformer, ItemCount : 91
+[2017.06.20-19.46.13:643][480]LogFbx: ItemName: Material, ItemCount : 3
+[2017.06.20-19.46.13:643][480]LogFbx: ItemName: Texture, ItemCount : 1
+[2017.06.20-19.46.13:643][480]LogFbx: ItemName: Video, ItemCount : 1
+[2017.06.20-19.46.13:643][480]LogFbx: ItemName: AnimationStack, ItemCount : 9
+[2017.06.20-19.46.13:643][480]LogFbx: ItemName: AnimationLayer, ItemCount : 9
+[2017.06.20-19.46.13:643][480]LogFbx: ItemName: AnimationCurveNode, ItemCount : 747
+[2017.06.20-19.46.13:643][480]LogFbx: ItemName: AnimationCurve, ItemCount : 2241
+[2017.06.20-19.46.13:648][480]LogFbx: Loading FBX Scene from ../../../../../../Users/LabUser/Downloads/PilPol.fbx
+[2017.06.20-19.46.13:749][480]LogFbx: FBX Scene Loaded Succesfully
+[2017.06.20-19.46.22:544][480]LogFbx: Loading FBX Scene from ../../../../../../Users/LabUser/Downloads/PilPol.fbx
+[2017.06.20-19.46.22:636][480]LogFbx: FBX Scene Loaded Succesfully
+[2017.06.20-19.46.22:645][480]LogFbx: =================================================
+[2017.06.20-19.46.22:645][480]LogFbx: Dumping Node START [Cube.001] 
+[2017.06.20-19.46.22:645][480]LogFbx: 	Total Deformer Count 368570488.
+[2017.06.20-19.46.22:645][480]LogFbx: 		[Node 1] Polgergust_Armature (Type Skin).
+[2017.06.20-19.46.22:645][480]LogFbx: =================================================
+[2017.06.20-19.46.22:645][480]LogFbx: 	Attribute (Mesh) Type (4).
+[2017.06.20-19.46.22:645][480]LogFbx: 		[Node Attribute Child 1] Cube.001 (Type Mesh).
+[2017.06.20-19.46.22:645][480]LogFbx: Dumping Node END [Cube.001]
+[2017.06.20-19.46.22:645][480]LogFbx: =================================================
+[2017.06.20-19.46.22:645][480]LogFbx: Dumping Node START [Cube] 
+[2017.06.20-19.46.22:645][480]LogFbx: 	Total Deformer Count 363649472.
+[2017.06.20-19.46.22:645][480]LogFbx: 		[Node 1] Polgergust_Armature (Type Skin).
+[2017.06.20-19.46.22:645][480]LogFbx: =================================================
+[2017.06.20-19.46.22:645][480]LogFbx: 	Attribute (Mesh.001) Type (4).
+[2017.06.20-19.46.22:645][480]LogFbx: 		[Node Attribute Child 1] Cube (Type Mesh).
+[2017.06.20-19.46.22:645][480]LogFbx: Dumping Node END [Cube]
+[2017.06.20-19.46.22:645][480]LogFbx: =================================================
+[2017.06.20-19.46.22:645][480]LogFbx: Dumping Node START [Plane] 
+[2017.06.20-19.46.22:645][480]LogFbx: 	Total Deformer Count 363649472.
+[2017.06.20-19.46.22:645][480]LogFbx: 		[Node 1] Polgergust_Armature (Type Skin).
+[2017.06.20-19.46.22:645][480]LogFbx: =================================================
+[2017.06.20-19.46.22:645][480]LogFbx: 	Attribute (Mesh.002) Type (4).
+[2017.06.20-19.46.22:645][480]LogFbx: 		[Node Attribute Child 1] Plane (Type Mesh).
+[2017.06.20-19.46.22:645][480]LogFbx: Dumping Node END [Plane]
+[2017.06.20-19.46.22:646][480]LogFbx: =================================================
+[2017.06.20-19.46.22:646][480]LogFbx: Dumping Node START [Cube.001] 
+[2017.06.20-19.46.22:646][480]LogFbx: 	Total Deformer Count 368571272.
+[2017.06.20-19.46.22:646][480]LogFbx: 		[Node 1] Polgergust_Armature (Type Skin).
+[2017.06.20-19.46.22:646][480]LogFbx: =================================================
+[2017.06.20-19.46.22:646][480]LogFbx: 	Attribute (Mesh) Type (4).
+[2017.06.20-19.46.22:646][480]LogFbx: 		[Node Attribute Child 1] Cube.001 (Type Mesh).
+[2017.06.20-19.46.22:646][480]LogFbx: Dumping Node END [Cube.001]
+[2017.06.20-19.46.22:646][480]LogFbx: =================================================
+[2017.06.20-19.46.22:646][480]LogFbx: Dumping Node START [Cube] 
+[2017.06.20-19.46.22:646][480]LogFbx: 	Total Deformer Count 1371326880.
+[2017.06.20-19.46.22:646][480]LogFbx: 		[Node 1] Polgergust_Armature (Type Skin).
+[2017.06.20-19.46.22:646][480]LogFbx: =================================================
+[2017.06.20-19.46.22:646][480]LogFbx: 	Attribute (Mesh.001) Type (4).
+[2017.06.20-19.46.22:646][480]LogFbx: 		[Node Attribute Child 1] Cube (Type Mesh).
+[2017.06.20-19.46.22:646][480]LogFbx: Dumping Node END [Cube]
+[2017.06.20-19.46.22:646][480]LogFbx: =================================================
+[2017.06.20-19.46.22:646][480]LogFbx: Dumping Node START [Plane] 
+[2017.06.20-19.46.22:646][480]LogFbx: 	Total Deformer Count 1371326880.
+[2017.06.20-19.46.22:646][480]LogFbx: 		[Node 1] Polgergust_Armature (Type Skin).
+[2017.06.20-19.46.22:646][480]LogFbx: =================================================
+[2017.06.20-19.46.22:646][480]LogFbx: 	Attribute (Mesh.002) Type (4).
+[2017.06.20-19.46.22:646][480]LogFbx: 		[Node Attribute Child 1] Plane (Type Mesh).
+[2017.06.20-19.46.22:646][480]LogFbx: Dumping Node END [Plane]
+[2017.06.20-19.46.22:646][480]LogFbx: Valid bind pose for Pose (Mesh) - Cube.001
+[2017.06.20-19.46.22:647][480]LogFbx:Warning: Not valid bind pose for Pose (Mesh.001) - Node Cube.001 : The relative matrices do not match
+[2017.06.20-19.46.22:647][480]LogFbx:Warning: Not valid bind pose for Pose (Mesh.001) - Node Cube : The relative matrices do not match
+[2017.06.20-19.46.22:647][480]LogFbx:Warning: Not valid bind pose for Pose (Mesh.001) - Node Plane : The relative matrices do not match
+[2017.06.20-19.46.22:648][480]LogFbx:Warning: Not valid bind pose for Pose (Mesh.002) - Node Cube.001 : The relative matrices do not match
+[2017.06.20-19.46.22:648][480]LogFbx:Warning: Not valid bind pose for Pose (Mesh.002) - Node Cube : The relative matrices do not match
+[2017.06.20-19.46.22:648][480]LogFbx:Warning: Not valid bind pose for Pose (Mesh.002) - Node Plane : The relative matrices do not match
+[2017.06.20-19.46.22:649][480]LogFbx: Triangulating skeletal mesh Cube.001
+[2017.06.20-19.46.23:537][480]LogFbx: Triangulating skeletal mesh Cube
+[2017.06.20-19.46.23:653][480]LogFbx: Triangulating skeletal mesh Plane
+[2017.06.20-19.46.24:791][480]LogFbx:Warning: Bones digested - 43  Depth of hierarchy - 9
+[2017.06.20-19.46.25:162][480]LogSkeletalMesh: Section 0: 4226 vertices, 6 active bones
+[2017.06.20-19.46.25:162][480]LogSkeletalMesh: Section 1: 594 vertices, 4 active bones
+[2017.06.20-19.46.25:163][480]LogSkeletalMesh: Section 2: 6152 vertices, 20 active bones
+[2017.06.20-19.46.25:183][480]LogSkeletalMesh: Section 0: Material=0, 8448 triangles
+[2017.06.20-19.46.25:183][480]LogSkeletalMesh: Section 1: Material=1, 1088 triangles
+[2017.06.20-19.46.25:183][480]LogSkeletalMesh: Section 2: Material=2, 10560 triangles
+[2017.06.20-19.46.25:187][480]LogLinker: Can't find file '/Game/SkaGameAssets/Enemies/PilPol_PhysicsAsset'
+[2017.06.20-19.46.25:187][480]LogLinker: Can't find file '/Game/SkaGameAssets/Enemies/PilPol_PhysicsAsset'
+[2017.06.20-19.46.25:190][480]LogLinker: Can't find file '/Game/SkaGameAssets/Enemies/PilPol_Skeleton'
+[2017.06.20-19.46.25:190][480]LogLinker: Can't find file '/Game/SkaGameAssets/Enemies/PilPol_Skeleton'
+[2017.06.20-19.46.25:193][480]LogFbx: =================================================
+[2017.06.20-19.46.25:193][480]LogFbx: Dumping Node START [Cube.001] 
+[2017.06.20-19.46.25:193][480]LogFbx: 	Total Deformer Count 368568472.
+[2017.06.20-19.46.25:193][480]LogFbx: 		[Node 1] Polgergust_Armature (Type Skin).
+[2017.06.20-19.46.25:193][480]LogFbx: =================================================
+[2017.06.20-19.46.25:193][480]LogFbx: 	Attribute (Mesh) Type (4).
+[2017.06.20-19.46.25:193][480]LogFbx: 		[Node Attribute Child 1] Cube.001 (Type Mesh).
+[2017.06.20-19.46.25:193][480]LogFbx: Dumping Node END [Cube.001]
+[2017.06.20-19.46.25:193][480]LogFbx: =================================================
+[2017.06.20-19.46.25:193][480]LogFbx: Dumping Node START [Cube] 
+[2017.06.20-19.46.25:193][480]LogFbx: 	Total Deformer Count 1371328032.
+[2017.06.20-19.46.25:193][480]LogFbx: 		[Node 1] Polgergust_Armature (Type Skin).
+[2017.06.20-19.46.25:193][480]LogFbx: =================================================
+[2017.06.20-19.46.25:193][480]LogFbx: 	Attribute (Mesh.001) Type (4).
+[2017.06.20-19.46.25:193][480]LogFbx: 		[Node Attribute Child 1] Cube (Type Mesh).
+[2017.06.20-19.46.25:193][480]LogFbx: Dumping Node END [Cube]
+[2017.06.20-19.46.25:193][480]LogFbx: =================================================
+[2017.06.20-19.46.25:193][480]LogFbx: Dumping Node START [Plane] 
+[2017.06.20-19.46.25:193][480]LogFbx: 	Total Deformer Count 1371328032.
+[2017.06.20-19.46.25:193][480]LogFbx: 		[Node 1] Polgergust_Armature (Type Skin).
+[2017.06.20-19.46.25:193][480]LogFbx: =================================================
+[2017.06.20-19.46.25:193][480]LogFbx: 	Attribute (Mesh.002) Type (4).
+[2017.06.20-19.46.25:193][480]LogFbx: 		[Node Attribute Child 1] Plane (Type Mesh).
+[2017.06.20-19.46.25:193][480]LogFbx: Dumping Node END [Plane]
+[2017.06.20-19.46.25:193][480]LogFbx: =================================================
+[2017.06.20-19.46.25:193][480]LogFbx: Dumping Node START [Cube.001] 
+[2017.06.20-19.46.25:193][480]LogFbx: 	Total Deformer Count 368559232.
+[2017.06.20-19.46.25:193][480]LogFbx: 		[Node 1] Polgergust_Armature (Type Skin).
+[2017.06.20-19.46.25:193][480]LogFbx: =================================================
+[2017.06.20-19.46.25:193][480]LogFbx: 	Attribute (Mesh) Type (4).
+[2017.06.20-19.46.25:193][480]LogFbx: 		[Node Attribute Child 1] Cube.001 (Type Mesh).
+[2017.06.20-19.46.25:193][480]LogFbx: Dumping Node END [Cube.001]
+[2017.06.20-19.46.25:193][480]LogFbx: =================================================
+[2017.06.20-19.46.25:193][480]LogFbx: Dumping Node START [Cube] 
+[2017.06.20-19.46.25:193][480]LogFbx: 	Total Deformer Count 1371328320.
+[2017.06.20-19.46.25:193][480]LogFbx: 		[Node 1] Polgergust_Armature (Type Skin).
+[2017.06.20-19.46.25:193][480]LogFbx: =================================================
+[2017.06.20-19.46.25:193][480]LogFbx: 	Attribute (Mesh.001) Type (4).
+[2017.06.20-19.46.25:193][480]LogFbx: 		[Node Attribute Child 1] Cube (Type Mesh).
+[2017.06.20-19.46.25:193][480]LogFbx: Dumping Node END [Cube]
+[2017.06.20-19.46.25:193][480]LogFbx: =================================================
+[2017.06.20-19.46.25:193][480]LogFbx: Dumping Node START [Plane] 
+[2017.06.20-19.46.25:193][480]LogFbx: 	Total Deformer Count 1371328320.
+[2017.06.20-19.46.25:193][480]LogFbx: 		[Node 1] Polgergust_Armature (Type Skin).
+[2017.06.20-19.46.25:193][480]LogFbx: =================================================
+[2017.06.20-19.46.25:193][480]LogFbx: 	Attribute (Mesh.002) Type (4).
+[2017.06.20-19.46.25:193][480]LogFbx: 		[Node Attribute Child 1] Plane (Type Mesh).
+[2017.06.20-19.46.25:193][480]LogFbx: Dumping Node END [Plane]
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(0) Polgergust_Armature
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(1) ROOT
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(2) Body
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(3) Palm_R
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(4) Thumb_R
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(5) Thumb_R_001
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(6) Thumb_R_001_end
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(7) Finger_Pinky_R
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(8) Finger_Pinky_R_001
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(9) Finger_Pinky_R_001_end
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(10) Finger_Middle_R
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(11) Finger_Middle_R_001
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(12) Finger_Middle_R_001_end
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(13) Finger_Index_R
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(14) Finger_Index_R_001
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(15) Finger_Index_R_001_end
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(16) Palm_L
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(17) Thumb_L
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(18) Thumb_L_001
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(19) Thumb_L_001_end
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(20) Finger_Pinky_L
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(21) Finger_Pinky_L_001
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(22) Finger_Pinky_L_001_end
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(23) Finger_Middle_L
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(24) Finger_Middle_L_001
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(25) Finger_Middle_L_001_end
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(26) Finger_Index_L
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(27) Finger_Index_L_001
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(28) Finger_Index_L_001_end
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(29) Sack_Handle
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(30) Sack
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(31) Sack_002
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(32) Sack_001
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(33) Sack_001_end
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(34) Sack_Handle_001
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(35) Sack_Handle_001_end
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(36) Head
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(37) Eyes_L
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(38) Eyes_L_001
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(39) Eyes_L_001_end
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(40) Eyes_R
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(41) Eyes_R_001
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(42) Eyes_R_001_end
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(0) Polgergust_Armature
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(1) ROOT
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(2) Body
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(3) Palm_R
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(4) Thumb_R
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(5) Thumb_R_001
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(6) Thumb_R_001_end
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(7) Finger_Pinky_R
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(8) Finger_Pinky_R_001
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(9) Finger_Pinky_R_001_end
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(10) Finger_Middle_R
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(11) Finger_Middle_R_001
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(12) Finger_Middle_R_001_end
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(13) Finger_Index_R
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(14) Finger_Index_R_001
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(15) Finger_Index_R_001_end
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(16) Palm_L
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(17) Thumb_L
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(18) Thumb_L_001
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(19) Thumb_L_001_end
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(20) Finger_Pinky_L
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(21) Finger_Pinky_L_001
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(22) Finger_Pinky_L_001_end
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(23) Finger_Middle_L
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(24) Finger_Middle_L_001
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(25) Finger_Middle_L_001_end
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(26) Finger_Index_L
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(27) Finger_Index_L_001
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(28) Finger_Index_L_001_end
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(29) Sack_Handle
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(30) Sack
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(31) Sack_002
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(32) Sack_001
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(33) Sack_001_end
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(34) Sack_Handle_001
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(35) Sack_Handle_001_end
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(36) Head
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(37) Eyes_L
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(38) Eyes_L_001
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(39) Eyes_L_001_end
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(40) Eyes_R
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(41) Eyes_R_001
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(42) Eyes_R_001_end
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(0) Polgergust_Armature
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(1) ROOT
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(2) Body
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(3) Palm_R
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(4) Thumb_R
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(5) Thumb_R_001
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(6) Thumb_R_001_end
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(7) Finger_Pinky_R
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(8) Finger_Pinky_R_001
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(9) Finger_Pinky_R_001_end
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(10) Finger_Middle_R
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(11) Finger_Middle_R_001
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(12) Finger_Middle_R_001_end
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(13) Finger_Index_R
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(14) Finger_Index_R_001
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(15) Finger_Index_R_001_end
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(16) Palm_L
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(17) Thumb_L
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(18) Thumb_L_001
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(19) Thumb_L_001_end
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(20) Finger_Pinky_L
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(21) Finger_Pinky_L_001
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(22) Finger_Pinky_L_001_end
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(23) Finger_Middle_L
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(24) Finger_Middle_L_001
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(25) Finger_Middle_L_001_end
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(26) Finger_Index_L
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(27) Finger_Index_L_001
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(28) Finger_Index_L_001_end
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(29) Sack_Handle
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(30) Sack
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(31) Sack_002
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(32) Sack_001
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(33) Sack_001_end
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(34) Sack_Handle_001
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(35) Sack_Handle_001_end
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(36) Head
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(37) Eyes_L
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(38) Eyes_L_001
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(39) Eyes_L_001_end
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(40) Eyes_R
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(41) Eyes_R_001
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(42) Eyes_R_001_end
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(0) Polgergust_Armature
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(1) ROOT
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(2) Body
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(3) Palm_R
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(4) Thumb_R
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(5) Thumb_R_001
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(6) Thumb_R_001_end
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(7) Finger_Pinky_R
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(8) Finger_Pinky_R_001
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(9) Finger_Pinky_R_001_end
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(10) Finger_Middle_R
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(11) Finger_Middle_R_001
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(12) Finger_Middle_R_001_end
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(13) Finger_Index_R
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(14) Finger_Index_R_001
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(15) Finger_Index_R_001_end
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(16) Palm_L
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(17) Thumb_L
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(18) Thumb_L_001
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(19) Thumb_L_001_end
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(20) Finger_Pinky_L
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(21) Finger_Pinky_L_001
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(22) Finger_Pinky_L_001_end
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(23) Finger_Middle_L
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(24) Finger_Middle_L_001
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(25) Finger_Middle_L_001_end
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(26) Finger_Index_L
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(27) Finger_Index_L_001
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(28) Finger_Index_L_001_end
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(29) Sack_Handle
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(30) Sack
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(31) Sack_002
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(32) Sack_001
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(33) Sack_001_end
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(34) Sack_Handle_001
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(35) Sack_Handle_001_end
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(36) Head
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(37) Eyes_L
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(38) Eyes_L_001
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(39) Eyes_L_001_end
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(40) Eyes_R
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(41) Eyes_R_001
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(42) Eyes_R_001_end
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(0) Polgergust_Armature
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(1) ROOT
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(2) Body
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(3) Palm_R
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(4) Thumb_R
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(5) Thumb_R_001
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(6) Thumb_R_001_end
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(7) Finger_Pinky_R
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(8) Finger_Pinky_R_001
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(9) Finger_Pinky_R_001_end
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(10) Finger_Middle_R
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(11) Finger_Middle_R_001
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(12) Finger_Middle_R_001_end
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(13) Finger_Index_R
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(14) Finger_Index_R_001
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(15) Finger_Index_R_001_end
+[2017.06.20-19.46.25:194][480]LogFbx: SortedLinks :(16) Palm_L
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(17) Thumb_L
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(18) Thumb_L_001
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(19) Thumb_L_001_end
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(20) Finger_Pinky_L
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(21) Finger_Pinky_L_001
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(22) Finger_Pinky_L_001_end
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(23) Finger_Middle_L
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(24) Finger_Middle_L_001
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(25) Finger_Middle_L_001_end
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(26) Finger_Index_L
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(27) Finger_Index_L_001
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(28) Finger_Index_L_001_end
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(29) Sack_Handle
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(30) Sack
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(31) Sack_002
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(32) Sack_001
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(33) Sack_001_end
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(34) Sack_Handle_001
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(35) Sack_Handle_001_end
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(36) Head
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(37) Eyes_L
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(38) Eyes_L_001
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(39) Eyes_L_001_end
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(40) Eyes_R
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(41) Eyes_R_001
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(42) Eyes_R_001_end
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(0) Polgergust_Armature
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(1) ROOT
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(2) Body
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(3) Palm_R
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(4) Thumb_R
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(5) Thumb_R_001
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(6) Thumb_R_001_end
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(7) Finger_Pinky_R
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(8) Finger_Pinky_R_001
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(9) Finger_Pinky_R_001_end
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(10) Finger_Middle_R
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(11) Finger_Middle_R_001
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(12) Finger_Middle_R_001_end
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(13) Finger_Index_R
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(14) Finger_Index_R_001
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(15) Finger_Index_R_001_end
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(16) Palm_L
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(17) Thumb_L
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(18) Thumb_L_001
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(19) Thumb_L_001_end
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(20) Finger_Pinky_L
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(21) Finger_Pinky_L_001
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(22) Finger_Pinky_L_001_end
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(23) Finger_Middle_L
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(24) Finger_Middle_L_001
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(25) Finger_Middle_L_001_end
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(26) Finger_Index_L
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(27) Finger_Index_L_001
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(28) Finger_Index_L_001_end
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(29) Sack_Handle
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(30) Sack
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(31) Sack_002
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(32) Sack_001
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(33) Sack_001_end
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(34) Sack_Handle_001
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(35) Sack_Handle_001_end
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(36) Head
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(37) Eyes_L
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(38) Eyes_L_001
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(39) Eyes_L_001_end
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(40) Eyes_R
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(41) Eyes_R_001
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(42) Eyes_R_001_end
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(0) Polgergust_Armature
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(1) ROOT
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(2) Body
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(3) Palm_R
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(4) Thumb_R
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(5) Thumb_R_001
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(6) Thumb_R_001_end
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(7) Finger_Pinky_R
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(8) Finger_Pinky_R_001
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(9) Finger_Pinky_R_001_end
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(10) Finger_Middle_R
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(11) Finger_Middle_R_001
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(12) Finger_Middle_R_001_end
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(13) Finger_Index_R
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(14) Finger_Index_R_001
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(15) Finger_Index_R_001_end
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(16) Palm_L
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(17) Thumb_L
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(18) Thumb_L_001
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(19) Thumb_L_001_end
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(20) Finger_Pinky_L
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(21) Finger_Pinky_L_001
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(22) Finger_Pinky_L_001_end
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(23) Finger_Middle_L
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(24) Finger_Middle_L_001
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(25) Finger_Middle_L_001_end
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(26) Finger_Index_L
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(27) Finger_Index_L_001
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(28) Finger_Index_L_001_end
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(29) Sack_Handle
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(30) Sack
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(31) Sack_002
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(32) Sack_001
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(33) Sack_001_end
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(34) Sack_Handle_001
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(35) Sack_Handle_001_end
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(36) Head
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(37) Eyes_L
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(38) Eyes_L_001
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(39) Eyes_L_001_end
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(40) Eyes_R
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(41) Eyes_R_001
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(42) Eyes_R_001_end
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(0) Polgergust_Armature
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(1) ROOT
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(2) Body
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(3) Palm_R
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(4) Thumb_R
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(5) Thumb_R_001
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(6) Thumb_R_001_end
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(7) Finger_Pinky_R
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(8) Finger_Pinky_R_001
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(9) Finger_Pinky_R_001_end
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(10) Finger_Middle_R
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(11) Finger_Middle_R_001
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(12) Finger_Middle_R_001_end
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(13) Finger_Index_R
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(14) Finger_Index_R_001
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(15) Finger_Index_R_001_end
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(16) Palm_L
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(17) Thumb_L
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(18) Thumb_L_001
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(19) Thumb_L_001_end
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(20) Finger_Pinky_L
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(21) Finger_Pinky_L_001
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(22) Finger_Pinky_L_001_end
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(23) Finger_Middle_L
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(24) Finger_Middle_L_001
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(25) Finger_Middle_L_001_end
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(26) Finger_Index_L
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(27) Finger_Index_L_001
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(28) Finger_Index_L_001_end
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(29) Sack_Handle
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(30) Sack
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(31) Sack_002
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(32) Sack_001
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(33) Sack_001_end
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(34) Sack_Handle_001
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(35) Sack_Handle_001_end
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(36) Head
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(37) Eyes_L
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(38) Eyes_L_001
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(39) Eyes_L_001_end
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(40) Eyes_R
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(41) Eyes_R_001
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(42) Eyes_R_001_end
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(0) Polgergust_Armature
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(1) ROOT
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(2) Body
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(3) Palm_R
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(4) Thumb_R
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(5) Thumb_R_001
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(6) Thumb_R_001_end
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(7) Finger_Pinky_R
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(8) Finger_Pinky_R_001
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(9) Finger_Pinky_R_001_end
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(10) Finger_Middle_R
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(11) Finger_Middle_R_001
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(12) Finger_Middle_R_001_end
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(13) Finger_Index_R
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(14) Finger_Index_R_001
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(15) Finger_Index_R_001_end
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(16) Palm_L
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(17) Thumb_L
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(18) Thumb_L_001
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(19) Thumb_L_001_end
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(20) Finger_Pinky_L
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(21) Finger_Pinky_L_001
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(22) Finger_Pinky_L_001_end
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(23) Finger_Middle_L
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(24) Finger_Middle_L_001
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(25) Finger_Middle_L_001_end
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(26) Finger_Index_L
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(27) Finger_Index_L_001
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(28) Finger_Index_L_001_end
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(29) Sack_Handle
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(30) Sack
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(31) Sack_002
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(32) Sack_001
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(33) Sack_001_end
+[2017.06.20-19.46.25:195][480]LogFbx: SortedLinks :(34) Sack_Handle_001
+[2017.06.20-19.46.25:196][480]LogFbx: SortedLinks :(35) Sack_Handle_001_end
+[2017.06.20-19.46.25:196][480]LogFbx: SortedLinks :(36) Head
+[2017.06.20-19.46.25:196][480]LogFbx: SortedLinks :(37) Eyes_L
+[2017.06.20-19.46.25:196][480]LogFbx: SortedLinks :(38) Eyes_L_001
+[2017.06.20-19.46.25:196][480]LogFbx: SortedLinks :(39) Eyes_L_001_end
+[2017.06.20-19.46.25:196][480]LogFbx: SortedLinks :(40) Eyes_R
+[2017.06.20-19.46.25:196][480]LogFbx: SortedLinks :(41) Eyes_R_001
+[2017.06.20-19.46.25:196][480]LogFbx: SortedLinks :(42) Eyes_R_001_end
+[2017.06.20-19.46.25:202][480]LogFbx: Parsing AnimStack Sun|SunAction
+[2017.06.20-19.46.25:203][480]LogLinker: Can't find file '/Game/SkaGameAssets/Enemies/PilPol_Anim_Sun_SunAction'
+[2017.06.20-19.46.25:203][480]LogLinker: Can't find file '/Game/SkaGameAssets/Enemies/PilPol_Anim_Sun_SunAction'
+[2017.06.20-19.46.25:205][480]LogSlate: Took 0.000264 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.20-19.46.25:234][480]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/SkaGameAssets/Enemies/PilPol_Anim_Sun_SunAction.PilPol_Anim_Sun_SunAction
+[2017.06.20-19.46.25:237][480]LogFbx: Parsing AnimStack Polgergust_Armature|Polgergust_HealthNab
+[2017.06.20-19.46.25:337][480]LogLinker: Can't find file '/Game/SkaGameAssets/Enemies/PilPol_Anim_Polgergust_Armature_Polgergust_HealthNab'
+[2017.06.20-19.46.25:337][480]LogLinker: Can't find file '/Game/SkaGameAssets/Enemies/PilPol_Anim_Polgergust_Armature_Polgergust_HealthNab'
+[2017.06.20-19.46.25:465][480]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/SkaGameAssets/Enemies/PilPol_Anim_Polgergust_Armature_Polgergust_HealthNab.PilPol_Anim_Polgergust_Armature_Polgergust_HealthNab
+[2017.06.20-19.46.25:469][480]LogFbx: Parsing AnimStack Polgergust_Armature|Polgergust_HealthNab_Fail
+[2017.06.20-19.46.25:472][480]LogLinker: Can't find file '/Game/SkaGameAssets/Enemies/PilPol_Anim_Polgergust_Armature_Polgergust_HealthNab_Fail'
+[2017.06.20-19.46.25:472][480]LogLinker: Can't find file '/Game/SkaGameAssets/Enemies/PilPol_Anim_Polgergust_Armature_Polgergust_HealthNab_Fail'
+[2017.06.20-19.46.25:634][480]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/SkaGameAssets/Enemies/PilPol_Anim_Polgergust_Armature_Polgergust_HealthNab_Fail.PilPol_Anim_Polgergust_Armature_Polgergust_HealthNab_Fail
+[2017.06.20-19.46.25:638][480]LogFbx: Parsing AnimStack Polgergust_Armature|Polgergust_HealthNab_Success
+[2017.06.20-19.46.25:641][480]LogLinker: Can't find file '/Game/SkaGameAssets/Enemies/PilPol_Anim_Polgergust_Armature_Polgergust_HealthNab_Success'
+[2017.06.20-19.46.25:641][480]LogLinker: Can't find file '/Game/SkaGameAssets/Enemies/PilPol_Anim_Polgergust_Armature_Polgergust_HealthNab_Success'
+[2017.06.20-19.46.25:704][480]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/SkaGameAssets/Enemies/PilPol_Anim_Polgergust_Armature_Polgergust_HealthNab_Success.PilPol_Anim_Polgergust_Armature_Polgergust_HealthNab_Success
+[2017.06.20-19.46.25:706][480]LogFbx: Parsing AnimStack Polgergust_Armature|Polgergust_Hurt
+[2017.06.20-19.46.25:709][480]LogLinker: Can't find file '/Game/SkaGameAssets/Enemies/PilPol_Anim_Polgergust_Armature_Polgergust_Hurt'
+[2017.06.20-19.46.25:709][480]LogLinker: Can't find file '/Game/SkaGameAssets/Enemies/PilPol_Anim_Polgergust_Armature_Polgergust_Hurt'
+[2017.06.20-19.46.25:772][480]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/SkaGameAssets/Enemies/PilPol_Anim_Polgergust_Armature_Polgergust_Hurt.PilPol_Anim_Polgergust_Armature_Polgergust_Hurt
+[2017.06.20-19.46.25:775][480]LogFbx: Parsing AnimStack Polgergust_Armature|Polgergust_Idle
+[2017.06.20-19.46.25:778][480]LogLinker: Can't find file '/Game/SkaGameAssets/Enemies/PilPol_Anim_Polgergust_Armature_Polgergust_Idle'
+[2017.06.20-19.46.25:778][480]LogLinker: Can't find file '/Game/SkaGameAssets/Enemies/PilPol_Anim_Polgergust_Armature_Polgergust_Idle'
+[2017.06.20-19.46.25:978][480]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/SkaGameAssets/Enemies/PilPol_Anim_Polgergust_Armature_Polgergust_Idle.PilPol_Anim_Polgergust_Armature_Polgergust_Idle
+[2017.06.20-19.46.25:983][480]LogFbx: Parsing AnimStack Polgergust_Armature|Polgergust_RunAway
+[2017.06.20-19.46.25:986][480]LogLinker: Can't find file '/Game/SkaGameAssets/Enemies/PilPol_Anim_Polgergust_Armature_Polgergust_RunAway'
+[2017.06.20-19.46.25:986][480]LogLinker: Can't find file '/Game/SkaGameAssets/Enemies/PilPol_Anim_Polgergust_Armature_Polgergust_RunAway'
+[2017.06.20-19.46.26:088][480]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/SkaGameAssets/Enemies/PilPol_Anim_Polgergust_Armature_Polgergust_RunAway.PilPol_Anim_Polgergust_Armature_Polgergust_RunAway
+[2017.06.20-19.46.26:092][480]LogFbx: Parsing AnimStack Polgergust_Armature|Polgergust_SackThwack
+[2017.06.20-19.46.26:094][480]LogLinker: Can't find file '/Game/SkaGameAssets/Enemies/PilPol_Anim_Polgergust_Armature_Polgergust_SackThwack'
+[2017.06.20-19.46.26:094][480]LogLinker: Can't find file '/Game/SkaGameAssets/Enemies/PilPol_Anim_Polgergust_Armature_Polgergust_SackThwack'
+[2017.06.20-19.46.26:243][480]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/SkaGameAssets/Enemies/PilPol_Anim_Polgergust_Armature_Polgergust_SackThwack.PilPol_Anim_Polgergust_Armature_Polgergust_SackThwack
+[2017.06.20-19.46.26:247][480]LogFbx: Parsing AnimStack Polgergust_Armature|SunAction
+[2017.06.20-19.46.26:249][480]LogLinker: Can't find file '/Game/SkaGameAssets/Enemies/PilPol_Anim_Polgergust_Armature_SunAction'
+[2017.06.20-19.46.26:249][480]LogLinker: Can't find file '/Game/SkaGameAssets/Enemies/PilPol_Anim_Polgergust_Armature_SunAction'
+[2017.06.20-19.46.26:270][480]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/SkaGameAssets/Enemies/PilPol_Anim_Polgergust_Armature_SunAction.PilPol_Anim_Polgergust_Armature_SunAction
+[2017.06.20-19.46.26:300][480]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.06.20-19.46.26:300][480]FBXImport:Warning: Warning The following bones are missing from the bind pose:
+Thumb_R.001_end  
+Finger_Pinky_R.001_end  
+Finger_Middle_R.001_end  
+Finger_Index_R.001_end  
+Thumb_L.001_end  
+Finger_Pinky_L.001_end  
+Finger_Middle_L.001_end  
+Finger_Index_L.001_end  
+Sack.001_end  
+Sack_Handle.001_end  
+Eyes_L.001_end  
+Eyes_R.001_end  
+
+This can happen for bones that are not vert weighted. If they are not in the correct orientation after importing,
+please set the "Use T0 as ref pose" option or add them to the bind pose and reimport the skeletal mesh. 
+[2017.06.20-19.46.26:300][480]FBXImport:Warning: Warning Mesh 'Cube.001' has no UV set. Creating a default set. 
+[2017.06.20-19.46.26:300][480]FBXImport:Warning: Warning Mesh 'Cube' has no UV set. Creating a default set. 
+[2017.06.20-19.46.29:782][855]LogStaticMesh: Building static mesh GravelordV2__1_...
+[2017.06.20-19.46.30:106][855]LogStaticMesh: Built static mesh [0.32s] /Game/SkaGameAssets/Enemies/GravelordV2__1_.GravelordV2__1_
+[2017.06.20-19.46.33:651][ 90]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.06.20-19.46.33:765][ 90]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.06.20-19.46.33:800][ 90]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_7:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2017.06.20-19.46.33:906][ 90]LogSlate: Took 0.000365 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.06.20-19.46.40:944][841]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) Already registered. Aborting.
+[2017.06.20-19.46.40:978][841]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_8:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) - call TermArticulated first.
+[2017.06.20-19.46.58:242][681]LogSavePackage: Save=32.98ms
+[2017.06.20-19.46.58:242][681]LogSavePackage: Moving '../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Saved/PilPol2399FD074ADA7B889933C1B18B6F65FC.tmp' to '../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Content/SkaGameAssets/Enemies/PilPol/PilPol.uasset'
+[2017.06.20-19.46.58:249][681]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Content/SkaGameAssets/Enemies/PilPol/PilPol.uasset
+[2017.06.20-19.46.58:282][681]LogSavePackage: Save=9.69ms
+[2017.06.20-19.46.58:282][681]LogSavePackage: Moving '../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Saved/PilPol_Anim_Polgergust_Armature_Polgergust_HealthNabF77533DC48862E2FE64158A7C95CFAC0.tmp' to '../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Content/SkaGameAssets/Enemies/PilPol/PilPol_Anim_Polgergust_Armature_Polgergust_HealthNab.uasset'
+[2017.06.20-19.46.58:289][681]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Content/SkaGameAssets/Enemies/PilPol/PilPol_Anim_Polgergust_Armature_Polgergust_HealthNab.uasset
+[2017.06.20-19.46.58:320][681]LogSavePackage: Save=10.15ms
+[2017.06.20-19.46.58:320][681]LogSavePackage: Moving '../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Saved/PilPol_Anim_Polgergust_Armature_Polgergust_HealthNab_Fail48FA76B3438726B7BBDC869256A76BF5.tmp' to '../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Content/SkaGameAssets/Enemies/PilPol/PilPol_Anim_Polgergust_Armature_Polgergust_HealthNab_Fail.uasset'
+[2017.06.20-19.46.58:326][681]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Content/SkaGameAssets/Enemies/PilPol/PilPol_Anim_Polgergust_Armature_Polgergust_HealthNab_Fail.uasset
+[2017.06.20-19.46.58:358][681]LogSavePackage: Save=9.60ms
+[2017.06.20-19.46.58:358][681]LogSavePackage: Moving '../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Saved/PilPol_Anim_Polgergust_Armature_Polgergust_HealthNab_Success6E5FE13449AA4E9C8FCD47BDEF1DDF0D.tmp' to '../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Content/SkaGameAssets/Enemies/PilPol/PilPol_Anim_Polgergust_Armature_Polgergust_HealthNab_Success.uasset'
+[2017.06.20-19.46.58:365][681]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Content/SkaGameAssets/Enemies/PilPol/PilPol_Anim_Polgergust_Armature_Polgergust_HealthNab_Success.uasset
+[2017.06.20-19.46.58:396][681]LogSavePackage: Save=9.81ms
+[2017.06.20-19.46.58:396][681]LogSavePackage: Moving '../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Saved/PilPol_Anim_Polgergust_Armature_Polgergust_Hurt41ED5E0749CCF9C798348FA6FAF0DF1F.tmp' to '../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Content/SkaGameAssets/Enemies/PilPol/PilPol_Anim_Polgergust_Armature_Polgergust_Hurt.uasset'
+[2017.06.20-19.46.58:403][681]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Content/SkaGameAssets/Enemies/PilPol/PilPol_Anim_Polgergust_Armature_Polgergust_Hurt.uasset
+[2017.06.20-19.46.58:433][681]LogSavePackage: Save=10.73ms
+[2017.06.20-19.46.58:434][681]LogSavePackage: Moving '../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Saved/PilPol_Anim_Polgergust_Armature_Polgergust_Idle19420E2642D2FF1129F4B981802DACE0.tmp' to '../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Content/SkaGameAssets/Enemies/PilPol/PilPol_Anim_Polgergust_Armature_Polgergust_Idle.uasset'
+[2017.06.20-19.46.58:440][681]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Content/SkaGameAssets/Enemies/PilPol/PilPol_Anim_Polgergust_Armature_Polgergust_Idle.uasset
+[2017.06.20-19.46.58:471][681]LogSavePackage: Save=10.59ms
+[2017.06.20-19.46.58:471][681]LogSavePackage: Moving '../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Saved/PilPol_Anim_Polgergust_Armature_Polgergust_RunAwayC411567F425AA663C3B22F96D6993377.tmp' to '../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Content/SkaGameAssets/Enemies/PilPol/PilPol_Anim_Polgergust_Armature_Polgergust_RunAway.uasset'
+[2017.06.20-19.46.58:478][681]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Content/SkaGameAssets/Enemies/PilPol/PilPol_Anim_Polgergust_Armature_Polgergust_RunAway.uasset
+[2017.06.20-19.46.58:510][681]LogSavePackage: Save=9.83ms
+[2017.06.20-19.46.58:510][681]LogSavePackage: Moving '../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Saved/PilPol_Anim_Polgergust_Armature_Polgergust_SackThwackA060C0374C989CE3DC1584AAF57515D6.tmp' to '../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Content/SkaGameAssets/Enemies/PilPol/PilPol_Anim_Polgergust_Armature_Polgergust_SackThwack.uasset'
+[2017.06.20-19.46.58:518][681]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Content/SkaGameAssets/Enemies/PilPol/PilPol_Anim_Polgergust_Armature_Polgergust_SackThwack.uasset
+[2017.06.20-19.46.58:547][681]LogSavePackage: Save=10.16ms
+[2017.06.20-19.46.58:547][681]LogSavePackage: Moving '../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Saved/PilPol_Anim_Polgergust_Armature_SunAction24F104664628EF4C8753319A418BE128.tmp' to '../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Content/SkaGameAssets/Enemies/PilPol/PilPol_Anim_Polgergust_Armature_SunAction.uasset'
+[2017.06.20-19.46.58:554][681]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Content/SkaGameAssets/Enemies/PilPol/PilPol_Anim_Polgergust_Armature_SunAction.uasset
+[2017.06.20-19.46.58:581][681]LogSavePackage: Save=9.85ms
+[2017.06.20-19.46.58:581][681]LogSavePackage: Moving '../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Saved/PilPol_Anim_Sun_SunActionD907442948D0E677C48E9F81B54BBC0C.tmp' to '../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Content/SkaGameAssets/Enemies/PilPol/PilPol_Anim_Sun_SunAction.uasset'
+[2017.06.20-19.46.58:589][681]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Content/SkaGameAssets/Enemies/PilPol/PilPol_Anim_Sun_SunAction.uasset
+[2017.06.20-19.46.58:599][681]LogSavePackage: Save=5.77ms
+[2017.06.20-19.46.58:599][681]LogSavePackage: Moving '../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Saved/PilPol_PhysicsAsset77704EA94D57EF057338308E7205E7F9.tmp' to '../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Content/SkaGameAssets/Enemies/PilPol/PilPol_PhysicsAsset.uasset'
+[2017.06.20-19.46.58:606][681]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Content/SkaGameAssets/Enemies/PilPol/PilPol_PhysicsAsset.uasset
+[2017.06.20-19.46.58:612][681]LogSavePackage: Save=2.34ms
+[2017.06.20-19.46.58:612][681]LogSavePackage: Moving '../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Saved/PilPol_Skeleton0AE2616049322D24033DAC8921E35677.tmp' to '../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Content/SkaGameAssets/Enemies/PilPol/PilPol_Skeleton.uasset'
+[2017.06.20-19.46.58:620][681]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Content/SkaGameAssets/Enemies/PilPol/PilPol_Skeleton.uasset
+[2017.06.20-19.47.15:509][469]LogContentBrowser: Native class hierarchy updated for 'PhAT' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.06.20-19.47.25:911][497]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_12:PersistentLevel.Actor_2.DebugSkelMeshComponent_4) Already registered. Aborting.
+[2017.06.20-19.47.25:965][497]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_12:PersistentLevel.Actor_2.DebugSkelMeshComponent_4) - call TermArticulated first.
+[2017.06.20-19.47.48:824][471]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/LabUser/Downloads/PilPol_Texture.png)
+[2017.06.20-19.47.48:851][471]LogTexture:Display: Building textures: PilPol_Texture (AutoDXT, 1024X1024) - 115 MB total VRAM
+[2017.06.20-19.47.52:309][801]LogMaterial: Missing cached shader map for material PilPol_Texture_Mat, compiling. 
+[2017.06.20-19.47.52:310][801]LogTemp:Display: Added material ShaderMap 0x00000229992A8100 with Material 0x000002291681AE00 to ShaderMapsBeingCompiled
+[2017.06.20-19.47.52:332][801]LogTemp:Display: Kicking off shader compilation for PilPol_Texture_Mat, GameThreadShaderMap 0x00000229992A8100
+[2017.06.20-19.47.54:092][970]LogTemp:Display: Finished compile of shader map 0x00000229992A8100
+[2017.06.20-19.47.54:092][970]LogTemp:Display: Shader map PilPol_Texture_Mat complete, GameThreadShaderMap 0x00000229992A8100, marking material PilPol_Texture_Mat as finished
+[2017.06.20-19.47.54:092][970]LogTemp:Display: Marking material as finished 0x000002291681AE00
+[2017.06.20-19.47.55:450][ 79]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.Actor_3.DebugSkelMeshComponent_7) Already registered. Aborting.
+[2017.06.20-19.47.55:502][ 79]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_15:PersistentLevel.Actor_3.DebugSkelMeshComponent_7) - call TermArticulated first.
+[2017.06.20-19.48.02:470][773]LogRenderer: Reallocating scene render targets to support 1208x928 NumSamples 1 (Frame:18527).
+[2017.06.20-19.48.12:809][726]LogMaterial:Warning: Material /Game/SkaGameAssets/Enemies/PilPol/PilPol_Texture_Mat.PilPol_Texture_Mat needed to have new flag set bUsedWithSkeletalMesh !
+[2017.06.20-19.48.12:813][726]LogMaterial: Missing cached shader map for material PilPol_Texture_Mat, compiling. 
+[2017.06.20-19.48.12:814][726]LogTemp:Display: Added material ShaderMap 0x00000229A121F200 with Material 0x000002291681AE00 to ShaderMapsBeingCompiled
+[2017.06.20-19.48.12:840][726]LogTemp:Display: Kicking off shader compilation for PilPol_Texture_Mat, GameThreadShaderMap 0x00000229A121F200
+[2017.06.20-19.48.12:840][726]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.06.20-19.48.16:729][  3]LogTemp:Display: Finished compile of shader map 0x00000229A121F200
+[2017.06.20-19.48.16:729][  3]LogTemp:Display: Shader map PilPol_Texture_Mat complete, GameThreadShaderMap 0x00000229A121F200, marking material PilPol_Texture_Mat as finished
+[2017.06.20-19.48.16:729][  3]LogTemp:Display: Marking material as finished 0x000002291681AE00
+[2017.06.20-19.49.02:704][424]LogMaterial:Warning: Material /Game/SkaGameAssets/Enviroment/Hazards/Boulder_Texture_Mat.Boulder_Texture_Mat needed to have new flag set bUsedWithSkeletalMesh !
+[2017.06.20-19.49.02:706][424]LogMaterial: Missing cached shader map for material Boulder_Texture_Mat, compiling. 
+[2017.06.20-19.49.02:707][424]LogTemp:Display: Added material ShaderMap 0x00000229B2493900 with Material 0x0000022910B5A980 to ShaderMapsBeingCompiled
+[2017.06.20-19.49.02:733][424]LogTemp:Display: Kicking off shader compilation for Boulder_Texture_Mat, GameThreadShaderMap 0x00000229B2493900
+[2017.06.20-19.49.02:735][424]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.06.20-19.49.06:799][682]LogTemp:Display: Finished compile of shader map 0x00000229B2493900
+[2017.06.20-19.49.06:799][682]LogTemp:Display: Shader map Boulder_Texture_Mat complete, GameThreadShaderMap 0x00000229B2493900, marking material Boulder_Texture_Mat as finished
+[2017.06.20-19.49.06:799][682]LogTemp:Display: Marking material as finished 0x0000022910B5A980
+[2017.06.20-19.49.30:566][505]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.Actor_4.DebugSkelMeshComponent_8) Already registered. Aborting.
+[2017.06.20-19.49.30:622][505]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_16:PersistentLevel.Actor_4.DebugSkelMeshComponent_8) - call TermArticulated first.
+[2017.06.20-19.50.03:928][ 56]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimPreviewInstance_10' or package '/Engine/Transient'.
+[2017.06.20-19.50.03:928][ 56]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimPreviewInstance_9' or package '/Engine/Transient'.
+[2017.06.20-19.50.05:371][170]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_27:PersistentLevel.Actor_5.DebugSkelMeshComponent_19) Already registered. Aborting.
+[2017.06.20-19.50.05:425][170]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_27:PersistentLevel.Actor_5.DebugSkelMeshComponent_19) - call TermArticulated first.
+[2017.06.20-19.50.14:733][759]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimPreviewInstance_21' or package '/Engine/Transient'.
+[2017.06.20-19.50.14:733][759]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimPreviewInstance_20' or package '/Engine/Transient'.
+[2017.06.20-19.50.20:202][268]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (PilPol)
+[2017.06.20-19.50.21:009][357]Cmd: DELETE
+[2017.06.20-19.50.21:009][357]Cmd: ACTOR DELETE
+[2017.06.20-19.50.21:010][357]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2017.06.20-19.50.21:020][357]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2017.06.20-19.50.23:143][578]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_30:PersistentLevel.Actor_6.DebugSkelMeshComponent_22) Already registered. Aborting.
+[2017.06.20-19.50.23:194][578]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_30:PersistentLevel.Actor_6.DebugSkelMeshComponent_22) - call TermArticulated first.
+[2017.06.20-19.50.52:958][879]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimPreviewInstance_23' or package '/Engine/Transient'.
+[2017.06.20-19.50.52:958][879]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DebugSkelMeshComponent_22' or package '/Engine/Transient'.
+[2017.06.20-19.50.52:958][879]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimPreviewInstance_20' or package '/Engine/Transient'.
+[2017.06.20-19.50.52:958][879]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DebugSkelMeshComponent_19' or package '/Engine/Transient'.
+[2017.06.20-19.50.52:958][879]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimPreviewInstance_9' or package '/Engine/Transient'.
+[2017.06.20-19.50.52:959][879]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DebugSkelMeshComponent_8' or package '/Engine/Transient'.
+[2017.06.20-19.50.52:959][879]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimPreviewInstance_8' or package '/Engine/Transient'.
+[2017.06.20-19.50.52:959][879]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DebugSkelMeshComponent_7' or package '/Engine/Transient'.
+[2017.06.20-19.50.52:959][879]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimPreviewInstance_5' or package '/Engine/Transient'.
+[2017.06.20-19.50.52:959][879]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DebugSkelMeshComponent_4' or package '/Engine/Transient'.
+[2017.06.20-19.50.52:959][879]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimPreviewInstance_2' or package '/Engine/Transient'.
+[2017.06.20-19.50.52:959][879]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DebugSkelMeshComponent_1' or package '/Engine/Transient'.
+[2017.06.20-19.50.52:959][879]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimSingleNodeInstance_0' or package '/Engine/Transient'.
+[2017.06.20-19.50.52:959][879]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimPreviewInstance_1' or package '/Engine/Transient'.
+[2017.06.20-19.50.52:959][879]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DebugSkelMeshComponent_0' or package '/Engine/Transient'.
+[2017.06.20-19.50.52:959][879]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimPreviewInstance_0' or package '/Engine/Transient'.
+[2017.06.20-19.50.52:959][879]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimSingleNodeInstance_3' or package '/Game/SkaGameAssets/Levels/Graveyard_Test'.
+[2017.06.20-19.50.52:959][879]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'PhATEdSkeletalMeshComponent_0' or package '/Engine/Transient'.
+[2017.06.20-19.50.55:197][ 47]LogMaterial: Missing cached shader map for material PilPol_Texture_Mat, compiling. 
+[2017.06.20-19.50.55:198][ 47]LogTemp:Display: Added material ShaderMap 0x0000022956E96400 with Material 0x0000022915426E80 to ShaderMapsBeingCompiled
+[2017.06.20-19.50.55:218][ 47]LogTemp:Display: Kicking off shader compilation for PilPol_Texture_Mat, GameThreadShaderMap 0x0000022956E96400
+[2017.06.20-19.50.55:285][ 47]LogMaterial: Missing cached shader map for material PilPol_Texture_Mat, compiling. 
+[2017.06.20-19.50.55:286][ 47]LogTemp:Display: Added material ShaderMap 0x0000022956848F00 with Material 0x0000022915426E80 to ShaderMapsBeingCompiled
+[2017.06.20-19.50.55:306][ 47]LogTemp:Display: Kicking off shader compilation for PilPol_Texture_Mat, GameThreadShaderMap 0x0000022956848F00
+[2017.06.20-19.50.55:306][ 47]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.06.20-19.50.55:333][ 47]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.06.20-19.50.55:334][ 47]LogTemp:Display: Added material ShaderMap 0x000002299D1F0800 with Material 0x0000022915030400 to ShaderMapsBeingCompiled
+[2017.06.20-19.50.55:337][ 47]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_0, GameThreadShaderMap 0x000002299D1F0800
+[2017.06.20-19.50.55:348][ 47]LogSlate: Took 0.000381 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.06.20-19.50.58:216][230]LogTemp:Display: Finished compile of shader map 0x0000022956848F00
+[2017.06.20-19.50.58:216][230]LogTemp:Display: Shader map PilPol_Texture_Mat complete, GameThreadShaderMap 0x0000022956848F00, marking material PilPol_Texture_Mat as finished
+[2017.06.20-19.50.58:216][230]LogTemp:Display: Marking material as finished 0x0000022915426E80
+[2017.06.20-19.50.58:244][232]LogTemp:Display: Finished compile of shader map 0x000002299D1F0800
+[2017.06.20-19.50.58:244][232]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSample_0 complete, GameThreadShaderMap 0x000002299D1F0800, marking material FMatExpressionPreview MaterialExpressionTextureSample_0 as finished
+[2017.06.20-19.50.58:244][232]LogTemp:Display: Marking material as finished 0x0000022915030400
+[2017.06.20-19.52.20:520][613]LogMaterial: Missing cached shader map for material Bone, compiling. 
+[2017.06.20-19.52.20:521][613]LogTemp:Display: Added material ShaderMap 0x00000229C0346400 with Material 0x000002296D263380 to ShaderMapsBeingCompiled
+[2017.06.20-19.52.20:545][613]LogTemp:Display: Kicking off shader compilation for Bone, GameThreadShaderMap 0x00000229C0346400
+[2017.06.20-19.52.20:641][613]LogMaterial: Missing cached shader map for material Bone, compiling. 
+[2017.06.20-19.52.20:642][613]LogTemp:Display: Added material ShaderMap 0x0000022997E98480 with Material 0x000002296D263380 to ShaderMapsBeingCompiled
+[2017.06.20-19.52.20:664][613]LogTemp:Display: Kicking off shader compilation for Bone, GameThreadShaderMap 0x0000022997E98480
+[2017.06.20-19.52.20:664][613]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.06.20-19.52.20:695][613]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.06.20-19.52.20:696][613]LogTemp:Display: Added material ShaderMap 0x000002299819E400 with Material 0x00000229A1E43D00 to ShaderMapsBeingCompiled
+[2017.06.20-19.52.20:699][613]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_0, GameThreadShaderMap 0x000002299819E400
+[2017.06.20-19.52.20:700][613]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionCollectionParameter_4, compiling. 
+[2017.06.20-19.52.20:701][613]LogTemp:Display: Added material ShaderMap 0x000002299819CF00 with Material 0x0000022902C69F00 to ShaderMapsBeingCompiled
+[2017.06.20-19.52.20:704][613]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionCollectionParameter_4, GameThreadShaderMap 0x000002299819CF00
+[2017.06.20-19.52.20:705][613]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2017.06.20-19.52.20:706][613]LogTemp:Display: Added material ShaderMap 0x00000229C46B2400 with Material 0x0000022902C69C00 to ShaderMapsBeingCompiled
+[2017.06.20-19.52.20:708][613]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_4, GameThreadShaderMap 0x00000229C46B2400
+[2017.06.20-19.52.23:656][785]LogTemp:Display: Finished compile of shader map 0x0000022997E98480
+[2017.06.20-19.52.23:656][785]LogTemp:Display: Shader map Bone complete, GameThreadShaderMap 0x0000022997E98480, marking material Bone as finished
+[2017.06.20-19.52.23:656][785]LogTemp:Display: Marking material as finished 0x000002296D263380
+[2017.06.20-19.52.23:691][787]LogTemp:Display: Finished compile of shader map 0x000002299819E400
+[2017.06.20-19.52.23:691][787]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionVectorParameter_0 complete, GameThreadShaderMap 0x000002299819E400, marking material FMatExpressionPreview MaterialExpressionVectorParameter_0 as finished
+[2017.06.20-19.52.23:691][787]LogTemp:Display: Marking material as finished 0x00000229A1E43D00
+[2017.06.20-19.52.23:853][797]LogTemp:Display: Finished compile of shader map 0x000002299819CF00
+[2017.06.20-19.52.23:853][797]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionCollectionParameter_4 complete, GameThreadShaderMap 0x000002299819CF00, marking material FMatExpressionPreview MaterialExpressionCollectionParameter_4 as finished
+[2017.06.20-19.52.23:853][797]LogTemp:Display: Marking material as finished 0x0000022902C69F00
+[2017.06.20-19.52.23:880][799]LogTemp:Display: Finished compile of shader map 0x00000229C46B2400
+[2017.06.20-19.52.23:880][799]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSample_4 complete, GameThreadShaderMap 0x00000229C46B2400, marking material FMatExpressionPreview MaterialExpressionTextureSample_4 as finished
+[2017.06.20-19.52.23:880][799]LogTemp:Display: Marking material as finished 0x0000022902C69C00
+[2017.06.20-19.52.28:679][302]LogMaterial: Missing cached shader map for material Bone, compiling. 
+[2017.06.20-19.52.28:679][302]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Bone for platform PCD3D_SM5, Default Material will be used in game.
+[2017.06.20-19.52.28:679][302]LogMaterial:Warning: 	(Node DotProduct) Missing DotProduct input A
+[2017.06.20-19.52.28:679][302]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.06.20-19.52.28:777][312]LogMaterial: Missing cached shader map for material Bone, compiling. 
+[2017.06.20-19.52.28:778][312]LogTemp:Display: Added material ShaderMap 0x00000229BDDE4480 with Material 0x000002296D263380 to ShaderMapsBeingCompiled
+[2017.06.20-19.52.28:800][312]LogTemp:Display: Kicking off shader compilation for Bone, GameThreadShaderMap 0x00000229BDDE4480
+[2017.06.20-19.52.28:800][312]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.06.20-19.52.31:428][497]LogTemp:Display: Finished compile of shader map 0x00000229BDDE4480
+[2017.06.20-19.52.31:428][497]LogTemp:Display: Shader map Bone complete, GameThreadShaderMap 0x00000229BDDE4480, marking material Bone as finished
+[2017.06.20-19.52.31:428][497]LogTemp:Display: Marking material as finished 0x000002296D263380
+[2017.06.20-19.52.32:771][633]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant_8, compiling. 
+[2017.06.20-19.52.32:772][633]LogTemp:Display: Added material ShaderMap 0x00000229D85C0800 with Material 0x00000229A1E42E00 to ShaderMapsBeingCompiled
+[2017.06.20-19.52.32:773][633]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionConstant_8, GameThreadShaderMap 0x00000229D85C0800
+[2017.06.20-19.52.32:984][650]LogTemp:Display: Finished compile of shader map 0x00000229D85C0800
+[2017.06.20-19.52.32:984][650]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionConstant_8 complete, GameThreadShaderMap 0x00000229D85C0800, marking material FMatExpressionPreview MaterialExpressionConstant_8 as finished
+[2017.06.20-19.52.32:985][650]LogTemp:Display: Marking material as finished 0x00000229A1E42E00
+[2017.06.20-19.52.41:343][493]LogUObjectHash:Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.Bone:MaterialGraph_1.MaterialGraphNode_9 or MaterialGraphNode /Engine/Transient.PilPol_Texture_Mat:MaterialGraph_0.MaterialGraphNode_9
+[2017.06.20-19.52.41:343][493]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionTextureSample'MaterialGraphNode_9.MaterialExpressionTextureSample_0',Mask=1,MaskR=1,MaskG=1,MaskB=1)'
+[2017.06.20-19.52.41:343][493]LogUObjectHash:Warning: Ambiguous search, could be MaterialExpressionVectorParameter /Engine/EngineMaterials/Widget3DPassThrough.Widget3DPassThrough:MaterialExpressionVectorParameter_0 or MaterialExpressionVectorParameter /Engine/VREditor/TransformGizmo/TransformGizmoMaterial.TransformGizmoMaterial:MaterialExpressionVectorParameter_0
+[2017.06.20-19.52.41:343][493]LogUObjectHash:Warning: Ambiguous search, could be MaterialExpressionVectorParameter /Engine/EngineMaterials/Widget3DPassThrough.Widget3DPassThrough:MaterialExpressionVectorParameter_0 or MaterialExpressionVectorParameter /Engine/VREditor/TransformGizmo/TranslucentTransformGizmoMaterial.TranslucentTransformGizmoMaterial:MaterialExpressionVectorParameter_0
+[2017.06.20-19.52.41:343][493]LogUObjectHash:Warning: Ambiguous search, could be MaterialExpressionVectorParameter /Engine/EngineMaterials/Widget3DPassThrough.Widget3DPassThrough:MaterialExpressionVectorParameter_0 or MaterialExpressionVectorParameter /Engine/VREditor/FloatingText/LineMaterial.LineMaterial:MaterialExpressionVectorParameter_0
+[2017.06.20-19.52.41:343][493]LogUObjectHash:Warning: Ambiguous search, could be MaterialExpressionVectorParameter /Engine/EngineMaterials/Widget3DPassThrough.Widget3DPassThrough:MaterialExpressionVectorParameter_0 or MaterialExpressionVectorParameter /Engine/EditorLandscapeResources/FlattenHeightMat.FlattenHeightMat:MaterialExpressionVectorParameter_0
+[2017.06.20-19.52.41:343][493]LogUObjectHash:Warning: Ambiguous search, could be MaterialExpressionVectorParameter /Engine/EngineMaterials/Widget3DPassThrough.Widget3DPassThrough:MaterialExpressionVectorParameter_0 or MaterialExpressionVectorParameter /Engine/VREditor/LaserPointer/LaserPointerMaterial.LaserPointerMaterial:MaterialExpressionVectorParameter_0
+[2017.06.20-19.52.41:343][493]LogUObjectHash:Warning: Ambiguous search, could be MaterialExpressionVectorParameter /Engine/EngineMaterials/Widget3DPassThrough.Widget3DPassThrough:MaterialExpressionVectorParameter_0 or MaterialExpressionVectorParameter /Engine/VREditor/WorldMovementGrid/GridPostProcess.GridPostProcess:MaterialExpressionVectorParameter_0
+[2017.06.20-19.52.41:343][493]LogUObjectHash:Warning: Ambiguous search, could be MaterialExpressionVectorParameter /Engine/EngineMaterials/Widget3DPassThrough.Widget3DPassThrough:MaterialExpressionVectorParameter_0 or MaterialExpressionVectorParameter /Engine/EditorMaterials/Camera/CineMat.CineMat:MaterialExpressionVectorParameter_0
+[2017.06.20-19.52.41:343][493]LogUObjectHash:Warning: Ambiguous search, could be MaterialExpressionVectorParameter /Engine/EngineMaterials/Widget3DPassThrough.Widget3DPassThrough:MaterialExpressionVectorParameter_0 or MaterialExpressionVectorParameter /Engine/EngineDebugMaterials/M_SimpleOpaque.M_SimpleOpaque:MaterialExpressionVectorParameter_0
+[2017.06.20-19.52.41:343][493]LogUObjectHash:Warning: Ambiguous search, could be MaterialExpressionVectorParameter /Engine/EngineMaterials/Widget3DPassThrough.Widget3DPassThrough:MaterialExpressionVectorParameter_0 or MaterialExpressionVectorParameter /Engine/EngineDebugMaterials/M_SimpleTranslucent.M_SimpleTranslucent:MaterialExpressionVectorParameter_0
+[2017.06.20-19.52.41:343][493]LogUObjectHash:Warning: Ambiguous search, could be MaterialExpressionVectorParameter /Engine/EngineMaterials/Widget3DPassThrough.Widget3DPassThrough:MaterialExpressionVectorParameter_0 or MaterialExpressionVectorParameter /Engine/EngineMaterials/HighResScreenshotCaptureRegion.HighResScreenshotCaptureRegion:MaterialExpressionVectorParameter_0
+[2017.06.20-19.52.41:343][493]LogUObjectHash:Warning: Ambiguous search, could be MaterialExpressionVectorParameter /Engine/EngineMaterials/Widget3DPassThrough.Widget3DPassThrough:MaterialExpressionVectorParameter_0 or MaterialExpressionVectorParameter /Engine/EngineDebugMaterials/WireframeMaterial.WireframeMaterial:MaterialExpressionVectorParameter_0
+[2017.06.20-19.52.41:343][493]LogUObjectHash:Warning: Ambiguous search, could be MaterialExpressionVectorParameter /Engine/EngineMaterials/Widget3DPassThrough.Widget3DPassThrough:MaterialExpressionVectorParameter_0 or MaterialExpressionVectorParameter /Engine/EngineDebugMaterials/MAT_LevelColorationLitLightmapUV.MAT_LevelColorationLitLightmapUV:MaterialExpressionVectorParameter_0
+[2017.06.20-19.52.41:343][493]LogUObjectHash:Warning: Ambiguous search, could be MaterialExpressionVectorParameter /Engine/EngineMaterials/Widget3DPassThrough.Widget3DPassThrough:MaterialExpressionVectorParameter_0 or MaterialExpressionVectorParameter /Engine/EngineMaterials/PhAT_JointLimitMaterial.PhAT_JointLimitMaterial:MaterialExpressionVectorParameter_0
+[2017.06.20-19.52.41:343][493]LogUObjectHash:Warning: Ambiguous search, could be MaterialExpressionVectorParameter /Engine/EngineMaterials/Widget3DPassThrough.Widget3DPassThrough:MaterialExpressionVectorParameter_0 or MaterialExpressionVectorParameter /Game/SkaGameAssets/Brad/Character_Assets/Materials/Bone.Bone:MaterialExpressionVectorParameter_0
+[2017.06.20-19.52.41:343][493]LogUObjectHash:Warning: Ambiguous search, could be MaterialExpressionVectorParameter /Engine/EngineMaterials/Widget3DPassThrough.Widget3DPassThrough:MaterialExpressionVectorParameter_0 or MaterialExpressionVectorParameter /Game/SkaGameAssets/Enemies/Materials/BatEye.BatEye:MaterialExpressionVectorParameter_0
+[2017.06.20-19.52.41:343][493]LogUObjectHash:Warning: Ambiguous search, could be MaterialExpressionVectorParameter /Engine/EngineMaterials/Widget3DPassThrough.Widget3DPassThrough:MaterialExpressionVectorParameter_0 or MaterialExpressionVectorParameter /Engine/BasicShapes/BasicShapeMaterial.BasicShapeMaterial:MaterialExpressionVectorParameter_0
+[2017.06.20-19.52.41:343][493]LogUObjectHash:Warning: Ambiguous search, could be MaterialExpressionVectorParameter /Engine/EngineMaterials/Widget3DPassThrough.Widget3DPassThrough:MaterialExpressionVectorParameter_0 or MaterialExpressionVectorParameter /Game/SkaGameAssets/Enviroment/Enviroment_Materials/Undeground_Mat.Undeground_Mat:MaterialExpressionVectorParameter_0
+[2017.06.20-19.52.41:343][493]LogUObjectHash:Warning: Ambiguous search, could be MaterialExpressionVectorParameter /Engine/EngineMaterials/Widget3DPassThrough.Widget3DPassThrough:MaterialExpressionVectorParameter_0 or MaterialExpressionVectorParameter /Game/SkaGameAssets/Enviroment/Props/Materials/Tombstone_Mat.Tombstone_Mat:MaterialExpressionVectorParameter_0
+[2017.06.20-19.52.41:343][493]LogUObjectHash:Warning: Ambiguous search, could be MaterialExpressionVectorParameter /Engine/EngineMaterials/Widget3DPassThrough.Widget3DPassThrough:MaterialExpressionVectorParameter_0 or MaterialExpressionVectorParameter /Engine/EditorMaterials/AssetViewer/M_SkyBox.M_SkyBox:MaterialExpressionVectorParameter_0
+[2017.06.20-19.52.41:343][493]LogUObjectHash:Warning: Ambiguous search, could be MaterialExpressionVectorParameter /Engine/EngineMaterials/Widget3DPassThrough.Widget3DPassThrough:MaterialExpressionVectorParameter_0 or MaterialExpressionVectorParameter /Engine/Transient.Bone:MaterialExpressionVectorParameter_0
+[2017.06.20-19.52.41:343][493]LogProperty:Warning: Illegal TEXT reference to a private object in external package (MaterialExpressionVectorParameter /Engine/EngineMaterials/Widget3DPassThrough.Widget3DPassThrough:MaterialExpressionVectorParameter_0) from referencer (MaterialExpressionMultiply /Engine/Transient.PilPol_Texture_Mat:MaterialGraph_0.MaterialGraphNode_3.MaterialExpressionMultiply_0).  Import failed...
+[2017.06.20-19.52.41:343][493]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionVectorParameter'MaterialExpressionVectorParameter_0',Mask=1,MaskR=1,MaskG=1,MaskB=1)'
+[2017.06.20-19.52.41:344][493]LogUObjectHash:Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.Bone:MaterialGraph_1.MaterialGraphNode_8 or MaterialGraphNode /Engine/Transient.PilPol_Texture_Mat:MaterialGraph_0.MaterialGraphNode_8
+[2017.06.20-19.52.41:344][493]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionComponentMask'MaterialGraphNode_8.MaterialExpressionComponentMask_0')'
+[2017.06.20-19.52.41:344][493]LogUObjectHash:Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.Bone:MaterialGraph_1.MaterialGraphNode_7 or MaterialGraphNode /Engine/Transient.PilPol_Texture_Mat:MaterialGraph_0.MaterialGraphNode_7
+[2017.06.20-19.52.41:344][493]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionVertexNormalWS'MaterialGraphNode_7.MaterialExpressionVertexNormalWS_0')'
+[2017.06.20-19.52.41:345][493]LogUObjectHash:Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.Bone:MaterialGraph_1.MaterialGraphNode_5 or MaterialGraphNode /Engine/Transient.PilPol_Texture_Mat:MaterialGraph_0.MaterialGraphNode_5
+[2017.06.20-19.52.41:345][493]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionCollectionParameter'MaterialGraphNode_5.MaterialExpressionCollectionParameter_0')'
+[2017.06.20-19.52.41:346][493]LogUObjectHash:Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.Bone:MaterialGraph_1.MaterialGraphNode_6 or MaterialGraphNode /Engine/Transient.PilPol_Texture_Mat:MaterialGraph_0.MaterialGraphNode_6
+[2017.06.20-19.52.41:346][493]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionDotProduct'MaterialGraphNode_6.MaterialExpressionDotProduct_0')'
+[2017.06.20-19.52.41:356][493]LogMaterial: Missing cached shader map for material PilPol_Texture_Mat, compiling. 
+[2017.06.20-19.52.41:357][493]LogTemp:Display: Added material ShaderMap 0x00000229D8564800 with Material 0x0000022915426E80 to ShaderMapsBeingCompiled
+[2017.06.20-19.52.41:377][493]LogTemp:Display: Kicking off shader compilation for PilPol_Texture_Mat, GameThreadShaderMap 0x00000229D8564800
+[2017.06.20-19.52.41:377][493]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.06.20-19.52.41:378][493]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionCollectionParameter_2, compiling. 
+[2017.06.20-19.52.41:379][493]LogTemp:Display: Added material ShaderMap 0x00000229BFF1E780 with Material 0x000002293F5B3400 to ShaderMapsBeingCompiled
+[2017.06.20-19.52.41:381][493]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionCollectionParameter_2, GameThreadShaderMap 0x00000229BFF1E780
+[2017.06.20-19.52.41:381][493]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.06.20-19.52.41:382][493]LogTemp:Display: Added material ShaderMap 0x00000229BFF1D280 with Material 0x000002293F5B3700 to ShaderMapsBeingCompiled
+[2017.06.20-19.52.41:384][493]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_2, GameThreadShaderMap 0x00000229BFF1D280
+[2017.06.20-19.52.41:385][493]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant_4, compiling. 
+[2017.06.20-19.52.41:386][493]LogTemp:Display: Added material ShaderMap 0x00000229331B7580 with Material 0x000002293F5B0100 to ShaderMapsBeingCompiled
+[2017.06.20-19.52.41:387][493]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionConstant_4, GameThreadShaderMap 0x00000229331B7580
+[2017.06.20-19.52.43:931][657]LogTemp:Display: Finished compile of shader map 0x00000229D8564800
+[2017.06.20-19.52.43:931][657]LogTemp:Display: Shader map PilPol_Texture_Mat complete, GameThreadShaderMap 0x00000229D8564800, marking material PilPol_Texture_Mat as finished
+[2017.06.20-19.52.43:931][657]LogTemp:Display: Marking material as finished 0x0000022915426E80
+[2017.06.20-19.52.43:967][659]LogTemp:Display: Finished compile of shader map 0x00000229BFF1E780
+[2017.06.20-19.52.43:967][659]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionCollectionParameter_2 complete, GameThreadShaderMap 0x00000229BFF1E780, marking material FMatExpressionPreview MaterialExpressionCollectionParameter_2 as finished
+[2017.06.20-19.52.43:968][659]LogTemp:Display: Marking material as finished 0x000002293F5B3400
+[2017.06.20-19.52.44:114][667]LogTemp:Display: Finished compile of shader map 0x00000229BFF1D280
+[2017.06.20-19.52.44:114][667]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSample_2 complete, GameThreadShaderMap 0x00000229BFF1D280, marking material FMatExpressionPreview MaterialExpressionTextureSample_2 as finished
+[2017.06.20-19.52.44:114][667]LogTemp:Display: Marking material as finished 0x000002293F5B3700
+[2017.06.20-19.52.44:157][670]LogTemp:Display: Finished compile of shader map 0x00000229331B7580
+[2017.06.20-19.52.44:157][670]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionConstant_4 complete, GameThreadShaderMap 0x00000229331B7580, marking material FMatExpressionPreview MaterialExpressionConstant_4 as finished
+[2017.06.20-19.52.44:157][670]LogTemp:Display: Marking material as finished 0x000002293F5B0100
+[2017.06.20-19.52.45:221][768]LogMaterial: Missing cached shader map for material PilPol_Texture_Mat, compiling. 
+[2017.06.20-19.52.45:222][768]LogTemp:Display: Added material ShaderMap 0x00000229BDCB2B00 with Material 0x0000022915426E80 to ShaderMapsBeingCompiled
+[2017.06.20-19.52.45:243][768]LogTemp:Display: Kicking off shader compilation for PilPol_Texture_Mat, GameThreadShaderMap 0x00000229BDCB2B00
+[2017.06.20-19.52.45:243][768]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.06.20-19.52.45:320][768]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionCollectionParameter_2, compiling. 
+[2017.06.20-19.52.45:321][768]LogTemp:Display: Added material ShaderMap 0x00000229B97F5600 with Material 0x0000022992C17700 to ShaderMapsBeingCompiled
+[2017.06.20-19.52.45:323][768]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionCollectionParameter_2, GameThreadShaderMap 0x00000229B97F5600
+[2017.06.20-19.52.45:324][768]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.06.20-19.52.45:324][768]LogTemp:Display: Added material ShaderMap 0x00000229B97F4100 with Material 0x0000022992C15900 to ShaderMapsBeingCompiled
+[2017.06.20-19.52.45:326][768]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_2, GameThreadShaderMap 0x00000229B97F4100
+[2017.06.20-19.52.45:327][768]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant_4, compiling. 
+[2017.06.20-19.52.45:328][768]LogTemp:Display: Added material ShaderMap 0x00000229D838BC80 with Material 0x0000022992C14A00 to ShaderMapsBeingCompiled
+[2017.06.20-19.52.45:331][768]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionConstant_4, GameThreadShaderMap 0x00000229D838BC80
+[2017.06.20-19.52.47:739][916]LogTemp:Display: Finished compile of shader map 0x00000229BDCB2B00
+[2017.06.20-19.52.47:739][916]LogTemp:Display: Shader map PilPol_Texture_Mat complete, GameThreadShaderMap 0x00000229BDCB2B00, marking material PilPol_Texture_Mat as finished
+[2017.06.20-19.52.47:739][916]LogTemp:Display: Marking material as finished 0x0000022915426E80
+[2017.06.20-19.52.47:850][922]LogTemp:Display: Finished compile of shader map 0x00000229B97F5600
+[2017.06.20-19.52.47:850][922]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionCollectionParameter_2 complete, GameThreadShaderMap 0x00000229B97F5600, marking material FMatExpressionPreview MaterialExpressionCollectionParameter_2 as finished
+[2017.06.20-19.52.47:850][922]LogTemp:Display: Marking material as finished 0x0000022992C17700
+[2017.06.20-19.52.47:953][928]LogTemp:Display: Finished compile of shader map 0x00000229B97F4100
+[2017.06.20-19.52.47:953][928]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSample_2 complete, GameThreadShaderMap 0x00000229B97F4100, marking material FMatExpressionPreview MaterialExpressionTextureSample_2 as finished
+[2017.06.20-19.52.47:953][928]LogTemp:Display: Marking material as finished 0x0000022992C15900
+[2017.06.20-19.52.47:995][931]LogTemp:Display: Finished compile of shader map 0x00000229D838BC80
+[2017.06.20-19.52.47:995][931]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionConstant_4 complete, GameThreadShaderMap 0x00000229D838BC80, marking material FMatExpressionPreview MaterialExpressionConstant_4 as finished
+[2017.06.20-19.52.47:995][931]LogTemp:Display: Marking material as finished 0x0000022992C14A00
+[2017.06.20-19.52.49:784][ 96]LogMaterial: Missing cached shader map for material PilPol_Texture_Mat, compiling. 
+[2017.06.20-19.52.49:785][ 96]LogTemp:Display: Added material ShaderMap 0x00000229B97F7200 with Material 0x0000022915426E80 to ShaderMapsBeingCompiled
+[2017.06.20-19.52.49:806][ 96]LogTemp:Display: Kicking off shader compilation for PilPol_Texture_Mat, GameThreadShaderMap 0x00000229B97F7200
+[2017.06.20-19.52.49:806][ 96]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.06.20-19.52.52:214][248]LogMaterial: Missing cached shader map for material PilPol_Texture_Mat, compiling. 
+[2017.06.20-19.52.52:215][248]LogTemp:Display: Added material ShaderMap 0x00000229D845E400 with Material 0x0000022915426E80 to ShaderMapsBeingCompiled
+[2017.06.20-19.52.52:238][248]LogTemp:Display: Kicking off shader compilation for PilPol_Texture_Mat, GameThreadShaderMap 0x00000229D845E400
+[2017.06.20-19.52.52:239][248]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.06.20-19.52.52:244][248]LogTemp:Display: Finished compile of shader map 0x00000229B97F7200
+[2017.06.20-19.52.52:244][248]LogTemp:Display: Shader map PilPol_Texture_Mat complete, GameThreadShaderMap 0x00000229B97F7200, marking material PilPol_Texture_Mat as finished
+[2017.06.20-19.52.52:244][248]LogTemp:Display: Marking material as finished 0x0000022915426E80
+[2017.06.20-19.52.54:659][392]LogTemp:Display: Finished compile of shader map 0x00000229D845E400
+[2017.06.20-19.52.54:659][392]LogTemp:Display: Shader map PilPol_Texture_Mat complete, GameThreadShaderMap 0x00000229D845E400, marking material PilPol_Texture_Mat as finished
+[2017.06.20-19.52.54:659][392]LogTemp:Display: Marking material as finished 0x0000022915426E80
+[2017.06.20-19.52.55:697][491]LogMaterial: Missing cached shader map for material PilPol_Texture_Mat, compiling. 
+[2017.06.20-19.52.55:697][491]LogTemp:Display: Added material ShaderMap 0x00000229D845D980 with Material 0x0000022915426E80 to ShaderMapsBeingCompiled
+[2017.06.20-19.52.55:718][491]LogTemp:Display: Kicking off shader compilation for PilPol_Texture_Mat, GameThreadShaderMap 0x00000229D845D980
+[2017.06.20-19.52.55:718][491]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.06.20-19.52.55:747][491]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.06.20-19.52.55:747][491]LogTemp:Display: Added material ShaderMap 0x000002296D42F580 with Material 0x00000229331F0100 to ShaderMapsBeingCompiled
+[2017.06.20-19.52.55:750][491]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_0, GameThreadShaderMap 0x000002296D42F580
+[2017.06.20-19.52.58:206][642]LogTemp:Display: Finished compile of shader map 0x00000229D845D980
+[2017.06.20-19.52.58:206][642]LogTemp:Display: Shader map PilPol_Texture_Mat complete, GameThreadShaderMap 0x00000229D845D980, marking material PilPol_Texture_Mat as finished
+[2017.06.20-19.52.58:206][642]LogTemp:Display: Marking material as finished 0x0000022915426E80
+[2017.06.20-19.52.58:209][642]LogTemp:Display: Finished compile of shader map 0x000002296D42F580
+[2017.06.20-19.52.58:209][642]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSample_0 complete, GameThreadShaderMap 0x000002296D42F580, marking material FMatExpressionPreview MaterialExpressionTextureSample_0 as finished
+[2017.06.20-19.52.58:209][642]LogTemp:Display: Marking material as finished 0x00000229331F0100
+[2017.06.20-19.53.01:741][977]LogMaterial: Missing cached shader map for material PilPol_Texture_Mat, compiling. 
+[2017.06.20-19.53.01:742][977]LogTemp:Display: Added material ShaderMap 0x000002299D0A7200 with Material 0x0000022915426E80 to ShaderMapsBeingCompiled
+[2017.06.20-19.53.01:763][977]LogTemp:Display: Kicking off shader compilation for PilPol_Texture_Mat, GameThreadShaderMap 0x000002299D0A7200
+[2017.06.20-19.53.01:764][977]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.06.20-19.53.04:294][139]LogTemp:Display: Finished compile of shader map 0x000002299D0A7200
+[2017.06.20-19.53.04:294][139]LogTemp:Display: Shader map PilPol_Texture_Mat complete, GameThreadShaderMap 0x000002299D0A7200, marking material PilPol_Texture_Mat as finished
+[2017.06.20-19.53.04:294][139]LogTemp:Display: Marking material as finished 0x0000022915426E80
+[2017.06.20-19.53.08:953][575]LogMaterialEditor: Saving and Compiling material PilPol_Texture_Mat
+[2017.06.20-19.53.09:542][575]LogMaterial: Missing cached shader map for material PilPol_Texture_Mat, compiling. 
+[2017.06.20-19.53.09:543][575]LogTemp:Display: Added material ShaderMap 0x00000229C02C2E80 with Material 0x0000022915426E80 to ShaderMapsBeingCompiled
+[2017.06.20-19.53.09:573][575]LogTemp:Display: Kicking off shader compilation for PilPol_Texture_Mat, GameThreadShaderMap 0x00000229C02C2E80
+[2017.06.20-19.53.09:573][575]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.06.20-19.53.09:591][575]LogMaterial: Missing cached shader map for material PilPol_Texture_Mat, compiling. 
+[2017.06.20-19.53.09:592][575]LogTemp:Display: Added material ShaderMap 0x000002299D108480 with Material 0x000002291681A380 to ShaderMapsBeingCompiled
+[2017.06.20-19.53.09:627][575]LogTemp:Display: Kicking off shader compilation for PilPol_Texture_Mat, GameThreadShaderMap 0x000002299D108480
+[2017.06.20-19.53.09:629][575]LogMaterial: Missing cached shader map for material PilPol_Texture_Mat, compiling. 
+[2017.06.20-19.53.09:630][575]LogTemp:Display: Added material ShaderMap 0x00000229B9714800 with Material 0x000002291681A380 to ShaderMapsBeingCompiled
+[2017.06.20-19.53.09:664][575]LogTemp:Display: Kicking off shader compilation for PilPol_Texture_Mat, GameThreadShaderMap 0x00000229B9714800
+[2017.06.20-19.53.09:666][575]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.06.20-19.53.09:685][575]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy PilPol_Texture_Mat, compiling. 
+[2017.06.20-19.53.09:687][575]LogTemp:Display: Added material ShaderMap 0x00000229D8EED980 with Material 0x0000022913EB5300 to ShaderMapsBeingCompiled
+[2017.06.20-19.53.11:757][575]LogTemp:Display: Finished compile of shader map 0x00000229D8EED980
+[2017.06.20-19.53.11:758][575]LogTemp:Display: Shader map FDebugViewModeMaterialProxy PilPol_Texture_Mat complete, GameThreadShaderMap 0x00000229D8EED980, marking material FDebugViewModeMaterialProxy PilPol_Texture_Mat as finished
+[2017.06.20-19.53.11:758][575]LogTemp:Display: Marking material as finished 0x0000022913EB5300
+[2017.06.20-19.53.11:761][575]TextureStreamingBuild:Display: Compiling optional shaders took 2.082 seconds.
+[2017.06.20-19.53.14:942][575]LogTemp:Display: Finished compile of shader map 0x00000229B9714800
+[2017.06.20-19.53.14:942][575]LogTemp:Display: Shader map PilPol_Texture_Mat complete, GameThreadShaderMap 0x00000229B9714800, marking material PilPol_Texture_Mat as finished
+[2017.06.20-19.53.14:942][575]LogTemp:Display: Marking material as finished 0x000002291681A380
+[2017.06.20-19.53.14:949][575]LogTemp:Display: Finished compile of shader map 0x00000229C02C2E80
+[2017.06.20-19.53.14:949][575]LogTemp:Display: Shader map PilPol_Texture_Mat complete, GameThreadShaderMap 0x00000229C02C2E80, marking material PilPol_Texture_Mat as finished
+[2017.06.20-19.53.14:949][575]LogTemp:Display: Marking material as finished 0x0000022915426E80
+[2017.06.20-19.53.15:026][575]LogSavePackage: Save=12.24ms
+[2017.06.20-19.53.15:026][575]LogSavePackage: Moving '../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Saved/PilPol_Texture_Mat09CA8C3B45BD8E66BD7F0582328BDDFC.tmp' to '../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Content/SkaGameAssets/Enemies/PilPol/PilPol_Texture_Mat.uasset'
+[2017.06.20-19.53.15:033][575]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Content/SkaGameAssets/Enemies/PilPol/PilPol_Texture_Mat.uasset
+[2017.06.20-19.53.46:525][224]LogMaterial: Missing cached shader map for material Ghost_Mat, compiling. 
+[2017.06.20-19.53.46:525][224]LogTemp:Display: Added material ShaderMap 0x0000022932C6DD00 with Material 0x0000022923EF7100 to ShaderMapsBeingCompiled
+[2017.06.20-19.53.46:546][224]LogTemp:Display: Kicking off shader compilation for Ghost_Mat, GameThreadShaderMap 0x0000022932C6DD00
+[2017.06.20-19.53.46:645][224]LogMaterial: Missing cached shader map for material Ghost_Mat, compiling. 
+[2017.06.20-19.53.46:645][224]LogTemp:Display: Added material ShaderMap 0x00000229D889AB00 with Material 0x0000022923EF7100 to ShaderMapsBeingCompiled
+[2017.06.20-19.53.46:667][224]LogTemp:Display: Kicking off shader compilation for Ghost_Mat, GameThreadShaderMap 0x00000229D889AB00
+[2017.06.20-19.53.46:667][224]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.06.20-19.53.46:695][224]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.06.20-19.53.46:696][224]LogTemp:Display: Added material ShaderMap 0x00000229A5AD2780 with Material 0x00000229A5B1FA00 to ShaderMapsBeingCompiled
+[2017.06.20-19.53.46:699][224]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_0, GameThreadShaderMap 0x00000229A5AD2780
+[2017.06.20-19.53.49:469][405]LogTemp:Display: Finished compile of shader map 0x00000229D889AB00
+[2017.06.20-19.53.49:469][405]LogTemp:Display: Shader map Ghost_Mat complete, GameThreadShaderMap 0x00000229D889AB00, marking material Ghost_Mat as finished
+[2017.06.20-19.53.49:469][405]LogTemp:Display: Marking material as finished 0x0000022923EF7100
+[2017.06.20-19.53.49:542][411]LogTemp:Display: Finished compile of shader map 0x00000229A5AD2780
+[2017.06.20-19.53.49:542][411]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSample_0 complete, GameThreadShaderMap 0x00000229A5AD2780, marking material FMatExpressionPreview MaterialExpressionTextureSample_0 as finished
+[2017.06.20-19.53.49:542][411]LogTemp:Display: Marking material as finished 0x00000229A5B1FA00
+[2017.06.20-19.53.52:251][689]LogMaterial: Missing cached shader map for material Ghost_Mat, compiling. 
+[2017.06.20-19.53.52:252][689]LogTemp:Display: Added material ShaderMap 0x00000229CC4DD280 with Material 0x0000022923EF7100 to ShaderMapsBeingCompiled
+[2017.06.20-19.53.52:272][689]LogTemp:Display: Kicking off shader compilation for Ghost_Mat, GameThreadShaderMap 0x00000229CC4DD280
+[2017.06.20-19.53.52:272][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.06.20-19.53.54:773][864]LogTemp:Display: Finished compile of shader map 0x00000229CC4DD280
+[2017.06.20-19.53.54:773][864]LogTemp:Display: Shader map Ghost_Mat complete, GameThreadShaderMap 0x00000229CC4DD280, marking material Ghost_Mat as finished
+[2017.06.20-19.53.54:773][864]LogTemp:Display: Marking material as finished 0x0000022923EF7100
+[2017.06.20-19.54.05:930][729]LogMaterialEditor: Applying material Ghost_Mat
+[2017.06.20-19.54.06:498][729]LogMaterial: Missing cached shader map for material Ghost_Mat, compiling. 
+[2017.06.20-19.54.06:499][729]LogTemp:Display: Added material ShaderMap 0x000002293CF21980 with Material 0x0000022923EF7100 to ShaderMapsBeingCompiled
+[2017.06.20-19.54.06:528][729]LogTemp:Display: Kicking off shader compilation for Ghost_Mat, GameThreadShaderMap 0x000002293CF21980
+[2017.06.20-19.54.06:529][729]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.06.20-19.54.06:544][729]LogMaterial: Missing cached shader map for material Ghost_Mat, compiling. 
+[2017.06.20-19.54.06:545][729]LogTemp:Display: Added material ShaderMap 0x00000229CC450B80 with Material 0x000002294C7FEB00 to ShaderMapsBeingCompiled
+[2017.06.20-19.54.06:586][729]LogTemp:Display: Kicking off shader compilation for Ghost_Mat, GameThreadShaderMap 0x00000229CC450B80
+[2017.06.20-19.54.06:592][729]LogMaterial: Missing cached shader map for material Ghost_Mat, compiling. 
+[2017.06.20-19.54.06:593][729]LogTemp:Display: Added material ShaderMap 0x0000022951EF0F00 with Material 0x000002294C7FEB00 to ShaderMapsBeingCompiled
+[2017.06.20-19.54.06:636][729]LogTemp:Display: Kicking off shader compilation for Ghost_Mat, GameThreadShaderMap 0x0000022951EF0F00
+[2017.06.20-19.54.06:639][729]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.06.20-19.54.06:663][729]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Ghost_Mat, compiling. 
+[2017.06.20-19.54.06:665][729]LogTemp:Display: Added material ShaderMap 0x00000229DCF19980 with Material 0x00000229DD1DDC00 to ShaderMapsBeingCompiled
+[2017.06.20-19.54.08:654][729]LogTemp:Display: Finished compile of shader map 0x00000229DCF19980
+[2017.06.20-19.54.08:654][729]LogTemp:Display: Shader map FDebugViewModeMaterialProxy Ghost_Mat complete, GameThreadShaderMap 0x00000229DCF19980, marking material FDebugViewModeMaterialProxy Ghost_Mat as finished
+[2017.06.20-19.54.08:654][729]LogTemp:Display: Marking material as finished 0x00000229DD1DDC00
+[2017.06.20-19.54.08:658][729]TextureStreamingBuild:Display: Compiling optional shaders took 2.004 seconds.
+[2017.06.20-19.54.08:715][730]LogTemp:Display: Finished compile of shader map 0x000002293CF21980
+[2017.06.20-19.54.08:715][730]LogTemp:Display: Shader map Ghost_Mat complete, GameThreadShaderMap 0x000002293CF21980, marking material Ghost_Mat as finished
+[2017.06.20-19.54.08:715][730]LogTemp:Display: Marking material as finished 0x0000022923EF7100
+[2017.06.20-19.54.12:331][913]LogTemp:Display: Finished compile of shader map 0x0000022951EF0F00
+[2017.06.20-19.54.12:331][913]LogTemp:Display: Shader map Ghost_Mat complete, GameThreadShaderMap 0x0000022951EF0F00, marking material Ghost_Mat as finished
+[2017.06.20-19.54.12:331][913]LogTemp:Display: Marking material as finished 0x000002294C7FEB00
+[2017.06.20-19.54.29:077][177]LogMaterial: Missing cached shader map for material Ghost_Mat, compiling. 
+[2017.06.20-19.54.29:078][177]LogTemp:Display: Added material ShaderMap 0x0000022933004100 with Material 0x0000022923EF7100 to ShaderMapsBeingCompiled
+[2017.06.20-19.54.29:098][177]LogTemp:Display: Kicking off shader compilation for Ghost_Mat, GameThreadShaderMap 0x0000022933004100
+[2017.06.20-19.54.29:099][177]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.06.20-19.54.31:588][309]LogTemp:Display: Finished compile of shader map 0x0000022933004100
+[2017.06.20-19.54.31:588][309]LogTemp:Display: Shader map Ghost_Mat complete, GameThreadShaderMap 0x0000022933004100, marking material Ghost_Mat as finished
+[2017.06.20-19.54.31:588][309]LogTemp:Display: Marking material as finished 0x0000022923EF7100
+[2017.06.20-19.54.41:402][ 80]LogMaterial: Missing cached shader map for material Ghost_Mat, compiling. 
+[2017.06.20-19.54.41:403][ 80]LogTemp:Display: Added material ShaderMap 0x000002296D42EB00 with Material 0x0000022923EF7100 to ShaderMapsBeingCompiled
+[2017.06.20-19.54.41:424][ 80]LogTemp:Display: Kicking off shader compilation for Ghost_Mat, GameThreadShaderMap 0x000002296D42EB00
+[2017.06.20-19.54.41:424][ 80]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.06.20-19.54.41:427][ 80]LogMaterial: Missing cached shader map for material Ghost_Mat, compiling. 
+[2017.06.20-19.54.41:427][ 80]LogTemp:Display: Added material ShaderMap 0x0000022932CD8480 with Material 0x0000022923EF7100 to ShaderMapsBeingCompiled
+[2017.06.20-19.54.41:448][ 80]LogTemp:Display: Kicking off shader compilation for Ghost_Mat, GameThreadShaderMap 0x0000022932CD8480
+[2017.06.20-19.54.41:448][ 80]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.06.20-19.54.43:923][216]LogTemp:Display: Finished compile of shader map 0x0000022932CD8480
+[2017.06.20-19.54.43:923][216]LogTemp:Display: Shader map Ghost_Mat complete, GameThreadShaderMap 0x0000022932CD8480, marking material Ghost_Mat as finished
+[2017.06.20-19.54.43:923][216]LogTemp:Display: Marking material as finished 0x0000022923EF7100
+[2017.06.20-19.54.44:570][268]LogMaterial: Missing cached shader map for material Ghost_Mat, compiling. 
+[2017.06.20-19.54.44:571][268]LogTemp:Display: Added material ShaderMap 0x00000229522F2080 with Material 0x0000022923EF7100 to ShaderMapsBeingCompiled
+[2017.06.20-19.54.44:591][268]LogTemp:Display: Kicking off shader compilation for Ghost_Mat, GameThreadShaderMap 0x00000229522F2080
+[2017.06.20-19.54.44:591][268]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.06.20-19.54.47:066][396]LogTemp:Display: Finished compile of shader map 0x00000229522F2080
+[2017.06.20-19.54.47:066][396]LogTemp:Display: Shader map Ghost_Mat complete, GameThreadShaderMap 0x00000229522F2080, marking material Ghost_Mat as finished
+[2017.06.20-19.54.47:066][396]LogTemp:Display: Marking material as finished 0x0000022923EF7100
+[2017.06.20-19.54.47:642][441]LogMaterialEditor: Applying material Ghost_Mat
+[2017.06.20-19.54.48:216][441]LogMaterial: Missing cached shader map for material Ghost_Mat, compiling. 
+[2017.06.20-19.54.48:217][441]LogTemp:Display: Added material ShaderMap 0x00000229CC6D6080 with Material 0x0000022923EF7100 to ShaderMapsBeingCompiled
+[2017.06.20-19.54.48:246][441]LogTemp:Display: Kicking off shader compilation for Ghost_Mat, GameThreadShaderMap 0x00000229CC6D6080
+[2017.06.20-19.54.48:246][441]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.06.20-19.54.48:257][441]LogTemp:Display: Removed shader map 0x00000229CC450B80 from material 0x000002294C7FEB00
+[2017.06.20-19.54.48:262][441]LogMaterial: Missing cached shader map for material Ghost_Mat, compiling. 
+[2017.06.20-19.54.48:262][441]LogTemp:Display: Added material ShaderMap 0x00000229B2490B80 with Material 0x0000022915ED9600 to ShaderMapsBeingCompiled
+[2017.06.20-19.54.48:305][441]LogTemp:Display: Kicking off shader compilation for Ghost_Mat, GameThreadShaderMap 0x00000229B2490B80
+[2017.06.20-19.54.48:307][441]LogMaterial: Missing cached shader map for material Ghost_Mat, compiling. 
+[2017.06.20-19.54.48:308][441]LogTemp:Display: Added material ShaderMap 0x00000229DCD28800 with Material 0x0000022915ED9600 to ShaderMapsBeingCompiled
+[2017.06.20-19.54.48:345][441]LogTemp:Display: Kicking off shader compilation for Ghost_Mat, GameThreadShaderMap 0x00000229DCD28800
+[2017.06.20-19.54.48:348][441]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.06.20-19.54.48:369][441]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Ghost_Mat, compiling. 
+[2017.06.20-19.54.48:370][441]LogTemp:Display: Added material ShaderMap 0x000002299C739980 with Material 0x000002299C74A500 to ShaderMapsBeingCompiled
+[2017.06.20-19.54.50:361][441]LogTemp:Display: Finished compile of shader map 0x000002299C739980
+[2017.06.20-19.54.50:361][441]LogTemp:Display: Shader map FDebugViewModeMaterialProxy Ghost_Mat complete, GameThreadShaderMap 0x000002299C739980, marking material FDebugViewModeMaterialProxy Ghost_Mat as finished
+[2017.06.20-19.54.50:361][441]LogTemp:Display: Marking material as finished 0x000002299C74A500
+[2017.06.20-19.54.50:364][441]TextureStreamingBuild:Display: Compiling optional shaders took 2.001 seconds.
+[2017.06.20-19.54.50:473][443]LogTemp:Display: Finished compile of shader map 0x00000229CC6D6080
+[2017.06.20-19.54.50:473][443]LogTemp:Display: Shader map Ghost_Mat complete, GameThreadShaderMap 0x00000229CC6D6080, marking material Ghost_Mat as finished
+[2017.06.20-19.54.50:473][443]LogTemp:Display: Marking material as finished 0x0000022923EF7100
+[2017.06.20-19.54.53:999][635]LogTemp:Display: Finished compile of shader map 0x00000229DCD28800
+[2017.06.20-19.54.53:999][635]LogTemp:Display: Shader map Ghost_Mat complete, GameThreadShaderMap 0x00000229DCD28800, marking material Ghost_Mat as finished
+[2017.06.20-19.54.53:999][635]LogTemp:Display: Marking material as finished 0x0000022915ED9600
+[2017.06.20-19.55.16:964][414]LogSavePackage: Save=221.17ms
+[2017.06.20-19.55.16:964][414]LogSavePackage: Moving '../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Saved/Graveyard_Test9D7ED0B04F8033E68B36CEB1355270B7.tmp' to '../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Content/SkaGameAssets/Levels/Graveyard_Test.umap'
+[2017.06.20-19.55.16:972][414]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Content/SkaGameAssets/Levels/Graveyard_Test.umap
+[2017.06.20-19.55.30:548][633]LogMaterial: Missing cached shader map for material Bone, compiling. 
+[2017.06.20-19.55.30:548][633]LogTemp:Display: Added material ShaderMap 0x00000229DCCC9D00 with Material 0x000002296D263380 to ShaderMapsBeingCompiled
+[2017.06.20-19.55.30:580][633]LogTemp:Display: Kicking off shader compilation for Bone, GameThreadShaderMap 0x00000229DCCC9D00
+[2017.06.20-19.55.30:580][633]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.06.20-19.55.30:595][633]LogMaterial: Missing cached shader map for material Bone, compiling. 
+[2017.06.20-19.55.30:596][633]LogTemp:Display: Added material ShaderMap 0x00000229A5886780 with Material 0x0000022914EFD900 to ShaderMapsBeingCompiled
+[2017.06.20-19.55.30:649][633]LogTemp:Display: Kicking off shader compilation for Bone, GameThreadShaderMap 0x00000229A5886780
+[2017.06.20-19.55.30:655][633]LogMaterial: Missing cached shader map for material Bone, compiling. 
+[2017.06.20-19.55.30:656][633]LogTemp:Display: Added material ShaderMap 0x00000229BE128100 with Material 0x0000022914EFD900 to ShaderMapsBeingCompiled
+[2017.06.20-19.55.30:692][633]LogTemp:Display: Kicking off shader compilation for Bone, GameThreadShaderMap 0x00000229BE128100
+[2017.06.20-19.55.30:694][633]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.06.20-19.55.30:709][633]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Bone, compiling. 
+[2017.06.20-19.55.30:710][633]LogTemp:Display: Added material ShaderMap 0x000002299B990100 with Material 0x000002299B947D00 to ShaderMapsBeingCompiled
+[2017.06.20-19.55.33:013][633]LogTemp:Display: Finished compile of shader map 0x000002299B990100
+[2017.06.20-19.55.33:013][633]LogTemp:Display: Shader map FDebugViewModeMaterialProxy Bone complete, GameThreadShaderMap 0x000002299B990100, marking material FDebugViewModeMaterialProxy Bone as finished
+[2017.06.20-19.55.33:013][633]LogTemp:Display: Marking material as finished 0x000002299B947D00
+[2017.06.20-19.55.33:018][633]TextureStreamingBuild:Display: Compiling optional shaders took 2.315 seconds.
+[2017.06.20-19.55.33:460][633]LogTemp:Display: Finished compile of shader map 0x00000229DCCC9D00
+[2017.06.20-19.55.33:460][633]LogTemp:Display: Shader map Bone complete, GameThreadShaderMap 0x00000229DCCC9D00, marking material Bone as finished
+[2017.06.20-19.55.33:460][633]LogTemp:Display: Marking material as finished 0x000002296D263380
+[2017.06.20-19.55.36:796][663]LogTemp:Display: Finished compile of shader map 0x00000229BE128100
+[2017.06.20-19.55.36:796][663]LogTemp:Display: Shader map Bone complete, GameThreadShaderMap 0x00000229BE128100, marking material Bone as finished
+[2017.06.20-19.55.36:796][663]LogTemp:Display: Marking material as finished 0x0000022914EFD900
+[2017.06.20-19.56.20:331][184]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_37:PersistentLevel.Actor_7.DebugSkelMeshComponent_23) Already registered. Aborting.
+[2017.06.20-19.56.41:439][730]LogMaterial: Missing cached shader map for material BoomBox_Mat, compiling. 
+[2017.06.20-19.56.41:440][730]LogTemp:Display: Added material ShaderMap 0x00000229A5AB2780 with Material 0x0000022923EF0680 to ShaderMapsBeingCompiled
+[2017.06.20-19.56.41:460][730]LogTemp:Display: Kicking off shader compilation for BoomBox_Mat, GameThreadShaderMap 0x00000229A5AB2780
+[2017.06.20-19.56.41:556][730]LogMaterial: Missing cached shader map for material BoomBox_Mat, compiling. 
+[2017.06.20-19.56.41:557][730]LogTemp:Display: Added material ShaderMap 0x0000022983C9A780 with Material 0x0000022923EF0680 to ShaderMapsBeingCompiled
+[2017.06.20-19.56.41:585][730]LogTemp:Display: Kicking off shader compilation for BoomBox_Mat, GameThreadShaderMap 0x0000022983C9A780
+[2017.06.20-19.56.41:585][730]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.06.20-19.56.41:615][730]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.06.20-19.56.41:616][730]LogTemp:Display: Added material ShaderMap 0x000002299837DD00 with Material 0x000002291484CA00 to ShaderMapsBeingCompiled
+[2017.06.20-19.56.41:619][730]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_0, GameThreadShaderMap 0x000002299837DD00
+[2017.06.20-19.56.41:620][730]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionCollectionParameter_2, compiling. 
+[2017.06.20-19.56.41:621][730]LogTemp:Display: Added material ShaderMap 0x000002299837C480 with Material 0x000002291484C100 to ShaderMapsBeingCompiled
+[2017.06.20-19.56.41:624][730]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionCollectionParameter_2, GameThreadShaderMap 0x000002299837C480
+[2017.06.20-19.56.41:626][730]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.06.20-19.56.41:627][730]LogTemp:Display: Added material ShaderMap 0x00000229A5A8AB00 with Material 0x000002291484D600 to ShaderMapsBeingCompiled
+[2017.06.20-19.56.41:629][730]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_2, GameThreadShaderMap 0x00000229A5A8AB00
+[2017.06.20-19.56.44:477][861]LogTemp:Display: Finished compile of shader map 0x0000022983C9A780
+[2017.06.20-19.56.44:477][861]LogTemp:Display: Shader map BoomBox_Mat complete, GameThreadShaderMap 0x0000022983C9A780, marking material BoomBox_Mat as finished
+[2017.06.20-19.56.44:477][861]LogTemp:Display: Marking material as finished 0x0000022923EF0680
+[2017.06.20-19.56.44:536][863]LogTemp:Display: Finished compile of shader map 0x000002299837DD00
+[2017.06.20-19.56.44:536][863]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSample_0 complete, GameThreadShaderMap 0x000002299837DD00, marking material FMatExpressionPreview MaterialExpressionTextureSample_0 as finished
+[2017.06.20-19.56.44:536][863]LogTemp:Display: Marking material as finished 0x000002291484CA00
+[2017.06.20-19.56.44:677][869]LogTemp:Display: Finished compile of shader map 0x000002299837C480
+[2017.06.20-19.56.44:677][869]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionCollectionParameter_2 complete, GameThreadShaderMap 0x000002299837C480, marking material FMatExpressionPreview MaterialExpressionCollectionParameter_2 as finished
+[2017.06.20-19.56.44:677][869]LogTemp:Display: Marking material as finished 0x000002291484C100
+[2017.06.20-19.56.44:722][871]LogTemp:Display: Finished compile of shader map 0x00000229A5A8AB00
+[2017.06.20-19.56.44:722][871]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSample_2 complete, GameThreadShaderMap 0x00000229A5A8AB00, marking material FMatExpressionPreview MaterialExpressionTextureSample_2 as finished
+[2017.06.20-19.56.44:722][871]LogTemp:Display: Marking material as finished 0x000002291484D600
+[2017.06.20-19.56.59:360][819]LogActorFactory: Actor Factory created Boulder
+[2017.06.20-19.56.59:629][837]LogActorFactory: Actor Factory created Boulder
+[2017.06.20-19.57.00:042][858]LogActorFactory: Actor Factory created Boulder
+[2017.06.20-19.57.24:322][254]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Boulder)
+[2017.06.20-19.57.24:456][261]Cmd: SELECT NONE
+[2017.06.20-19.57.25:709][362]LogTemp:Display: Removed shader map 0x00000229C0346400 from material 0x000002296D263380
+[2017.06.20-19.57.25:709][362]LogTemp:Display: Removed shader map 0x0000022956E96400 from material 0x0000022915426E80
+[2017.06.20-19.57.25:709][362]LogTemp:Display: Removed shader map 0x0000022932C6DD00 from material 0x0000022923EF7100
+[2017.06.20-19.57.25:709][362]LogTemp:Display: Removed shader map 0x000002296D42EB00 from material 0x0000022923EF7100
+[2017.06.20-19.57.25:709][362]LogTemp:Display: Removed shader map 0x00000229A5AB2780 from material 0x0000022923EF0680
+[2017.06.20-19.57.27:067][362]LogSavePackage: Save=12.24ms
+[2017.06.20-19.57.27:067][362]LogSavePackage: Moving '../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Saved/Bone74A7B80A4F409741AB544D82BB7ED1E2.tmp' to '../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Content/SkaGameAssets/Brad/Character_Assets/Materials/Bone.uasset'
+[2017.06.20-19.57.27:074][362]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Content/SkaGameAssets/Brad/Character_Assets/Materials/Bone.uasset
+[2017.06.20-19.57.27:117][362]LogSavePackage: Save=11.48ms
+[2017.06.20-19.57.27:117][362]LogSavePackage: Moving '../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Saved/Ghost_Mat8F93131F4AC987D1817FC69D6DF4E089.tmp' to '../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Content/SkaGameAssets/Enemies/Materials/Ghost_Mat.uasset'
+[2017.06.20-19.57.27:124][362]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Content/SkaGameAssets/Enemies/Materials/Ghost_Mat.uasset
+[2017.06.20-19.57.27:126][362]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SkaGameAssets/Enemies/PilPol" FILE="../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Content/SkaGameAssets/Enemies/PilPol.uasset" SILENT=true
+[2017.06.20-19.57.27:130][362]LogSavePackage: Save=2.13ms
+[2017.06.20-19.57.27:130][362]LogSavePackage: Moving '../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Saved/PilPol711A5BC7494FDC9A91C4FF9DCC524DDE.tmp' to '../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Content/SkaGameAssets/Enemies/PilPol.uasset'
+[2017.06.20-19.57.27:150][362]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Content/SkaGameAssets/Enemies/PilPol.uasset
+[2017.06.20-19.57.27:195][362]LogSavePackage: Save=35.01ms
+[2017.06.20-19.57.27:195][362]LogSavePackage: Moving '../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Saved/PilPol_Texture2656D88A4E46FF56EE9CD0AF2BFF13A7.tmp' to '../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Content/SkaGameAssets/Enemies/PilPol/PilPol_Texture.uasset'
+[2017.06.20-19.57.27:202][362]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Content/SkaGameAssets/Enemies/PilPol/PilPol_Texture.uasset
+[2017.06.20-19.57.27:207][362]LogSavePackage: Save=1.45ms
+[2017.06.20-19.57.27:207][362]LogSavePackage: Moving '../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Saved/PilPol_Anim_Polgergust_Armature_Polgergust_HealthNab3F7C09854F64822343560696873D2E14.tmp' to '../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Content/SkaGameAssets/Enemies/PilPol_Anim_Polgergust_Armature_Polgergust_HealthNab.uasset'
+[2017.06.20-19.57.27:215][362]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Content/SkaGameAssets/Enemies/PilPol_Anim_Polgergust_Armature_Polgergust_HealthNab.uasset
+[2017.06.20-19.57.27:221][362]LogSavePackage: Save=1.47ms
+[2017.06.20-19.57.27:221][362]LogSavePackage: Moving '../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Saved/PilPol_Anim_Polgergust_Armature_Polgergust_HealthNab_FailF641D28E4284476696E3458F40EF5B67.tmp' to '../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Content/SkaGameAssets/Enemies/PilPol_Anim_Polgergust_Armature_Polgergust_HealthNab_Fail.uasset'
+[2017.06.20-19.57.27:228][362]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Content/SkaGameAssets/Enemies/PilPol_Anim_Polgergust_Armature_Polgergust_HealthNab_Fail.uasset
+[2017.06.20-19.57.27:236][362]LogSavePackage: Save=1.55ms
+[2017.06.20-19.57.27:236][362]LogSavePackage: Moving '../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Saved/PilPol_Anim_Polgergust_Armature_Polgergust_HealthNab_Success3551C62441CB7796BAF084B3503C5839.tmp' to '../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Content/SkaGameAssets/Enemies/PilPol_Anim_Polgergust_Armature_Polgergust_HealthNab_Success.uasset'
+[2017.06.20-19.57.27:244][362]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Content/SkaGameAssets/Enemies/PilPol_Anim_Polgergust_Armature_Polgergust_HealthNab_Success.uasset
+[2017.06.20-19.57.27:249][362]LogSavePackage: Save=1.49ms
+[2017.06.20-19.57.27:249][362]LogSavePackage: Moving '../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Saved/PilPol_Anim_Polgergust_Armature_Polgergust_Hurt65EE95D04FE702A710344E991B04008B.tmp' to '../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Content/SkaGameAssets/Enemies/PilPol_Anim_Polgergust_Armature_Polgergust_Hurt.uasset'
+[2017.06.20-19.57.27:256][362]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Content/SkaGameAssets/Enemies/PilPol_Anim_Polgergust_Armature_Polgergust_Hurt.uasset
+[2017.06.20-19.57.27:262][362]LogSavePackage: Save=1.60ms
+[2017.06.20-19.57.27:262][362]LogSavePackage: Moving '../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Saved/PilPol_Anim_Polgergust_Armature_Polgergust_Idle48ED7C2642D8E24DBC873A81A1CD97B2.tmp' to '../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Content/SkaGameAssets/Enemies/PilPol_Anim_Polgergust_Armature_Polgergust_Idle.uasset'
+[2017.06.20-19.57.27:270][362]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Content/SkaGameAssets/Enemies/PilPol_Anim_Polgergust_Armature_Polgergust_Idle.uasset
+[2017.06.20-19.57.27:275][362]LogSavePackage: Save=1.54ms
+[2017.06.20-19.57.27:275][362]LogSavePackage: Moving '../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Saved/PilPol_Anim_Polgergust_Armature_Polgergust_RunAway94CC81F64F9F1B4BCAB5E986C51D3CB9.tmp' to '../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Content/SkaGameAssets/Enemies/PilPol_Anim_Polgergust_Armature_Polgergust_RunAway.uasset'
+[2017.06.20-19.57.27:283][362]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Content/SkaGameAssets/Enemies/PilPol_Anim_Polgergust_Armature_Polgergust_RunAway.uasset
+[2017.06.20-19.57.27:288][362]LogSavePackage: Save=1.45ms
+[2017.06.20-19.57.27:288][362]LogSavePackage: Moving '../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Saved/PilPol_Anim_Polgergust_Armature_Polgergust_SackThwackC2B77992481285AE754FF299A1488003.tmp' to '../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Content/SkaGameAssets/Enemies/PilPol_Anim_Polgergust_Armature_Polgergust_SackThwack.uasset'
+[2017.06.20-19.57.27:296][362]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Content/SkaGameAssets/Enemies/PilPol_Anim_Polgergust_Armature_Polgergust_SackThwack.uasset
+[2017.06.20-19.57.27:301][362]LogSavePackage: Save=1.67ms
+[2017.06.20-19.57.27:301][362]LogSavePackage: Moving '../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Saved/PilPol_Anim_Polgergust_Armature_SunActionE9FC2ACF466A69138A251CB2956861D1.tmp' to '../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Content/SkaGameAssets/Enemies/PilPol_Anim_Polgergust_Armature_SunAction.uasset'
+[2017.06.20-19.57.27:308][362]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Content/SkaGameAssets/Enemies/PilPol_Anim_Polgergust_Armature_SunAction.uasset
+[2017.06.20-19.57.27:314][362]LogSavePackage: Save=1.96ms
+[2017.06.20-19.57.27:314][362]LogSavePackage: Moving '../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Saved/PilPol_Anim_Sun_SunAction65376C574877F425AEFBDAAD1788E900.tmp' to '../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Content/SkaGameAssets/Enemies/PilPol_Anim_Sun_SunAction.uasset'
+[2017.06.20-19.57.27:321][362]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Content/SkaGameAssets/Enemies/PilPol_Anim_Sun_SunAction.uasset
+[2017.06.20-19.57.27:326][362]LogSavePackage: Save=1.49ms
+[2017.06.20-19.57.27:326][362]LogSavePackage: Moving '../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Saved/PilPol_PhysicsAssetD44DF1AE49D554A3076B85A6125CDE4F.tmp' to '../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Content/SkaGameAssets/Enemies/PilPol_PhysicsAsset.uasset'
+[2017.06.20-19.57.27:334][362]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Content/SkaGameAssets/Enemies/PilPol_PhysicsAsset.uasset
+[2017.06.20-19.57.27:339][362]LogSavePackage: Save=1.51ms
+[2017.06.20-19.57.27:339][362]LogSavePackage: Moving '../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Saved/PilPol_Skeleton5197E62644B2F40A56A29181991F885F.tmp' to '../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Content/SkaGameAssets/Enemies/PilPol_Skeleton.uasset'
+[2017.06.20-19.57.27:346][362]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Content/SkaGameAssets/Enemies/PilPol_Skeleton.uasset
+[2017.06.20-19.57.27:392][362]LogSavePackage: Save=12.07ms
+[2017.06.20-19.57.27:392][362]LogSavePackage: Moving '../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Saved/Boulder_Texture_Mat66CD33E246E5FED0AE6EF288F8561FC2.tmp' to '../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Content/SkaGameAssets/Enviroment/Hazards/Boulder_Texture_Mat.uasset'
+[2017.06.20-19.57.27:399][362]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Content/SkaGameAssets/Enviroment/Hazards/Boulder_Texture_Mat.uasset
+[2017.06.20-19.57.27:764][362]LogSavePackage: Save=222.55ms
+[2017.06.20-19.57.27:764][362]LogSavePackage: Moving '../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Saved/Graveyard_Test879648B940FCDDFB48B2FEB49C53631D.tmp' to '../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Content/SkaGameAssets/Levels/Graveyard_Test.umap'
+[2017.06.20-19.57.27:772][362]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Content/SkaGameAssets/Levels/Graveyard_Test.umap
+[2017.06.20-19.57.27:818][362]LogFileHelpers: Saving map 'Graveyard_Test' took 0.417
+[2017.06.20-19.57.27:965][362]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.06.20-19.57.28:176][363]Cmd: QUIT_EDITOR
+[2017.06.20-19.57.28:251][363]LogExit: Preparing to exit.
+[2017.06.20-19.57.28:733][363]LogDirectoryWatcher: A directory notification for 'C:/Users/LabUser/Documents/GitHub/skagame/SkaGame/Content/' was aborted.
+[2017.06.20-19.57.28:750][363]LogExit: Editor shut down
+[2017.06.20-19.57.28:750][363]LogExit: Transaction tracking system shut down
+[2017.06.20-19.57.28:750][363]LogTemp:Display: Removed shader map 0x00000229A5886780 from material 0x0000022914EFD900
+[2017.06.20-19.57.28:751][363]LogTemp:Display: Removed shader map 0x00000229B2490B80 from material 0x0000022915ED9600
+[2017.06.20-19.57.28:753][363]LogTemp:Display: Removed shader map 0x000002299D108480 from material 0x000002291681A380
+[2017.06.20-19.57.28:819][363]LogObj: Freed 0b from 0 cluster array pools.
+[2017.06.20-19.57.28:819][363]LogExit: Object subsystem successfully closed.
+[2017.06.20-19.57.28:832][363]LogD3D11RHI: Shutdown
+[2017.06.20-19.57.28:832][363]LogD3D11RHI: CleanupD3DDevice
+[2017.06.20-19.57.28:941][363]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.06.20-19.57.28:961][363]LogModuleManager: Shutting down and abandoning module MaterialEditor (508)
+[2017.06.20-19.57.28:961][363]LogModuleManager: Shutting down and abandoning module PhAT (506)
+[2017.06.20-19.57.28:961][363]LogModuleManager: Shutting down and abandoning module AnimationEditor (504)
+[2017.06.20-19.57.28:961][363]LogModuleManager: Shutting down and abandoning module SkeletonEditor (502)
+[2017.06.20-19.57.28:961][363]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (500)
+[2017.06.20-19.57.28:961][363]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (498)
+[2017.06.20-19.57.28:961][363]LogModuleManager: Shutting down and abandoning module CrashTracker (496)
+[2017.06.20-19.57.28:961][363]LogModuleManager: Shutting down and abandoning module SceneOutliner (494)
+[2017.06.20-19.57.28:961][363]LogModuleManager: Shutting down and abandoning module AddContentDialog (492)
+[2017.06.20-19.57.28:961][363]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.15/FeaturePacks/' was aborted.
+[2017.06.20-19.57.28:962][363]LogModuleManager: Shutting down and abandoning module WidgetCarousel (491)
+[2017.06.20-19.57.28:962][363]LogModuleManager: Shutting down and abandoning module EditorWidgets (488)
+[2017.06.20-19.57.28:962][363]LogModuleManager: Shutting down and abandoning module CollectionManager (486)
+[2017.06.20-19.57.28:962][363]LogDirectoryWatcher: A directory notification for 'C:/Users/LabUser/Documents/GitHub/skagame/SkaGame/Content/Collections/' was aborted.
+[2017.06.20-19.57.28:963][363]LogDirectoryWatcher: A directory notification for 'C:/Users/LabUser/Documents/GitHub/skagame/SkaGame/Content/Developers/LabUser/Collections/' was aborted.
+[2017.06.20-19.57.28:963][363]LogDirectoryWatcher: A directory notification for 'C:/Users/LabUser/Documents/GitHub/skagame/SkaGame/Saved/Collections/' was aborted.
+[2017.06.20-19.57.28:963][363]LogModuleManager: Shutting down and abandoning module StatsViewer (484)
+[2017.06.20-19.57.28:963][363]LogModuleManager: Shutting down and abandoning module FoliageEdit (482)
+[2017.06.20-19.57.28:963][363]LogModuleManager: Shutting down and abandoning module LandscapeEditor (480)
+[2017.06.20-19.57.28:963][363]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (478)
+[2017.06.20-19.57.28:963][363]LogModuleManager: Shutting down and abandoning module ActorPickerMode (476)
+[2017.06.20-19.57.28:963][363]LogModuleManager: Shutting down and abandoning module GeometryMode (474)
+[2017.06.20-19.57.28:963][363]LogModuleManager: Shutting down and abandoning module TextureAlignMode (472)
+[2017.06.20-19.57.28:963][363]LogModuleManager: Shutting down and abandoning module BspMode (470)
+[2017.06.20-19.57.28:963][363]LogModuleManager: Shutting down and abandoning module HardwareSurvey (468)
+[2017.06.20-19.57.28:963][363]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (466)
+[2017.06.20-19.57.28:963][363]LogModuleManager: Shutting down and abandoning module AutomationWorker (464)
+[2017.06.20-19.57.28:963][363]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (462)
+[2017.06.20-19.57.28:963][363]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (460)
+[2017.06.20-19.57.28:963][363]LogModuleManager: Shutting down and abandoning module PlacementMode (459)
+[2017.06.20-19.57.28:963][363]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (456)
+[2017.06.20-19.57.28:963][363]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (454)
+[2017.06.20-19.57.28:963][363]LogModuleManager: Shutting down and abandoning module MfMediaFactory (452)
+[2017.06.20-19.57.28:963][363]LogModuleManager: Shutting down and abandoning module MfMediaEditor (450)
+[2017.06.20-19.57.28:963][363]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (448)
+[2017.06.20-19.57.28:963][363]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (446)
+[2017.06.20-19.57.28:963][363]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (444)
+[2017.06.20-19.57.28:963][363]LogModuleManager: Shutting down and abandoning module Media (443)
+[2017.06.20-19.57.28:963][363]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (440)
+[2017.06.20-19.57.28:963][363]LogModuleManager: Shutting down and abandoning module CharacterAI (438)
+[2017.06.20-19.57.28:963][363]LogModuleManager: Shutting down and abandoning module AudioCapture (436)
+[2017.06.20-19.57.28:963][363]LogModuleManager: Shutting down and abandoning module SequenceRecorder (435)
+[2017.06.20-19.57.28:963][363]LogModuleManager: Shutting down and abandoning module SmartSnapping (432)
+[2017.06.20-19.57.28:963][363]LogModuleManager: Shutting down and abandoning module SessionServices (430)
+[2017.06.20-19.57.28:963][363]LogModuleManager: Shutting down and abandoning module ViewportSnapping (428)
+[2017.06.20-19.57.28:963][363]LogModuleManager: Shutting down and abandoning module ViewportInteraction (426)
+[2017.06.20-19.57.28:963][363]LogModuleManager: Shutting down and abandoning module LogVisualizer (424)
+[2017.06.20-19.57.28:963][363]LogModuleManager: Shutting down and abandoning module IntroTutorials (422)
+[2017.06.20-19.57.28:963][363]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (421)
+[2017.06.20-19.57.28:963][363]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (418)
+[2017.06.20-19.57.28:963][363]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (416)
+[2017.06.20-19.57.28:963][363]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (414)
+[2017.06.20-19.57.28:963][363]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (412)
+[2017.06.20-19.57.28:963][363]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (411)
+[2017.06.20-19.57.29:609][363]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (408)
+[2017.06.20-19.57.29:609][363]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (406)
+[2017.06.20-19.57.29:609][363]LogModuleManager: Shutting down and abandoning module InputBindingEditor (404)
+[2017.06.20-19.57.29:609][363]LogModuleManager: Shutting down and abandoning module NiagaraEditor (402)
+[2017.06.20-19.57.29:609][363]LogModuleManager: Shutting down and abandoning module MergeActors (400)
+[2017.06.20-19.57.29:609][363]LogModuleManager: Shutting down and abandoning module SizeMap (398)
+[2017.06.20-19.57.29:609][363]LogModuleManager: Shutting down and abandoning module TreeMap (396)
+[2017.06.20-19.57.29:609][363]LogModuleManager: Shutting down and abandoning module ReferenceViewer (394)
+[2017.06.20-19.57.29:609][363]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (392)
+[2017.06.20-19.57.29:609][363]LogModuleManager: Shutting down and abandoning module LocalizationService (391)
+[2017.06.20-19.57.29:609][363]LogModuleManager: Shutting down and abandoning module HardwareTargeting (388)
+[2017.06.20-19.57.29:609][363]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (386)
+[2017.06.20-19.57.29:609][363]LogModuleManager: Shutting down and abandoning module UndoHistory (384)
+[2017.06.20-19.57.29:609][363]LogModuleManager: Shutting down and abandoning module UserFeedback (382)
+[2017.06.20-19.57.29:609][363]LogModuleManager: Shutting down and abandoning module XmlParser (380)
+[2017.06.20-19.57.29:609][363]LogModuleManager: Shutting down and abandoning module Blutility (378)
+[2017.06.20-19.57.29:609][363]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (376)
+[2017.06.20-19.57.29:609][363]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (375)
+[2017.06.20-19.57.29:609][363]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (372)
+[2017.06.20-19.57.29:609][363]LogModuleManager: Shutting down and abandoning module SettingsEditor (370)
+[2017.06.20-19.57.29:609][363]LogModuleManager: Shutting down and abandoning module ProjectLauncher (368)
+[2017.06.20-19.57.29:609][363]LogModuleManager: Shutting down and abandoning module SessionFrontend (366)
+[2017.06.20-19.57.29:609][363]LogModuleManager: Shutting down and abandoning module ProfilerClient (364)
+[2017.06.20-19.57.29:609][363]LogModuleManager: Shutting down and abandoning module DeviceManager (362)
+[2017.06.20-19.57.29:609][363]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (361)
+[2017.06.20-19.57.29:662][363]LogModuleManager: Shutting down and abandoning module AutomationController (358)
+[2017.06.20-19.57.29:662][363]LogModuleManager: Shutting down and abandoning module AutomationWindow (356)
+[2017.06.20-19.57.29:662][363]LogModuleManager: Shutting down and abandoning module Layers (354)
+[2017.06.20-19.57.29:662][363]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (352)
+[2017.06.20-19.57.29:662][363]LogModuleManager: Shutting down and abandoning module DetailCustomizations (350)
+[2017.06.20-19.57.29:662][363]LogModuleManager: Shutting down and abandoning module PackagesDialog (348)
+[2017.06.20-19.57.29:662][363]LogModuleManager: Shutting down and abandoning module Persona (346)
+[2017.06.20-19.57.29:662][363]LogModuleManager: Shutting down and abandoning module AnimGraph (345)
+[2017.06.20-19.57.29:662][363]LogModuleManager: Shutting down and abandoning module Kismet (342)
+[2017.06.20-19.57.29:663][363]LogModuleManager: Shutting down and abandoning module GraphEditor (340)
+[2017.06.20-19.57.29:663][363]LogModuleManager: Shutting down and abandoning module ClassViewer (338)
+[2017.06.20-19.57.29:663][363]LogModuleManager: Shutting down and abandoning module Toolbox (336)
+[2017.06.20-19.57.29:663][363]LogModuleManager: Shutting down and abandoning module ModuleUI (334)
+[2017.06.20-19.57.29:663][363]LogModuleManager: Shutting down and abandoning module MovieSceneTools (332)
+[2017.06.20-19.57.29:663][363]LogModuleManager: Shutting down and abandoning module OutputLog (330)
+[2017.06.20-19.57.29:663][363]LogModuleManager: Shutting down and abandoning module GammaUI (328)
+[2017.06.20-19.57.29:663][363]LogModuleManager: Shutting down and abandoning module Documentation (326)
+[2017.06.20-19.57.29:663][363]LogModuleManager: Shutting down and abandoning module Niagara (324)
+[2017.06.20-19.57.29:663][363]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (322)
+[2017.06.20-19.57.29:663][363]LogModuleManager: Shutting down and abandoning module AnalyticsET (320)
+[2017.06.20-19.57.29:663][363]LogModuleManager: Shutting down and abandoning module PortalServices (318)
+[2017.06.20-19.57.29:663][363]LogModuleManager: Shutting down and abandoning module PortalRpc (316)
+[2017.06.20-19.57.29:663][363]LogModuleManager: Shutting down and abandoning module MessagingRpc (314)
+[2017.06.20-19.57.29:663][363]LogModuleManager: Shutting down and abandoning module AIModule (312)
+[2017.06.20-19.57.29:663][363]LogModuleManager: Shutting down and abandoning module GameplayDebugger (311)
+[2017.06.20-19.57.29:663][363]LogModuleManager: Shutting down and abandoning module AITestSuite (309)
+[2017.06.20-19.57.29:663][363]LogModuleManager: Shutting down and abandoning module ProfilerService (306)
+[2017.06.20-19.57.29:774][363]LogModuleManager: Shutting down and abandoning module TaskGraph (304)
+[2017.06.20-19.57.29:774][363]LogModuleManager: Shutting down and abandoning module SteamVRController (302)
+[2017.06.20-19.57.29:774][363]LogModuleManager: Shutting down and abandoning module SteamVR (300)
+[2017.06.20-19.57.29:774][363]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (298)
+[2017.06.20-19.57.29:774][363]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (296)
+[2017.06.20-19.57.29:774][363]LogModuleManager: Shutting down and abandoning module OculusLibrary (294)
+[2017.06.20-19.57.29:774][363]LogModuleManager: Shutting down and abandoning module OculusInput (292)
+[2017.06.20-19.57.29:774][363]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (290)
+[2017.06.20-19.57.29:774][363]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (288)
+[2017.06.20-19.57.29:774][363]LogModuleManager: Shutting down and abandoning module CableComponent (286)
+[2017.06.20-19.57.29:774][363]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (284)
+[2017.06.20-19.57.29:774][363]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (280)
+[2017.06.20-19.57.29:774][363]LogModuleManager: Shutting down and abandoning module HTML5Networking (278)
+[2017.06.20-19.57.29:774][363]LogModuleManager: Shutting down and abandoning module AlembicImporter (276)
+[2017.06.20-19.57.29:774][363]LogModuleManager: Shutting down and abandoning module AlembicLibrary (275)
+[2017.06.20-19.57.29:774][363]LogModuleManager: Shutting down and abandoning module GeometryCache (274)
+[2017.06.20-19.57.29:774][363]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (273)
+[2017.06.20-19.57.29:774][363]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (268)
+[2017.06.20-19.57.29:774][363]LogModuleManager: Shutting down and abandoning module SuperSearch (267)
+[2017.06.20-19.57.29:774][363]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (264)
+[2017.06.20-19.57.29:774][363]LogModuleManager: Shutting down and abandoning module PluginBrowser (262)
+[2017.06.20-19.57.29:774][363]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (260)
+[2017.06.20-19.57.29:774][363]LogModuleManager: Shutting down and abandoning module EpicSurvey (258)
+[2017.06.20-19.57.29:774][363]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (256)
+[2017.06.20-19.57.29:774][363]LogModuleManager: Shutting down and abandoning module DesktopPlatform (255)
+[2017.06.20-19.57.29:774][363]LogModuleManager: Shutting down and abandoning module UObjectPlugin (252)
+[2017.06.20-19.57.29:774][363]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (250)
+[2017.06.20-19.57.29:774][363]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (248)
+[2017.06.20-19.57.29:775][363]LogModuleManager: Shutting down and abandoning module GitSourceControl (246)
+[2017.06.20-19.57.29:775][363]LogModuleManager: Shutting down and abandoning module SourceControl (245)
+[2017.06.20-19.57.29:775][363]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (242)
+[2017.06.20-19.57.29:775][363]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (240)
+[2017.06.20-19.57.29:775][363]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (238)
+[2017.06.20-19.57.29:775][363]LogModuleManager: Shutting down and abandoning module Paper2DEditor (236)
+[2017.06.20-19.57.29:775][363]LogModuleManager: Shutting down and abandoning module MeshPaint (235)
+[2017.06.20-19.57.29:775][363]LogModuleManager: Shutting down and abandoning module LevelEditor (233)
+[2017.06.20-19.57.29:775][363]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (232)
+[2017.06.20-19.57.29:775][363]LogModuleManager: Shutting down and abandoning module MainFrame (230)
+[2017.06.20-19.57.29:775][363]LogModuleManager: Shutting down and abandoning module HotReload (229)
+[2017.06.20-19.57.29:776][363]LogModuleManager: Shutting down and abandoning module ContentBrowser (225)
+[2017.06.20-19.57.29:777][363]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (222)
+[2017.06.20-19.57.29:777][363]LogModuleManager: Shutting down and abandoning module PhysXVehicles (220)
+[2017.06.20-19.57.29:777][363]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (218)
+[2017.06.20-19.57.29:777][363]LogModuleManager: Shutting down and abandoning module UdpMessaging (216)
+[2017.06.20-19.57.29:878][363]LogModuleManager: Shutting down and abandoning module TcpMessaging (214)
+[2017.06.20-19.57.29:978][363]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (212)
+[2017.06.20-19.57.29:978][363]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (210)
+[2017.06.20-19.57.29:978][363]LogModuleManager: Shutting down and abandoning module FacialAnimation (208)
+[2017.06.20-19.57.29:978][363]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (206)
+[2017.06.20-19.57.29:978][363]LogModuleManager: Shutting down and abandoning module Paper2D (204)
+[2017.06.20-19.57.29:978][363]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (202)
+[2017.06.20-19.57.29:978][363]LogModuleManager: Shutting down and abandoning module WmfMedia (200)
+[2017.06.20-19.57.29:978][363]LogModuleManager: Shutting down and abandoning module MfMedia (198)
+[2017.06.20-19.57.29:978][363]LogModuleManager: Shutting down and abandoning module MediaAssets (196)
+[2017.06.20-19.57.29:978][363]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (194)
+[2017.06.20-19.57.29:978][363]LogModuleManager: Shutting down and abandoning module VREditor (192)
+[2017.06.20-19.57.29:978][363]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (190)
+[2017.06.20-19.57.29:978][363]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (188)
+[2017.06.20-19.57.29:978][363]LogModuleManager: Shutting down and abandoning module FunctionalTesting (186)
+[2017.06.20-19.57.29:978][363]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (184)
+[2017.06.20-19.57.29:978][363]LogModuleManager: Shutting down and abandoning module UMG (182)
+[2017.06.20-19.57.29:978][363]LogModuleManager: Shutting down and abandoning module UMGEditor (181)
+[2017.06.20-19.57.29:978][363]LogModuleManager: Shutting down and abandoning module Sequencer (180)
+[2017.06.20-19.57.29:978][363]LogModuleManager: Shutting down and abandoning module AssetTools (178)
+[2017.06.20-19.57.29:978][363]LogModuleManager: Shutting down and abandoning module MessageLog (177)
+[2017.06.20-19.57.29:978][363]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (176)
+[2017.06.20-19.57.29:978][363]LogModuleManager: Shutting down and abandoning module SlateReflector (170)
+[2017.06.20-19.57.29:978][363]LogModuleManager: Shutting down and abandoning module Slate (168)
+[2017.06.20-19.57.29:978][363]LogModuleManager: Shutting down and abandoning module EditorStyle (166)
+[2017.06.20-19.57.29:981][363]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (164)
+[2017.06.20-19.57.29:981][363]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (162)
+[2017.06.20-19.57.29:981][363]LogModuleManager: Shutting down and abandoning module XAudio2 (160)
+[2017.06.20-19.57.29:981][363]LogModuleManager: Shutting down and abandoning module Networking (158)
+[2017.06.20-19.57.29:981][363]LogModuleManager: Shutting down and abandoning module Core (154)
+[2017.06.20-19.57.29:981][363]LogModuleManager: Shutting down and abandoning module AssetRegistry (152)
+[2017.06.20-19.57.30:109][363]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.06.20-19.57.30:109][363]LogDirectoryWatcher: A directory notification for '../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Content/' was aborted.
+[2017.06.20-19.57.30:109][363]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.06.20-19.57.30:109][363]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (151)
+[2017.06.20-19.57.30:110][363]LogModuleManager: Shutting down and abandoning module KismetCompiler (148)
+[2017.06.20-19.57.30:110][363]LogModuleManager: Shutting down and abandoning module PhysXFormats (146)
+[2017.06.20-19.57.30:110][363]LogModuleManager: Shutting down and abandoning module MeshUtilities (144)
+[2017.06.20-19.57.30:110][363]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (143)
+[2017.06.20-19.57.30:110][363]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (141)
+[2017.06.20-19.57.30:110][363]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (139)
+[2017.06.20-19.57.30:110][363]LogModuleManager: Shutting down and abandoning module PropertyEditor (137)
+[2017.06.20-19.57.30:110][363]LogModuleManager: Shutting down and abandoning module DerivedDataCache (134)
+[2017.06.20-19.57.30:122][363]LogDerivedDataCache: Shutdown
+[2017.06.20-19.57.30:122][363]LogModuleManager: Shutting down and abandoning module TargetPlatform (132)
+[2017.06.20-19.57.30:122][363]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (131)
+[2017.06.20-19.57.30:122][363]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (129)
+[2017.06.20-19.57.30:122][363]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (127)
+[2017.06.20-19.57.30:122][363]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (125)
+[2017.06.20-19.57.30:122][363]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (123)
+[2017.06.20-19.57.30:122][363]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (121)
+[2017.06.20-19.57.30:122][363]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (119)
+[2017.06.20-19.57.30:122][363]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (117)
+[2017.06.20-19.57.30:122][363]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (115)
+[2017.06.20-19.57.30:122][363]LogModuleManager: Shutting down and abandoning module ImageWrapper (114)
+[2017.06.20-19.57.30:122][363]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (111)
+[2017.06.20-19.57.30:122][363]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (109)
+[2017.06.20-19.57.30:122][363]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (107)
+[2017.06.20-19.57.30:122][363]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (105)
+[2017.06.20-19.57.30:122][363]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (103)
+[2017.06.20-19.57.30:122][363]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (101)
+[2017.06.20-19.57.30:122][363]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (99)
+[2017.06.20-19.57.30:122][363]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (97)
+[2017.06.20-19.57.30:122][363]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (95)
+[2017.06.20-19.57.30:122][363]LogModuleManager: Shutting down and abandoning module Messaging (93)
+[2017.06.20-19.57.30:122][363]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (91)
+[2017.06.20-19.57.30:122][363]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (89)
+[2017.06.20-19.57.30:122][363]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (87)
+[2017.06.20-19.57.30:122][363]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (85)
+[2017.06.20-19.57.30:122][363]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (83)
+[2017.06.20-19.57.30:122][363]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (81)
+[2017.06.20-19.57.30:122][363]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (79)
+[2017.06.20-19.57.30:122][363]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (77)
+[2017.06.20-19.57.30:122][363]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (75)
+[2017.06.20-19.57.30:122][363]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (73)
+[2017.06.20-19.57.30:122][363]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (71)
+[2017.06.20-19.57.30:122][363]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (69)
+[2017.06.20-19.57.30:122][363]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (67)
+[2017.06.20-19.57.30:122][363]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (65)
+[2017.06.20-19.57.30:122][363]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (63)
+[2017.06.20-19.57.30:122][363]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (61)
+[2017.06.20-19.57.30:122][363]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (59)
+[2017.06.20-19.57.30:122][363]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (57)
+[2017.06.20-19.57.30:122][363]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (55)
+[2017.06.20-19.57.30:122][363]LogModuleManager: Shutting down and abandoning module InputCore (52)
+[2017.06.20-19.57.30:122][363]LogModuleManager: Shutting down and abandoning module Settings (50)
+[2017.06.20-19.57.30:122][363]LogModuleManager: Shutting down and abandoning module OculusRift (48)
+[2017.06.20-19.57.30:123][363]LogHMD: Oculus shutdown.
+[2017.06.20-19.57.30:123][363]LogModuleManager: Shutting down and abandoning module GearVR (46)
+[2017.06.20-19.57.30:123][363]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
+[2017.06.20-19.57.30:123][363]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
+[2017.06.20-19.57.30:123][363]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
+[2017.06.20-19.57.30:123][363]LogOnline:Display: Unloading online subsystem: NULL
+[2017.06.20-19.57.30:123][363]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2017.06.20-19.57.30:123][363]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2017.06.20-19.57.30:123][363]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.06.20-19.57.30:123][363]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD4DD01E2-495E-F8BF-9060-3EACB5FB61F8%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.3-3450819%2B%2B%2BUE4%2BRelease-4.15&UserID=52acccce407e24ece51e80b212d3eba6%7C96e91b22db194cfa8006f4b66d834199%7C7f494a3e-6c6a-41b0-bde2-69c2e38505a9&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.06.20-19.57.30:140][363]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2017.06.20-19.57.30:142][363]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.06.20-19.57.30:142][363]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.06.20-19.57.30:142][363]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.06.20-19.57.30:142][363]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.06.20-19.57.30:142][363]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.06.20-19.57.30:143][363]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.06.20-19.57.30:143][363]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.06.20-19.57.30:143][363]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.06.20-19.57.30:143][363]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.06.20-19.57.30:143][363]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.06.20-19.57.30:143][363]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.06.20-19.57.30:143][363]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.06.20-19.57.30:143][363]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.06.20-19.57.30:143][363]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.06.20-19.57.30:143][363]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.06.20-19.57.30:144][363]LogExit: Exiting.
+[2017.06.20-19.57.30:169][363]Log file closed, 06/20/17 15:57:30
