@@ -1,9 +1,9 @@
-﻿Log file open, 06/22/17 15:57:26
+﻿Log file open, 06/25/17 19:27:48
 LogInit:Display: Running engine for game: SkaGame3
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(1091063642) SRandInit(1091063642).
+LogInit:Display: RandInit(-435679870) SRandInit(-435679870).
 LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.080546
+LogStats: Stats thread started at 0.076967
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -20,9 +20,6 @@ LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
 LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
 LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
 LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
-OCULUS: Info: [CAPI] LibOVR module is located at C:\Program Files\Oculus\Support\oculus-runtime\LibOVRRT64_1.dll
-OCULUS: Debug: Connected to the server running version (prod = 1).1.14.0(build = 378771) feature version = 0. Client runs version (prod = 1).1.14.0(build = 378771) feature version = 0
-LogHMD: GearVR: Emulating GearVR using Oculus Rift!
 LogInit: Build: ++UE4+Release-4.15-CL-3450819
 LogInit: Engine Version: 4.15.3-3450819+++UE4+Release-4.15
 LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
@@ -51,232 +48,622 @@ LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.06.22-19.57.28:021][  0]LogInit: Selected Device Profile: [Windows]
-[2017.06.22-19.57.28:021][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.06.22-19.57.28:030][  0]LogInit: Computer: ETB330-024
-[2017.06.22-19.57.28:030][  0]LogInit: User: LabUser
-[2017.06.22-19.57.28:030][  0]LogInit: CPU Page size=65536, Cores=4
-[2017.06.22-19.57.28:030][  0]LogInit: High frequency timer resolution =3.410091 MHz
-[2017.06.22-19.57.28:030][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
-[2017.06.22-19.57.28:030][  0]LogMemory: Platform Memory Stats for Windows
-[2017.06.22-19.57.28:030][  0]LogMemory: Process Physical Memory: 271.50 MB used, 271.50 MB peak
-[2017.06.22-19.57.28:030][  0]LogMemory: Process Virtual Memory: 265.54 MB used, 265.54 MB peak
-[2017.06.22-19.57.28:030][  0]LogMemory: Physical Memory: 5217.62 MB used,  27492.41 MB free, 32710.02 MB total
-[2017.06.22-19.57.28:030][  0]LogMemory: Virtual Memory: 686.13 MB used,  27492.41 MB free, 134217728.00 MB total
-[2017.06.22-19.57.28:105][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
-[2017.06.22-19.57.28:819][  0]LogD3D11RHI: D3D11 adapters:
-[2017.06.22-19.57.28:842][  0]LogD3D11RHI:    0. 'NVIDIA Quadro K4200' (Feature Level 11_0)
-[2017.06.22-19.57.28:842][  0]LogD3D11RHI:       4063/0/16355 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2017.06.22-19.57.28:844][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.06.22-19.57.28:844][  0]LogD3D11RHI:       0/0/16355 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.06.22-19.57.28:844][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.06.22-19.57.28:847][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.06.22-19.57.28:847][  0]LogD3D11RHI:     GPU DeviceId: 0x11b4 (for the marketing name, search the web for "GPU Device Id")
-[2017.06.22-19.57.28:847][  0]LogWindows: EnumDisplayDevices:
-[2017.06.22-19.57.28:848][  0]LogWindows:    0. 'NVIDIA Quadro K4200' (P:0 D:1)
-[2017.06.22-19.57.28:848][  0]LogWindows:    1. 'NVIDIA Quadro K4200' (P:1 D:1)
-[2017.06.22-19.57.28:848][  0]LogWindows:    2. 'NVIDIA Quadro K4200' (P:0 D:0)
-[2017.06.22-19.57.28:848][  0]LogWindows:    3. 'NVIDIA Quadro K4200' (P:0 D:0)
-[2017.06.22-19.57.28:849][  0]LogWindows:    4. 'DameWare Development Mirror Driver 64-bit' (P:0 D:0)
-[2017.06.22-19.57.28:849][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
-[2017.06.22-19.57.28:849][  0]LogD3D11RHI:     Adapter Name: NVIDIA Quadro K4200
-[2017.06.22-19.57.28:849][  0]LogD3D11RHI:   Driver Version: 377.35 (internal:21.21.13.7735, unified:377.35)
-[2017.06.22-19.57.28:849][  0]LogD3D11RHI:      Driver Date: 5-1-2017
-[2017.06.22-19.57.28:849][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.06.22-19.57.28:860][  0]LogD3D11RHI:Warning: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
-[2017.06.22-19.57.28:861][  0]LogD3D11RHI: Async texture creation enabled
-[2017.06.22-19.57.28:877][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2017.06.22-19.57.28:879][  0]LogShaderCompilers: Guid format shader working directory is -16 characters bigger than the processId version (../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Intermediate/Shaders/WorkingDirectory/4556/).
-[2017.06.22-19.57.28:879][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/LabUser/AppData/Local/Temp/UnrealShaderWorkingDir/D71846714308F8313B55BAA0E0CE7541/'.
-[2017.06.22-19.57.28:880][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2017.06.22-19.57.29:920][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2017.06.22-19.57.29:981][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
-[2017.06.22-19.57.30:043][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
-[2017.06.22-19.57.30:104][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
-[2017.06.22-19.57.30:166][  0]LogTemp:Display: Loaded TP MacTargetPlatform
-[2017.06.22-19.57.30:226][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2017.06.22-19.57.30:287][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.06.22-19.57.30:348][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2017.06.22-19.57.30:400][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2017.06.22-19.57.30:458][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2017.06.22-19.57.30:517][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2017.06.22-19.57.30:577][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2017.06.22-19.57.30:636][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2017.06.22-19.57.30:695][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2017.06.22-19.57.30:755][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2017.06.22-19.57.30:874][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2017.06.22-19.57.30:874][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.06.22-19.57.30:922][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2017.06.22-19.57.31:026][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2017.06.22-19.57.31:063][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2017.06.22-19.57.31:126][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
-[2017.06.22-19.57.31:185][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.06.22-19.57.31:244][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2017.06.22-19.57.31:305][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2017.06.22-19.57.31:305][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2017.06.22-19.57.31:759][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2017.06.22-19.57.31:809][  0]LogDerivedDataCache: Loaded boot cache 0.05s 50MB C:/Users/LabUser/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
-[2017.06.22-19.57.31:810][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/LabUser/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
-[2017.06.22-19.57.31:810][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.06.22-19.57.31:810][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.06.22-19.57.31:810][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.06.22-19.57.31:810][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.06.22-19.57.31:827][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.06.22-19.57.31:839][  0]LogDerivedDataCache: Using Local data cache path C:/Users/LabUser/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.06.22-19.57.31:847][  0]LogSlate: Using Freetype 2.6.0
-[2017.06.22-19.57.31:850][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.06.22-19.57.31:850][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.06.22-19.57.32:183][  0]LogInit: Selected Device Profile: [Windows]
-[2017.06.22-19.57.32:185][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.06.22-19.57.32:399][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.06.22-19.57.32:449][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.06.22-19.57.32:507][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.06.22-19.57.32:507][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
-[2017.06.22-19.57.32:507][  0]LogMeshUtilities: No automatic mesh merging module available
-[2017.06.22-19.57.33:016][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: skagame3, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 2118841436
-[2017.06.22-19.57.33:061][  0]LogAssetRegistry: FAssetRegistry took 0.0218 seconds to start up
-[2017.06.22-19.57.33:128][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.044102 seconds
-[2017.06.22-19.57.33:133][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
-[2017.06.22-19.57.33:133][  0]LogUObjectAllocator: 7077032 out of 0 bytes used by permanent object pool.
-[2017.06.22-19.57.33:133][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.06.22-19.57.33:194][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.06.22-19.57.35:038][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.06.22-19.57.35:081][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.06.22-19.57.35:596][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.06.22-19.57.36:021][  0]SourceControl: Info Source control is disabled
-[2017.06.22-19.57.36:022][  0]SourceControl: Info Source control is disabled
-[2017.06.22-19.57.36:078][  0]SourceControl: Info Source control is disabled
-[2017.06.22-19.57.36:134][  0]SourceControl: Info Source control is disabled
-[2017.06.22-19.57.37:555][  0]LogEngine: Initializing Engine...
-[2017.06.22-19.57.37:556][  0]LogHMD: Oculus plugin initialized. Version: 4.15.3-3450819+++UE4+Release-4.15, LibOVR: 1.14.0, SDK: 1.10.0, built May 21 2017, 11:08:57
-[2017.06.22-19.57.37:654][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.06.22-19.57.37:654][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.06.22-19.57.37:790][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.06.22-19.57.37:798][  0]LogInit: XAudio2 using 'Speakers (Dell AC511 USB SoundBar)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2017.06.22-19.57.37:819][  0]LogInit: FAudioDevice initialized.
-[2017.06.22-19.57.37:841][  0]LogDerivedDataCache: Saved boot cache 0.02s 50MB C:/Users/LabUser/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
-[2017.06.22-19.57.37:844][  0]LogInit: Texture streaming: Enabled
-[2017.06.22-19.57.37:932][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2017.06.22-19.57.38:028][  0]LogInit: Transaction tracking system initialized
-[2017.06.22-19.57.38:412][  0]BlueprintLog: New page: Editor Load
-[2017.06.22-19.57.39:376][  0]LocalizationService: Info Localization service is disabled
-[2017.06.22-19.57.40:125][  0]LogConsoleResponse:Display: 
-[2017.06.22-19.57.40:246][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.06.22-19.57.40:246][  0]LogCook:Display: Mobile HDR setting 1
-[2017.06.22-19.57.41:355][  0]LogFileCache: Scanning file cache for directory 'C:/Users/LabUser/Documents/GitHub/skagame/SkaGame/Content/' took 0.02s
-[2017.06.22-19.57.41:404][  0]SourceControl: Info Source control is disabled
-[2017.06.22-19.57.41:405][  0]Cmd: MAP LOAD FILE="../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Content/SkaGameAssets/Levels/Graveyard_Test.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.06.22-19.57.41:405][  0]LightingResults: New page: Lighting Build
-[2017.06.22-19.57.41:451][  0]MapCheck: New page: Map Check
-[2017.06.22-19.57.41:451][  0]LightingResults: New page: Lighting Build
-[2017.06.22-19.57.42:302][  0]LogAIModule: Creating AISystem for world Graveyard_Test
-[2017.06.22-19.57.42:323][  0]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
-[2017.06.22-19.57.42:329][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.06.22-19.57.42:329][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.06.22-19.57.42:422][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 92.8ms to complete.
-[2017.06.22-19.57.42:422][  0]LogFileHelpers: Loading map 'Graveyard_Test' took 1.017
-[2017.06.22-19.57.42:475][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2017.06.22-19.57.42:591][  0]LogCollectionManager: Loaded 0 collections in 0.001880 seconds
-[2017.06.22-19.57.42:679][  0]LogFileCache: Scanning file cache for directory 'C:/Users/LabUser/Documents/GitHub/skagame/SkaGame/Saved/Collections/' took 0.01s
-[2017.06.22-19.57.42:679][  0]LogFileCache: Scanning file cache for directory 'C:/Users/LabUser/Documents/GitHub/skagame/SkaGame/Content/Developers/LabUser/Collections/' took 0.01s
-[2017.06.22-19.57.42:679][  0]LogFileCache: Scanning file cache for directory 'C:/Users/LabUser/Documents/GitHub/skagame/SkaGame/Content/Collections/' took 0.01s
-[2017.06.22-19.57.42:679][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2017.06.22-19.57.42:687][  0]LogContentBrowser: Native class hierarchy populated in 0.0081 seconds. Added 2245 classes and 453 folders.
-[2017.06.22-19.57.42:756][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2017.06.22-19.57.42:832][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2017.06.22-19.57.42:881][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
-[2017.06.22-19.57.42:926][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2017.06.22-19.57.43:020][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
-[2017.06.22-19.57.43:020][  0]LogLoad: (Engine Initialization) Total time: 17.63 seconds
-[2017.06.22-19.57.43:020][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.33 seconds
-[2017.06.22-19.57.43:020][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2017.06.22-19.57.43:029][  0]LogOcInput: OculusInput pre-init called
-[2017.06.22-19.57.43:041][  0]LogOcInput: OculusInput is initialized. Init status 0. Runtime version: 1.14.0
-[2017.06.22-19.57.43:059][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.06.22-19.57.43:061][  0]LogSlate: Took 0.000360 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.06.22-19.57.43:064][  0]LogSlate: Took 0.000340 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2017.06.22-19.57.43:069][  0]LogSlate: Took 0.000296 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2017.06.22-19.57.43:196][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:2).
-[2017.06.22-19.57.43:230][  0]LogSlate: Took 0.000377 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.06.22-19.57.43:336][  1]LogAssetRegistry: Asset discovery search completed in 10.2959 seconds
-[2017.06.22-19.57.43:336][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000006 seconds (found 0 objects)
-[2017.06.22-19.57.43:336][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000020 seconds (updated 0 objects)
-[2017.06.22-19.57.44:069][ 63]LogSlate: Took 0.000293 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.06.22-19.57.44:592][125]LogTemp: Repeting last play command: Selected Viewport
-[2017.06.22-19.57.44:615][125]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test' with GeneratedClass '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test'
-[2017.06.22-19.57.44:615][125]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.06.22-19.57.44:615][125]PIE: New page: PIE session: Graveyard_Test (Jun 22, 2017, 11:57:44 AM)
-[2017.06.22-19.57.44:615][125]LogPlayLevel: Creating play world package: /Game/SkaGameAssets/Levels/UEDPIE_0_Graveyard_Test
-[2017.06.22-19.57.44:645][125]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029629s)
-[2017.06.22-19.57.44:645][125]LogAIModule: Creating AISystem for world Graveyard_Test
-[2017.06.22-19.57.44:646][125]LogPlayLevel: PIE: World Init took: (0.000712s)
-[2017.06.22-19.57.44:646][125]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test to /Game/SkaGameAssets/Levels/UEDPIE_0_Graveyard_Test.Graveyard_Test (0.030612s)
-[2017.06.22-19.57.44:670][125]LogInit: XAudio2 using 'Speakers (Dell AC511 USB SoundBar)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2017.06.22-19.57.44:676][125]LogInit: FAudioDevice initialized.
-[2017.06.22-19.57.44:725][125]LogLoad: Game class is 'SideScrollerGameMode_C'
-[2017.06.22-19.57.44:728][125]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
-[2017.06.22-19.57.44:728][125]LogWorld: Bringing World /Game/SkaGameAssets/Levels/UEDPIE_0_Graveyard_Test.Graveyard_Test up for play (max tick rate 0) at 2017.06.22-15.57.44
-[2017.06.22-19.57.44:729][125]LogWorld: Bringing up level for play took: 0.002515
-[2017.06.22-19.57.44:775][125]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
-[2017.06.22-19.57.44:777][125]PIE: Info Play in editor start time for /Game/SkaGameAssets/Levels/UEDPIE_0_Graveyard_Test 0.54
-[2017.06.22-19.57.44:777][125]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test' with GeneratedClass '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test'
-[2017.06.22-19.58.10:493][203]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test' with GeneratedClass '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test'
-[2017.06.22-19.58.10:530][203]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test' with GeneratedClass '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test'
-[2017.06.22-19.58.13:114][473]LogEditorViewport: Clicking on Actor (LMB): combatTrigger_C (combatTrigger)
-[2017.06.22-19.58.14:085][550]LogEditorViewport: Clicking on Actor (LMB): combatTrigger_C (combatTrigger)
-[2017.06.22-19.58.14:635][602]LogEditorViewport: Clicking on Actor (LMB): combatTrigger_C (combatTrigger)
-[2017.06.22-19.58.15:534][708]LogEditorViewport: Clicking on Actor (LMB): combatTrigger_C (combatTrigger)
-[2017.06.22-19.58.15:610][715]LogEditorViewport: Clicking on Component (LMB): BillboardComponent (Billboard)
-[2017.06.22-19.58.17:753][958]LogTemp: Repeting last play command: Selected Viewport
-[2017.06.22-19.58.17:777][958]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test' with GeneratedClass '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test'
-[2017.06.22-19.58.17:777][958]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.06.22-19.58.17:777][958]PIE: New page: PIE session: Graveyard_Test (Jun 22, 2017, 11:58:17 AM)
-[2017.06.22-19.58.17:777][958]LogPlayLevel: Creating play world package: /Game/SkaGameAssets/Levels/UEDPIE_0_Graveyard_Test
-[2017.06.22-19.58.17:805][958]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027412s)
-[2017.06.22-19.58.17:806][958]LogAIModule: Creating AISystem for world Graveyard_Test
-[2017.06.22-19.58.17:806][958]LogPlayLevel: PIE: World Init took: (0.000899s)
-[2017.06.22-19.58.17:807][958]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test to /Game/SkaGameAssets/Levels/UEDPIE_0_Graveyard_Test.Graveyard_Test (0.028603s)
-[2017.06.22-19.58.17:823][958]LogInit: XAudio2 using 'Speakers (Dell AC511 USB SoundBar)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2017.06.22-19.58.17:829][958]LogInit: FAudioDevice initialized.
-[2017.06.22-19.58.17:860][958]LogLoad: Game class is 'SideScrollerGameMode_C'
-[2017.06.22-19.58.17:862][958]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
-[2017.06.22-19.58.17:863][958]LogWorld: Bringing World /Game/SkaGameAssets/Levels/UEDPIE_0_Graveyard_Test.Graveyard_Test up for play (max tick rate 0) at 2017.06.22-15.58.17
-[2017.06.22-19.58.17:863][958]LogWorld: Bringing up level for play took: 0.002404
-[2017.06.22-19.58.17:864][958]PIE: Info Play in editor start time for /Game/SkaGameAssets/Levels/UEDPIE_0_Graveyard_Test -0.373
-[2017.06.22-19.58.17:865][958]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test' with GeneratedClass '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test'
-[2017.06.22-19.58.26:045][935]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test' with GeneratedClass '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test'
-[2017.06.22-19.58.26:109][935]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test' with GeneratedClass '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test'
-[2017.06.22-19.59.59:498][802]LogEditorViewport: Clicking on Actor (LMB): NavMeshBoundsVolume (NavMeshBoundsVolume2)
-[2017.06.22-20.00.02:652][173]Cmd: DELETE
-[2017.06.22-20.00.02:652][173]Cmd: ACTOR DELETE
-[2017.06.22-20.00.02:653][173]LogEditorActor: Deleted Actor: NavMeshBoundsVolume
-[2017.06.22-20.00.02:661][173]LogEditorActor: Deleted 1 Actors (0.009 secs)
-[2017.06.22-20.00.26:398][824]LogTemp: Repeting last play command: Selected Viewport
-[2017.06.22-20.00.26:421][824]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test' with GeneratedClass '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test'
-[2017.06.22-20.00.26:421][824]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.06.22-20.00.26:421][824]PIE: New page: PIE session: Graveyard_Test (Jun 22, 2017, 12:00:26 PM)
-[2017.06.22-20.00.26:421][824]LogPlayLevel: Creating play world package: /Game/SkaGameAssets/Levels/UEDPIE_0_Graveyard_Test
-[2017.06.22-20.00.26:448][824]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026455s)
-[2017.06.22-20.00.26:449][824]LogAIModule: Creating AISystem for world Graveyard_Test
-[2017.06.22-20.00.26:449][824]LogPlayLevel: PIE: World Init took: (0.000918s)
-[2017.06.22-20.00.26:449][824]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test to /Game/SkaGameAssets/Levels/UEDPIE_0_Graveyard_Test.Graveyard_Test (0.027663s)
-[2017.06.22-20.00.26:467][824]LogInit: XAudio2 using 'Speakers (Dell AC511 USB SoundBar)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2017.06.22-20.00.26:474][824]LogInit: FAudioDevice initialized.
-[2017.06.22-20.00.26:507][824]LogLoad: Game class is 'SideScrollerGameMode_C'
-[2017.06.22-20.00.26:509][824]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
-[2017.06.22-20.00.26:510][824]LogWorld: Bringing World /Game/SkaGameAssets/Levels/UEDPIE_0_Graveyard_Test.Graveyard_Test up for play (max tick rate 0) at 2017.06.22-16.00.26
-[2017.06.22-20.00.26:510][824]LogWorld: Bringing up level for play took: 0.002617
-[2017.06.22-20.00.26:511][824]PIE: Info Play in editor start time for /Game/SkaGameAssets/Levels/UEDPIE_0_Graveyard_Test 0.269
-[2017.06.22-20.00.26:529][824]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test' with GeneratedClass '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test'
-[2017.06.22-20.01.12:167][293]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test' with GeneratedClass '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test'
-[2017.06.22-20.01.12:217][293]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test' with GeneratedClass '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test'
-[2017.06.22-20.01.17:744][895]LogSlate: Took 0.000276 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.06.22-20.01.18:192][895]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 112 classes and 0 folders.
-[2017.06.22-20.01.18:751][895]LogSlate: Took 0.000297 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.06.22-20.01.18:825][895]LogSlate: Took 0.000394 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2017.06.22-20.01.19:181][896]LogSlate: Took 0.000385 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2017.06.22-20.01.20:179][939]LogRenderer: Reallocating scene render targets to support 1208x744 NumSamples 1 (Frame:13879).
-[2017.06.22-20.02.06:922][234]LogEditorViewport: Clicking on Actor (LMB): combatTrigger_C (combatTrigger)
-[2017.06.22-20.02.16:689][858]LogTexture:Display: Building textures: buttonA (AutoDXT, 500X500) - 114 MB total VRAM
-[2017.06.22-20.02.33:014][932]LogTexture:Display: Building textures: hitparticle2 (AutoDXT, 256X256) - 114 MB total VRAM
-[2017.06.22-20.02.35:283][ 79]LogTexture:Display: Building textures: hitparticle5 (AutoDXT, 256X256) - 114 MB total VRAM
+[2017.06.25-23.27.49:188][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.25-23.27.49:188][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.06.25-23.27.49:202][  0]LogInit: Computer: DESKTOP-58CNULQ
+[2017.06.25-23.27.49:202][  0]LogInit: User: Ethan
+[2017.06.25-23.27.49:202][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.06.25-23.27.49:202][  0]LogInit: High frequency timer resolution =3.312785 MHz
+[2017.06.25-23.27.49:202][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.06.25-23.27.49:202][  0]LogMemory: Platform Memory Stats for Windows
+[2017.06.25-23.27.49:202][  0]LogMemory: Process Physical Memory: 266.74 MB used, 266.74 MB peak
+[2017.06.25-23.27.49:202][  0]LogMemory: Process Virtual Memory: 262.74 MB used, 262.74 MB peak
+[2017.06.25-23.27.49:202][  0]LogMemory: Physical Memory: 5805.13 MB used,  10474.05 MB free, 16279.18 MB total
+[2017.06.25-23.27.49:202][  0]LogMemory: Virtual Memory: 645.44 MB used,  10474.05 MB free, 134217728.00 MB total
+[2017.06.25-23.27.49:302][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.06.25-23.27.50:046][  0]LogD3D11RHI: D3D11 adapters:
+[2017.06.25-23.27.50:591][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 660' (Feature Level 11_0)
+[2017.06.25-23.27.50:592][  0]LogD3D11RHI:       1505/0/8139 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.06.25-23.27.50:594][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4000' (Feature Level 11_0)
+[2017.06.25-23.27.50:594][  0]LogD3D11RHI:       32/0/1760 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2017.06.25-23.27.50:595][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.06.25-23.27.50:595][  0]LogD3D11RHI:       0/0/8139 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.06.25-23.27.50:595][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.06.25-23.27.50:599][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.06.25-23.27.50:599][  0]LogD3D11RHI:     GPU DeviceId: 0x1185 (for the marketing name, search the web for "GPU Device Id")
+[2017.06.25-23.27.50:599][  0]LogWindows: EnumDisplayDevices:
+[2017.06.25-23.27.50:599][  0]LogWindows:    0. 'NVIDIA GeForce GTX 660' (P:1 D:1)
+[2017.06.25-23.27.50:599][  0]LogWindows:    1. 'NVIDIA GeForce GTX 660' (P:0 D:0)
+[2017.06.25-23.27.50:600][  0]LogWindows:    2. 'NVIDIA GeForce GTX 660' (P:0 D:0)
+[2017.06.25-23.27.50:600][  0]LogWindows:    3. 'NVIDIA GeForce GTX 660' (P:0 D:0)
+[2017.06.25-23.27.50:600][  0]LogWindows:    4. 'Intel(R) HD Graphics 4000' (P:0 D:1)
+[2017.06.25-23.27.50:600][  0]LogWindows:    5. 'Intel(R) HD Graphics 4000' (P:0 D:0)
+[2017.06.25-23.27.50:600][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2017.06.25-23.27.50:600][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 660
+[2017.06.25-23.27.50:600][  0]LogD3D11RHI:   Driver Version: 376.53 (internal:21.21.13.7653, unified:376.53)
+[2017.06.25-23.27.50:600][  0]LogD3D11RHI:      Driver Date: 12-29-2016
+[2017.06.25-23.27.50:600][  0]LogRHI: Texture pool is 1053 MB (70% of 1505 MB)
+[2017.06.25-23.27.51:068][  0]LogD3D11RHI:Warning: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
+[2017.06.25-23.27.51:069][  0]LogD3D11RHI: Async texture creation enabled
+[2017.06.25-23.27.51:105][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.06.25-23.27.51:154][  0]LogShaderCompilers: Guid format shader working directory is 7 characters bigger than the processId version (../../../../../../SVN/SkaGame2/SkaGame/Intermediate/Shaders/WorkingDirectory/11732/).
+[2017.06.25-23.27.51:155][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Ethan/AppData/Local/Temp/UnrealShaderWorkingDir/6442833E483B2F6D17BF61A4DF573C7E/'.
+[2017.06.25-23.27.51:155][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.06.25-23.27.52:261][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.06.25-23.27.52:327][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.06.25-23.27.52:387][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.06.25-23.27.52:454][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.06.25-23.27.52:514][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.06.25-23.27.52:577][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.06.25-23.27.52:639][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.06.25-23.27.52:701][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.06.25-23.27.52:750][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.06.25-23.27.52:807][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.06.25-23.27.52:863][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.06.25-23.27.52:919][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.06.25-23.27.52:974][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.06.25-23.27.53:041][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.06.25-23.27.53:114][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.06.25-23.27.53:233][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.06.25-23.27.53:233][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.06.25-23.27.53:273][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.06.25-23.27.53:376][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.06.25-23.27.53:421][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.06.25-23.27.53:477][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.06.25-23.27.53:534][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.06.25-23.27.53:592][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.06.25-23.27.53:651][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.06.25-23.27.53:651][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.06.25-23.27.54:135][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.06.25-23.27.54:183][  0]LogDerivedDataCache: Loaded boot cache 0.05s 50MB C:/Users/Ethan/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.06.25-23.27.54:183][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Ethan/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.06.25-23.27.54:183][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../SVN/SkaGame2/SkaGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.06.25-23.27.54:183][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.06.25-23.27.54:183][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../SVN/SkaGame2/SkaGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.06.25-23.27.54:183][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.06.25-23.27.54:201][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.06.25-23.27.54:213][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Ethan/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.06.25-23.27.54:223][  0]LogSlate: Using Freetype 2.6.0
+[2017.06.25-23.27.54:224][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.25-23.27.54:224][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.25-23.27.54:552][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.25-23.27.54:555][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.06.25-23.27.54:772][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.06.25-23.27.54:823][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.06.25-23.27.54:884][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.06.25-23.27.54:884][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.06.25-23.27.54:884][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.06.25-23.27.55:526][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: skagame3, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 2118841436
+[2017.06.25-23.27.55:575][  0]LogAssetRegistry: FAssetRegistry took 0.0214 seconds to start up
+[2017.06.25-23.27.55:638][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.035417 seconds
+[2017.06.25-23.27.55:646][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.06.25-23.27.55:646][  0]LogUObjectAllocator: 7077024 out of 0 bytes used by permanent object pool.
+[2017.06.25-23.27.55:646][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.06.25-23.27.55:737][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.06.25-23.27.57:586][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.06.25-23.27.57:629][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.06.25-23.27.58:140][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.06.25-23.27.58:555][  0]SourceControl: Info Source control is disabled
+[2017.06.25-23.27.58:555][  0]SourceControl: Info Source control is disabled
+[2017.06.25-23.27.58:604][  0]SourceControl: Info Source control is disabled
+[2017.06.25-23.27.58:657][  0]SourceControl: Info Source control is disabled
+[2017.06.25-23.28.00:158][  0]LogEngine: Initializing Engine...
+[2017.06.25-23.28.00:158][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.06.25-23.28.00:271][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.06.25-23.28.00:271][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.06.25-23.28.00:413][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.06.25-23.28.00:435][  0]LogInit: XAudio2 using 'Speakers (5- Logitech G930 Gaming Headset)' : 8 channels at 48 kHz using 16 bits per sample (channel mask 0x63f)
+[2017.06.25-23.28.00:456][  0]LogInit: FAudioDevice initialized.
+[2017.06.25-23.28.00:481][  0]LogDerivedDataCache: Saved boot cache 0.03s 50MB C:/Users/Ethan/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.06.25-23.28.00:489][  0]LogInit: Texture streaming: Enabled
+[2017.06.25-23.28.00:602][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.06.25-23.28.00:699][  0]LogInit: Transaction tracking system initialized
+[2017.06.25-23.28.01:092][  0]BlueprintLog: New page: Editor Load
+[2017.06.25-23.28.02:007][  0]LocalizationService: Info Localization service is disabled
+[2017.06.25-23.28.02:721][  0]LogConsoleResponse:Display: 
+[2017.06.25-23.28.02:843][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.06.25-23.28.02:843][  0]LogCook:Display: Mobile HDR setting 1
+[2017.06.25-23.28.03:863][  0]LogFileCache: Scanning file cache for directory 'C:/SVN/SkaGame2/SkaGame/Content/' took 0.01s
+[2017.06.25-23.28.03:909][  0]SourceControl: Info Source control is disabled
+[2017.06.25-23.28.03:909][  0]Cmd: MAP LOAD FILE="../../../../../../SVN/SkaGame2/SkaGame/Content/SkaGameAssets/Levels/Graveyard_Test.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.25-23.28.03:910][  0]LightingResults: New page: Lighting Build
+[2017.06.25-23.28.03:951][  0]MapCheck: New page: Map Check
+[2017.06.25-23.28.03:951][  0]LightingResults: New page: Lighting Build
+[2017.06.25-23.28.04:987][  0]LogAIModule: Creating AISystem for world Graveyard_Test
+[2017.06.25-23.28.05:013][  0]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.06.25-23.28.05:022][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.25-23.28.05:023][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.25-23.28.05:076][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 53.219ms to complete.
+[2017.06.25-23.28.05:076][  0]LogFileHelpers: Loading map 'Graveyard_Test' took 1.167
+[2017.06.25-23.28.05:136][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.06.25-23.28.05:253][  0]LogCollectionManager: Loaded 0 collections in 0.001468 seconds
+[2017.06.25-23.28.05:335][  0]LogFileCache: Scanning file cache for directory 'C:/SVN/SkaGame2/SkaGame/Saved/Collections/' took 0.01s
+[2017.06.25-23.28.05:335][  0]LogFileCache: Scanning file cache for directory 'C:/SVN/SkaGame2/SkaGame/Content/Developers/Ethan/Collections/' took 0.01s
+[2017.06.25-23.28.05:335][  0]LogFileCache: Scanning file cache for directory 'C:/SVN/SkaGame2/SkaGame/Content/Collections/' took 0.01s
+[2017.06.25-23.28.05:335][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.06.25-23.28.05:344][  0]LogContentBrowser: Native class hierarchy populated in 0.0092 seconds. Added 2245 classes and 453 folders.
+[2017.06.25-23.28.05:414][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.06.25-23.28.05:450][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.06.25-23.28.05:495][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.06.25-23.28.05:547][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.06.25-23.28.05:553][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.06.25-23.28.05:618][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.06.25-23.28.05:619][  0]LogLoad: (Engine Initialization) Total time: 18.41 seconds
+[2017.06.25-23.28.05:619][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.43 seconds
+[2017.06.25-23.28.05:619][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.06.25-23.28.05:619][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.06.25-23.28.05:628][  0]LogOcInput: OculusInput pre-init called
+[2017.06.25-23.28.05:647][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.06.25-23.28.05:648][  0]LogSlate: Took 0.000269 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.25-23.28.05:652][  0]LogSlate: Took 0.000166 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.06.25-23.28.05:658][  0]LogSlate: Took 0.000125 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.06.25-23.28.05:802][  0]LogRenderer: Reallocating scene render targets to support 1208x556 NumSamples 1 (Frame:2).
+[2017.06.25-23.28.05:849][  0]LogSlate: Took 0.000153 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.25-23.28.05:909][  1]LogAssetRegistry: Asset discovery search completed in 10.3554 seconds
+[2017.06.25-23.28.05:909][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000006 seconds (found 0 objects)
+[2017.06.25-23.28.05:909][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000021 seconds (updated 0 objects)
+[2017.06.25-23.28.06:662][ 68]LogSlate: Took 0.000180 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.25-23.43.12:625][320]LogSlate: Took 0.000159 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.25-23.43.12:765][320]LogSlate: Took 0.000171 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.06.25-23.44.10:037][858]LogSavePackage: Save=10.34ms
+[2017.06.25-23.44.10:037][858]LogSavePackage: Moving '../../../../../../SVN/SkaGame2/SkaGame/Saved/Ghost_AI_StateE9790F1D429EA07CF87335A4B6574318.tmp' to '../../../../../../SVN/SkaGame2/SkaGame/Content/SkaGameAssets/Enemies/GhostAssests/AI/Ghost_AI_State.uasset'
+[2017.06.25-23.44.10:042][858]LogSavePackage:Display: Finished SavePackage ../../../../../../SVN/SkaGame2/SkaGame/Content/SkaGameAssets/Enemies/GhostAssests/AI/Ghost_AI_State.uasset
+[2017.06.25-23.44.43:141][420]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SkaGameAssets/Levels/Graveyard_Test' took 0.015
+[2017.06.25-23.44.43:149][420]LogSavePackage: Save=3.55ms
+[2017.06.25-23.44.43:149][420]LogSavePackage: Moving '../../../../../../SVN/SkaGame2/SkaGame/Saved/Ghost_AI_State_Auto1DC3B093746A52D7E4178DFAB80B7271D.tmp' to '../../../../../../SVN/SkaGame2/SkaGame/Saved/Autosaves/Game/SkaGameAssets/Enemies/DarnBat/BluePrints/Ghost_AI_State_Auto1.uasset'
+[2017.06.25-23.44.43:150][420]LogSavePackage:Display: Finished SavePackage ../../../../../../SVN/SkaGame2/SkaGame/Saved/Autosaves/Game/SkaGameAssets/Enemies/DarnBat/BluePrints/Ghost_AI_State_Auto1.uasset
+[2017.06.25-23.44.43:150][420]LogFileHelpers: Auto-saving content packages took 0.009
+[2017.06.25-23.54.43:997][949]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SkaGameAssets/Levels/Graveyard_Test' took 0.009
+[2017.06.25-23.54.44:014][949]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/SkaGameAssets/Enemies/GhostAssests/AI/GhostBlackBoard] ([1] browsable assets)...
+[2017.06.25-23.54.44:014][949]OBJ SavePackage: Finished generating thumbnails for package [/Game/SkaGameAssets/Enemies/GhostAssests/AI/GhostBlackBoard]
+[2017.06.25-23.54.44:055][949]LogSavePackage: Save=4.90ms
+[2017.06.25-23.54.44:055][949]LogSavePackage: Moving '../../../../../../SVN/SkaGame2/SkaGame/Saved/GhostBlackBoard_Auto2C4CDD0AF4957ECCB7A4752928B3D8230.tmp' to '../../../../../../SVN/SkaGame2/SkaGame/Saved/Autosaves/Game/SkaGameAssets/Enemies/GhostAssests/AI/GhostBlackBoard_Auto2.uasset'
+[2017.06.25-23.54.44:057][949]LogSavePackage:Display: Finished SavePackage ../../../../../../SVN/SkaGame2/SkaGame/Saved/Autosaves/Game/SkaGameAssets/Enemies/GhostAssests/AI/GhostBlackBoard_Auto2.uasset
+[2017.06.25-23.54.44:057][949]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/SkaGameAssets/Enemies/GhostAssests/AI/GhostBehaviorTree] ([1] browsable assets)...
+[2017.06.25-23.54.44:057][949]OBJ SavePackage: Finished generating thumbnails for package [/Game/SkaGameAssets/Enemies/GhostAssests/AI/GhostBehaviorTree]
+[2017.06.25-23.54.44:079][949]LogSavePackage: Save=7.67ms
+[2017.06.25-23.54.44:079][949]LogSavePackage: Moving '../../../../../../SVN/SkaGame2/SkaGame/Saved/GhostBehaviorTree_Auto22AE49BD44F20F09BA44085BB000C7203.tmp' to '../../../../../../SVN/SkaGame2/SkaGame/Saved/Autosaves/Game/SkaGameAssets/Enemies/GhostAssests/AI/GhostBehaviorTree_Auto2.uasset'
+[2017.06.25-23.54.44:080][949]LogSavePackage:Display: Finished SavePackage ../../../../../../SVN/SkaGame2/SkaGame/Saved/Autosaves/Game/SkaGameAssets/Enemies/GhostAssests/AI/GhostBehaviorTree_Auto2.uasset
+[2017.06.25-23.54.44:080][949]LogFileHelpers: Auto-saving content packages took 0.082
+[2017.06.26-00.38.31:050][ 40]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 112 classes and 0 folders.
+[2017.06.26-00.38.31:805][ 40]LogSlate: Took 0.000205 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.26-00.38.31:979][ 41]LogSlate: Took 0.000238 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.06.26-00.38.53:849][426]LogRenderer: Reallocating scene render targets to support 1212x556 NumSamples 1 (Frame:1186).
+[2017.06.26-00.38.53:910][427]LogRenderer: Reallocating scene render targets to support 1236x556 NumSamples 1 (Frame:1188).
+[2017.06.26-00.38.53:978][428]LogRenderer: Reallocating scene render targets to support 1276x556 NumSamples 1 (Frame:1190).
+[2017.06.26-00.38.54:058][429]LogRenderer: Reallocating scene render targets to support 1304x556 NumSamples 1 (Frame:1192).
+[2017.06.26-00.38.54:146][430]LogRenderer: Reallocating scene render targets to support 1324x556 NumSamples 1 (Frame:1194).
+[2017.06.26-00.38.54:225][431]LogRenderer: Reallocating scene render targets to support 1332x556 NumSamples 1 (Frame:1196).
+[2017.06.26-00.38.54:287][432]LogRenderer: Reallocating scene render targets to support 1340x556 NumSamples 1 (Frame:1198).
+[2017.06.26-00.38.54:361][433]LogRenderer: Reallocating scene render targets to support 1348x556 NumSamples 1 (Frame:1200).
+[2017.06.26-00.38.54:427][434]LogRenderer: Reallocating scene render targets to support 1360x556 NumSamples 1 (Frame:1202).
+[2017.06.26-00.38.54:500][435]LogRenderer: Reallocating scene render targets to support 1368x556 NumSamples 1 (Frame:1204).
+[2017.06.26-00.38.54:575][436]LogRenderer: Reallocating scene render targets to support 1372x556 NumSamples 1 (Frame:1206).
+[2017.06.26-00.41.08:995][165]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.06.26-00.42.01:427][591]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SkaGameAssets/Levels/Graveyard_Test' took 0.036
+[2017.06.26-00.42.01:428][591]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/SkaGameAssets/Enemies/GhostAssests/AI/GhostBlackBoard] ([1] browsable assets)...
+[2017.06.26-00.42.01:428][591]OBJ SavePackage: Finished generating thumbnails for package [/Game/SkaGameAssets/Enemies/GhostAssests/AI/GhostBlackBoard]
+[2017.06.26-00.42.01:455][591]LogSavePackage: Save=6.33ms
+[2017.06.26-00.42.01:455][591]LogSavePackage: Moving '../../../../../../SVN/SkaGame2/SkaGame/Saved/GhostBlackBoard_Auto348E94ADE4DE484B75B663BAED5958BF0.tmp' to '../../../../../../SVN/SkaGame2/SkaGame/Saved/Autosaves/Game/SkaGameAssets/Enemies/GhostAssests/AI/GhostBlackBoard_Auto3.uasset'
+[2017.06.26-00.42.01:457][591]LogSavePackage:Display: Finished SavePackage ../../../../../../SVN/SkaGame2/SkaGame/Saved/Autosaves/Game/SkaGameAssets/Enemies/GhostAssests/AI/GhostBlackBoard_Auto3.uasset
+[2017.06.26-00.42.01:457][591]LogFileHelpers: Auto-saving content packages took 0.029
+[2017.06.26-00.45.16:181][976]LogSavePackage: Save=7.54ms
+[2017.06.26-00.45.16:181][976]LogSavePackage: Moving '../../../../../../SVN/SkaGame2/SkaGame/Saved/GhostBehaviorTree111CDB9A4AE4B2AACF2E7DAA581F00D7.tmp' to '../../../../../../SVN/SkaGame2/SkaGame/Content/SkaGameAssets/Enemies/GhostAssests/AI/GhostBehaviorTree.uasset'
+[2017.06.26-00.45.16:186][976]LogSavePackage:Display: Finished SavePackage ../../../../../../SVN/SkaGame2/SkaGame/Content/SkaGameAssets/Enemies/GhostAssests/AI/GhostBehaviorTree.uasset
+[2017.06.26-00.45.16:203][976]LogSavePackage: Save=4.45ms
+[2017.06.26-00.45.16:203][976]LogSavePackage: Moving '../../../../../../SVN/SkaGame2/SkaGame/Saved/GhostBlackBoard31986B9A4EB64B55C4C100A6636266C7.tmp' to '../../../../../../SVN/SkaGame2/SkaGame/Content/SkaGameAssets/Enemies/GhostAssests/AI/GhostBlackBoard.uasset'
+[2017.06.26-00.45.16:207][976]LogSavePackage:Display: Finished SavePackage ../../../../../../SVN/SkaGame2/SkaGame/Content/SkaGameAssets/Enemies/GhostAssests/AI/GhostBlackBoard.uasset
+[2017.06.26-00.45.29:955][396]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.26-00.45.30:003][396]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test' with GeneratedClass '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test'
+[2017.06.26-00.45.30:013][396]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.26-00.45.30:018][396]PIE: New page: PIE session: Graveyard_Test (Jun 25, 2017, 4:45:30 PM)
+[2017.06.26-00.45.30:020][396]LogPlayLevel: Creating play world package: /Game/SkaGameAssets/Levels/UEDPIE_0_Graveyard_Test
+[2017.06.26-00.45.30:060][396]LogPlayLevel: PIE: StaticDuplicateObject took: (0.039940s)
+[2017.06.26-00.45.30:061][396]LogAIModule: Creating AISystem for world Graveyard_Test
+[2017.06.26-00.45.30:062][396]LogPlayLevel: PIE: World Init took: (0.001996s)
+[2017.06.26-00.45.30:063][396]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test to /Game/SkaGameAssets/Levels/UEDPIE_0_Graveyard_Test.Graveyard_Test (0.043303s)
+[2017.06.26-00.45.30:100][396]LogInit: XAudio2 using 'Speakers (5- Logitech G930 Gaming Headset)' : 8 channels at 48 kHz using 16 bits per sample (channel mask 0x63f)
+[2017.06.26-00.45.30:117][396]LogInit: FAudioDevice initialized.
+[2017.06.26-00.45.30:198][396]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.06.26-00.45.30:212][396]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.06.26-00.45.30:213][396]LogWorld: Bringing World /Game/SkaGameAssets/Levels/UEDPIE_0_Graveyard_Test.Graveyard_Test up for play (max tick rate 0) at 2017.06.25-20.45.30
+[2017.06.26-00.45.30:232][396]LogWorld: Bringing up level for play took: 0.022423
+[2017.06.26-00.45.30:292][396]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2017.06.26-00.45.30:311][396]PIE: Info Play in editor start time for /Game/SkaGameAssets/Levels/UEDPIE_0_Graveyard_Test 1.224
+[2017.06.26-00.45.30:312][396]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test' with GeneratedClass '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test'
+[2017.06.26-00.45.30:892][440]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test' with GeneratedClass '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test'
+[2017.06.26-00.45.30:953][440]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test' with GeneratedClass '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test'
+[2017.06.26-15.24.44:818][977]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.26-15.24.44:863][977]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test' with GeneratedClass '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test'
+[2017.06.26-15.24.44:872][977]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.26-15.24.44:872][977]PIE: New page: PIE session: Graveyard_Test (Jun 26, 2017, 7:24:44 AM)
+[2017.06.26-15.24.44:872][977]LogPlayLevel: Creating play world package: /Game/SkaGameAssets/Levels/UEDPIE_0_Graveyard_Test
+[2017.06.26-15.24.44:903][977]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030391s)
+[2017.06.26-15.24.44:903][977]LogAIModule: Creating AISystem for world Graveyard_Test
+[2017.06.26-15.24.44:904][977]LogPlayLevel: PIE: World Init took: (0.000977s)
+[2017.06.26-15.24.44:904][977]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test to /Game/SkaGameAssets/Levels/UEDPIE_0_Graveyard_Test.Graveyard_Test (0.031646s)
+[2017.06.26-15.24.44:934][977]LogInit: XAudio2 using 'Speakers (5- Logitech G930 Gaming Headset)' : 8 channels at 48 kHz using 16 bits per sample (channel mask 0x63f)
+[2017.06.26-15.24.44:949][977]LogInit: FAudioDevice initialized.
+[2017.06.26-15.24.44:982][977]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.06.26-15.24.44:985][977]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.06.26-15.24.44:986][977]LogWorld: Bringing World /Game/SkaGameAssets/Levels/UEDPIE_0_Graveyard_Test.Graveyard_Test up for play (max tick rate 0) at 2017.06.26-11.24.44
+[2017.06.26-15.24.44:987][977]LogWorld: Bringing up level for play took: 0.003399
+[2017.06.26-15.24.44:988][977]PIE: Info Play in editor start time for /Game/SkaGameAssets/Levels/UEDPIE_0_Graveyard_Test -0.116
+[2017.06.26-15.24.44:988][977]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test' with GeneratedClass '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test'
+[2017.06.26-15.24.46:146][ 53]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test' with GeneratedClass '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test'
+[2017.06.26-15.24.46:194][ 53]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test' with GeneratedClass '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test'
+[2017.06.26-15.25.16:059][144]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.26-15.25.16:093][144]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test' with GeneratedClass '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test'
+[2017.06.26-15.25.16:101][144]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.26-15.25.16:101][144]PIE: New page: PIE session: Graveyard_Test (Jun 26, 2017, 7:25:16 AM)
+[2017.06.26-15.25.16:101][144]LogPlayLevel: Creating play world package: /Game/SkaGameAssets/Levels/UEDPIE_0_Graveyard_Test
+[2017.06.26-15.25.16:126][144]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024939s)
+[2017.06.26-15.25.16:127][144]LogAIModule: Creating AISystem for world Graveyard_Test
+[2017.06.26-15.25.16:127][144]LogPlayLevel: PIE: World Init took: (0.000998s)
+[2017.06.26-15.25.16:128][144]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test to /Game/SkaGameAssets/Levels/UEDPIE_0_Graveyard_Test.Graveyard_Test (0.026214s)
+[2017.06.26-15.25.16:158][144]LogInit: XAudio2 using 'Speakers (5- Logitech G930 Gaming Headset)' : 8 channels at 48 kHz using 16 bits per sample (channel mask 0x63f)
+[2017.06.26-15.25.16:174][144]LogInit: FAudioDevice initialized.
+[2017.06.26-15.25.16:201][144]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.06.26-15.25.16:204][144]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.06.26-15.25.16:205][144]LogWorld: Bringing World /Game/SkaGameAssets/Levels/UEDPIE_0_Graveyard_Test.Graveyard_Test up for play (max tick rate 0) at 2017.06.26-11.25.16
+[2017.06.26-15.25.16:206][144]LogWorld: Bringing up level for play took: 0.003158
+[2017.06.26-15.25.16:207][144]PIE: Info Play in editor start time for /Game/SkaGameAssets/Levels/UEDPIE_0_Graveyard_Test 1.095
+[2017.06.26-15.25.16:207][144]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test' with GeneratedClass '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test'
+[2017.06.26-15.25.50:039][738]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test' with GeneratedClass '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test'
+[2017.06.26-15.25.50:099][738]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test' with GeneratedClass '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test'
+[2017.06.26-15.25.54:487][178]Cmd: SELECT NONE
+[2017.06.26-15.25.54:929][230]Cmd: SELECT NONE
+[2017.06.26-15.30.54:136][ 82]BlueprintLog: New page: Compile Ghost_AI_COn
+[2017.06.26-15.30.54:357][ 82]BlueprintEditorCompileResults: Info No value will be returned by reference. Parameter 'UpdatedActors'. Node:  OnPerceptionUpdated (AIPerception)
+[2017.06.26-15.31.49:850][472]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SkaGameAssets/Levels/Graveyard_Test' took 0.016
+[2017.06.26-15.31.49:851][472]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/SkaGameAssets/Enemies/GhostAssests/AI/Ghost_AI_COn] ([1] browsable assets)...
+[2017.06.26-15.31.49:852][472]OBJ SavePackage: Finished generating thumbnails for package [/Game/SkaGameAssets/Enemies/GhostAssests/AI/Ghost_AI_COn]
+[2017.06.26-15.31.49:901][472]LogSavePackage: Save=32.00ms
+[2017.06.26-15.31.49:901][472]LogSavePackage: Moving '../../../../../../SVN/SkaGame2/SkaGame/Saved/Ghost_AI_COn_Auto431492E05470F155E093924B376885949.tmp' to '../../../../../../SVN/SkaGame2/SkaGame/Saved/Autosaves/Game/SkaGameAssets/Enemies/GhostAssests/AI/Ghost_AI_COn_Auto4.uasset'
+[2017.06.26-15.31.49:902][472]LogSavePackage:Display: Finished SavePackage ../../../../../../SVN/SkaGame2/SkaGame/Saved/Autosaves/Game/SkaGameAssets/Enemies/GhostAssests/AI/Ghost_AI_COn_Auto4.uasset
+[2017.06.26-15.31.49:902][472]LogFileHelpers: Auto-saving content packages took 0.051
+[2017.06.26-15.36.08:578][296]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.06.26-15.36.35:550][ 11]LogEditorViewport: Clicking on Actor (LMB): SideScrollerCharacter_C (SideScrollerCharacter)
+[2017.06.26-15.36.38:836][284]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.06.26-15.36.45:991][583]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.06.26-15.37.26:414][677]LogSavePackage: Save=6.71ms
+[2017.06.26-15.37.26:414][677]LogSavePackage: Moving '../../../../../../SVN/SkaGame2/SkaGame/Saved/GhostBlackBoardB7D0835541571A8C67CBF89DE5D2C11A.tmp' to '../../../../../../SVN/SkaGame2/SkaGame/Content/SkaGameAssets/Enemies/GhostAssests/AI/GhostBlackBoard.uasset'
+[2017.06.26-15.37.26:416][677]LogSavePackage:Display: Finished SavePackage ../../../../../../SVN/SkaGame2/SkaGame/Content/SkaGameAssets/Enemies/GhostAssests/AI/GhostBlackBoard.uasset
+[2017.06.26-15.41.47:685][934]LogSavePackage: Save=10.14ms
+[2017.06.26-15.41.47:685][934]LogSavePackage: Moving '../../../../../../SVN/SkaGame2/SkaGame/Saved/GhostBehaviorTree302D85C54ED9DE1716BD01BAF2545429.tmp' to '../../../../../../SVN/SkaGame2/SkaGame/Content/SkaGameAssets/Enemies/GhostAssests/AI/GhostBehaviorTree.uasset'
+[2017.06.26-15.41.47:688][934]LogSavePackage:Display: Finished SavePackage ../../../../../../SVN/SkaGame2/SkaGame/Content/SkaGameAssets/Enemies/GhostAssests/AI/GhostBehaviorTree.uasset
+[2017.06.26-15.41.54:345][339]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.26-15.41.54:382][339]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test' with GeneratedClass '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test'
+[2017.06.26-15.41.54:390][339]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.06.26-15.41.54:390][339]LogPlayLevel: [PlayLevel] Compiling Ghost_AI_COn before play...
+[2017.06.26-15.41.54:513][339]LogPlayLevel: PlayLevel: Blueprint regeneration took 123 ms (1 blueprints)
+[2017.06.26-15.41.54:513][339]PIE: New page: PIE session: Graveyard_Test (Jun 26, 2017, 7:41:54 AM)
+[2017.06.26-15.41.54:513][339]LogPlayLevel: Creating play world package: /Game/SkaGameAssets/Levels/UEDPIE_0_Graveyard_Test
+[2017.06.26-15.41.54:539][339]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025423s)
+[2017.06.26-15.41.54:539][339]LogAIModule: Creating AISystem for world Graveyard_Test
+[2017.06.26-15.41.54:540][339]LogPlayLevel: PIE: World Init took: (0.000961s)
+[2017.06.26-15.41.54:540][339]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test to /Game/SkaGameAssets/Levels/UEDPIE_0_Graveyard_Test.Graveyard_Test (0.026708s)
+[2017.06.26-15.41.54:600][339]LogInit: XAudio2 using 'PX2710MW-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.26-15.41.54:606][339]LogInit: FAudioDevice initialized.
+[2017.06.26-15.41.54:635][339]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.06.26-15.41.54:638][339]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.06.26-15.41.54:639][339]LogWorld: Bringing World /Game/SkaGameAssets/Levels/UEDPIE_0_Graveyard_Test.Graveyard_Test up for play (max tick rate 0) at 2017.06.26-11.41.54
+[2017.06.26-15.41.54:639][339]LogWorld: Bringing up level for play took: 0.003320
+[2017.06.26-15.41.54:641][339]PIE: Info Play in editor start time for /Game/SkaGameAssets/Levels/UEDPIE_0_Graveyard_Test 1.256
+[2017.06.26-15.41.54:641][339]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test' with GeneratedClass '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test'
+[2017.06.26-15.42.20:750][445]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test' with GeneratedClass '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test'
+[2017.06.26-15.42.20:853][445]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test' with GeneratedClass '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test'
+[2017.06.26-15.42.27:754][698]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.26-15.42.27:782][698]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test' with GeneratedClass '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test'
+[2017.06.26-15.42.27:789][698]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.26-15.42.27:789][698]PIE: New page: PIE session: Graveyard_Test (Jun 26, 2017, 7:42:27 AM)
+[2017.06.26-15.42.27:790][698]LogPlayLevel: Creating play world package: /Game/SkaGameAssets/Levels/UEDPIE_0_Graveyard_Test
+[2017.06.26-15.42.27:813][698]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023593s)
+[2017.06.26-15.42.27:814][698]LogAIModule: Creating AISystem for world Graveyard_Test
+[2017.06.26-15.42.27:814][698]LogPlayLevel: PIE: World Init took: (0.000859s)
+[2017.06.26-15.42.27:814][698]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test to /Game/SkaGameAssets/Levels/UEDPIE_0_Graveyard_Test.Graveyard_Test (0.024756s)
+[2017.06.26-15.42.27:871][698]LogInit: XAudio2 using 'PX2710MW-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.26-15.42.27:882][698]LogInit: FAudioDevice initialized.
+[2017.06.26-15.42.27:914][698]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.06.26-15.42.27:917][698]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.06.26-15.42.27:917][698]LogWorld: Bringing World /Game/SkaGameAssets/Levels/UEDPIE_0_Graveyard_Test.Graveyard_Test up for play (max tick rate 0) at 2017.06.26-11.42.27
+[2017.06.26-15.42.27:918][698]LogWorld: Bringing up level for play took: 0.003015
+[2017.06.26-15.42.27:919][698]PIE: Info Play in editor start time for /Game/SkaGameAssets/Levels/UEDPIE_0_Graveyard_Test 0.528
+[2017.06.26-15.42.27:920][698]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test' with GeneratedClass '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test'
+[2017.06.26-15.42.47:839][ 79]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test' with GeneratedClass '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test'
+[2017.06.26-15.42.47:944][ 79]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test' with GeneratedClass '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test'
+[2017.06.26-15.43.12:976][781]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SkaGameAssets/Levels/Graveyard_Test' took 0.016
+[2017.06.26-15.43.12:977][781]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/SkaGameAssets/Enemies/GhostAssests/AI/Ghost_AI_COn] ([1] browsable assets)...
+[2017.06.26-15.43.12:977][781]OBJ SavePackage: Finished generating thumbnails for package [/Game/SkaGameAssets/Enemies/GhostAssests/AI/Ghost_AI_COn]
+[2017.06.26-15.43.13:010][781]LogSavePackage: Save=17.94ms
+[2017.06.26-15.43.13:010][781]LogSavePackage: Moving '../../../../../../SVN/SkaGame2/SkaGame/Saved/Ghost_AI_COn_Auto5513735CF449EC8FDFD6D209560677A74.tmp' to '../../../../../../SVN/SkaGame2/SkaGame/Saved/Autosaves/Game/SkaGameAssets/Enemies/GhostAssests/AI/Ghost_AI_COn_Auto5.uasset'
+[2017.06.26-15.43.13:011][781]LogSavePackage:Display: Finished SavePackage ../../../../../../SVN/SkaGame2/SkaGame/Saved/Autosaves/Game/SkaGameAssets/Enemies/GhostAssests/AI/Ghost_AI_COn_Auto5.uasset
+[2017.06.26-15.43.13:011][781]LogFileHelpers: Auto-saving content packages took 0.034
+[2017.06.26-15.44.07:521][746]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.26-15.44.07:549][746]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test' with GeneratedClass '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test'
+[2017.06.26-15.44.07:556][746]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.26-15.44.07:556][746]PIE: New page: PIE session: Graveyard_Test (Jun 26, 2017, 7:44:07 AM)
+[2017.06.26-15.44.07:556][746]LogPlayLevel: Creating play world package: /Game/SkaGameAssets/Levels/UEDPIE_0_Graveyard_Test
+[2017.06.26-15.44.07:581][746]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024259s)
+[2017.06.26-15.44.07:581][746]LogAIModule: Creating AISystem for world Graveyard_Test
+[2017.06.26-15.44.07:582][746]LogPlayLevel: PIE: World Init took: (0.001019s)
+[2017.06.26-15.44.07:582][746]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test to /Game/SkaGameAssets/Levels/UEDPIE_0_Graveyard_Test.Graveyard_Test (0.025611s)
+[2017.06.26-15.44.07:640][746]LogInit: XAudio2 using 'PX2710MW-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.26-15.44.07:649][746]LogInit: FAudioDevice initialized.
+[2017.06.26-15.44.07:684][746]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.06.26-15.44.07:687][746]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.06.26-15.44.07:687][746]LogWorld: Bringing World /Game/SkaGameAssets/Levels/UEDPIE_0_Graveyard_Test.Graveyard_Test up for play (max tick rate 0) at 2017.06.26-11.44.07
+[2017.06.26-15.44.07:688][746]LogWorld: Bringing up level for play took: 0.003050
+[2017.06.26-15.44.07:689][746]PIE: Info Play in editor start time for /Game/SkaGameAssets/Levels/UEDPIE_0_Graveyard_Test 0.279
+[2017.06.26-15.44.07:690][746]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test' with GeneratedClass '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test'
+[2017.06.26-15.44.08:158][774]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test' with GeneratedClass '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test'
+[2017.06.26-15.44.08:264][774]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test' with GeneratedClass '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test'
+[2017.06.26-15.57.37:098][666]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/SkaGameAssets/Enemies/GhostAssests/AI/BTService_BlueprintBase_New.
+[2017.06.26-15.57.52:646][825]BlueprintLog: New page: Compile BTService_BlueprintBase_New
+[2017.06.26-15.58.20:719][821]LogMetaData: Removing '/Game/SkaGameAssets/Enemies/GhostAssests/AI/BTS_VisionCheck.SKEL_BTS_VisionCheck_C' ref from Metadata '/Game/SkaGameAssets/Enemies/GhostAssests/AI/BTService_BlueprintBase_New.PackageMetaData'
+[2017.06.26-15.58.20:719][821]LogMetaData: Removing '/Game/SkaGameAssets/Enemies/GhostAssests/AI/BTS_VisionCheck.BTS_VisionCheck_C' ref from Metadata '/Game/SkaGameAssets/Enemies/GhostAssests/AI/BTService_BlueprintBase_New.PackageMetaData'
+[2017.06.26-15.58.20:741][821]LogSavePackage: Save=6.93ms
+[2017.06.26-15.58.20:742][821]LogSavePackage: Moving '../../../../../../SVN/SkaGame2/SkaGame/Saved/BTS_VisionCheckBC5FCE1F4C18738B5DA664ABB9188920.tmp' to '../../../../../../SVN/SkaGame2/SkaGame/Content/SkaGameAssets/Enemies/GhostAssests/AI/BTS_VisionCheck.uasset'
+[2017.06.26-15.58.20:743][821]LogSavePackage:Display: Finished SavePackage ../../../../../../SVN/SkaGame2/SkaGame/Content/SkaGameAssets/Enemies/GhostAssests/AI/BTS_VisionCheck.uasset
+[2017.06.26-15.58.20:921][822]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/SkaGameAssets/Enemies/GhostAssests/AI/BTS_VisionCheck.
+[2017.06.26-15.59.17:974][121]LogBlueprint:Warning: [BTS_VisionCheck] 'Blackboard' variable not found. Base class was probably changed.
+[2017.06.26-15.59.19:685][244]BlueprintLog: New page: Compile BTS_VisionCheck
+[2017.06.26-15.59.19:706][244]LogBlueprint:Warning: [Compiler BTS_VisionCheck] Warning Could not find a variable named "Blackboard" in 'BTS_VisionCheck_C'.
+Make sure 'BTS_VisionCheck_C' has been compiled for  Get Blackboard
+[2017.06.26-15.59.19:707][244]LogBlueprint:Error: [Compiler BTS_VisionCheck] Error The property associated with  Blackboard  could not be found
+[2017.06.26-15.59.19:905][244]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Blackboard" in 'BTS_VisionCheck_C'.
+Make sure 'BTS_VisionCheck_C' has been compiled for  Get Blackboard
+[2017.06.26-15.59.19:905][244]BlueprintEditorCompileResults:Error: Error The property associated with  Blackboard  could not be found
+[2017.06.26-15.59.19:905][244]LogBlueprint:Warning: [Compiler BTS_VisionCheck] Warning [9492.19] Compile of BTS_VisionCheck failed. 1 Fatal Issue(s) 1 Warning(s) [in 220 ms] (/Game/SkaGameAssets/Enemies/GhostAssests/AI/BTS_VisionCheck.BTS_VisionCheck)
+[2017.06.26-15.59.31:786][ 73]BlueprintLog: New page: Compile BTS_VisionCheck
+[2017.06.26-15.59.31:806][ 73]LogBlueprint:Error: [Compiler BTS_VisionCheck] Error This blueprint (self) is not a BlackboardComponent, therefore ' Target ' must have a connection.
+[2017.06.26-15.59.31:994][ 73]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a BlackboardComponent, therefore ' Target ' must have a connection.
+[2017.06.26-15.59.31:995][ 73]LogBlueprint:Warning: [Compiler BTS_VisionCheck] Warning [9504.28] Compile of BTS_VisionCheck failed. 1 Fatal Issue(s) 0 Warning(s) [in 208 ms] (/Game/SkaGameAssets/Enemies/GhostAssests/AI/BTS_VisionCheck.BTS_VisionCheck)
+[2017.06.26-16.01.54:903][191]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SkaGameAssets/Levels/Graveyard_Test' took 0.020
+[2017.06.26-16.01.54:910][191]LogSavePackage: Save=4.00ms
+[2017.06.26-16.01.54:910][191]LogSavePackage: Moving '../../../../../../SVN/SkaGame2/SkaGame/Saved/BTService_BlueprintBase_New_Auto64BB3A87C473A7D1950F8F9B81A4B46E4.tmp' to '../../../../../../SVN/SkaGame2/SkaGame/Saved/Autosaves/Game/SkaGameAssets/Enemies/GhostAssests/AI/BTService_BlueprintBase_New_Auto6.uasset'
+[2017.06.26-16.01.54:911][191]LogSavePackage:Display: Finished SavePackage ../../../../../../SVN/SkaGame2/SkaGame/Saved/Autosaves/Game/SkaGameAssets/Enemies/GhostAssests/AI/BTService_BlueprintBase_New_Auto6.uasset
+[2017.06.26-16.01.54:911][191]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/SkaGameAssets/Enemies/GhostAssests/AI/BTS_VisionCheck] ([1] browsable assets)...
+[2017.06.26-16.01.54:911][191]OBJ SavePackage: Finished generating thumbnails for package [/Game/SkaGameAssets/Enemies/GhostAssests/AI/BTS_VisionCheck]
+[2017.06.26-16.01.54:939][191]LogSavePackage: Save=12.57ms
+[2017.06.26-16.01.54:939][191]LogSavePackage: Moving '../../../../../../SVN/SkaGame2/SkaGame/Saved/BTS_VisionCheck_Auto6BD3D59354B19FC9880EB37B1AFDA4200.tmp' to '../../../../../../SVN/SkaGame2/SkaGame/Saved/Autosaves/Game/SkaGameAssets/Enemies/GhostAssests/AI/BTS_VisionCheck_Auto6.uasset'
+[2017.06.26-16.01.54:940][191]LogSavePackage:Display: Finished SavePackage ../../../../../../SVN/SkaGame2/SkaGame/Saved/Autosaves/Game/SkaGameAssets/Enemies/GhostAssests/AI/BTS_VisionCheck_Auto6.uasset
+[2017.06.26-16.01.54:940][191]LogFileHelpers: Auto-saving content packages took 0.036
+[2017.06.26-16.02.56:933][643]LogSlate: Took 0.004602 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.06.26-16.03.17:131][154]BlueprintLog: New page: Compile BTS_VisionCheck
+[2017.06.26-16.03.17:135][154]LogBlueprint:Error: [Compiler BTS_VisionCheck] Error The current value of the ' Key ' pin is invalid: 'Key' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2017.06.26-16.03.17:342][154]BlueprintEditorCompileResults:Error: Error The current value of the ' Key ' pin is invalid: 'Key' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2017.06.26-16.03.17:343][154]LogBlueprint:Warning: [Compiler BTS_VisionCheck] Warning [9729.60] Compile of BTS_VisionCheck failed. 1 Fatal Issue(s) 0 Warning(s) [in 210 ms] (/Game/SkaGameAssets/Enemies/GhostAssests/AI/BTS_VisionCheck.BTS_VisionCheck)
+[2017.06.26-16.03.44:059][351]BlueprintLog: New page: Compile BTS_VisionCheck
+[2017.06.26-16.04.54:457][567]BlueprintLog: New page: Compile BTS_VisionCheck
+[2017.06.26-16.04.57:013][735]LogSavePackage: Save=8.16ms
+[2017.06.26-16.04.57:013][735]LogSavePackage: Moving '../../../../../../SVN/SkaGame2/SkaGame/Saved/GhostBehaviorTree6D2E982C49A9D1C412F1E48855958FA9.tmp' to '../../../../../../SVN/SkaGame2/SkaGame/Content/SkaGameAssets/Enemies/GhostAssests/AI/GhostBehaviorTree.uasset'
+[2017.06.26-16.04.57:016][735]LogSavePackage:Display: Finished SavePackage ../../../../../../SVN/SkaGame2/SkaGame/Content/SkaGameAssets/Enemies/GhostAssests/AI/GhostBehaviorTree.uasset
+[2017.06.26-16.08.07:426][383]BlueprintLog: New page: Compile BTS_VisionCheck
+[2017.06.26-16.09.35:573][832]LogPropertyNode:Warning: Property BTTask_MoveTo::bObserveBlackboardValue is an editcondition for BTTask_MoveTo::ObservedBlackboardValueTolerance, but is not marked as EditAnywhere.
+[2017.06.26-16.09.40:026][178]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.06.26-16.10.00:219][436]LogPropertyNode:Warning: Property BTTask_MoveTo::bObserveBlackboardValue is an editcondition for BTTask_MoveTo::ObservedBlackboardValueTolerance, but is not marked as EditAnywhere.
+[2017.06.26-16.11.00:658][ 19]LogPropertyNode:Warning: Property BTTask_MoveTo::bObserveBlackboardValue is an editcondition for BTTask_MoveTo::ObservedBlackboardValueTolerance, but is not marked as EditAnywhere.
+[2017.06.26-16.11.05:151][356]LogSavePackage: Save=14.93ms
+[2017.06.26-16.11.05:151][356]LogSavePackage: Moving '../../../../../../SVN/SkaGame2/SkaGame/Saved/GhostBehaviorTree3EE80B19451C086E04503C88B25A9D6A.tmp' to '../../../../../../SVN/SkaGame2/SkaGame/Content/SkaGameAssets/Enemies/GhostAssests/AI/GhostBehaviorTree.uasset'
+[2017.06.26-16.11.05:153][356]LogSavePackage:Display: Finished SavePackage ../../../../../../SVN/SkaGame2/SkaGame/Content/SkaGameAssets/Enemies/GhostAssests/AI/GhostBehaviorTree.uasset
+[2017.06.26-16.11.10:332][763]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.26-16.11.10:365][763]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test' with GeneratedClass '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test'
+[2017.06.26-16.11.10:373][763]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.06.26-16.11.10:373][763]LogPlayLevel: [PlayLevel] Compiling Ghost_AI_COn before play...
+[2017.06.26-16.11.10:516][763]LogPlayLevel: PlayLevel: Blueprint regeneration took 143 ms (1 blueprints)
+[2017.06.26-16.11.10:517][763]PIE: New page: PIE session: Graveyard_Test (Jun 26, 2017, 8:11:10 AM)
+[2017.06.26-16.11.10:517][763]LogPlayLevel: Creating play world package: /Game/SkaGameAssets/Levels/UEDPIE_0_Graveyard_Test
+[2017.06.26-16.11.10:545][763]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028157s)
+[2017.06.26-16.11.10:546][763]LogAIModule: Creating AISystem for world Graveyard_Test
+[2017.06.26-16.11.10:547][763]LogPlayLevel: PIE: World Init took: (0.001557s)
+[2017.06.26-16.11.10:547][763]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test to /Game/SkaGameAssets/Levels/UEDPIE_0_Graveyard_Test.Graveyard_Test (0.030086s)
+[2017.06.26-16.11.10:605][763]LogInit: XAudio2 using 'PX2710MW-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.26-16.11.10:616][763]LogInit: FAudioDevice initialized.
+[2017.06.26-16.11.10:647][763]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.06.26-16.11.10:650][763]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.06.26-16.11.10:651][763]LogWorld: Bringing World /Game/SkaGameAssets/Levels/UEDPIE_0_Graveyard_Test.Graveyard_Test up for play (max tick rate 0) at 2017.06.26-12.11.10
+[2017.06.26-16.11.10:652][763]LogWorld: Bringing up level for play took: 0.003320
+[2017.06.26-16.11.10:653][763]PIE: Info Play in editor start time for /Game/SkaGameAssets/Levels/UEDPIE_0_Graveyard_Test 0.965
+[2017.06.26-16.11.10:653][763]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test' with GeneratedClass '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test'
+[2017.06.26-16.11.29:151][956]LogBlueprintUserMessages: [Ghost_BP_C_0] Brad Got Slammed!!!!
+[2017.06.26-16.11.32:679][379]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test' with GeneratedClass '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test'
+[2017.06.26-16.11.32:788][379]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test' with GeneratedClass '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test'
+[2017.06.26-16.11.44:922][749]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.26-16.11.44:955][749]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test' with GeneratedClass '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test'
+[2017.06.26-16.11.44:965][749]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.26-16.11.44:965][749]PIE: New page: PIE session: Graveyard_Test (Jun 26, 2017, 8:11:44 AM)
+[2017.06.26-16.11.44:965][749]LogPlayLevel: Creating play world package: /Game/SkaGameAssets/Levels/UEDPIE_0_Graveyard_Test
+[2017.06.26-16.11.44:994][749]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028788s)
+[2017.06.26-16.11.44:994][749]LogAIModule: Creating AISystem for world Graveyard_Test
+[2017.06.26-16.11.44:995][749]LogPlayLevel: PIE: World Init took: (0.000990s)
+[2017.06.26-16.11.44:995][749]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test to /Game/SkaGameAssets/Levels/UEDPIE_0_Graveyard_Test.Graveyard_Test (0.030149s)
+[2017.06.26-16.11.45:051][749]LogInit: XAudio2 using 'PX2710MW-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.26-16.11.45:055][749]LogInit: FAudioDevice initialized.
+[2017.06.26-16.11.45:087][749]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.06.26-16.11.45:090][749]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.06.26-16.11.45:090][749]LogWorld: Bringing World /Game/SkaGameAssets/Levels/UEDPIE_0_Graveyard_Test.Graveyard_Test up for play (max tick rate 0) at 2017.06.26-12.11.45
+[2017.06.26-16.11.45:091][749]LogWorld: Bringing up level for play took: 0.003152
+[2017.06.26-16.11.45:092][749]PIE: Info Play in editor start time for /Game/SkaGameAssets/Levels/UEDPIE_0_Graveyard_Test -0.601
+[2017.06.26-16.11.45:093][749]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test' with GeneratedClass '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test'
+[2017.06.26-16.12.20:155][650]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test' with GeneratedClass '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test'
+[2017.06.26-16.12.20:262][650]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test' with GeneratedClass '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test'
+[2017.06.26-16.12.26:983][ 70]BlueprintLog: New page: Compile BTS_VisionCheck
+[2017.06.26-16.12.27:600][ 99]LogSavePackage: Save=10.90ms
+[2017.06.26-16.12.27:600][ 99]LogSavePackage: Moving '../../../../../../SVN/SkaGame2/SkaGame/Saved/BTS_VisionCheckB6E95AAB4DFEA46B35D5ECA018F0F097.tmp' to '../../../../../../SVN/SkaGame2/SkaGame/Content/SkaGameAssets/Enemies/GhostAssests/AI/BTS_VisionCheck.uasset'
+[2017.06.26-16.12.27:607][ 99]LogSavePackage:Display: Finished SavePackage ../../../../../../SVN/SkaGame2/SkaGame/Content/SkaGameAssets/Enemies/GhostAssests/AI/BTS_VisionCheck.uasset
+[2017.06.26-16.13.23:611][ 26]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SkaGameAssets/Levels/Graveyard_Test' took 0.022
+[2017.06.26-16.13.23:613][ 26]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/SkaGameAssets/Enemies/GhostAssests/AI/Ghost_AI_COn] ([1] browsable assets)...
+[2017.06.26-16.13.23:613][ 26]OBJ SavePackage: Finished generating thumbnails for package [/Game/SkaGameAssets/Enemies/GhostAssests/AI/Ghost_AI_COn]
+[2017.06.26-16.13.23:651][ 26]LogSavePackage: Save=23.09ms
+[2017.06.26-16.13.23:651][ 26]LogSavePackage: Moving '../../../../../../SVN/SkaGame2/SkaGame/Saved/Ghost_AI_COn_Auto755EF0C55453D429801CC0D9C17829D1F.tmp' to '../../../../../../SVN/SkaGame2/SkaGame/Saved/Autosaves/Game/SkaGameAssets/Enemies/GhostAssests/AI/Ghost_AI_COn_Auto7.uasset'
+[2017.06.26-16.13.23:652][ 26]LogSavePackage:Display: Finished SavePackage ../../../../../../SVN/SkaGame2/SkaGame/Saved/Autosaves/Game/SkaGameAssets/Enemies/GhostAssests/AI/Ghost_AI_COn_Auto7.uasset
+[2017.06.26-16.13.23:652][ 26]LogFileHelpers: Auto-saving content packages took 0.039
+[2017.06.26-16.16.17:920][544]BlueprintLog: New page: Compile Ghost_AI_COn
+[2017.06.26-16.16.18:051][544]BlueprintEditorCompileResults: Info No value will be returned by reference. Parameter 'UpdatedActors'. Node:  OnPerceptionUpdated (AIPerception)
+[2017.06.26-16.16.30:033][294]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.26-16.16.30:076][294]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test' with GeneratedClass '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test'
+[2017.06.26-16.16.30:083][294]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.26-16.16.30:084][294]PIE: New page: PIE session: Graveyard_Test (Jun 26, 2017, 8:16:30 AM)
+[2017.06.26-16.16.30:084][294]LogPlayLevel: Creating play world package: /Game/SkaGameAssets/Levels/UEDPIE_0_Graveyard_Test
+[2017.06.26-16.16.30:111][294]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027536s)
+[2017.06.26-16.16.30:112][294]LogAIModule: Creating AISystem for world Graveyard_Test
+[2017.06.26-16.16.30:112][294]LogPlayLevel: PIE: World Init took: (0.001215s)
+[2017.06.26-16.16.30:113][294]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test to /Game/SkaGameAssets/Levels/UEDPIE_0_Graveyard_Test.Graveyard_Test (0.029073s)
+[2017.06.26-16.16.30:174][294]LogInit: XAudio2 using 'PX2710MW-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.26-16.16.30:187][294]LogInit: FAudioDevice initialized.
+[2017.06.26-16.16.30:217][294]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.06.26-16.16.30:220][294]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.06.26-16.16.30:220][294]LogWorld: Bringing World /Game/SkaGameAssets/Levels/UEDPIE_0_Graveyard_Test.Graveyard_Test up for play (max tick rate 0) at 2017.06.26-12.16.30
+[2017.06.26-16.16.30:221][294]LogWorld: Bringing up level for play took: 0.003205
+[2017.06.26-16.16.30:222][294]PIE: Info Play in editor start time for /Game/SkaGameAssets/Levels/UEDPIE_0_Graveyard_Test 0.489
+[2017.06.26-16.16.30:223][294]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test' with GeneratedClass '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test'
+[2017.06.26-16.16.39:887][ 34]LogBlueprintUserMessages: [Ghost_BP_C_0] Brad Got Slammed!!!!
+[2017.06.26-16.16.43:422][300]LogBlueprintUserMessages: [Ghost_BP_C_0] Brad Got Slammed!!!!
+[2017.06.26-16.16.43:909][337]LogBlueprintUserMessages: [Ghost_BP_C_0] Brad Got Slammed!!!!
+[2017.06.26-16.16.45:101][427]LogBlueprintUserMessages: [Ghost_BP_C_0] Brad Got Slammed!!!!
+[2017.06.26-16.16.53:481][ 56]LogBlueprintUserMessages: [Ghost_BP_C_0] Brad Got Slammed!!!!
+[2017.06.26-16.16.55:422][202]LogBlueprintUserMessages: [Ghost_BP_C_0] Brad Got Slammed!!!!
+[2017.06.26-16.16.59:147][483]LogBlueprintUserMessages: [Ghost_BP_C_0] Brad Got Slammed!!!!
+[2017.06.26-16.16.59:628][520]LogBlueprintUserMessages: [Ghost_BP_C_0] Brad Got Slammed!!!!
+[2017.06.26-16.17.00:096][556]LogBlueprintUserMessages: [Ghost_BP_C_0] Brad Got Slammed!!!!
+[2017.06.26-16.17.00:267][569]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test' with GeneratedClass '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test'
+[2017.06.26-16.17.00:380][569]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test' with GeneratedClass '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test'
+[2017.06.26-16.17.31:463][114]BlueprintLog: New page: Compile Ghost_BP
+[2017.06.26-16.17.39:841][519]BlueprintLog: New page: Compile Ghost_BP
+[2017.06.26-16.17.47:992][882]LogEditorTransaction: Undo Delete current selection
+[2017.06.26-16.17.52:148][ 40]BlueprintLog: New page: Compile Ghost_BP
+[2017.06.26-16.17.54:859][141]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.26-16.17.54:896][141]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test' with GeneratedClass '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test'
+[2017.06.26-16.17.54:904][141]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.26-16.17.54:904][141]PIE: New page: PIE session: Graveyard_Test (Jun 26, 2017, 8:17:54 AM)
+[2017.06.26-16.17.54:904][141]LogPlayLevel: Creating play world package: /Game/SkaGameAssets/Levels/UEDPIE_0_Graveyard_Test
+[2017.06.26-16.17.54:930][141]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025649s)
+[2017.06.26-16.17.54:930][141]LogAIModule: Creating AISystem for world Graveyard_Test
+[2017.06.26-16.17.54:931][141]LogPlayLevel: PIE: World Init took: (0.001037s)
+[2017.06.26-16.17.54:931][141]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test to /Game/SkaGameAssets/Levels/UEDPIE_0_Graveyard_Test.Graveyard_Test (0.026999s)
+[2017.06.26-16.17.54:990][141]LogInit: XAudio2 using 'PX2710MW-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.26-16.17.55:001][141]LogInit: FAudioDevice initialized.
+[2017.06.26-16.17.55:033][141]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.06.26-16.17.55:036][141]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.06.26-16.17.55:037][141]LogWorld: Bringing World /Game/SkaGameAssets/Levels/UEDPIE_0_Graveyard_Test.Graveyard_Test up for play (max tick rate 0) at 2017.06.26-12.17.55
+[2017.06.26-16.17.55:037][141]LogWorld: Bringing up level for play took: 0.003116
+[2017.06.26-16.17.55:039][141]PIE: Info Play in editor start time for /Game/SkaGameAssets/Levels/UEDPIE_0_Graveyard_Test -0.707
+[2017.06.26-16.17.55:039][141]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test' with GeneratedClass '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test'
+[2017.06.26-16.18.08:892][844]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test' with GeneratedClass '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test'
+[2017.06.26-16.18.09:002][844]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test' with GeneratedClass '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test'
+[2017.06.26-16.18.14:741][186]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.26-16.18.14:777][186]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test' with GeneratedClass '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test'
+[2017.06.26-16.18.14:784][186]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.26-16.18.14:785][186]PIE: New page: PIE session: Graveyard_Test (Jun 26, 2017, 8:18:14 AM)
+[2017.06.26-16.18.14:785][186]LogPlayLevel: Creating play world package: /Game/SkaGameAssets/Levels/UEDPIE_0_Graveyard_Test
+[2017.06.26-16.18.14:807][186]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021959s)
+[2017.06.26-16.18.14:808][186]LogAIModule: Creating AISystem for world Graveyard_Test
+[2017.06.26-16.18.14:808][186]LogPlayLevel: PIE: World Init took: (0.001440s)
+[2017.06.26-16.18.14:808][186]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test to /Game/SkaGameAssets/Levels/UEDPIE_0_Graveyard_Test.Graveyard_Test (0.023794s)
+[2017.06.26-16.18.14:866][186]LogInit: XAudio2 using 'PX2710MW-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.26-16.18.14:875][186]LogInit: FAudioDevice initialized.
+[2017.06.26-16.18.14:908][186]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.06.26-16.18.14:911][186]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.06.26-16.18.14:912][186]LogWorld: Bringing World /Game/SkaGameAssets/Levels/UEDPIE_0_Graveyard_Test.Graveyard_Test up for play (max tick rate 0) at 2017.06.26-12.18.14
+[2017.06.26-16.18.14:913][186]LogWorld: Bringing up level for play took: 0.003104
+[2017.06.26-16.18.14:914][186]PIE: Info Play in editor start time for /Game/SkaGameAssets/Levels/UEDPIE_0_Graveyard_Test -0.835
+[2017.06.26-16.18.14:914][186]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test' with GeneratedClass '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test'
+[2017.06.26-16.18.31:268][441]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test' with GeneratedClass '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test'
+[2017.06.26-16.18.31:379][441]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test' with GeneratedClass '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test'
+[2017.06.26-16.18.33:120][545]LogPropertyNode:Warning: Property BTTask_MoveTo::bObserveBlackboardValue is an editcondition for BTTask_MoveTo::ObservedBlackboardValueTolerance, but is not marked as EditAnywhere.
+[2017.06.26-16.18.39:486][963]LogPropertyNode:Warning: Property BTTask_MoveTo::bObserveBlackboardValue is an editcondition for BTTask_MoveTo::ObservedBlackboardValueTolerance, but is not marked as EditAnywhere.
+[2017.06.26-16.19.16:644][389]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.06.26-16.19.20:884][671]LogPropertyNode:Warning: Property BTTask_MoveTo::bObserveBlackboardValue is an editcondition for BTTask_MoveTo::ObservedBlackboardValueTolerance, but is not marked as EditAnywhere.
+[2017.06.26-16.19.33:064][474]LogPropertyNode:Warning: Property BTTask_MoveTo::bObserveBlackboardValue is an editcondition for BTTask_MoveTo::ObservedBlackboardValueTolerance, but is not marked as EditAnywhere.
+[2017.06.26-16.19.55:854][442]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.26-16.19.55:890][442]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test' with GeneratedClass '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test'
+[2017.06.26-16.19.55:898][442]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.26-16.19.55:898][442]PIE: New page: PIE session: Graveyard_Test (Jun 26, 2017, 8:19:55 AM)
+[2017.06.26-16.19.55:899][442]LogPlayLevel: Creating play world package: /Game/SkaGameAssets/Levels/UEDPIE_0_Graveyard_Test
+[2017.06.26-16.19.55:924][442]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025256s)
+[2017.06.26-16.19.55:925][442]LogAIModule: Creating AISystem for world Graveyard_Test
+[2017.06.26-16.19.55:925][442]LogPlayLevel: PIE: World Init took: (0.001053s)
+[2017.06.26-16.19.55:925][442]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test to /Game/SkaGameAssets/Levels/UEDPIE_0_Graveyard_Test.Graveyard_Test (0.026629s)
+[2017.06.26-16.19.55:983][442]LogInit: XAudio2 using 'PX2710MW-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.26-16.19.55:987][442]LogInit: FAudioDevice initialized.
+[2017.06.26-16.19.56:020][442]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.06.26-16.19.56:022][442]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.06.26-16.19.56:023][442]LogWorld: Bringing World /Game/SkaGameAssets/Levels/UEDPIE_0_Graveyard_Test.Graveyard_Test up for play (max tick rate 0) at 2017.06.26-12.19.56
+[2017.06.26-16.19.56:024][442]LogWorld: Bringing up level for play took: 0.003160
+[2017.06.26-16.19.56:025][442]PIE: Info Play in editor start time for /Game/SkaGameAssets/Levels/UEDPIE_0_Graveyard_Test 0.262
+[2017.06.26-16.19.56:025][442]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test' with GeneratedClass '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test'
+[2017.06.26-16.20.16:185][997]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test' with GeneratedClass '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test'
+[2017.06.26-16.20.16:296][997]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test' with GeneratedClass '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test'
+[2017.06.26-16.20.22:968][442]LogSavePackage: Save=23.81ms
+[2017.06.26-16.20.22:968][442]LogSavePackage: Moving '../../../../../../SVN/SkaGame2/SkaGame/Saved/GhostBehaviorTree115BC95F470B21B42FC5CBB844E8F824.tmp' to '../../../../../../SVN/SkaGame2/SkaGame/Content/SkaGameAssets/Enemies/GhostAssests/AI/GhostBehaviorTree.uasset'
+[2017.06.26-16.20.22:970][442]LogSavePackage:Display: Finished SavePackage ../../../../../../SVN/SkaGame2/SkaGame/Content/SkaGameAssets/Enemies/GhostAssests/AI/GhostBehaviorTree.uasset
+[2017.06.26-16.21.52:559][444]BlueprintLog: New page: Compile Ghost_BP
+[2017.06.26-16.24.45:762][149]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SkaGameAssets/Levels/Graveyard_Test' took 0.022
+[2017.06.26-16.24.45:763][149]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/SkaGameAssets/Enemies/GhostAssests/AI/GhostBehaviorTree] ([1] browsable assets)...
+[2017.06.26-16.24.45:763][149]OBJ SavePackage: Finished generating thumbnails for package [/Game/SkaGameAssets/Enemies/GhostAssests/AI/GhostBehaviorTree]
+[2017.06.26-16.24.45:783][149]LogSavePackage: Save=6.86ms
+[2017.06.26-16.24.45:783][149]LogSavePackage: Moving '../../../../../../SVN/SkaGame2/SkaGame/Saved/GhostBehaviorTree_Auto863BC5F5D425B3A5C56F82EA376FBB085.tmp' to '../../../../../../SVN/SkaGame2/SkaGame/Saved/Autosaves/Game/SkaGameAssets/Enemies/GhostAssests/AI/GhostBehaviorTree_Auto8.uasset'
+[2017.06.26-16.24.45:784][149]LogSavePackage:Display: Finished SavePackage ../../../../../../SVN/SkaGame2/SkaGame/Saved/Autosaves/Game/SkaGameAssets/Enemies/GhostAssests/AI/GhostBehaviorTree_Auto8.uasset
+[2017.06.26-16.24.45:785][149]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/SkaGameAssets/Enemies/GhostAssests/AI/Ghost_AI_COn] ([1] browsable assets)...
+[2017.06.26-16.24.45:785][149]OBJ SavePackage: Finished generating thumbnails for package [/Game/SkaGameAssets/Enemies/GhostAssests/AI/Ghost_AI_COn]
+[2017.06.26-16.24.45:822][149]LogSavePackage: Save=22.30ms
+[2017.06.26-16.24.45:822][149]LogSavePackage: Moving '../../../../../../SVN/SkaGame2/SkaGame/Saved/Ghost_AI_COn_Auto813641CCC40CD34401B869A9A74266A8F.tmp' to '../../../../../../SVN/SkaGame2/SkaGame/Saved/Autosaves/Game/SkaGameAssets/Enemies/GhostAssests/AI/Ghost_AI_COn_Auto8.uasset'
+[2017.06.26-16.24.45:823][149]LogSavePackage:Display: Finished SavePackage ../../../../../../SVN/SkaGame2/SkaGame/Saved/Autosaves/Game/SkaGameAssets/Enemies/GhostAssests/AI/Ghost_AI_COn_Auto8.uasset
+[2017.06.26-16.24.45:824][149]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SkaGameAssets/Enemies/Ghost_BP] ([1] browsable assets)...
+[2017.06.26-16.24.45:860][149]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/SkaGameAssets/Enemies/Ghost_BP.Ghost_BP]
+[2017.06.26-16.24.45:860][149]OBJ SavePackage: Finished generating thumbnails for package [/Game/SkaGameAssets/Enemies/Ghost_BP]
+[2017.06.26-16.24.45:964][149]LogSavePackage: Save=89.40ms
+[2017.06.26-16.24.45:965][149]LogSavePackage: Moving '../../../../../../SVN/SkaGame2/SkaGame/Saved/Ghost_BP_Auto86A5D0C7D45E01590BE2885A232B868BF.tmp' to '../../../../../../SVN/SkaGame2/SkaGame/Saved/Autosaves/Game/SkaGameAssets/Enemies/Ghost_BP_Auto8.uasset'
+[2017.06.26-16.24.45:966][149]LogSavePackage:Display: Finished SavePackage ../../../../../../SVN/SkaGame2/SkaGame/Saved/Autosaves/Game/SkaGameAssets/Enemies/Ghost_BP_Auto8.uasset
+[2017.06.26-16.24.45:966][149]LogFileHelpers: Auto-saving content packages took 0.203
+[2017.06.26-16.59.06:124][634]Cmd: TRANSACTION UNDO
+[2017.06.26-16.59.06:124][634]LogEditorTransaction: Undo Delete current selection
+[2017.06.26-16.59.31:021][ 45]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.06.26-16.59.31:663][ 45]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_BTS_VisionCheck_C_0' or package '/Engine/Transient'.
+[2017.06.26-16.59.31:663][ 45]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_BTS_VisionCheck_C_1' or package '/Engine/Transient'.
+[2017.06.26-16.59.31:663][ 45]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ComponentDelegateBinding_22' or package '/Engine/Transient'.
+[2017.06.26-16.59.31:663][ 45]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'UberGraphFrame' or package '/Engine/Transient'.
+[2017.06.26-16.59.31:664][ 45]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'BndEvt__PawnSensing_K2Node_ComponentBoundEvent_0_SeePawnDelegate__DelegateSignature' or package '/Engine/Transient'.
+[2017.06.26-16.59.31:664][ 45]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ReceiveActivationAI' or package '/Engine/Transient'.
+[2017.06.26-16.59.31:664][ 45]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ExecuteUbergraph_BTS_VisionCheck' or package '/Engine/Transient'.
+[2017.06.26-16.59.31:664][ 45]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'State_ThisBluePrint' or package '/Engine/Transient'.
+[2017.06.26-16.59.31:664][ 45]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_BTS_VisionCheck_C_241' or package '/Engine/Transient'.
+[2017.06.26-16.59.31:664][ 45]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ExecuteUbergraph_BTS_VisionCheck' or package '/Game/SkaGameAssets/Enemies/GhostAssests/AI/BTS_VisionCheck'.
+[2017.06.26-16.59.31:664][ 45]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_BTS_VisionCheck_C_240' or package '/Engine/Transient'.
+[2017.06.26-16.59.33:551][167]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.26-16.59.33:586][167]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test' with GeneratedClass '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test'
+[2017.06.26-16.59.33:586][167]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.26-16.59.33:586][167]PIE: New page: PIE session: Graveyard_Test (Jun 26, 2017, 8:59:33 AM)
+[2017.06.26-16.59.33:586][167]LogPlayLevel: Creating play world package: /Game/SkaGameAssets/Levels/UEDPIE_0_Graveyard_Test
+[2017.06.26-16.59.33:646][167]LogPlayLevel: PIE: StaticDuplicateObject took: (0.059681s)
+[2017.06.26-16.59.33:647][167]LogAIModule: Creating AISystem for world Graveyard_Test
+[2017.06.26-16.59.33:647][167]LogPlayLevel: PIE: World Init took: (0.000934s)
+[2017.06.26-16.59.33:647][167]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test to /Game/SkaGameAssets/Levels/UEDPIE_0_Graveyard_Test.Graveyard_Test (0.061054s)
+[2017.06.26-16.59.33:702][167]LogInit: XAudio2 using 'PX2710MW-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.26-16.59.33:708][167]LogInit: FAudioDevice initialized.
+[2017.06.26-16.59.33:738][167]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.06.26-16.59.33:741][167]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.06.26-16.59.33:741][167]LogWorld: Bringing World /Game/SkaGameAssets/Levels/UEDPIE_0_Graveyard_Test.Graveyard_Test up for play (max tick rate 0) at 2017.06.26-12.59.33
+[2017.06.26-16.59.33:742][167]LogWorld: Bringing up level for play took: 0.003130
+[2017.06.26-16.59.33:743][167]PIE: Info Play in editor start time for /Game/SkaGameAssets/Levels/UEDPIE_0_Graveyard_Test -0.219
+[2017.06.26-16.59.33:744][167]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test' with GeneratedClass '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test'
+[2017.06.26-17.00.11:109][595]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test' with GeneratedClass '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test'
+[2017.06.26-17.00.11:204][595]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test' with GeneratedClass '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test'
+[2017.06.26-17.00.57:103][231]LogSavePackage: Save=3.50ms
+[2017.06.26-17.00.57:103][231]LogSavePackage: Moving '../../../../../../SVN/SkaGame2/SkaGame/Saved/Ghost_AI_StateFB6DCA5244E26D6038E4658DE862F812.tmp' to '../../../../../../SVN/SkaGame2/SkaGame/Content/SkaGameAssets/Enemies/DarnBat/BluePrints/Ghost_AI_State.uasset'
+[2017.06.26-17.00.57:109][231]LogSavePackage:Display: Finished SavePackage ../../../../../../SVN/SkaGame2/SkaGame/Content/SkaGameAssets/Enemies/DarnBat/BluePrints/Ghost_AI_State.uasset
+[2017.06.26-17.00.57:113][231]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SkaGameAssets/Enemies/Ghost_BP" FILE="../../../../../../SVN/SkaGame2/SkaGame/Content/SkaGameAssets/Enemies/Ghost_BP.uasset" SILENT=true
+[2017.06.26-17.00.57:204][231]LogSavePackage: Save=70.53ms
+[2017.06.26-17.00.57:204][231]LogSavePackage: Moving '../../../../../../SVN/SkaGame2/SkaGame/Saved/Ghost_BP8180F639450FD082B9B000B6DF3D8E3B.tmp' to '../../../../../../SVN/SkaGame2/SkaGame/Content/SkaGameAssets/Enemies/Ghost_BP.uasset'
+[2017.06.26-17.00.57:210][231]LogSavePackage:Display: Finished SavePackage ../../../../../../SVN/SkaGame2/SkaGame/Content/SkaGameAssets/Enemies/Ghost_BP.uasset
+[2017.06.26-17.00.57:223][231]LogSavePackage: Save=3.45ms
+[2017.06.26-17.00.57:223][231]LogSavePackage: Moving '../../../../../../SVN/SkaGame2/SkaGame/Saved/BTService_BlueprintBase_NewC1F3F18D426790C6BD063C951F023A8B.tmp' to '../../../../../../SVN/SkaGame2/SkaGame/Content/SkaGameAssets/Enemies/GhostAssests/AI/BTService_BlueprintBase_New.uasset'
+[2017.06.26-17.00.57:230][231]LogSavePackage:Display: Finished SavePackage ../../../../../../SVN/SkaGame2/SkaGame/Content/SkaGameAssets/Enemies/GhostAssests/AI/BTService_BlueprintBase_New.uasset
+[2017.06.26-17.00.57:271][231]LogSavePackage: Save=18.71ms
+[2017.06.26-17.00.57:271][231]LogSavePackage: Moving '../../../../../../SVN/SkaGame2/SkaGame/Saved/Ghost_AI_COn0528F74C4EDC03F3499926A5E3B89DE5.tmp' to '../../../../../../SVN/SkaGame2/SkaGame/Content/SkaGameAssets/Enemies/GhostAssests/AI/Ghost_AI_COn.uasset'
+[2017.06.26-17.00.57:275][231]LogSavePackage:Display: Finished SavePackage ../../../../../../SVN/SkaGame2/SkaGame/Content/SkaGameAssets/Enemies/GhostAssests/AI/Ghost_AI_COn.uasset
+[2017.06.26-17.00.57:303][231]LogSavePackage: Save=5.95ms
+[2017.06.26-17.00.57:303][231]LogSavePackage: Moving '../../../../../../SVN/SkaGame2/SkaGame/Saved/GhostBehaviorTree7A7871C74341CE12913FC5A681F97F41.tmp' to '../../../../../../SVN/SkaGame2/SkaGame/Content/SkaGameAssets/Enemies/GhostAssests/AI/GhostBehaviorTree.uasset'
+[2017.06.26-17.00.57:307][231]LogSavePackage:Display: Finished SavePackage ../../../../../../SVN/SkaGame2/SkaGame/Content/SkaGameAssets/Enemies/GhostAssests/AI/GhostBehaviorTree.uasset
+[2017.06.26-17.01.18:860][934]LogDesktopPlatform:Warning: Error reading results of folder dialog.
