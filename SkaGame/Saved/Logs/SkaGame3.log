@@ -667,3 +667,581 @@ Make sure 'BTS_VisionCheck_C' has been compiled for  Get Blackboard
 [2017.06.26-17.00.57:303][231]LogSavePackage: Moving '../../../../../../SVN/SkaGame2/SkaGame/Saved/GhostBehaviorTree7A7871C74341CE12913FC5A681F97F41.tmp' to '../../../../../../SVN/SkaGame2/SkaGame/Content/SkaGameAssets/Enemies/GhostAssests/AI/GhostBehaviorTree.uasset'
 [2017.06.26-17.00.57:307][231]LogSavePackage:Display: Finished SavePackage ../../../../../../SVN/SkaGame2/SkaGame/Content/SkaGameAssets/Enemies/GhostAssests/AI/GhostBehaviorTree.uasset
 [2017.06.26-17.01.18:860][934]LogDesktopPlatform:Warning: Error reading results of folder dialog.
+[2017.06.26-17.03.20:126][827]BlueprintLog: New page: Compile Ghost_BP
+[2017.06.26-17.10.58:093][ 17]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SkaGameAssets/Levels/Graveyard_Test' took 0.023
+[2017.06.26-17.10.58:095][ 17]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SkaGameAssets/Enemies/Ghost_BP] ([1] browsable assets)...
+[2017.06.26-17.10.58:127][ 17]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/SkaGameAssets/Enemies/Ghost_BP.Ghost_BP]
+[2017.06.26-17.10.58:127][ 17]OBJ SavePackage: Finished generating thumbnails for package [/Game/SkaGameAssets/Enemies/Ghost_BP]
+[2017.06.26-17.10.58:268][ 17]LogSavePackage: Save=118.04ms
+[2017.06.26-17.10.58:268][ 17]LogSavePackage: Moving '../../../../../../SVN/SkaGame2/SkaGame/Saved/Ghost_BP_Auto99D21CCC041785BC83C74B78B48B63FB5.tmp' to '../../../../../../SVN/SkaGame2/SkaGame/Saved/Autosaves/Game/SkaGameAssets/Enemies/Ghost_BP_Auto9.uasset'
+[2017.06.26-17.10.58:270][ 17]LogSavePackage:Display: Finished SavePackage ../../../../../../SVN/SkaGame2/SkaGame/Saved/Autosaves/Game/SkaGameAssets/Enemies/Ghost_BP_Auto9.uasset
+[2017.06.26-17.10.58:270][ 17]LogFileHelpers: Auto-saving content packages took 0.176
+[2017.06.26-17.21.51:525][489]BlueprintLog: New page: Compile Ghost_AI_COn
+[2017.06.26-17.21.52:170][515]LogRenderer: Reallocating scene render targets to support 1372x696 NumSamples 1 (Frame:34991).
+[2017.06.26-17.22.45:187][604]BlueprintLog: New page: Compile Roam
+[2017.06.26-17.23.05:802][904]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/SkaGameAssets/Enemies/GhostAssests/AI/SetToAttack.
+[2017.06.26-17.24.39:976][733]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.06.26-17.24.58:442][851]BlueprintLog: New page: Compile SetToAttack
+[2017.06.26-17.24.58:448][851]LogBlueprint:Error: [Compiler SetToAttack] Error The current value of the ' Allowed Types ' pin is invalid: Array inputs (like 'Allowed Types') must have an input wired into them (try connecting a MakeArray node).
+[2017.06.26-17.24.58:657][851]BlueprintEditorCompileResults:Error: Error The current value of the ' Allowed Types ' pin is invalid: Array inputs (like 'Allowed Types') must have an input wired into them (try connecting a MakeArray node).
+[2017.06.26-17.24.58:657][851]LogBlueprint:Warning: [Compiler SetToAttack] Warning [4630.52] Compile of SetToAttack failed. 1 Fatal Issue(s) 0 Warning(s) [in 215 ms] (/Game/SkaGameAssets/Enemies/GhostAssests/AI/SetToAttack.SetToAttack)
+[2017.06.26-17.25.17:114][891]BlueprintLog: New page: Compile Ghost_AI_COn
+[2017.06.26-17.25.17:133][891]LogBlueprint:Error: [Compiler SetToAttack] Error The current value of the ' Key ' pin is invalid: 'Key' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2017.06.26-17.25.27:186][403]BlueprintLog: New page: Compile SetToAttack
+[2017.06.26-17.25.27:192][403]LogBlueprint:Error: [Compiler SetToAttack] Error The current value of the ' Key ' pin is invalid: 'Key' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2017.06.26-17.25.27:392][403]BlueprintEditorCompileResults:Error: Error The current value of the ' Key ' pin is invalid: 'Key' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2017.06.26-17.25.27:393][403]LogBlueprint:Warning: [Compiler SetToAttack] Warning [4659.25] Compile of SetToAttack failed. 1 Fatal Issue(s) 0 Warning(s) [in 206 ms] (/Game/SkaGameAssets/Enemies/GhostAssests/AI/SetToAttack.SetToAttack)
+[2017.06.26-17.26.57:337][914]BlueprintLog: New page: Compile SetToAttack
+[2017.06.26-17.26.57:343][914]LogBlueprint:Error: [Compiler SetToAttack] Error The current value of the ' Key ' pin is invalid: 'Key' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2017.06.26-17.26.57:548][914]BlueprintEditorCompileResults:Error: Error The current value of the ' Key ' pin is invalid: 'Key' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2017.06.26-17.26.57:548][914]LogBlueprint:Warning: [Compiler SetToAttack] Warning [4749.41] Compile of SetToAttack failed. 1 Fatal Issue(s) 0 Warning(s) [in 210 ms] (/Game/SkaGameAssets/Enemies/GhostAssests/AI/SetToAttack.SetToAttack)
+[2017.06.26-17.27.19:715][224]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.06.26-17.28.12:864][301]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SkaGameAssets/Enemies/GhostAssests/AI/Roam" FILE="../../../../../../SVN/SkaGame2/SkaGame/Content/SkaGameAssets/Enemies/GhostAssests/AI/Roam.uasset" SILENT=true
+[2017.06.26-17.28.12:900][301]LogSavePackage: Save=13.02ms
+[2017.06.26-17.28.12:900][301]LogSavePackage: Moving '../../../../../../SVN/SkaGame2/SkaGame/Saved/Roam899838174C8CAA8C179284B4767F1083.tmp' to '../../../../../../SVN/SkaGame2/SkaGame/Content/SkaGameAssets/Enemies/GhostAssests/AI/Roam.uasset'
+[2017.06.26-17.28.12:903][301]LogSavePackage:Display: Finished SavePackage ../../../../../../SVN/SkaGame2/SkaGame/Content/SkaGameAssets/Enemies/GhostAssests/AI/Roam.uasset
+[2017.06.26-17.29.04:009][ 28]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SkaGameAssets/Levels/Graveyard_Test' took 0.019
+[2017.06.26-17.29.04:010][ 28]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/SkaGameAssets/Enemies/GhostAssests/AI/Ghost_AI_COn] ([1] browsable assets)...
+[2017.06.26-17.29.04:010][ 28]OBJ SavePackage: Finished generating thumbnails for package [/Game/SkaGameAssets/Enemies/GhostAssests/AI/Ghost_AI_COn]
+[2017.06.26-17.29.04:041][ 28]LogSavePackage: Save=16.93ms
+[2017.06.26-17.29.04:041][ 28]LogSavePackage: Moving '../../../../../../SVN/SkaGame2/SkaGame/Saved/Ghost_AI_COn_Auto07790119F4719817944462D9A27621CD1.tmp' to '../../../../../../SVN/SkaGame2/SkaGame/Saved/Autosaves/Game/SkaGameAssets/Enemies/GhostAssests/AI/Ghost_AI_COn_Auto0.uasset'
+[2017.06.26-17.29.04:042][ 28]LogSavePackage:Display: Finished SavePackage ../../../../../../SVN/SkaGame2/SkaGame/Saved/Autosaves/Game/SkaGameAssets/Enemies/GhostAssests/AI/Ghost_AI_COn_Auto0.uasset
+[2017.06.26-17.29.04:043][ 28]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/SkaGameAssets/Enemies/Ghost_BP] ([1] browsable assets)...
+[2017.06.26-17.29.04:043][ 28]OBJ SavePackage: Finished generating thumbnails for package [/Game/SkaGameAssets/Enemies/Ghost_BP]
+[2017.06.26-17.29.04:134][ 28]LogSavePackage: Save=77.54ms
+[2017.06.26-17.29.04:134][ 28]LogSavePackage: Moving '../../../../../../SVN/SkaGame2/SkaGame/Saved/Ghost_BP_Auto03DBE78D746D1F9BBA91848988124E555.tmp' to '../../../../../../SVN/SkaGame2/SkaGame/Saved/Autosaves/Game/SkaGameAssets/Enemies/Ghost_BP_Auto0.uasset'
+[2017.06.26-17.29.04:135][ 28]LogSavePackage:Display: Finished SavePackage ../../../../../../SVN/SkaGame2/SkaGame/Saved/Autosaves/Game/SkaGameAssets/Enemies/Ghost_BP_Auto0.uasset
+[2017.06.26-17.29.04:135][ 28]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/SkaGameAssets/Enemies/GhostAssests/AI/SetToAttack] ([1] browsable assets)...
+[2017.06.26-17.29.04:135][ 28]OBJ SavePackage: Finished generating thumbnails for package [/Game/SkaGameAssets/Enemies/GhostAssests/AI/SetToAttack]
+[2017.06.26-17.29.04:149][ 28]LogSavePackage: Save=12.30ms
+[2017.06.26-17.29.04:149][ 28]LogSavePackage: Moving '../../../../../../SVN/SkaGame2/SkaGame/Saved/SetToAttack_Auto0C331F9EA4AACB2FE6D1CC6AEF1662464.tmp' to '../../../../../../SVN/SkaGame2/SkaGame/Saved/Autosaves/Game/SkaGameAssets/Enemies/GhostAssests/AI/SetToAttack_Auto0.uasset'
+[2017.06.26-17.29.04:149][ 28]LogSavePackage:Display: Finished SavePackage ../../../../../../SVN/SkaGame2/SkaGame/Saved/Autosaves/Game/SkaGameAssets/Enemies/GhostAssests/AI/SetToAttack_Auto0.uasset
+[2017.06.26-17.29.04:149][ 28]LogFileHelpers: Auto-saving content packages took 0.140
+[2017.06.26-17.30.28:397][492]BlueprintLog: New page: Compile SetToAttack
+[2017.06.26-17.30.28:404][492]LogBlueprint:Error: [Compiler SetToAttack] Error The current value of the ' Key ' pin is invalid: 'Key' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2017.06.26-17.30.28:605][492]BlueprintEditorCompileResults:Error: Error The current value of the ' Key ' pin is invalid: 'Key' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2017.06.26-17.30.28:605][492]LogBlueprint:Warning: [Compiler SetToAttack] Warning [4960.46] Compile of SetToAttack failed. 1 Fatal Issue(s) 0 Warning(s) [in 207 ms] (/Game/SkaGameAssets/Enemies/GhostAssests/AI/SetToAttack.SetToAttack)
+[2017.06.26-17.30.35:652][885]BlueprintLog: New page: Compile SetToAttack
+[2017.06.26-17.31.24:803][ 28]LogSavePackage: Save=6.93ms
+[2017.06.26-17.31.24:803][ 28]LogSavePackage: Moving '../../../../../../SVN/SkaGame2/SkaGame/Saved/GhostBehaviorTree22BC91564D338D14E38FC9BED2CAC61E.tmp' to '../../../../../../SVN/SkaGame2/SkaGame/Content/SkaGameAssets/Enemies/GhostAssests/AI/GhostBehaviorTree.uasset'
+[2017.06.26-17.31.24:805][ 28]LogSavePackage:Display: Finished SavePackage ../../../../../../SVN/SkaGame2/SkaGame/Content/SkaGameAssets/Enemies/GhostAssests/AI/GhostBehaviorTree.uasset
+[2017.06.26-17.31.41:271][116]LogSavePackage: Save=7.06ms
+[2017.06.26-17.31.41:271][116]LogSavePackage: Moving '../../../../../../SVN/SkaGame2/SkaGame/Saved/GhostBehaviorTree699ACEA246F6517DB132C4B20E8FD59F.tmp' to '../../../../../../SVN/SkaGame2/SkaGame/Content/SkaGameAssets/Enemies/GhostAssests/AI/GhostBehaviorTree.uasset'
+[2017.06.26-17.31.41:273][116]LogSavePackage:Display: Finished SavePackage ../../../../../../SVN/SkaGame2/SkaGame/Content/SkaGameAssets/Enemies/GhostAssests/AI/GhostBehaviorTree.uasset
+[2017.06.26-17.31.42:503][197]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.26-17.31.42:542][197]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test' with GeneratedClass '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test'
+[2017.06.26-17.31.42:550][197]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.26-17.31.42:550][197]PIE: New page: PIE session: Graveyard_Test (Jun 26, 2017, 9:31:42 AM)
+[2017.06.26-17.31.42:550][197]LogPlayLevel: Creating play world package: /Game/SkaGameAssets/Levels/UEDPIE_0_Graveyard_Test
+[2017.06.26-17.31.42:576][197]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025684s)
+[2017.06.26-17.31.42:577][197]LogAIModule: Creating AISystem for world Graveyard_Test
+[2017.06.26-17.31.42:577][197]LogPlayLevel: PIE: World Init took: (0.001096s)
+[2017.06.26-17.31.42:577][197]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test to /Game/SkaGameAssets/Levels/UEDPIE_0_Graveyard_Test.Graveyard_Test (0.027106s)
+[2017.06.26-17.31.42:637][197]LogInit: XAudio2 using 'PX2710MW-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.26-17.31.42:643][197]LogInit: FAudioDevice initialized.
+[2017.06.26-17.31.42:673][197]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.06.26-17.31.42:676][197]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.06.26-17.31.42:677][197]LogWorld: Bringing World /Game/SkaGameAssets/Levels/UEDPIE_0_Graveyard_Test.Graveyard_Test up for play (max tick rate 0) at 2017.06.26-13.31.42
+[2017.06.26-17.31.42:677][197]LogWorld: Bringing up level for play took: 0.003474
+[2017.06.26-17.31.42:679][197]PIE: Info Play in editor start time for /Game/SkaGameAssets/Levels/UEDPIE_0_Graveyard_Test 0.654
+[2017.06.26-17.31.42:679][197]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test' with GeneratedClass '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test'
+[2017.06.26-17.32.00:731][430]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test' with GeneratedClass '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test'
+[2017.06.26-17.32.00:847][430]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test' with GeneratedClass '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test'
+[2017.06.26-17.34.10:587][742]BlueprintLog: New page: Compile Ghost_BP
+[2017.06.26-17.34.12:175][811]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.26-17.34.12:212][811]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test' with GeneratedClass '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test'
+[2017.06.26-17.34.12:220][811]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.26-17.34.12:220][811]PIE: New page: PIE session: Graveyard_Test (Jun 26, 2017, 9:34:12 AM)
+[2017.06.26-17.34.12:220][811]LogPlayLevel: Creating play world package: /Game/SkaGameAssets/Levels/UEDPIE_0_Graveyard_Test
+[2017.06.26-17.34.12:249][811]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028762s)
+[2017.06.26-17.34.12:250][811]LogAIModule: Creating AISystem for world Graveyard_Test
+[2017.06.26-17.34.12:250][811]LogPlayLevel: PIE: World Init took: (0.001111s)
+[2017.06.26-17.34.12:251][811]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test to /Game/SkaGameAssets/Levels/UEDPIE_0_Graveyard_Test.Graveyard_Test (0.030186s)
+[2017.06.26-17.34.12:312][811]LogInit: XAudio2 using 'PX2710MW-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.26-17.34.12:317][811]LogInit: FAudioDevice initialized.
+[2017.06.26-17.34.12:348][811]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.06.26-17.34.12:351][811]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.06.26-17.34.12:351][811]LogWorld: Bringing World /Game/SkaGameAssets/Levels/UEDPIE_0_Graveyard_Test.Graveyard_Test up for play (max tick rate 0) at 2017.06.26-13.34.12
+[2017.06.26-17.34.12:352][811]LogWorld: Bringing up level for play took: 0.003279
+[2017.06.26-17.34.12:354][811]PIE: Info Play in editor start time for /Game/SkaGameAssets/Levels/UEDPIE_0_Graveyard_Test 0.324
+[2017.06.26-17.34.12:354][811]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test' with GeneratedClass '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test'
+[2017.06.26-17.34.34:296][247]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test' with GeneratedClass '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test'
+[2017.06.26-17.34.34:404][247]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test' with GeneratedClass '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test'
+[2017.06.26-17.35.13:661][533]BlueprintLog: New page: Compile SetToAttack
+[2017.06.26-17.35.28:819][347]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.26-17.35.28:858][347]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test' with GeneratedClass '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test'
+[2017.06.26-17.35.28:866][347]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.26-17.35.28:866][347]PIE: New page: PIE session: Graveyard_Test (Jun 26, 2017, 9:35:28 AM)
+[2017.06.26-17.35.28:866][347]LogPlayLevel: Creating play world package: /Game/SkaGameAssets/Levels/UEDPIE_0_Graveyard_Test
+[2017.06.26-17.35.28:891][347]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024831s)
+[2017.06.26-17.35.28:892][347]LogAIModule: Creating AISystem for world Graveyard_Test
+[2017.06.26-17.35.28:892][347]LogPlayLevel: PIE: World Init took: (0.001047s)
+[2017.06.26-17.35.28:892][347]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test to /Game/SkaGameAssets/Levels/UEDPIE_0_Graveyard_Test.Graveyard_Test (0.026204s)
+[2017.06.26-17.35.28:954][347]LogInit: XAudio2 using 'PX2710MW-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.26-17.35.28:959][347]LogInit: FAudioDevice initialized.
+[2017.06.26-17.35.28:990][347]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.06.26-17.35.28:993][347]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.06.26-17.35.28:993][347]LogWorld: Bringing World /Game/SkaGameAssets/Levels/UEDPIE_0_Graveyard_Test.Graveyard_Test up for play (max tick rate 0) at 2017.06.26-13.35.28
+[2017.06.26-17.35.28:994][347]LogWorld: Bringing up level for play took: 0.003193
+[2017.06.26-17.35.28:995][347]PIE: Info Play in editor start time for /Game/SkaGameAssets/Levels/UEDPIE_0_Graveyard_Test 0.964
+[2017.06.26-17.35.28:996][347]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test' with GeneratedClass '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test'
+[2017.06.26-17.35.56:655][279]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test' with GeneratedClass '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test'
+[2017.06.26-17.35.56:767][279]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test' with GeneratedClass '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test'
+[2017.06.26-17.36.02:385][626]BlueprintLog: New page: Compile SetToAttack
+[2017.06.26-17.36.03:518][687]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.26-17.36.03:554][687]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test' with GeneratedClass '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test'
+[2017.06.26-17.36.03:562][687]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.26-17.36.03:562][687]PIE: New page: PIE session: Graveyard_Test (Jun 26, 2017, 9:36:03 AM)
+[2017.06.26-17.36.03:562][687]LogPlayLevel: Creating play world package: /Game/SkaGameAssets/Levels/UEDPIE_0_Graveyard_Test
+[2017.06.26-17.36.03:585][687]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022279s)
+[2017.06.26-17.36.03:585][687]LogAIModule: Creating AISystem for world Graveyard_Test
+[2017.06.26-17.36.03:586][687]LogPlayLevel: PIE: World Init took: (0.000971s)
+[2017.06.26-17.36.03:586][687]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test to /Game/SkaGameAssets/Levels/UEDPIE_0_Graveyard_Test.Graveyard_Test (0.023558s)
+[2017.06.26-17.36.03:648][687]LogInit: XAudio2 using 'PX2710MW-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.26-17.36.03:652][687]LogInit: FAudioDevice initialized.
+[2017.06.26-17.36.03:684][687]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.06.26-17.36.03:687][687]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.06.26-17.36.03:688][687]LogWorld: Bringing World /Game/SkaGameAssets/Levels/UEDPIE_0_Graveyard_Test.Graveyard_Test up for play (max tick rate 0) at 2017.06.26-13.36.03
+[2017.06.26-17.36.03:689][687]LogWorld: Bringing up level for play took: 0.003241
+[2017.06.26-17.36.03:690][687]PIE: Info Play in editor start time for /Game/SkaGameAssets/Levels/UEDPIE_0_Graveyard_Test -0.342
+[2017.06.26-17.36.03:690][687]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test' with GeneratedClass '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test'
+[2017.06.26-17.36.23:774][116]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test' with GeneratedClass '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test'
+[2017.06.26-17.36.23:890][116]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test' with GeneratedClass '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test'
+[2017.06.26-17.37.04:671][698]LogSavePackage: Save=6.54ms
+[2017.06.26-17.37.04:671][698]LogSavePackage: Moving '../../../../../../SVN/SkaGame2/SkaGame/Saved/GhostBehaviorTreeF9160BA24D681D3263715DB2160222A2.tmp' to '../../../../../../SVN/SkaGame2/SkaGame/Content/SkaGameAssets/Enemies/GhostAssests/AI/GhostBehaviorTree.uasset'
+[2017.06.26-17.37.04:673][698]LogSavePackage:Display: Finished SavePackage ../../../../../../SVN/SkaGame2/SkaGame/Content/SkaGameAssets/Enemies/GhostAssests/AI/GhostBehaviorTree.uasset
+[2017.06.26-17.37.05:882][771]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.26-17.37.05:921][771]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test' with GeneratedClass '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test'
+[2017.06.26-17.37.05:929][771]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.26-17.37.05:929][771]PIE: New page: PIE session: Graveyard_Test (Jun 26, 2017, 9:37:05 AM)
+[2017.06.26-17.37.05:929][771]LogPlayLevel: Creating play world package: /Game/SkaGameAssets/Levels/UEDPIE_0_Graveyard_Test
+[2017.06.26-17.37.05:952][771]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023248s)
+[2017.06.26-17.37.05:953][771]LogAIModule: Creating AISystem for world Graveyard_Test
+[2017.06.26-17.37.05:953][771]LogPlayLevel: PIE: World Init took: (0.000990s)
+[2017.06.26-17.37.05:954][771]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test to /Game/SkaGameAssets/Levels/UEDPIE_0_Graveyard_Test.Graveyard_Test (0.024534s)
+[2017.06.26-17.37.06:013][771]LogInit: XAudio2 using 'PX2710MW-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.26-17.37.06:018][771]LogInit: FAudioDevice initialized.
+[2017.06.26-17.37.06:050][771]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.06.26-17.37.06:053][771]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.06.26-17.37.06:054][771]LogWorld: Bringing World /Game/SkaGameAssets/Levels/UEDPIE_0_Graveyard_Test.Graveyard_Test up for play (max tick rate 0) at 2017.06.26-13.37.06
+[2017.06.26-17.37.06:054][771]LogWorld: Bringing up level for play took: 0.003189
+[2017.06.26-17.37.06:056][771]PIE: Info Play in editor start time for /Game/SkaGameAssets/Levels/UEDPIE_0_Graveyard_Test 0.022
+[2017.06.26-17.37.06:056][771]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test' with GeneratedClass '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test'
+[2017.06.26-17.37.37:071][915]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test' with GeneratedClass '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test'
+[2017.06.26-17.37.37:181][915]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test' with GeneratedClass '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test'
+[2017.06.26-17.40.33:542][392]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.26-17.40.33:577][392]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test' with GeneratedClass '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test'
+[2017.06.26-17.40.33:585][392]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.26-17.40.33:585][392]PIE: New page: PIE session: Graveyard_Test (Jun 26, 2017, 9:40:33 AM)
+[2017.06.26-17.40.33:585][392]LogPlayLevel: Creating play world package: /Game/SkaGameAssets/Levels/UEDPIE_0_Graveyard_Test
+[2017.06.26-17.40.33:610][392]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025180s)
+[2017.06.26-17.40.33:611][392]LogAIModule: Creating AISystem for world Graveyard_Test
+[2017.06.26-17.40.33:611][392]LogPlayLevel: PIE: World Init took: (0.001028s)
+[2017.06.26-17.40.33:612][392]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test to /Game/SkaGameAssets/Levels/UEDPIE_0_Graveyard_Test.Graveyard_Test (0.026507s)
+[2017.06.26-17.40.33:671][392]LogInit: XAudio2 using 'PX2710MW-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.26-17.40.33:676][392]LogInit: FAudioDevice initialized.
+[2017.06.26-17.40.33:707][392]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.06.26-17.40.33:710][392]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.06.26-17.40.33:710][392]LogWorld: Bringing World /Game/SkaGameAssets/Levels/UEDPIE_0_Graveyard_Test.Graveyard_Test up for play (max tick rate 0) at 2017.06.26-13.40.33
+[2017.06.26-17.40.33:711][392]LogWorld: Bringing up level for play took: 0.003136
+[2017.06.26-17.40.33:712][392]PIE: Info Play in editor start time for /Game/SkaGameAssets/Levels/UEDPIE_0_Graveyard_Test -0.327
+[2017.06.26-17.40.33:713][392]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test' with GeneratedClass '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test'
+[2017.06.26-17.41.21:397][772]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test' with GeneratedClass '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test'
+[2017.06.26-17.41.21:512][772]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test' with GeneratedClass '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test'
+[2017.06.26-17.41.23:657][877]LogEditorViewport: Clicking on Actor (LMB): combatTrigger_C (combatTrigger)
+[2017.06.26-17.41.27:670][ 86]LogEditorViewport: Clicking on Actor (LMB): combatTrigger_C (combatTrigger)
+[2017.06.26-17.41.28:581][150]LogEditorViewport: Clicking on Actor (LMB): combatTrigger_C (combatTrigger)
+[2017.06.26-17.41.29:234][194]LogEditorViewport: Clicking on Actor (LMB): combatTrigger_C (combatTrigger)
+[2017.06.26-17.41.29:334][196]LogEditorViewport: Clicking on Component (LMB): BillboardComponent (Billboard)
+[2017.06.26-17.41.34:375][529]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.26-17.41.34:409][529]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test' with GeneratedClass '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test'
+[2017.06.26-17.41.34:416][529]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.26-17.41.34:416][529]PIE: New page: PIE session: Graveyard_Test (Jun 26, 2017, 9:41:34 AM)
+[2017.06.26-17.41.34:417][529]LogPlayLevel: Creating play world package: /Game/SkaGameAssets/Levels/UEDPIE_0_Graveyard_Test
+[2017.06.26-17.41.34:438][529]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021258s)
+[2017.06.26-17.41.34:439][529]LogAIModule: Creating AISystem for world Graveyard_Test
+[2017.06.26-17.41.34:439][529]LogPlayLevel: PIE: World Init took: (0.000966s)
+[2017.06.26-17.41.34:439][529]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test to /Game/SkaGameAssets/Levels/UEDPIE_0_Graveyard_Test.Graveyard_Test (0.022505s)
+[2017.06.26-17.41.34:471][529]LogInit: XAudio2 using 'PX2710MW-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.26-17.41.34:476][529]LogInit: FAudioDevice initialized.
+[2017.06.26-17.41.34:509][529]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.06.26-17.41.34:512][529]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.06.26-17.41.34:512][529]LogWorld: Bringing World /Game/SkaGameAssets/Levels/UEDPIE_0_Graveyard_Test.Graveyard_Test up for play (max tick rate 0) at 2017.06.26-13.41.34
+[2017.06.26-17.41.34:513][529]LogWorld: Bringing up level for play took: 0.003205
+[2017.06.26-17.41.34:515][529]PIE: Info Play in editor start time for /Game/SkaGameAssets/Levels/UEDPIE_0_Graveyard_Test 0.475
+[2017.06.26-17.41.34:515][529]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test' with GeneratedClass '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test'
+[2017.06.26-17.41.45:774][322]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test' with GeneratedClass '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test'
+[2017.06.26-17.41.45:870][322]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test' with GeneratedClass '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test'
+[2017.06.26-17.41.48:813][493]LogEditorViewport: Clicking on Actor (LMB): combatTrigger_C (combatTrigger)
+[2017.06.26-17.41.50:966][609]LogEditorViewport: Clicking on Actor (LMB): combatTrigger_C (combatTrigger)
+[2017.06.26-17.41.51:560][650]LogEditorViewport: Clicking on Actor (LMB): combatTrigger_C (combatTrigger)
+[2017.06.26-17.41.54:596][861]LogEditorViewport: Clicking on Actor (LMB): combatTrigger_C (combatTrigger)
+[2017.06.26-17.41.54:668][864]LogEditorViewport: Clicking on Component (LMB): BillboardComponent (Billboard)
+[2017.06.26-17.41.57:167][ 19]LogSavePackage: Save=219.93ms
+[2017.06.26-17.41.57:167][ 19]LogSavePackage: Moving '../../../../../../SVN/SkaGame2/SkaGame/Saved/Graveyard_Test8610843C4E2C136F542FD8AFB8FA9F40.tmp' to '../../../../../../SVN/SkaGame2/SkaGame/Content/SkaGameAssets/Levels/Graveyard_Test.umap'
+[2017.06.26-17.41.57:169][ 19]LogSavePackage:Display: Finished SavePackage ../../../../../../SVN/SkaGame2/SkaGame/Content/SkaGameAssets/Levels/Graveyard_Test.umap
+[2017.06.26-17.41.57:235][ 19]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SkaGameAssets/Levels/Graveyard_Test_BuiltData" FILE="../../../../../../SVN/SkaGame2/SkaGame/Content/SkaGameAssets/Levels/Graveyard_Test_BuiltData.uasset" SILENT=true
+[2017.06.26-17.41.57:332][ 19]LogSavePackage: Save=80.69ms
+[2017.06.26-17.41.57:332][ 19]LogSavePackage: Moving '../../../../../../SVN/SkaGame2/SkaGame/Saved/Graveyard_Test_BuiltData20B1927F401BA280F5A0919C650D877F.tmp' to '../../../../../../SVN/SkaGame2/SkaGame/Content/SkaGameAssets/Levels/Graveyard_Test_BuiltData.uasset'
+[2017.06.26-17.41.57:333][ 19]LogSavePackage:Display: Finished SavePackage ../../../../../../SVN/SkaGame2/SkaGame/Content/SkaGameAssets/Levels/Graveyard_Test_BuiltData.uasset
+[2017.06.26-17.44.21:471][805]BlueprintLog: New page: Compile Ghost_BP
+[2017.06.26-17.44.48:321][106]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.06.26-17.51.08:354][320]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/SkaGameAssets/BluePrints/Character_Base.
+[2017.06.26-17.51.13:735][551]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.06.26-17.52.52:247][422]BlueprintLog: New page: Compile Character_Base
+[2017.06.26-17.53.07:718][268]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.06.26-17.53.36:671][ 16]LogBlueprint:Warning: Reparenting blueprint Blueprint /Game/SkaGameAssets/Enemies/Ghost_BP.Ghost_BP from Character to Character_Base_C...
+[2017.06.26-17.53.36:728][ 16]BlueprintLog: New page: Compile Ghost_BP
+[2017.06.26-17.53.58:850][827]LogEditorTransaction: Undo Remove Variable
+[2017.06.26-17.54.30:937][445]BlueprintLog: New page: Compile Ghost_BP
+[2017.06.26-17.54.35:026][598]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.26-17.54.35:063][598]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test' with GeneratedClass '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test'
+[2017.06.26-17.54.35:063][598]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.26-17.54.35:063][598]PIE: New page: PIE session: Graveyard_Test (Jun 26, 2017, 9:54:35 AM)
+[2017.06.26-17.54.35:063][598]LogPlayLevel: Creating play world package: /Game/SkaGameAssets/Levels/UEDPIE_0_Graveyard_Test
+[2017.06.26-17.54.35:088][598]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025284s)
+[2017.06.26-17.54.35:089][598]LogAIModule: Creating AISystem for world Graveyard_Test
+[2017.06.26-17.54.35:089][598]LogPlayLevel: PIE: World Init took: (0.000928s)
+[2017.06.26-17.54.35:090][598]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test to /Game/SkaGameAssets/Levels/UEDPIE_0_Graveyard_Test.Graveyard_Test (0.026538s)
+[2017.06.26-17.54.35:123][598]LogInit: XAudio2 using 'PX2710MW-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.26-17.54.35:129][598]LogInit: FAudioDevice initialized.
+[2017.06.26-17.54.35:159][598]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.06.26-17.54.35:162][598]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.06.26-17.54.35:163][598]LogWorld: Bringing World /Game/SkaGameAssets/Levels/UEDPIE_0_Graveyard_Test.Graveyard_Test up for play (max tick rate 0) at 2017.06.26-13.54.35
+[2017.06.26-17.54.35:164][598]LogWorld: Bringing up level for play took: 0.003345
+[2017.06.26-17.54.35:165][598]PIE: Info Play in editor start time for /Game/SkaGameAssets/Levels/UEDPIE_0_Graveyard_Test -0.885
+[2017.06.26-17.54.35:166][598]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test' with GeneratedClass '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test'
+[2017.06.26-17.54.36:728][656]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test' with GeneratedClass '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test'
+[2017.06.26-17.54.36:811][656]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test' with GeneratedClass '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/Graveyard_Test.Graveyard_Test:PersistentLevel.Graveyard_Test'
+[2017.06.26-17.55.09:403][218]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SkaGameAssets/Levels/Graveyard_Test' took 0.021
+[2017.06.26-17.55.09:404][218]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/SkaGameAssets/Enemies/GhostAssests/AI/Ghost_AI_COn] ([1] browsable assets)...
+[2017.06.26-17.55.09:404][218]OBJ SavePackage: Finished generating thumbnails for package [/Game/SkaGameAssets/Enemies/GhostAssests/AI/Ghost_AI_COn]
+[2017.06.26-17.55.09:437][218]LogSavePackage: Save=16.29ms
+[2017.06.26-17.55.09:437][218]LogSavePackage: Moving '../../../../../../SVN/SkaGame2/SkaGame/Saved/Ghost_AI_COn_Auto10B6B80A94AE6EB64507D2ABC32E7D8B0.tmp' to '../../../../../../SVN/SkaGame2/SkaGame/Saved/Autosaves/Game/SkaGameAssets/Enemies/GhostAssests/AI/Ghost_AI_COn_Auto1.uasset'
+[2017.06.26-17.55.09:439][218]LogSavePackage:Display: Finished SavePackage ../../../../../../SVN/SkaGame2/SkaGame/Saved/Autosaves/Game/SkaGameAssets/Enemies/GhostAssests/AI/Ghost_AI_COn_Auto1.uasset
+[2017.06.26-17.55.09:439][218]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SkaGameAssets/Enemies/Ghost_BP] ([1] browsable assets)...
+[2017.06.26-17.55.09:489][218]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/SkaGameAssets/Enemies/Ghost_BP.Ghost_BP]
+[2017.06.26-17.55.09:489][218]OBJ SavePackage: Finished generating thumbnails for package [/Game/SkaGameAssets/Enemies/Ghost_BP]
+[2017.06.26-17.55.09:581][218]LogSavePackage: Save=77.58ms
+[2017.06.26-17.55.09:581][218]LogSavePackage: Moving '../../../../../../SVN/SkaGame2/SkaGame/Saved/Ghost_BP_Auto15A68F64648AB2E0E17465E966A4F3DEC.tmp' to '../../../../../../SVN/SkaGame2/SkaGame/Saved/Autosaves/Game/SkaGameAssets/Enemies/Ghost_BP_Auto1.uasset'
+[2017.06.26-17.55.09:582][218]LogSavePackage:Display: Finished SavePackage ../../../../../../SVN/SkaGame2/SkaGame/Saved/Autosaves/Game/SkaGameAssets/Enemies/Ghost_BP_Auto1.uasset
+[2017.06.26-17.55.09:583][218]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/SkaGameAssets/Enemies/GhostAssests/AI/SetToAttack] ([1] browsable assets)...
+[2017.06.26-17.55.09:583][218]OBJ SavePackage: Finished generating thumbnails for package [/Game/SkaGameAssets/Enemies/GhostAssests/AI/SetToAttack]
+[2017.06.26-17.55.09:597][218]LogSavePackage: Save=12.76ms
+[2017.06.26-17.55.09:597][218]LogSavePackage: Moving '../../../../../../SVN/SkaGame2/SkaGame/Saved/SetToAttack_Auto11B11432344B88015E0E054ADFDD09E0D.tmp' to '../../../../../../SVN/SkaGame2/SkaGame/Saved/Autosaves/Game/SkaGameAssets/Enemies/GhostAssests/AI/SetToAttack_Auto1.uasset'
+[2017.06.26-17.55.09:614][218]LogSavePackage:Display: Finished SavePackage ../../../../../../SVN/SkaGame2/SkaGame/Saved/Autosaves/Game/SkaGameAssets/Enemies/GhostAssests/AI/SetToAttack_Auto1.uasset
+[2017.06.26-17.55.09:615][218]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/SkaGameAssets/BluePrints/Character_Base] ([1] browsable assets)...
+[2017.06.26-17.55.09:615][218]OBJ SavePackage: Finished generating thumbnails for package [/Game/SkaGameAssets/BluePrints/Character_Base]
+[2017.06.26-17.55.09:639][218]LogSavePackage: Save=22.38ms
+[2017.06.26-17.55.09:639][218]LogSavePackage: Moving '../../../../../../SVN/SkaGame2/SkaGame/Saved/Character_Base_Auto17C8EB7344B7E26E8E3486D9C8A6AB594.tmp' to '../../../../../../SVN/SkaGame2/SkaGame/Saved/Autosaves/Game/SkaGameAssets/BluePrints/Character_Base_Auto1.uasset'
+[2017.06.26-17.55.09:640][218]LogSavePackage:Display: Finished SavePackage ../../../../../../SVN/SkaGame2/SkaGame/Saved/Autosaves/Game/SkaGameAssets/BluePrints/Character_Base_Auto1.uasset
+[2017.06.26-17.55.09:641][218]LogFileHelpers: Auto-saving content packages took 0.237
+[2017.06.27-03.04.35:952][155]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.06.27-03.07.29:924][916]BlueprintLog: New page: Compile Character_Base
+[2017.06.27-03.08.04:782][481]BlueprintLog: New page: Compile Character_Base
+[2017.06.27-03.08.08:290][728]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SkaGameAssets/BluePrints/Character_Base" FILE="../../../../../../SVN/SkaGame2/SkaGame/Content/SkaGameAssets/BluePrints/Character_Base.uasset" SILENT=true
+[2017.06.27-03.08.08:321][728]LogSavePackage: Save=27.13ms
+[2017.06.27-03.08.08:321][728]LogSavePackage: Moving '../../../../../../SVN/SkaGame2/SkaGame/Saved/Character_Base62B493E64D37F728D397C8805E2FF771.tmp' to '../../../../../../SVN/SkaGame2/SkaGame/Content/SkaGameAssets/BluePrints/Character_Base.uasset'
+[2017.06.27-03.08.08:327][728]LogSavePackage:Display: Finished SavePackage ../../../../../../SVN/SkaGame2/SkaGame/Content/SkaGameAssets/BluePrints/Character_Base.uasset
+[2017.06.27-03.08.08:387][732]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/SkaGameAssets/BluePrints/Character_Base.
+[2017.06.27-03.08.38:739][339]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SkaGameAssets/Levels/Graveyard_Test' took 0.018
+[2017.06.27-03.08.38:741][339]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SkaGameAssets/Enemies/Ghost_BP] ([1] browsable assets)...
+[2017.06.27-03.08.38:804][339]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/SkaGameAssets/Enemies/Ghost_BP.Ghost_BP]
+[2017.06.27-03.08.38:804][339]OBJ SavePackage: Finished generating thumbnails for package [/Game/SkaGameAssets/Enemies/Ghost_BP]
+[2017.06.27-03.08.38:923][339]LogSavePackage: Save=97.23ms
+[2017.06.27-03.08.38:923][339]LogSavePackage: Moving '../../../../../../SVN/SkaGame2/SkaGame/Saved/Ghost_BP_Auto2179F2CAD427118BBCC7255B43528975F.tmp' to '../../../../../../SVN/SkaGame2/SkaGame/Saved/Autosaves/Game/SkaGameAssets/Enemies/Ghost_BP_Auto2.uasset'
+[2017.06.27-03.08.38:925][339]LogSavePackage:Display: Finished SavePackage ../../../../../../SVN/SkaGame2/SkaGame/Saved/Autosaves/Game/SkaGameAssets/Enemies/Ghost_BP_Auto2.uasset
+[2017.06.27-03.08.38:925][339]LogFileHelpers: Auto-saving content packages took 0.185
+[2017.06.27-03.15.24:018][583]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hillump7)
+[2017.06.27-03.49.50:241][187]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SkaGameAssets/Levels/Graveyard_Test' took 0.023
+[2017.06.27-03.49.50:243][187]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/SkaGameAssets/Enemies/Ghost_BP] ([1] browsable assets)...
+[2017.06.27-03.49.50:243][187]OBJ SavePackage: Finished generating thumbnails for package [/Game/SkaGameAssets/Enemies/Ghost_BP]
+[2017.06.27-03.49.50:342][187]LogSavePackage: Save=79.03ms
+[2017.06.27-03.49.50:343][187]LogSavePackage: Moving '../../../../../../SVN/SkaGame2/SkaGame/Saved/Ghost_BP_Auto33589C30343615280A7F855B025DEA6D6.tmp' to '../../../../../../SVN/SkaGame2/SkaGame/Saved/Autosaves/Game/SkaGameAssets/Enemies/Ghost_BP_Auto3.uasset'
+[2017.06.27-03.49.50:343][187]LogSavePackage:Display: Finished SavePackage ../../../../../../SVN/SkaGame2/SkaGame/Saved/Autosaves/Game/SkaGameAssets/Enemies/Ghost_BP_Auto3.uasset
+[2017.06.27-03.49.50:343][187]LogFileHelpers: Auto-saving content packages took 0.102
+[2017.06.27-03.50.53:265][434]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SkaGameAssets/Enemies/Ghost_BP" FILE="../../../../../../SVN/SkaGame2/SkaGame/Content/SkaGameAssets/Enemies/Ghost_BP.uasset" SILENT=true
+[2017.06.27-03.50.53:355][434]LogSavePackage: Save=77.25ms
+[2017.06.27-03.50.53:355][434]LogSavePackage: Moving '../../../../../../SVN/SkaGame2/SkaGame/Saved/Ghost_BPEDE4C04043879957643FF8851000DBEF.tmp' to '../../../../../../SVN/SkaGame2/SkaGame/Content/SkaGameAssets/Enemies/Ghost_BP.uasset'
+[2017.06.27-03.50.53:361][434]LogSavePackage:Display: Finished SavePackage ../../../../../../SVN/SkaGame2/SkaGame/Content/SkaGameAssets/Enemies/Ghost_BP.uasset
+[2017.06.27-03.50.54:616][494]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.06.27-03.50.54:791][494]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.06.27-03.50.57:210][559]LogSavePackage: Save=16.12ms
+[2017.06.27-03.50.57:211][559]LogSavePackage: Moving '../../../../../../SVN/SkaGame2/SkaGame/Saved/Ghost_AI_COn81C0F32241A969560978DE812874F4E0.tmp' to '../../../../../../SVN/SkaGame2/SkaGame/Content/SkaGameAssets/Enemies/GhostAssests/AI/Ghost_AI_COn.uasset'
+[2017.06.27-03.50.57:215][559]LogSavePackage:Display: Finished SavePackage ../../../../../../SVN/SkaGame2/SkaGame/Content/SkaGameAssets/Enemies/GhostAssests/AI/Ghost_AI_COn.uasset
+[2017.06.27-03.50.57:232][559]LogSavePackage: Save=12.66ms
+[2017.06.27-03.50.57:232][559]LogSavePackage: Moving '../../../../../../SVN/SkaGame2/SkaGame/Saved/SetToAttack659846FA434F0BB97A83C2B9A9BB5C68.tmp' to '../../../../../../SVN/SkaGame2/SkaGame/Content/SkaGameAssets/Enemies/GhostAssests/AI/SetToAttack.uasset'
+[2017.06.27-03.50.57:236][559]LogSavePackage:Display: Finished SavePackage ../../../../../../SVN/SkaGame2/SkaGame/Content/SkaGameAssets/Enemies/GhostAssests/AI/SetToAttack.uasset
+[2017.06.27-03.50.57:401][559]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.06.27-03.50.57:646][560]Cmd: QUIT_EDITOR
+[2017.06.27-03.50.58:459][560]LogExit: Preparing to exit.
+[2017.06.27-03.50.59:106][560]LogDirectoryWatcher: A directory notification for 'C:/SVN/SkaGame2/SkaGame/Content/' was aborted.
+[2017.06.27-03.50.59:205][560]LogExit: Editor shut down
+[2017.06.27-03.50.59:207][560]LogExit: Transaction tracking system shut down
+[2017.06.27-03.50.59:490][560]LogObj: Freed 0b from 0 cluster array pools.
+[2017.06.27-03.50.59:491][560]LogExit: Object subsystem successfully closed.
+[2017.06.27-03.50.59:521][560]LogD3D11RHI: Shutdown
+[2017.06.27-03.50.59:521][560]LogD3D11RHI: CleanupD3DDevice
+[2017.06.27-03.50.59:686][560]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.06.27-03.50.59:703][560]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (504)
+[2017.06.27-03.50.59:703][560]LogModuleManager: Shutting down and abandoning module BlueprintGraph (502)
+[2017.06.27-03.50.59:703][560]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (500)
+[2017.06.27-03.50.59:703][560]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (498)
+[2017.06.27-03.50.59:703][560]LogModuleManager: Shutting down and abandoning module CrashTracker (496)
+[2017.06.27-03.50.59:703][560]LogModuleManager: Shutting down and abandoning module SceneOutliner (494)
+[2017.06.27-03.50.59:704][560]LogModuleManager: Shutting down and abandoning module AddContentDialog (492)
+[2017.06.27-03.50.59:704][560]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.15/FeaturePacks/' was aborted.
+[2017.06.27-03.50.59:710][560]LogModuleManager: Shutting down and abandoning module WidgetCarousel (491)
+[2017.06.27-03.50.59:710][560]LogModuleManager: Shutting down and abandoning module EditorWidgets (488)
+[2017.06.27-03.50.59:711][560]LogModuleManager: Shutting down and abandoning module CollectionManager (486)
+[2017.06.27-03.50.59:711][560]LogDirectoryWatcher: A directory notification for 'C:/SVN/SkaGame2/SkaGame/Content/Collections/' was aborted.
+[2017.06.27-03.50.59:711][560]LogDirectoryWatcher: A directory notification for 'C:/SVN/SkaGame2/SkaGame/Content/Developers/Ethan/Collections/' was aborted.
+[2017.06.27-03.50.59:711][560]LogDirectoryWatcher: A directory notification for 'C:/SVN/SkaGame2/SkaGame/Saved/Collections/' was aborted.
+[2017.06.27-03.50.59:711][560]LogModuleManager: Shutting down and abandoning module StatsViewer (484)
+[2017.06.27-03.50.59:711][560]LogModuleManager: Shutting down and abandoning module FoliageEdit (482)
+[2017.06.27-03.50.59:711][560]LogModuleManager: Shutting down and abandoning module LandscapeEditor (480)
+[2017.06.27-03.50.59:711][560]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (478)
+[2017.06.27-03.50.59:711][560]LogModuleManager: Shutting down and abandoning module ActorPickerMode (476)
+[2017.06.27-03.50.59:711][560]LogModuleManager: Shutting down and abandoning module GeometryMode (474)
+[2017.06.27-03.50.59:711][560]LogModuleManager: Shutting down and abandoning module TextureAlignMode (472)
+[2017.06.27-03.50.59:711][560]LogModuleManager: Shutting down and abandoning module BspMode (470)
+[2017.06.27-03.50.59:711][560]LogModuleManager: Shutting down and abandoning module HardwareSurvey (468)
+[2017.06.27-03.50.59:711][560]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (466)
+[2017.06.27-03.50.59:711][560]LogModuleManager: Shutting down and abandoning module AutomationWorker (464)
+[2017.06.27-03.50.59:711][560]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (462)
+[2017.06.27-03.50.59:711][560]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (460)
+[2017.06.27-03.50.59:711][560]LogModuleManager: Shutting down and abandoning module PlacementMode (459)
+[2017.06.27-03.50.59:711][560]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (456)
+[2017.06.27-03.50.59:711][560]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (454)
+[2017.06.27-03.50.59:711][560]LogModuleManager: Shutting down and abandoning module MfMediaFactory (452)
+[2017.06.27-03.50.59:711][560]LogModuleManager: Shutting down and abandoning module MfMediaEditor (450)
+[2017.06.27-03.50.59:711][560]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (448)
+[2017.06.27-03.50.59:711][560]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (446)
+[2017.06.27-03.50.59:711][560]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (444)
+[2017.06.27-03.50.59:711][560]LogModuleManager: Shutting down and abandoning module Media (443)
+[2017.06.27-03.50.59:711][560]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (440)
+[2017.06.27-03.50.59:711][560]LogModuleManager: Shutting down and abandoning module CharacterAI (438)
+[2017.06.27-03.50.59:711][560]LogModuleManager: Shutting down and abandoning module AudioCapture (436)
+[2017.06.27-03.50.59:711][560]LogModuleManager: Shutting down and abandoning module SequenceRecorder (435)
+[2017.06.27-03.50.59:711][560]LogModuleManager: Shutting down and abandoning module SmartSnapping (432)
+[2017.06.27-03.50.59:712][560]LogModuleManager: Shutting down and abandoning module SessionServices (430)
+[2017.06.27-03.50.59:712][560]LogModuleManager: Shutting down and abandoning module ViewportSnapping (428)
+[2017.06.27-03.50.59:712][560]LogModuleManager: Shutting down and abandoning module ViewportInteraction (426)
+[2017.06.27-03.50.59:712][560]LogModuleManager: Shutting down and abandoning module LogVisualizer (424)
+[2017.06.27-03.50.59:712][560]LogModuleManager: Shutting down and abandoning module IntroTutorials (422)
+[2017.06.27-03.50.59:712][560]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (421)
+[2017.06.27-03.50.59:712][560]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (418)
+[2017.06.27-03.50.59:712][560]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (416)
+[2017.06.27-03.50.59:712][560]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (414)
+[2017.06.27-03.50.59:712][560]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (412)
+[2017.06.27-03.50.59:712][560]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (411)
+[2017.06.27-03.50.59:945][560]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (408)
+[2017.06.27-03.50.59:945][560]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (406)
+[2017.06.27-03.50.59:945][560]LogModuleManager: Shutting down and abandoning module InputBindingEditor (404)
+[2017.06.27-03.50.59:945][560]LogModuleManager: Shutting down and abandoning module NiagaraEditor (402)
+[2017.06.27-03.50.59:945][560]LogModuleManager: Shutting down and abandoning module MergeActors (400)
+[2017.06.27-03.50.59:945][560]LogModuleManager: Shutting down and abandoning module SizeMap (398)
+[2017.06.27-03.50.59:945][560]LogModuleManager: Shutting down and abandoning module TreeMap (396)
+[2017.06.27-03.50.59:945][560]LogModuleManager: Shutting down and abandoning module ReferenceViewer (394)
+[2017.06.27-03.50.59:945][560]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (392)
+[2017.06.27-03.50.59:945][560]LogModuleManager: Shutting down and abandoning module LocalizationService (391)
+[2017.06.27-03.50.59:945][560]LogModuleManager: Shutting down and abandoning module HardwareTargeting (388)
+[2017.06.27-03.50.59:945][560]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (386)
+[2017.06.27-03.50.59:945][560]LogModuleManager: Shutting down and abandoning module UndoHistory (384)
+[2017.06.27-03.50.59:945][560]LogModuleManager: Shutting down and abandoning module UserFeedback (382)
+[2017.06.27-03.50.59:945][560]LogModuleManager: Shutting down and abandoning module XmlParser (380)
+[2017.06.27-03.50.59:945][560]LogModuleManager: Shutting down and abandoning module Blutility (378)
+[2017.06.27-03.50.59:945][560]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (376)
+[2017.06.27-03.50.59:946][560]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (375)
+[2017.06.27-03.50.59:946][560]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (372)
+[2017.06.27-03.50.59:946][560]LogModuleManager: Shutting down and abandoning module SettingsEditor (370)
+[2017.06.27-03.50.59:946][560]LogModuleManager: Shutting down and abandoning module ProjectLauncher (368)
+[2017.06.27-03.50.59:946][560]LogModuleManager: Shutting down and abandoning module SessionFrontend (366)
+[2017.06.27-03.50.59:946][560]LogModuleManager: Shutting down and abandoning module ProfilerClient (364)
+[2017.06.27-03.50.59:946][560]LogModuleManager: Shutting down and abandoning module DeviceManager (362)
+[2017.06.27-03.50.59:946][560]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (361)
+[2017.06.27-03.50.59:989][560]LogModuleManager: Shutting down and abandoning module AutomationController (358)
+[2017.06.27-03.50.59:989][560]LogModuleManager: Shutting down and abandoning module AutomationWindow (356)
+[2017.06.27-03.50.59:989][560]LogModuleManager: Shutting down and abandoning module Layers (354)
+[2017.06.27-03.50.59:989][560]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (352)
+[2017.06.27-03.50.59:989][560]LogModuleManager: Shutting down and abandoning module DetailCustomizations (350)
+[2017.06.27-03.50.59:989][560]LogModuleManager: Shutting down and abandoning module PackagesDialog (348)
+[2017.06.27-03.50.59:989][560]LogModuleManager: Shutting down and abandoning module Persona (346)
+[2017.06.27-03.50.59:989][560]LogModuleManager: Shutting down and abandoning module AnimGraph (345)
+[2017.06.27-03.50.59:989][560]LogModuleManager: Shutting down and abandoning module Kismet (342)
+[2017.06.27-03.51.00:004][560]LogModuleManager: Shutting down and abandoning module GraphEditor (340)
+[2017.06.27-03.51.00:005][560]LogModuleManager: Shutting down and abandoning module ClassViewer (338)
+[2017.06.27-03.51.00:007][560]LogModuleManager: Shutting down and abandoning module Toolbox (336)
+[2017.06.27-03.51.00:007][560]LogModuleManager: Shutting down and abandoning module ModuleUI (334)
+[2017.06.27-03.51.00:007][560]LogModuleManager: Shutting down and abandoning module MovieSceneTools (332)
+[2017.06.27-03.51.00:007][560]LogModuleManager: Shutting down and abandoning module OutputLog (330)
+[2017.06.27-03.51.00:007][560]LogModuleManager: Shutting down and abandoning module GammaUI (328)
+[2017.06.27-03.51.00:007][560]LogModuleManager: Shutting down and abandoning module Documentation (326)
+[2017.06.27-03.51.00:009][560]LogModuleManager: Shutting down and abandoning module Niagara (324)
+[2017.06.27-03.51.00:009][560]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (322)
+[2017.06.27-03.51.00:009][560]LogModuleManager: Shutting down and abandoning module AnalyticsET (320)
+[2017.06.27-03.51.00:009][560]LogModuleManager: Shutting down and abandoning module PortalServices (318)
+[2017.06.27-03.51.00:009][560]LogModuleManager: Shutting down and abandoning module PortalRpc (316)
+[2017.06.27-03.51.00:009][560]LogModuleManager: Shutting down and abandoning module MessagingRpc (314)
+[2017.06.27-03.51.00:009][560]LogModuleManager: Shutting down and abandoning module AIModule (312)
+[2017.06.27-03.51.00:010][560]LogModuleManager: Shutting down and abandoning module GameplayDebugger (311)
+[2017.06.27-03.51.00:010][560]LogModuleManager: Shutting down and abandoning module AITestSuite (309)
+[2017.06.27-03.51.00:010][560]LogModuleManager: Shutting down and abandoning module ProfilerService (306)
+[2017.06.27-03.51.00:237][560]LogModuleManager: Shutting down and abandoning module TaskGraph (304)
+[2017.06.27-03.51.00:237][560]LogModuleManager: Shutting down and abandoning module SteamVRController (302)
+[2017.06.27-03.51.00:237][560]LogModuleManager: Shutting down and abandoning module SteamVR (300)
+[2017.06.27-03.51.00:237][560]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (298)
+[2017.06.27-03.51.00:237][560]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (296)
+[2017.06.27-03.51.00:238][560]LogModuleManager: Shutting down and abandoning module OculusLibrary (294)
+[2017.06.27-03.51.00:238][560]LogModuleManager: Shutting down and abandoning module OculusInput (292)
+[2017.06.27-03.51.00:238][560]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (290)
+[2017.06.27-03.51.00:238][560]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (288)
+[2017.06.27-03.51.00:238][560]LogModuleManager: Shutting down and abandoning module CableComponent (286)
+[2017.06.27-03.51.00:238][560]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (284)
+[2017.06.27-03.51.00:238][560]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (280)
+[2017.06.27-03.51.00:238][560]LogModuleManager: Shutting down and abandoning module HTML5Networking (278)
+[2017.06.27-03.51.00:238][560]LogModuleManager: Shutting down and abandoning module AlembicImporter (276)
+[2017.06.27-03.51.00:238][560]LogModuleManager: Shutting down and abandoning module AlembicLibrary (275)
+[2017.06.27-03.51.00:238][560]LogModuleManager: Shutting down and abandoning module GeometryCache (274)
+[2017.06.27-03.51.00:238][560]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (273)
+[2017.06.27-03.51.00:238][560]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (268)
+[2017.06.27-03.51.00:238][560]LogModuleManager: Shutting down and abandoning module SuperSearch (267)
+[2017.06.27-03.51.00:238][560]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (264)
+[2017.06.27-03.51.00:238][560]LogModuleManager: Shutting down and abandoning module PluginBrowser (262)
+[2017.06.27-03.51.00:238][560]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (260)
+[2017.06.27-03.51.00:238][560]LogModuleManager: Shutting down and abandoning module EpicSurvey (258)
+[2017.06.27-03.51.00:238][560]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (256)
+[2017.06.27-03.51.00:238][560]LogModuleManager: Shutting down and abandoning module DesktopPlatform (255)
+[2017.06.27-03.51.00:238][560]LogModuleManager: Shutting down and abandoning module UObjectPlugin (252)
+[2017.06.27-03.51.00:238][560]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (250)
+[2017.06.27-03.51.00:238][560]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (248)
+[2017.06.27-03.51.00:238][560]LogModuleManager: Shutting down and abandoning module GitSourceControl (246)
+[2017.06.27-03.51.00:238][560]LogModuleManager: Shutting down and abandoning module SourceControl (245)
+[2017.06.27-03.51.00:238][560]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (242)
+[2017.06.27-03.51.00:238][560]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (240)
+[2017.06.27-03.51.00:238][560]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (238)
+[2017.06.27-03.51.00:238][560]LogModuleManager: Shutting down and abandoning module Paper2DEditor (236)
+[2017.06.27-03.51.00:238][560]LogModuleManager: Shutting down and abandoning module MeshPaint (235)
+[2017.06.27-03.51.00:238][560]LogModuleManager: Shutting down and abandoning module LevelEditor (233)
+[2017.06.27-03.51.00:240][560]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (232)
+[2017.06.27-03.51.00:240][560]LogModuleManager: Shutting down and abandoning module MainFrame (230)
+[2017.06.27-03.51.00:240][560]LogModuleManager: Shutting down and abandoning module HotReload (229)
+[2017.06.27-03.51.00:241][560]LogModuleManager: Shutting down and abandoning module ContentBrowser (225)
+[2017.06.27-03.51.00:243][560]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (222)
+[2017.06.27-03.51.00:243][560]LogModuleManager: Shutting down and abandoning module PhysXVehicles (220)
+[2017.06.27-03.51.00:243][560]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (218)
+[2017.06.27-03.51.00:243][560]LogModuleManager: Shutting down and abandoning module UdpMessaging (216)
+[2017.06.27-03.51.00:343][560]LogModuleManager: Shutting down and abandoning module TcpMessaging (214)
+[2017.06.27-03.51.00:444][560]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (212)
+[2017.06.27-03.51.00:444][560]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (210)
+[2017.06.27-03.51.00:444][560]LogModuleManager: Shutting down and abandoning module FacialAnimation (208)
+[2017.06.27-03.51.00:444][560]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (206)
+[2017.06.27-03.51.00:444][560]LogModuleManager: Shutting down and abandoning module Paper2D (204)
+[2017.06.27-03.51.00:444][560]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (202)
+[2017.06.27-03.51.00:444][560]LogModuleManager: Shutting down and abandoning module WmfMedia (200)
+[2017.06.27-03.51.00:444][560]LogModuleManager: Shutting down and abandoning module MfMedia (198)
+[2017.06.27-03.51.00:444][560]LogModuleManager: Shutting down and abandoning module MediaAssets (196)
+[2017.06.27-03.51.00:444][560]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (194)
+[2017.06.27-03.51.00:445][560]LogModuleManager: Shutting down and abandoning module VREditor (192)
+[2017.06.27-03.51.00:445][560]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (190)
+[2017.06.27-03.51.00:445][560]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (188)
+[2017.06.27-03.51.00:445][560]LogModuleManager: Shutting down and abandoning module FunctionalTesting (186)
+[2017.06.27-03.51.00:445][560]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (184)
+[2017.06.27-03.51.00:445][560]LogModuleManager: Shutting down and abandoning module UMG (182)
+[2017.06.27-03.51.00:445][560]LogModuleManager: Shutting down and abandoning module UMGEditor (181)
+[2017.06.27-03.51.00:445][560]LogModuleManager: Shutting down and abandoning module Sequencer (180)
+[2017.06.27-03.51.00:445][560]LogModuleManager: Shutting down and abandoning module AssetTools (178)
+[2017.06.27-03.51.00:445][560]LogModuleManager: Shutting down and abandoning module MessageLog (177)
+[2017.06.27-03.51.00:445][560]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (176)
+[2017.06.27-03.51.00:445][560]LogModuleManager: Shutting down and abandoning module SlateReflector (170)
+[2017.06.27-03.51.00:445][560]LogModuleManager: Shutting down and abandoning module Slate (168)
+[2017.06.27-03.51.00:445][560]LogModuleManager: Shutting down and abandoning module EditorStyle (166)
+[2017.06.27-03.51.00:448][560]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (164)
+[2017.06.27-03.51.00:448][560]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (162)
+[2017.06.27-03.51.00:449][560]LogModuleManager: Shutting down and abandoning module XAudio2 (160)
+[2017.06.27-03.51.00:449][560]LogModuleManager: Shutting down and abandoning module Networking (158)
+[2017.06.27-03.51.00:449][560]LogModuleManager: Shutting down and abandoning module Core (154)
+[2017.06.27-03.51.00:449][560]LogModuleManager: Shutting down and abandoning module AssetRegistry (152)
+[2017.06.27-03.51.00:631][560]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.06.27-03.51.00:632][560]LogDirectoryWatcher: A directory notification for '../../../../../../SVN/SkaGame2/SkaGame/Content/' was aborted.
+[2017.06.27-03.51.00:632][560]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.06.27-03.51.00:632][560]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (151)
+[2017.06.27-03.51.00:638][560]LogModuleManager: Shutting down and abandoning module KismetCompiler (148)
+[2017.06.27-03.51.00:638][560]LogModuleManager: Shutting down and abandoning module PhysXFormats (146)
+[2017.06.27-03.51.00:638][560]LogModuleManager: Shutting down and abandoning module MeshUtilities (144)
+[2017.06.27-03.51.00:638][560]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (143)
+[2017.06.27-03.51.00:638][560]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (141)
+[2017.06.27-03.51.00:638][560]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (139)
+[2017.06.27-03.51.00:638][560]LogModuleManager: Shutting down and abandoning module PropertyEditor (137)
+[2017.06.27-03.51.00:638][560]LogModuleManager: Shutting down and abandoning module DerivedDataCache (134)
+[2017.06.27-03.51.00:704][560]LogDerivedDataCache: Shutdown
+[2017.06.27-03.51.00:704][560]LogModuleManager: Shutting down and abandoning module TargetPlatform (132)
+[2017.06.27-03.51.00:705][560]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (131)
+[2017.06.27-03.51.00:705][560]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (129)
+[2017.06.27-03.51.00:705][560]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (127)
+[2017.06.27-03.51.00:705][560]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (125)
+[2017.06.27-03.51.00:705][560]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (123)
+[2017.06.27-03.51.00:705][560]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (121)
+[2017.06.27-03.51.00:705][560]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (119)
+[2017.06.27-03.51.00:705][560]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (117)
+[2017.06.27-03.51.00:705][560]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (115)
+[2017.06.27-03.51.00:705][560]LogModuleManager: Shutting down and abandoning module ImageWrapper (114)
+[2017.06.27-03.51.00:705][560]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (111)
+[2017.06.27-03.51.00:705][560]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (109)
+[2017.06.27-03.51.00:705][560]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (107)
+[2017.06.27-03.51.00:705][560]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (105)
+[2017.06.27-03.51.00:705][560]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (103)
+[2017.06.27-03.51.00:705][560]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (101)
+[2017.06.27-03.51.00:705][560]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (99)
+[2017.06.27-03.51.00:706][560]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (97)
+[2017.06.27-03.51.00:706][560]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (95)
+[2017.06.27-03.51.00:706][560]LogModuleManager: Shutting down and abandoning module Messaging (93)
+[2017.06.27-03.51.00:706][560]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (91)
+[2017.06.27-03.51.00:706][560]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (89)
+[2017.06.27-03.51.00:706][560]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (87)
+[2017.06.27-03.51.00:706][560]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (85)
+[2017.06.27-03.51.00:706][560]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (83)
+[2017.06.27-03.51.00:706][560]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (81)
+[2017.06.27-03.51.00:706][560]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (79)
+[2017.06.27-03.51.00:706][560]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (77)
+[2017.06.27-03.51.00:706][560]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (75)
+[2017.06.27-03.51.00:706][560]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (73)
+[2017.06.27-03.51.00:706][560]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (71)
+[2017.06.27-03.51.00:706][560]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (69)
+[2017.06.27-03.51.00:706][560]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (67)
+[2017.06.27-03.51.00:706][560]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (65)
+[2017.06.27-03.51.00:706][560]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (63)
+[2017.06.27-03.51.00:706][560]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (61)
+[2017.06.27-03.51.00:706][560]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (59)
+[2017.06.27-03.51.00:706][560]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (57)
+[2017.06.27-03.51.00:707][560]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (55)
+[2017.06.27-03.51.00:707][560]LogModuleManager: Shutting down and abandoning module InputCore (52)
+[2017.06.27-03.51.00:707][560]LogModuleManager: Shutting down and abandoning module Settings (50)
+[2017.06.27-03.51.00:707][560]LogModuleManager: Shutting down and abandoning module OculusRift (48)
+[2017.06.27-03.51.00:707][560]LogModuleManager: Shutting down and abandoning module GearVR (46)
+[2017.06.27-03.51.00:707][560]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
+[2017.06.27-03.51.00:707][560]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
+[2017.06.27-03.51.00:707][560]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
+[2017.06.27-03.51.00:707][560]LogOnline:Display: Unloading online subsystem: NULL
+[2017.06.27-03.51.00:707][560]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2017.06.27-03.51.00:707][560]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2017.06.27-03.51.00:707][560]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.06.27-03.51.00:707][560]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8ED285EC-4B88-14D5-EBE3-10AA05BCBDBA%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.3-3450819%2B%2B%2BUE4%2BRelease-4.15&UserID=27a260b74bf32bfc714e53b0493334c1%7C96e91b22db194cfa8006f4b66d834199%7C3dabaf2d-b3bf-48c3-a165-143585034302&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.06.27-03.51.00:718][560]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2017.06.27-03.51.00:720][560]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.06.27-03.51.00:721][560]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.06.27-03.51.00:721][560]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.06.27-03.51.00:721][560]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.06.27-03.51.00:721][560]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.06.27-03.51.00:746][560]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.06.27-03.51.00:747][560]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.06.27-03.51.00:747][560]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.06.27-03.51.00:747][560]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.06.27-03.51.00:747][560]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.06.27-03.51.00:747][560]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.06.27-03.51.00:747][560]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.06.27-03.51.00:747][560]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.06.27-03.51.00:747][560]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.06.27-03.51.00:747][560]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.06.27-03.51.00:751][560]LogExit: Exiting.
+[2017.06.27-03.51.00:764][560]Log file closed, 06/26/17 23:51:00
