@@ -1,0 +1,797 @@
+﻿Log file open, 06/29/17 12:32:17
+LogInit:Display: Running engine for game: SkaGame3
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1359760049) SRandInit(-1359760049).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.080770
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+OCULUS: Info: [CAPI] LibOVR module is located at C:\Program Files\Oculus\Support\oculus-runtime\LibOVRRT64_1.dll
+OCULUS: Debug: Connected to the server running version (prod = 1).1.14.0(build = 378771) feature version = 0. Client runs version (prod = 1).1.14.0(build = 378771) feature version = 0
+LogHMD: GearVR: Emulating GearVR using Oculus Rift!
+LogInit: Build: ++UE4+Release-4.15-CL-3450819
+LogInit: Engine Version: 4.15.3-3450819+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): May 21 2017 11:02:34
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.06.29-16.32.18:931][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.29-16.32.18:931][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.06.29-16.32.18:940][  0]LogInit: Computer: ETB330-024
+[2017.06.29-16.32.18:940][  0]LogInit: User: LabUser
+[2017.06.29-16.32.18:940][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.06.29-16.32.18:940][  0]LogInit: High frequency timer resolution =3.410094 MHz
+[2017.06.29-16.32.18:940][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2017.06.29-16.32.18:940][  0]LogMemory: Platform Memory Stats for Windows
+[2017.06.29-16.32.18:940][  0]LogMemory: Process Physical Memory: 271.10 MB used, 271.10 MB peak
+[2017.06.29-16.32.18:940][  0]LogMemory: Process Virtual Memory: 265.63 MB used, 265.63 MB peak
+[2017.06.29-16.32.18:940][  0]LogMemory: Physical Memory: 5588.06 MB used,  27121.96 MB free, 32710.02 MB total
+[2017.06.29-16.32.18:940][  0]LogMemory: Virtual Memory: 686.13 MB used,  27121.96 MB free, 134217728.00 MB total
+[2017.06.29-16.32.19:013][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.06.29-16.32.19:858][  0]LogD3D11RHI: D3D11 adapters:
+[2017.06.29-16.32.19:882][  0]LogD3D11RHI:    0. 'NVIDIA Quadro K4200' (Feature Level 11_0)
+[2017.06.29-16.32.19:882][  0]LogD3D11RHI:       4063/0/16355 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.06.29-16.32.19:884][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.06.29-16.32.19:884][  0]LogD3D11RHI:       0/0/16355 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.06.29-16.32.19:884][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.06.29-16.32.19:887][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.06.29-16.32.19:887][  0]LogD3D11RHI:     GPU DeviceId: 0x11b4 (for the marketing name, search the web for "GPU Device Id")
+[2017.06.29-16.32.19:888][  0]LogWindows: EnumDisplayDevices:
+[2017.06.29-16.32.19:888][  0]LogWindows:    0. 'NVIDIA Quadro K4200' (P:0 D:1)
+[2017.06.29-16.32.19:888][  0]LogWindows:    1. 'NVIDIA Quadro K4200' (P:1 D:1)
+[2017.06.29-16.32.19:888][  0]LogWindows:    2. 'NVIDIA Quadro K4200' (P:0 D:0)
+[2017.06.29-16.32.19:888][  0]LogWindows:    3. 'NVIDIA Quadro K4200' (P:0 D:0)
+[2017.06.29-16.32.19:889][  0]LogWindows:    4. 'DameWare Development Mirror Driver 64-bit' (P:0 D:0)
+[2017.06.29-16.32.19:889][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2017.06.29-16.32.19:889][  0]LogD3D11RHI:     Adapter Name: NVIDIA Quadro K4200
+[2017.06.29-16.32.19:889][  0]LogD3D11RHI:   Driver Version: 377.35 (internal:21.21.13.7735, unified:377.35)
+[2017.06.29-16.32.19:889][  0]LogD3D11RHI:      Driver Date: 5-1-2017
+[2017.06.29-16.32.19:889][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.06.29-16.32.19:901][  0]LogD3D11RHI:Warning: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
+[2017.06.29-16.32.19:902][  0]LogD3D11RHI: Async texture creation enabled
+[2017.06.29-16.32.19:917][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.06.29-16.32.19:920][  0]LogShaderCompilers: Guid format shader working directory is -16 characters bigger than the processId version (../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Intermediate/Shaders/WorkingDirectory/9580/).
+[2017.06.29-16.32.19:920][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/LabUser/AppData/Local/Temp/UnrealShaderWorkingDir/CC3421294E7EAD805584FD968580A5CE/'.
+[2017.06.29-16.32.19:920][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.06.29-16.32.21:189][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.06.29-16.32.21:248][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.06.29-16.32.21:309][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.06.29-16.32.21:369][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.06.29-16.32.21:457][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.06.29-16.32.21:517][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.06.29-16.32.21:577][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.06.29-16.32.21:637][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.06.29-16.32.21:689][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.06.29-16.32.21:761][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.06.29-16.32.21:820][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.06.29-16.32.21:880][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.06.29-16.32.21:940][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.06.29-16.32.21:999][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.06.29-16.32.22:058][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.06.29-16.32.22:177][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.06.29-16.32.22:177][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.06.29-16.32.22:221][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.06.29-16.32.22:326][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.06.29-16.32.22:359][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.06.29-16.32.22:420][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.06.29-16.32.22:480][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.06.29-16.32.22:540][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.06.29-16.32.22:601][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.06.29-16.32.22:601][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.06.29-16.32.23:072][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.06.29-16.32.23:119][  0]LogDerivedDataCache: Loaded boot cache 0.05s 50MB C:/Users/LabUser/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.06.29-16.32.23:119][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/LabUser/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.06.29-16.32.23:119][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.06.29-16.32.23:119][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.06.29-16.32.23:119][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.06.29-16.32.23:119][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.06.29-16.32.23:137][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.06.29-16.32.23:149][  0]LogDerivedDataCache: Using Local data cache path C:/Users/LabUser/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.06.29-16.32.23:158][  0]LogSlate: Using Freetype 2.6.0
+[2017.06.29-16.32.23:172][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.29-16.32.23:172][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.29-16.32.23:566][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.29-16.32.23:568][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.06.29-16.32.23:783][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.06.29-16.32.23:834][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.06.29-16.32.23:892][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.06.29-16.32.23:892][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.06.29-16.32.23:892][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.06.29-16.32.24:439][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: skagame3, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 2118841436
+[2017.06.29-16.32.24:484][  0]LogAssetRegistry: FAssetRegistry took 0.0211 seconds to start up
+[2017.06.29-16.32.24:552][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.047671 seconds
+[2017.06.29-16.32.24:558][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.06.29-16.32.24:558][  0]LogUObjectAllocator: 7077024 out of 0 bytes used by permanent object pool.
+[2017.06.29-16.32.24:558][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.06.29-16.32.24:618][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.06.29-16.32.27:931][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.06.29-16.32.27:973][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.06.29-16.32.28:490][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.06.29-16.32.28:923][  0]SourceControl: Info Source control is disabled
+[2017.06.29-16.32.28:925][  0]SourceControl: Info Source control is disabled
+[2017.06.29-16.32.28:981][  0]SourceControl: Info Source control is disabled
+[2017.06.29-16.32.29:038][  0]SourceControl: Info Source control is disabled
+[2017.06.29-16.32.30:497][  0]LogEngine: Initializing Engine...
+[2017.06.29-16.32.30:498][  0]LogHMD: Oculus plugin initialized. Version: 4.15.3-3450819+++UE4+Release-4.15, LibOVR: 1.14.0, SDK: 1.10.0, built May 21 2017, 11:08:57
+[2017.06.29-16.32.30:598][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.06.29-16.32.30:598][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.06.29-16.32.30:736][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.06.29-16.32.30:744][  0]LogInit: XAudio2 using 'Speakers (Dell AC511 USB SoundBar)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.29-16.32.30:754][  0]LogInit: FAudioDevice initialized.
+[2017.06.29-16.32.30:777][  0]LogDerivedDataCache: Saved boot cache 0.02s 50MB C:/Users/LabUser/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.06.29-16.32.30:782][  0]LogInit: Texture streaming: Enabled
+[2017.06.29-16.32.30:883][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.06.29-16.32.30:982][  0]LogInit: Transaction tracking system initialized
+[2017.06.29-16.32.31:366][  0]BlueprintLog: New page: Editor Load
+[2017.06.29-16.32.32:345][  0]LocalizationService: Info Localization service is disabled
+[2017.06.29-16.32.33:096][  0]LogConsoleResponse:Display: 
+[2017.06.29-16.32.33:214][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.06.29-16.32.33:214][  0]LogCook:Display: Mobile HDR setting 1
+[2017.06.29-16.32.33:409][  0]LogFileCache: Scanning file cache for directory 'C:/Users/LabUser/Documents/GitHub/skagame/SkaGame/Content/' took 0.02s
+[2017.06.29-16.32.34:389][  0]SourceControl: Info Source control is disabled
+[2017.06.29-16.32.34:389][  0]Cmd: MAP LOAD FILE="../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Content/SkaGameAssets/Levels/Graveyard_Test.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.29-16.32.34:389][  0]LightingResults: New page: Lighting Build
+[2017.06.29-16.32.34:437][  0]MapCheck: New page: Map Check
+[2017.06.29-16.32.34:437][  0]LightingResults: New page: Lighting Build
+[2017.06.29-16.32.34:871][  0]LogBlueprint:Warning: [PilPol_BP] 'AIState' variable not found. Base class was probably changed.
+[2017.06.29-16.32.34:871][  0]LogBlueprint:Warning: [PilPol_BP] 'AIState' variable not found. Base class was probably changed.
+[2017.06.29-16.32.35:571][  0]LogStaticMesh: Building static mesh MilkCarton_Large__1_...
+[2017.06.29-16.32.35:575][  0]LogStaticMesh: Built static mesh [0.00s] /Game/SkaGameAssets/PowerUPs/Mesh/MilkCarton_Large__1_.MilkCarton_Large__1_
+[2017.06.29-16.32.35:576][  0]LogStaticMesh: Building static mesh hillump01...
+[2017.06.29-16.32.35:578][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.06.29-16.32.35:597][  0]LogStaticMesh: Built static mesh [0.02s] /Game/SkaGameAssets/Enviroment/Props/Meshes/hillump01.hillump01
+[2017.06.29-16.32.35:599][  0]LogStaticMesh: Building static mesh hillump02...
+[2017.06.29-16.32.35:601][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.06.29-16.32.35:620][  0]LogStaticMesh: Built static mesh [0.02s] /Game/SkaGameAssets/Enviroment/Props/Meshes/hillump02.hillump02
+[2017.06.29-16.32.35:622][  0]LogStaticMesh: Building static mesh hillump03...
+[2017.06.29-16.32.35:624][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.06.29-16.32.35:644][  0]LogStaticMesh: Built static mesh [0.02s] /Game/SkaGameAssets/Enviroment/Props/Meshes/hillump03.hillump03
+[2017.06.29-16.32.35:646][  0]LogStaticMesh: Building static mesh skatree...
+[2017.06.29-16.32.35:647][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.06.29-16.32.35:665][  0]LogStaticMesh: Built static mesh [0.02s] /Game/SkaGameAssets/Enviroment/Props/Meshes/skatree.skatree
+[2017.06.29-16.32.35:667][  0]LogStaticMesh: Building static mesh MilkCarton_Small__1_...
+[2017.06.29-16.32.35:672][  0]LogStaticMesh: Built static mesh [0.01s] /Game/SkaGameAssets/PowerUPs/Mesh/MilkCarton_Small__1_.MilkCarton_Small__1_
+[2017.06.29-16.32.35:673][  0]LogStaticMesh: Building static mesh Tombstone1...
+[2017.06.29-16.32.35:676][  0]LogStaticMesh: Built static mesh [0.00s] /Game/SkaGameAssets/Enviroment/Props/Meshes/Tombstone1.Tombstone1
+[2017.06.29-16.32.35:677][  0]LogStaticMesh: Building static mesh Tree...
+[2017.06.29-16.32.35:702][  0]LogStaticMesh: Built static mesh [0.03s] /Game/SkaGameAssets/Enviroment/Props/Meshes/Tree.Tree
+[2017.06.29-16.32.35:708][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/SkaGameAssets/Brad/Animations/Brad__1__Anim_Brad_Armature_Brad_Punch3.Brad__1__Anim_Brad_Armature_Brad_Punch3
+[2017.06.29-16.32.35:718][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/SkaGameAssets/Brad/Animations/Brad__1__Anim_Brad_Armature_Brad_Punch2.Brad__1__Anim_Brad_Armature_Brad_Punch2
+[2017.06.29-16.32.35:719][  0]LogTexture:Display: Building textures: CLUT00 (BGRA8, 1X128) - 54 MB total VRAM
+[2017.06.29-16.32.35:722][  0]LogMaterial: Missing cached shader map for material Bone, compiling. 
+[2017.06.29-16.32.35:723][  0]LogTemp:Display: Added material ShaderMap 0x0000020D9B622E80 with Material 0x0000020D827E9000 to ShaderMapsBeingCompiled
+[2017.06.29-16.32.35:774][  0]LogTemp:Display: Kicking off shader compilation for Bone, GameThreadShaderMap 0x0000020D9B622E80
+[2017.06.29-16.32.35:774][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/SkaGameAssets/Brad/Animations/Brad__1__Anim_Brad_Armature_Brad_Punch1.Brad__1__Anim_Brad_Armature_Brad_Punch1
+[2017.06.29-16.32.35:778][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/SkaGameAssets/Brad/Animations/Brad_Anim_Brad_Armature_Brad_Walk.Brad_Anim_Brad_Armature_Brad_Walk
+[2017.06.29-16.32.35:780][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/SkaGameAssets/Brad/Animations/Brad_Anim_Brad_Armature_Brad_Run.Brad_Anim_Brad_Armature_Brad_Run
+[2017.06.29-16.32.35:782][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/SkaGameAssets/Brad/Animations/Brad_Anim_Brad_Armature_Brad_Idle.Brad_Anim_Brad_Armature_Brad_Idle
+[2017.06.29-16.32.35:788][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/SkaGameAssets/Brad/Animations/Brad__1__Anim_Brad_Armature_Brad_Jump_Landing.Brad__1__Anim_Brad_Armature_Brad_Jump_Landing
+[2017.06.29-16.32.35:789][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/SkaGameAssets/Brad/Animations/Brad__1__Anim_Brad_Armature_Brad_Jump_Intro.Brad__1__Anim_Brad_Armature_Brad_Jump_Intro
+[2017.06.29-16.32.35:790][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/SkaGameAssets/Brad/Animations/Brad__1__Anim_Brad_Armature_Brad_Jump_Falling.Brad__1__Anim_Brad_Armature_Brad_Jump_Falling
+[2017.06.29-16.32.35:799][  0]LogMaterial: Missing cached shader map for material BatEye, compiling. 
+[2017.06.29-16.32.35:800][  0]LogTemp:Display: Added material ShaderMap 0x0000020D9F5F2080 with Material 0x0000020D82495900 to ShaderMapsBeingCompiled
+[2017.06.29-16.32.35:849][  0]LogTemp:Display: Kicking off shader compilation for BatEye, GameThreadShaderMap 0x0000020D9F5F2080
+[2017.06.29-16.32.35:850][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/SkaGameAssets/Enemies/DarnBat/DarnBat_Anim_DarnBat_Skeleton_DarnBat_Flying.DarnBat_Anim_DarnBat_Skeleton_DarnBat_Flying
+[2017.06.29-16.32.35:851][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/SkaGameAssets/Enemies/DarnBat/DarnBat_Anim_DarnBat_Skeleton_DarnBat_AttackPrepare.DarnBat_Anim_DarnBat_Skeleton_DarnBat_AttackPrepare
+[2017.06.29-16.32.35:851][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/SkaGameAssets/Enemies/DarnBat/DarnBat_Anim_DarnBat_Skeleton_DarnBat_Attacking.DarnBat_Anim_DarnBat_Skeleton_DarnBat_Attacking
+[2017.06.29-16.32.35:888][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/SkaGameAssets/Enemies/GhostAssests/Animations/Ghost_Anim_Ghost_Skeleton_Ghost_Hurt.Ghost_Anim_Ghost_Skeleton_Ghost_Hurt
+[2017.06.29-16.32.35:889][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/SkaGameAssets/Enemies/GhostAssests/Animations/Ghost_Anim_Ghost_Skeleton_Ghost_Claw.Ghost_Anim_Ghost_Skeleton_Ghost_Claw
+[2017.06.29-16.32.35:903][  0]LogTexture:Display: Building textures: GhostTexture (AutoDXT, 1024X1024) - 54 MB total VRAM
+[2017.06.29-16.32.36:086][  0]LogMaterial: Missing cached shader map for material Ghost_Mat, compiling. 
+[2017.06.29-16.32.36:087][  0]LogTemp:Display: Added material ShaderMap 0x0000020D9EFCFC80 with Material 0x0000020D838DC880 to ShaderMapsBeingCompiled
+[2017.06.29-16.32.36:133][  0]LogTemp:Display: Kicking off shader compilation for Ghost_Mat, GameThreadShaderMap 0x0000020D9EFCFC80
+[2017.06.29-16.32.36:133][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/SkaGameAssets/Enemies/GhostAssests/Animations/Ghost_Anim_Ghost_Skeleton_Ghost_Float.Ghost_Anim_Ghost_Skeleton_Ghost_Float
+[2017.06.29-16.32.36:193][  0]LogMaterial: Missing cached shader map for material CubeMaterial, compiling. 
+[2017.06.29-16.32.36:194][  0]LogTemp:Display: Added material ShaderMap 0x0000020DA3D1E780 with Material 0x0000020D838BC100 to ShaderMapsBeingCompiled
+[2017.06.29-16.32.36:220][  0]LogTemp:Display: Kicking off shader compilation for CubeMaterial, GameThreadShaderMap 0x0000020DA3D1E780
+[2017.06.29-16.32.36:232][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/SkaGameAssets/Enemies/PilPol/Animations/PilPol_Anim_Polgergust_Armature_Polgergust_Hurt.PilPol_Anim_Polgergust_Armature_Polgergust_Hurt
+[2017.06.29-16.32.36:250][  0]LogTexture:Display: Building textures: PilPol_Texture (AutoDXT, 1024X1024) - 54 MB total VRAM
+[2017.06.29-16.32.36:386][  0]LogMaterial: Missing cached shader map for material PilPol_Texture_Mat, compiling. 
+[2017.06.29-16.32.36:387][  0]LogTemp:Display: Added material ShaderMap 0x0000020DA24C6E80 with Material 0x0000020D83B46200 to ShaderMapsBeingCompiled
+[2017.06.29-16.32.36:432][  0]LogTemp:Display: Kicking off shader compilation for PilPol_Texture_Mat, GameThreadShaderMap 0x0000020DA24C6E80
+[2017.06.29-16.32.36:433][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/SkaGameAssets/Enemies/PilPol/Animations/PilPol_Anim_Polgergust_Armature_Polgergust_RunAway.PilPol_Anim_Polgergust_Armature_Polgergust_RunAway
+[2017.06.29-16.32.36:459][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/SkaGameAssets/Enemies/PilPol/Animations/PilPol_Anim_Polgergust_Armature_Polgergust_Idle.PilPol_Anim_Polgergust_Armature_Polgergust_Idle
+[2017.06.29-16.32.36:591][  0]LogMaterial: Missing cached shader map for material Tombstone_Mat, compiling. 
+[2017.06.29-16.32.36:592][  0]LogTemp:Display: Added material ShaderMap 0x0000020DA403DD00 with Material 0x0000020D9AEED600 to ShaderMapsBeingCompiled
+[2017.06.29-16.32.36:648][  0]LogTemp:Display: Kicking off shader compilation for Tombstone_Mat, GameThreadShaderMap 0x0000020DA403DD00
+[2017.06.29-16.32.36:703][  0]LogTexture:Display: Building textures: underground2Normal (BC5, 512X512) - 54 MB total VRAM
+[2017.06.29-16.32.36:750][  0]LogTexture:Display: Building textures: underground2 (AutoDXT, 512X512) - 54 MB total VRAM
+[2017.06.29-16.32.36:798][  0]LogMaterial: Missing cached shader map for material Undeground_Mat, compiling. 
+[2017.06.29-16.32.36:800][  0]LogTemp:Display: Added material ShaderMap 0x0000020DA47AF200 with Material 0x0000020D9AEEFD00 to ShaderMapsBeingCompiled
+[2017.06.29-16.32.36:828][  0]LogTemp:Display: Kicking off shader compilation for Undeground_Mat, GameThreadShaderMap 0x0000020DA47AF200
+[2017.06.29-16.32.36:889][  0]LogTexture:Display: Building textures: dirtgroundNormal (BC5, 512X512) - 54 MB total VRAM
+[2017.06.29-16.32.36:966][  0]LogTexture:Display: Building textures: dirtground (AutoDXT, 512X512) - 54 MB total VRAM
+[2017.06.29-16.32.37:085][  0]LogTexture:Display: Building textures: grassground1 (AutoDXT, 512X512) - 54 MB total VRAM
+[2017.06.29-16.32.37:196][  0]LogTexture:Display: Building textures: grassground1normal (BC5, 512X512) - 54 MB total VRAM
+[2017.06.29-16.32.37:229][  0]LogMaterial: Missing cached shader map for material Grass_Mat, compiling. 
+[2017.06.29-16.32.37:230][  0]LogTemp:Display: Added material ShaderMap 0x0000020DA5CB7C80 with Material 0x0000020D9AF17D00 to ShaderMapsBeingCompiled
+[2017.06.29-16.32.37:256][  0]LogTemp:Display: Kicking off shader compilation for Grass_Mat, GameThreadShaderMap 0x0000020DA5CB7C80
+[2017.06.29-16.32.37:258][  0]LogMaterial: Missing cached shader map for material CLUT00Material, compiling. 
+[2017.06.29-16.32.37:259][  0]LogTemp:Display: Added material ShaderMap 0x0000020DA6D29280 with Material 0x0000020D9AF29C00 to ShaderMapsBeingCompiled
+[2017.06.29-16.32.37:268][  0]LogTemp:Display: Kicking off shader compilation for CLUT00Material, GameThreadShaderMap 0x0000020DA6D29280
+[2017.06.29-16.32.37:281][  0]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024) - 54 MB total VRAM
+[2017.06.29-16.32.37:366][  0]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 512X512) - 54 MB total VRAM
+[2017.06.29-16.32.37:455][  0]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 64X64) - 54 MB total VRAM
+[2017.06.29-16.32.37:471][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024) - 54 MB total VRAM
+[2017.06.29-16.32.37:519][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 512X512) - 54 MB total VRAM
+[2017.06.29-16.32.37:596][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1, 64X64) - 54 MB total VRAM
+[2017.06.29-16.32.37:607][  0]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT, 1024X512) - 54 MB total VRAM
+[2017.06.29-16.32.37:650][  0]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT, 512X256) - 54 MB total VRAM
+[2017.06.29-16.32.37:699][  0]LogTexture:Display: Building textures: SkyOcclusion0_3 (AutoDXT, 64X32) - 54 MB total VRAM
+[2017.06.29-16.32.37:703][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (G8, 256X512) - 54 MB total VRAM
+[2017.06.29-16.32.37:708][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (G8, 128X64) - 54 MB total VRAM
+[2017.06.29-16.32.37:711][  0]LogMaterial: Missing cached shader map for material Surface_Mat, compiling. 
+[2017.06.29-16.32.37:712][  0]LogTemp:Display: Added material ShaderMap 0x0000020DA6C9D280 with Material 0x0000020D9AF15C00 to ShaderMapsBeingCompiled
+[2017.06.29-16.32.37:741][  0]LogTemp:Display: Kicking off shader compilation for Surface_Mat, GameThreadShaderMap 0x0000020DA6C9D280
+[2017.06.29-16.32.37:750][  0]LogTexture:Display: Building textures: MilkCarton_SmallTex (BC5, 1024X1024) - 54 MB total VRAM
+[2017.06.29-16.32.37:864][  0]LogMaterial: Missing cached shader map for material MilkCarton_Small_Mat, compiling. 
+[2017.06.29-16.32.37:865][  0]LogTemp:Display: Added material ShaderMap 0x0000020DA8E22080 with Material 0x0000020D9B27AE00 to ShaderMapsBeingCompiled
+[2017.06.29-16.32.37:884][  0]LogTemp:Display: Kicking off shader compilation for MilkCarton_Small_Mat, GameThreadShaderMap 0x0000020DA8E22080
+[2017.06.29-16.32.37:901][  0]LogTexture:Display: Building textures: MilkCarton_LargeTex (BC5, 1024X1024) - 54 MB total VRAM
+[2017.06.29-16.32.38:026][  0]LogMaterial: Missing cached shader map for material MilkCarton_Large_Mat, compiling. 
+[2017.06.29-16.32.38:027][  0]LogTemp:Display: Added material ShaderMap 0x0000020DA9268800 with Material 0x0000020D9B102C80 to ShaderMapsBeingCompiled
+[2017.06.29-16.32.38:047][  0]LogTemp:Display: Kicking off shader compilation for MilkCarton_Large_Mat, GameThreadShaderMap 0x0000020DA9268800
+[2017.06.29-16.32.38:055][  0]LogAIModule: Creating AISystem for world Graveyard_Test
+[2017.06.29-16.32.38:102][  0]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.06.29-16.32.38:114][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.29-16.32.38:115][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.29-16.32.38:292][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 176.554ms to complete.
+[2017.06.29-16.32.38:292][  0]LogFileHelpers: Loading map 'Graveyard_Test' took 3.903
+[2017.06.29-16.32.38:365][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.06.29-16.32.38:613][  0]LogCollectionManager: Loaded 0 collections in 0.002588 seconds
+[2017.06.29-16.32.38:749][  0]LogFileCache: Scanning file cache for directory 'C:/Users/LabUser/Documents/GitHub/skagame/SkaGame/Saved/Collections/' took 0.01s
+[2017.06.29-16.32.38:749][  0]LogFileCache: Scanning file cache for directory 'C:/Users/LabUser/Documents/GitHub/skagame/SkaGame/Content/Developers/LabUser/Collections/' took 0.01s
+[2017.06.29-16.32.38:749][  0]LogFileCache: Scanning file cache for directory 'C:/Users/LabUser/Documents/GitHub/skagame/SkaGame/Content/Collections/' took 0.01s
+[2017.06.29-16.32.38:749][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2017.06.29-16.32.38:764][  0]LogContentBrowser: Native class hierarchy populated in 0.0143 seconds. Added 2245 classes and 453 folders.
+[2017.06.29-16.32.38:892][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2017.06.29-16.32.39:711][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2017.06.29-16.32.39:795][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2017.06.29-16.32.39:898][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.06.29-16.32.40:067][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2017.06.29-16.32.40:068][  0]LogLoad: (Engine Initialization) Total time: 23.82 seconds
+[2017.06.29-16.32.40:068][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.46 seconds
+[2017.06.29-16.32.40:068][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.06.29-16.32.40:077][  0]LogOcInput: OculusInput pre-init called
+[2017.06.29-16.32.40:125][  0]LogOcInput: OculusInput is initialized. Init status 0. Runtime version: 1.14.0
+[2017.06.29-16.32.40:177][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.06.29-16.32.40:179][  0]LogSlate: Took 0.000451 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.29-16.32.40:183][  0]LogSlate: Took 0.000511 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.06.29-16.32.40:210][  0]LogSlate: Took 0.019273 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.06.29-16.32.40:493][  0]LogSlate: Took 0.042454 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.29-16.32.40:568][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:2).
+[2017.06.29-16.32.40:942][  2]LogAssetRegistry: Asset discovery search completed in 16.4790 seconds
+[2017.06.29-16.32.40:942][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000009 seconds (found 0 objects)
+[2017.06.29-16.32.40:942][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000023 seconds (updated 0 objects)
+[2017.06.29-16.32.40:963][  2]LogTemp:Display: Finished compile of shader map 0x0000020D9B622E80
+[2017.06.29-16.32.40:963][  2]LogTemp:Display: Shader map Bone complete, GameThreadShaderMap 0x0000020D9B622E80, marking material Bone as finished
+[2017.06.29-16.32.40:963][  2]LogTemp:Display: Marking material as finished 0x0000020D827E9000
+[2017.06.29-16.32.41:152][ 11]LogSlate: Took 0.000543 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.29-16.32.43:847][226]LogTemp:Display: Finished compile of shader map 0x0000020D9F5F2080
+[2017.06.29-16.32.43:847][226]LogTemp:Display: Shader map BatEye complete, GameThreadShaderMap 0x0000020D9F5F2080, marking material BatEye as finished
+[2017.06.29-16.32.43:847][226]LogTemp:Display: Marking material as finished 0x0000020D82495900
+[2017.06.29-16.32.46:514][472]LogTemp:Display: Finished compile of shader map 0x0000020D9EFCFC80
+[2017.06.29-16.32.46:514][472]LogTemp:Display: Shader map Ghost_Mat complete, GameThreadShaderMap 0x0000020D9EFCFC80, marking material Ghost_Mat as finished
+[2017.06.29-16.32.46:514][472]LogTemp:Display: Marking material as finished 0x0000020D838DC880
+[2017.06.29-16.32.47:726][583]LogTemp:Display: Finished compile of shader map 0x0000020DA3D1E780
+[2017.06.29-16.32.47:726][583]LogTemp:Display: Shader map CubeMaterial complete, GameThreadShaderMap 0x0000020DA3D1E780, marking material CubeMaterial as finished
+[2017.06.29-16.32.47:726][583]LogTemp:Display: Marking material as finished 0x0000020D838BC100
+[2017.06.29-16.32.50:492][717]LogTemp:Display: Finished compile of shader map 0x0000020DA24C6E80
+[2017.06.29-16.32.50:492][717]LogTemp:Display: Shader map PilPol_Texture_Mat complete, GameThreadShaderMap 0x0000020DA24C6E80, marking material PilPol_Texture_Mat as finished
+[2017.06.29-16.32.50:492][717]LogTemp:Display: Marking material as finished 0x0000020D83B46200
+[2017.06.29-16.32.53:935][735]LogTemp:Display: Finished compile of shader map 0x0000020DA403DD00
+[2017.06.29-16.32.53:935][735]LogTemp:Display: Shader map Tombstone_Mat complete, GameThreadShaderMap 0x0000020DA403DD00, marking material Tombstone_Mat as finished
+[2017.06.29-16.32.53:935][735]LogTemp:Display: Marking material as finished 0x0000020D9AEED600
+[2017.06.29-16.32.54:311][768]LogTemp:Display: Finished compile of shader map 0x0000020DA47AF200
+[2017.06.29-16.32.54:311][768]LogTemp:Display: Shader map Undeground_Mat complete, GameThreadShaderMap 0x0000020DA47AF200, marking material Undeground_Mat as finished
+[2017.06.29-16.32.54:311][768]LogTemp:Display: Marking material as finished 0x0000020D9AEEFD00
+[2017.06.29-16.32.55:939][919]LogTemp:Display: Finished compile of shader map 0x0000020DA6D29280
+[2017.06.29-16.32.55:939][919]LogTemp:Display: Shader map CLUT00Material complete, GameThreadShaderMap 0x0000020DA6D29280, marking material CLUT00Material as finished
+[2017.06.29-16.32.55:939][919]LogTemp:Display: Marking material as finished 0x0000020D9AF29C00
+[2017.06.29-16.32.56:372][956]LogTemp:Display: Finished compile of shader map 0x0000020DA5CB7C80
+[2017.06.29-16.32.56:372][956]LogTemp:Display: Shader map Grass_Mat complete, GameThreadShaderMap 0x0000020DA5CB7C80, marking material Grass_Mat as finished
+[2017.06.29-16.32.56:372][956]LogTemp:Display: Marking material as finished 0x0000020D9AF17D00
+[2017.06.29-16.32.58:045][110]LogTemp:Display: Finished compile of shader map 0x0000020DA6C9D280
+[2017.06.29-16.32.58:045][110]LogTemp:Display: Shader map Surface_Mat complete, GameThreadShaderMap 0x0000020DA6C9D280, marking material Surface_Mat as finished
+[2017.06.29-16.32.58:045][110]LogTemp:Display: Marking material as finished 0x0000020D9AF15C00
+[2017.06.29-16.32.58:492][140]LogTemp:Display: Finished compile of shader map 0x0000020DA8E22080
+[2017.06.29-16.32.58:492][140]LogTemp:Display: Shader map MilkCarton_Small_Mat complete, GameThreadShaderMap 0x0000020DA8E22080, marking material MilkCarton_Small_Mat as finished
+[2017.06.29-16.32.58:492][140]LogTemp:Display: Marking material as finished 0x0000020D9B27AE00
+[2017.06.29-16.32.59:032][198]LogTemp:Display: Finished compile of shader map 0x0000020DA9268800
+[2017.06.29-16.32.59:032][198]LogTemp:Display: Shader map MilkCarton_Large_Mat complete, GameThreadShaderMap 0x0000020DA9268800, marking material MilkCarton_Large_Mat as finished
+[2017.06.29-16.32.59:032][198]LogTemp:Display: Marking material as finished 0x0000020D9B102C80
+[2017.06.29-16.34.08:306][365]LogSlate: Took 0.000278 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.29-16.34.08:364][365]LogAIModule: Creating AISystem for world MainMenu
+[2017.06.29-16.34.08:404][365]Cmd: MAP LOAD FILE="../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Content/SkaGameAssets/Levels/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.29-16.34.08:404][365]LightingResults: New page: Lighting Build
+[2017.06.29-16.34.08:405][365]LoadErrors: New page: Loading map: MainMenu.umap
+[2017.06.29-16.34.08:406][365]MapCheck: New page: Map Check
+[2017.06.29-16.34.08:406][365]LightingResults: New page: Lighting Build
+[2017.06.29-16.34.08:422][365]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.29-16.34.08:476][365]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.29-16.34.08:584][365]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 107.513ms to complete.
+[2017.06.29-16.34.08:584][365]LogFileHelpers: Loading map 'MainMenu' took 0.191
+[2017.06.29-16.34.10:185][552]Cmd: SELECT NONE
+[2017.06.29-16.34.11:634][725]Cmd: SELECT NONE
+[2017.06.29-16.41.05:284][440]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.29-16.41.05:309][440]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SkaGameAssets/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/SkaGameAssets/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.06.29-16.41.05:309][440]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.29-16.41.05:309][440]PIE: New page: PIE session: MainMenu (Jun 29, 2017, 8:41:05 AM)
+[2017.06.29-16.41.05:309][440]LogPlayLevel: Creating play world package: /Game/SkaGameAssets/Levels/UEDPIE_0_MainMenu
+[2017.06.29-16.41.05:310][440]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001009s)
+[2017.06.29-16.41.05:311][440]LogAIModule: Creating AISystem for world MainMenu
+[2017.06.29-16.41.05:311][440]LogPlayLevel: PIE: World Init took: (0.000678s)
+[2017.06.29-16.41.05:311][440]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SkaGameAssets/Levels/MainMenu.MainMenu to /Game/SkaGameAssets/Levels/UEDPIE_0_MainMenu.MainMenu (0.001910s)
+[2017.06.29-16.41.05:324][440]LogInit: XAudio2 using 'Speakers (Dell AC511 USB SoundBar)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.29-16.41.05:331][440]LogInit: FAudioDevice initialized.
+[2017.06.29-16.41.05:385][440]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.06.29-16.41.05:387][440]LogWorld: Bringing World /Game/SkaGameAssets/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2017.06.29-12.41.05
+[2017.06.29-16.41.05:387][440]LogWorld: Bringing up level for play took: 0.000740
+[2017.06.29-16.41.05:437][440]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2017.06.29-16.41.05:438][440]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.06.29-16.41.05:440][440]PIE: Info Play in editor start time for /Game/SkaGameAssets/Levels/UEDPIE_0_MainMenu -0.552
+[2017.06.29-16.41.05:441][440]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SkaGameAssets/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/SkaGameAssets/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.06.29-16.41.07:603][695]LogNet: Browse: /Game/SkaGameAssets/Levels/Graveyard_Test
+[2017.06.29-16.41.07:603][695]LogLoadingSplash: Loading begins
+[2017.06.29-16.41.07:603][695]LogHMD: FOculusRiftSplash::PushBlackFrame
+[2017.06.29-16.41.07:603][695]LogHMD: FOculusRiftSplash::Show
+[2017.06.29-16.41.07:603][695]LogLoad: LoadMap: /Game/SkaGameAssets/Levels/Graveyard_Test
+[2017.06.29-16.41.07:612][695]Cmd: MEM
+[2017.06.29-16.41.07:623][695]LogMemory: Platform Memory Stats for Windows
+[2017.06.29-16.41.07:623][695]LogMemory: Process Physical Memory: 1198.34 MB used, 1203.82 MB peak
+[2017.06.29-16.41.07:623][695]LogMemory: Process Virtual Memory: 1657.06 MB used, 1806.00 MB peak
+[2017.06.29-16.41.07:623][695]LogMemory: Physical Memory: 8099.24 MB used,  24610.78 MB free, 32710.02 MB total
+[2017.06.29-16.41.07:623][695]LogMemory: Virtual Memory: 2429.42 MB used,  24610.78 MB free, 134217728.00 MB total
+[2017.06.29-16.41.07:623][695]LogMemory: 
+[2017.06.29-16.41.07:623][695]Allocator Stats for TBB: (not implemented)
+[2017.06.29-16.41.08:022][695]LogAIModule: Creating AISystem for world Graveyard_Test
+[2017.06.29-16.41.08:022][695]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.06.29-16.41.08:024][695]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.06.29-16.41.08:028][695]LogWorld: Bringing World /Game/SkaGameAssets/Levels/UEDPIE_0_Graveyard_Test.Graveyard_Test up for play (max tick rate 0) at 2017.06.29-12.41.08
+[2017.06.29-16.41.08:029][695]LogWorld: Bringing up level for play took: 0.006222
+[2017.06.29-16.41.08:031][695]LogLoadingSplash: Loading ends
+[2017.06.29-16.41.08:031][695]LogHMD: FOculusRiftSplash::Hide
+[2017.06.29-16.41.08:031][695]LogHMD: FOculusRiftSplash::PushBlackFrame
+[2017.06.29-16.41.08:031][695]LogLoad: Took 0.428135 seconds to LoadMap(/Game/SkaGameAssets/Levels/Graveyard_Test)
+[2017.06.29-16.41.09:163][825]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SkaGameAssets/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/SkaGameAssets/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.06.29-16.41.09:202][825]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SkaGameAssets/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/SkaGameAssets/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.06.29-16.41.20:919][141]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 112 classes and 0 folders.
+[2017.06.29-16.41.21:676][141]LogSlate: Took 0.014293 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.06.29-16.41.28:621][856]LogBlueprint:Warning: [Pause] 'IsScreenShown' variable not found. Base class was probably changed.
+[2017.06.29-16.41.28:621][856]LogBlueprint:Warning: [Pause] 'IsScreenShown' variable not found. Base class was probably changed.
+[2017.06.29-16.41.28:623][856]LogBlueprint:Warning: [Compiler Pause] Warning Could not find a variable named "IsScreenShown" in 'SideScrollerCharacter_C'.
+Make sure 'SideScrollerCharacter_C' has been compiled for  Set IsScreenShown
+[2017.06.29-16.41.28:624][856]LogBlueprint:Error: [Compiler Pause] Error The property associated with  Is Screen Shown  could not be found
+[2017.06.29-16.41.28:627][856]LogBlueprint:Warning: [Compiler Pause] Warning [0552.36] Compile of Pause failed. 1 Fatal Issue(s) 1 Warning(s) [in 4 ms] (/Game/UI/Pause.Pause)
+[2017.06.29-16.41.28:627][856]LogBlueprint:Warning: [Compiler Pause] Warning [0552.36] Compile of Pause failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/UI/Pause.Pause)
+[2017.06.29-16.41.28:627][856]LogBlueprint:Warning: [Compiler Pause] Warning [0552.36] Compile of Pause failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/UI/Pause.Pause)
+[2017.06.29-16.41.28:627][856]LogBlueprint:Warning: [Pause] 'IsScreenShown' variable not found. Base class was probably changed.
+[2017.06.29-16.41.28:627][856]LogBlueprint:Warning: [Pause] 'IsScreenShown' variable not found. Base class was probably changed.
+[2017.06.29-16.41.28:635][856]LogTexture:Display: Building textures: buttonA (AutoDXT, 500X500) - 86 MB total VRAM
+[2017.06.29-16.41.28:703][856]LogTexture:Display: Building textures: buttonB (AutoDXT, 500X500) - 87 MB total VRAM
+[2017.06.29-16.41.28:767][856]LogTexture:Display: Building textures: buttonDown (AutoDXT, 500X500) - 87 MB total VRAM
+[2017.06.29-16.41.28:821][856]LogTexture:Display: Building textures: buttonLeft (AutoDXT, 500X500) - 87 MB total VRAM
+[2017.06.29-16.41.28:873][856]LogTexture:Display: Building textures: buttonRight (AutoDXT, 500X500) - 87 MB total VRAM
+[2017.06.29-16.41.28:924][856]LogTexture:Display: Building textures: buttonUp (AutoDXT, 500X500) - 88 MB total VRAM
+[2017.06.29-16.41.28:976][856]LogTexture:Display: Building textures: buttonX (BC5, 500X500) - 88 MB total VRAM
+[2017.06.29-16.41.28:998][856]LogTexture:Display: Building textures: buttonY (AutoDXT, 500X500) - 88 MB total VRAM
+[2017.06.29-16.41.29:090][856]LogMetaData: Removing '/Game/SkaGameAssets/UI/Pause.Pause_C' ref from Metadata '/Game/UI/Pause.PackageMetaData'
+[2017.06.29-16.41.29:090][856]LogMetaData: Removing '/Game/SkaGameAssets/UI/Pause.Pause:EventGraph.K2Node_Event_0' ref from Metadata '/Game/UI/Pause.PackageMetaData'
+[2017.06.29-16.41.29:090][856]LogMetaData: Removing '/Game/SkaGameAssets/UI/Pause.Pause:EventGraph.K2Node_Event_1' ref from Metadata '/Game/UI/Pause.PackageMetaData'
+[2017.06.29-16.41.29:090][856]LogMetaData: Removing '/Game/SkaGameAssets/UI/Pause.Pause_C:Resume' ref from Metadata '/Game/UI/Pause.PackageMetaData'
+[2017.06.29-16.41.29:090][856]LogMetaData: Removing '/Game/SkaGameAssets/UI/Pause.SKEL_Pause_C:Resume' ref from Metadata '/Game/UI/Pause.PackageMetaData'
+[2017.06.29-16.41.29:090][856]LogMetaData: Removing '/Game/SkaGameAssets/UI/Pause.SKEL_Pause_C:Quit' ref from Metadata '/Game/UI/Pause.PackageMetaData'
+[2017.06.29-16.41.29:090][856]LogMetaData: Removing '/Game/SkaGameAssets/UI/Pause.SKEL_Pause_C:Tick' ref from Metadata '/Game/UI/Pause.PackageMetaData'
+[2017.06.29-16.41.29:090][856]LogMetaData: Removing '/Game/SkaGameAssets/UI/Pause.SKEL_Pause_C:ExecuteUbergraph_Pause' ref from Metadata '/Game/UI/Pause.PackageMetaData'
+[2017.06.29-16.41.29:090][856]LogMetaData: Removing '/Game/SkaGameAssets/UI/Pause.SKEL_Pause_C' ref from Metadata '/Game/UI/Pause.PackageMetaData'
+[2017.06.29-16.41.29:090][856]LogMetaData: Removing '/Game/SkaGameAssets/UI/Pause.Pause_C:Quit' ref from Metadata '/Game/UI/Pause.PackageMetaData'
+[2017.06.29-16.41.29:090][856]LogMetaData: Removing '/Game/SkaGameAssets/UI/Pause.Pause_C:Tick' ref from Metadata '/Game/UI/Pause.PackageMetaData'
+[2017.06.29-16.41.29:090][856]LogMetaData: Removing '/Game/SkaGameAssets/UI/Pause.Pause_C:ExecuteUbergraph_Pause' ref from Metadata '/Game/UI/Pause.PackageMetaData'
+[2017.06.29-16.41.29:128][856]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SkaGameAssets/UI/Pause" FILE="../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Content/SkaGameAssets/UI/Pause.uasset" SILENT=true
+[2017.06.29-16.41.29:148][856]LogSavePackage: Save=17.48ms
+[2017.06.29-16.41.29:148][856]LogSavePackage: Moving '../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Saved/Pause3DAC1D9D4ADFDF2144D21284124A80E9.tmp' to '../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Content/SkaGameAssets/UI/Pause.uasset'
+[2017.06.29-16.41.29:155][856]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Content/SkaGameAssets/UI/Pause.uasset
+[2017.06.29-16.42.11:791][516]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.06.29-16.42.11:986][526]LogTemp:Display: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.SkaGame3
+
+[2017.06.29-16.42.11:986][526]LogTemp:Display: CWD: C:\Program Files\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2017.06.29-16.42.11:986][526]LogTemp:Display: Initial Dir: C:\Program Files\Epic Games\UE_4.15
+
+[2017.06.29-16.42.11:986][526]LogTemp:Display: Env CWD: C:\Program Files\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2017.06.29-16.42.11:986][526]LogTemp:Display: BranchPath = ETB330-024/C/Program Files/Epic Games/UE_4.15/Engine/Binaries --- GameBranchPath = ETB330-024/C/Program Files/Epic Games/UE_4.15/Engine/Binaries
+
+[2017.06.29-16.42.12:176][547]LogTemp:Display: IPP ERROR: Application exception: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\LabUser\AppData\Local\Apple Computer\MobileDevice\Provisioning Profiles'.
+
+[2017.06.29-16.42.12:176][547]LogTemp:Display:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+
+[2017.06.29-16.42.12:176][547]LogTemp:Display:    at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+
+[2017.06.29-16.42.12:176][547]LogTemp:Display:    at System.IO.Directory.EnumerateFiles(String path, String searchPattern)
+
+[2017.06.29-16.42.12:176][547]LogTemp:Display:    at iPhonePackager.CodeSignatureBuilder.FindProvisions(String CFBundleIdentifier)
+
+[2017.06.29-16.42.12:176][547]LogTemp:Display:    at iPhonePackager.Program.Main(String[] args)
+
+[2017.06.29-16.42.38:678][415]Cmd: MAP LOAD FILE="../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Content/SkaGameAssets/Levels/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.29-16.42.38:678][415]LightingResults: New page: Lighting Build
+[2017.06.29-16.42.38:679][415]LoadErrors: New page: Loading map: MainMenu.umap
+[2017.06.29-16.42.38:679][415]MapCheck: New page: Map Check
+[2017.06.29-16.42.38:680][415]LightingResults: New page: Lighting Build
+[2017.06.29-16.42.38:710][415]LogAIModule: Creating AISystem for world MainMenu
+[2017.06.29-16.42.38:711][415]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.29-16.42.38:763][415]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.29-16.42.38:880][415]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 116.272ms to complete.
+[2017.06.29-16.42.38:880][415]LogFileHelpers: Loading map 'MainMenu' took 0.203
+[2017.06.29-16.42.40:738][617]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.06.29-16.42.41:618][667]LogSlate: Took 0.012250 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.06.29-16.43.16:508][890]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SKEL_MainMenu_C' or package '/Game/SkaGameAssets/UI/MainMenu'.
+[2017.06.29-16.43.16:508][890]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'BndEvt__Button_3_K2Node_ComponentBoundEvent_9_OnButtonClickedEvent__DelegateSignature' or package '/Game/SkaGameAssets/UI/MainMenu'.
+[2017.06.29-16.43.16:508][890]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'BndEvt__Button_4_K2Node_ComponentBoundEvent_57_OnButtonClickedEvent__DelegateSignature' or package '/Game/SkaGameAssets/UI/MainMenu'.
+[2017.06.29-16.43.16:508][890]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'BndEvt__Button_0_K2Node_ComponentBoundEvent_15_OnButtonClickedEvent__DelegateSignature' or package '/Game/SkaGameAssets/UI/MainMenu'.
+[2017.06.29-16.43.16:508][890]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'BndEvt__Button_2_K2Node_ComponentBoundEvent_36_OnButtonClickedEvent__DelegateSignature' or package '/Game/SkaGameAssets/UI/MainMenu'.
+[2017.06.29-16.43.16:597][890]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'TransBuffer_0' or package '/Engine/Transient'.
+[2017.06.29-16.43.25:893][ 70]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.29-16.43.25:923][ 70]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SkaGameAssets/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/SkaGameAssets/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.06.29-16.43.25:923][ 70]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.06.29-16.43.25:923][ 70]LogPlayLevel: [PlayLevel] Compiling MainMenu before play...
+[2017.06.29-16.43.26:021][ 70]LogPlayLevel: PlayLevel: Blueprint regeneration took 97 ms (1 blueprints)
+[2017.06.29-16.43.28:037][ 70]PIE: New page: PIE session: MainMenu (Jun 29, 2017, 8:43:28 AM)
+[2017.06.29-16.43.28:037][ 70]LogPlayLevel: Creating play world package: /Game/SkaGameAssets/Levels/UEDPIE_0_MainMenu
+[2017.06.29-16.43.28:038][ 70]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000959s)
+[2017.06.29-16.43.28:038][ 70]LogAIModule: Creating AISystem for world MainMenu
+[2017.06.29-16.43.28:038][ 70]LogPlayLevel: PIE: World Init took: (0.000574s)
+[2017.06.29-16.43.28:038][ 70]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SkaGameAssets/Levels/MainMenu.MainMenu to /Game/SkaGameAssets/Levels/UEDPIE_0_MainMenu.MainMenu (0.001746s)
+[2017.06.29-16.43.28:056][ 70]LogInit: XAudio2 using 'Speakers (Dell AC511 USB SoundBar)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.29-16.43.28:063][ 70]LogInit: FAudioDevice initialized.
+[2017.06.29-16.43.28:093][ 70]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.06.29-16.43.28:095][ 70]LogWorld: Bringing World /Game/SkaGameAssets/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2017.06.29-12.43.28
+[2017.06.29-16.43.28:095][ 70]LogWorld: Bringing up level for play took: 0.001155
+[2017.06.29-16.43.28:096][ 70]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.06.29-16.43.28:098][ 70]PIE: Info Play in editor start time for /Game/SkaGameAssets/Levels/UEDPIE_0_MainMenu 2.104
+[2017.06.29-16.43.28:099][ 70]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SkaGameAssets/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/SkaGameAssets/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.06.29-16.43.31:039][421]LogNet: Browse: /Game/SkaGameAssets/Levels/Graveyard_Test
+[2017.06.29-16.43.31:039][421]LogLoadingSplash: Loading begins
+[2017.06.29-16.43.31:039][421]LogHMD: FOculusRiftSplash::PushBlackFrame
+[2017.06.29-16.43.31:039][421]LogHMD: FOculusRiftSplash::Show
+[2017.06.29-16.43.31:039][421]LogLoad: LoadMap: /Game/SkaGameAssets/Levels/Graveyard_Test
+[2017.06.29-16.43.31:054][421]Cmd: MEM
+[2017.06.29-16.43.31:067][421]LogMemory: Platform Memory Stats for Windows
+[2017.06.29-16.43.31:067][421]LogMemory: Process Physical Memory: 1527.38 MB used, 1581.30 MB peak
+[2017.06.29-16.43.31:067][421]LogMemory: Process Virtual Memory: 2345.45 MB used, 2585.39 MB peak
+[2017.06.29-16.43.31:067][421]LogMemory: Physical Memory: 8373.09 MB used,  24336.93 MB free, 32710.02 MB total
+[2017.06.29-16.43.31:067][421]LogMemory: Virtual Memory: 3176.17 MB used,  24336.93 MB free, 134217728.00 MB total
+[2017.06.29-16.43.31:067][421]LogMemory: 
+[2017.06.29-16.43.31:067][421]Allocator Stats for TBB: (not implemented)
+[2017.06.29-16.43.31:269][421]LogAIModule: Creating AISystem for world Graveyard_Test
+[2017.06.29-16.43.31:269][421]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.06.29-16.43.31:271][421]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.06.29-16.43.31:276][421]LogWorld: Bringing World /Game/SkaGameAssets/Levels/UEDPIE_0_Graveyard_Test.Graveyard_Test up for play (max tick rate 0) at 2017.06.29-12.43.31
+[2017.06.29-16.43.31:277][421]LogWorld: Bringing up level for play took: 0.006797
+[2017.06.29-16.43.31:278][421]LogLoadingSplash: Loading ends
+[2017.06.29-16.43.31:278][421]LogHMD: FOculusRiftSplash::Hide
+[2017.06.29-16.43.31:278][421]LogHMD: FOculusRiftSplash::PushBlackFrame
+[2017.06.29-16.43.31:278][421]LogLoad: Took 0.238917 seconds to LoadMap(/Game/SkaGameAssets/Levels/Graveyard_Test)
+[2017.06.29-16.43.41:062][590]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SkaGameAssets/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/SkaGameAssets/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.06.29-16.43.41:094][590]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SkaGameAssets/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/SkaGameAssets/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.06.29-16.44.06:759][607]LogSavePackage: Save=91.11ms
+[2017.06.29-16.44.06:759][607]LogSavePackage: Moving '../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Saved/MainMenuF88CE580471B7831A5237B8297DF104F.tmp' to '../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Content/SkaGameAssets/Levels/MainMenu.umap'
+[2017.06.29-16.44.06:767][607]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Content/SkaGameAssets/Levels/MainMenu.umap
+[2017.06.29-16.44.06:814][607]LogFileHelpers: Saving map 'MainMenu' took 0.296
+[2017.06.29-16.44.06:816][607]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SkaGameAssets/UI/MainMenu" FILE="../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Content/SkaGameAssets/UI/MainMenu.uasset" SILENT=true
+[2017.06.29-16.44.06:833][607]LogSavePackage: Save=2.17ms
+[2017.06.29-16.44.06:833][607]LogSavePackage: Moving '../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Saved/MainMenu2335F29A4781254065F262877BCC5589.tmp' to '../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Content/SkaGameAssets/UI/MainMenu.uasset'
+[2017.06.29-16.44.06:849][607]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Content/SkaGameAssets/UI/MainMenu.uasset
+[2017.06.29-16.44.07:200][608]Cmd: QUIT_EDITOR
+[2017.06.29-16.44.07:466][608]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.06.29-16.44.07:488][608]LogExit: Preparing to exit.
+[2017.06.29-16.44.08:243][608]LogDirectoryWatcher: A directory notification for 'C:/Users/LabUser/Documents/GitHub/skagame/SkaGame/Content/' was aborted.
+[2017.06.29-16.44.08:272][608]LogExit: Editor shut down
+[2017.06.29-16.44.08:272][608]LogExit: Transaction tracking system shut down
+[2017.06.29-16.44.08:371][608]LogObj: Freed 0b from 0 cluster array pools.
+[2017.06.29-16.44.08:371][608]LogExit: Object subsystem successfully closed.
+[2017.06.29-16.44.08:384][608]LogD3D11RHI: Shutdown
+[2017.06.29-16.44.08:384][608]LogD3D11RHI: CleanupD3DDevice
+[2017.06.29-16.44.08:465][608]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.06.29-16.44.08:488][608]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (508)
+[2017.06.29-16.44.08:488][608]LogModuleManager: Shutting down and abandoning module SequencerWidgets (506)
+[2017.06.29-16.44.08:488][608]LogModuleManager: Shutting down and abandoning module BlueprintGraph (504)
+[2017.06.29-16.44.08:488][608]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (502)
+[2017.06.29-16.44.08:488][608]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (500)
+[2017.06.29-16.44.08:488][608]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (498)
+[2017.06.29-16.44.08:488][608]LogModuleManager: Shutting down and abandoning module CrashTracker (496)
+[2017.06.29-16.44.08:488][608]LogModuleManager: Shutting down and abandoning module SceneOutliner (494)
+[2017.06.29-16.44.08:488][608]LogModuleManager: Shutting down and abandoning module AddContentDialog (492)
+[2017.06.29-16.44.08:488][608]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.15/FeaturePacks/' was aborted.
+[2017.06.29-16.44.08:489][608]LogModuleManager: Shutting down and abandoning module WidgetCarousel (491)
+[2017.06.29-16.44.08:489][608]LogModuleManager: Shutting down and abandoning module EditorWidgets (488)
+[2017.06.29-16.44.08:489][608]LogModuleManager: Shutting down and abandoning module CollectionManager (486)
+[2017.06.29-16.44.08:489][608]LogDirectoryWatcher: A directory notification for 'C:/Users/LabUser/Documents/GitHub/skagame/SkaGame/Content/Collections/' was aborted.
+[2017.06.29-16.44.08:489][608]LogDirectoryWatcher: A directory notification for 'C:/Users/LabUser/Documents/GitHub/skagame/SkaGame/Content/Developers/LabUser/Collections/' was aborted.
+[2017.06.29-16.44.08:489][608]LogDirectoryWatcher: A directory notification for 'C:/Users/LabUser/Documents/GitHub/skagame/SkaGame/Saved/Collections/' was aborted.
+[2017.06.29-16.44.08:489][608]LogModuleManager: Shutting down and abandoning module StatsViewer (484)
+[2017.06.29-16.44.08:489][608]LogModuleManager: Shutting down and abandoning module FoliageEdit (482)
+[2017.06.29-16.44.08:489][608]LogModuleManager: Shutting down and abandoning module LandscapeEditor (480)
+[2017.06.29-16.44.08:489][608]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (478)
+[2017.06.29-16.44.08:489][608]LogModuleManager: Shutting down and abandoning module ActorPickerMode (476)
+[2017.06.29-16.44.08:489][608]LogModuleManager: Shutting down and abandoning module GeometryMode (474)
+[2017.06.29-16.44.08:489][608]LogModuleManager: Shutting down and abandoning module TextureAlignMode (472)
+[2017.06.29-16.44.08:489][608]LogModuleManager: Shutting down and abandoning module BspMode (470)
+[2017.06.29-16.44.08:489][608]LogModuleManager: Shutting down and abandoning module HardwareSurvey (468)
+[2017.06.29-16.44.08:489][608]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (466)
+[2017.06.29-16.44.08:489][608]LogModuleManager: Shutting down and abandoning module AutomationWorker (464)
+[2017.06.29-16.44.08:489][608]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (462)
+[2017.06.29-16.44.08:489][608]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (460)
+[2017.06.29-16.44.08:489][608]LogModuleManager: Shutting down and abandoning module PlacementMode (459)
+[2017.06.29-16.44.08:489][608]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (456)
+[2017.06.29-16.44.08:489][608]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (454)
+[2017.06.29-16.44.08:489][608]LogModuleManager: Shutting down and abandoning module MfMediaFactory (452)
+[2017.06.29-16.44.08:489][608]LogModuleManager: Shutting down and abandoning module MfMediaEditor (450)
+[2017.06.29-16.44.08:489][608]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (448)
+[2017.06.29-16.44.08:490][608]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (446)
+[2017.06.29-16.44.08:490][608]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (444)
+[2017.06.29-16.44.08:490][608]LogModuleManager: Shutting down and abandoning module Media (443)
+[2017.06.29-16.44.08:490][608]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (440)
+[2017.06.29-16.44.08:490][608]LogModuleManager: Shutting down and abandoning module CharacterAI (438)
+[2017.06.29-16.44.08:490][608]LogModuleManager: Shutting down and abandoning module AudioCapture (436)
+[2017.06.29-16.44.08:490][608]LogModuleManager: Shutting down and abandoning module SequenceRecorder (435)
+[2017.06.29-16.44.08:490][608]LogModuleManager: Shutting down and abandoning module SmartSnapping (432)
+[2017.06.29-16.44.08:490][608]LogModuleManager: Shutting down and abandoning module SessionServices (430)
+[2017.06.29-16.44.08:490][608]LogModuleManager: Shutting down and abandoning module ViewportSnapping (428)
+[2017.06.29-16.44.08:490][608]LogModuleManager: Shutting down and abandoning module ViewportInteraction (426)
+[2017.06.29-16.44.08:490][608]LogModuleManager: Shutting down and abandoning module LogVisualizer (424)
+[2017.06.29-16.44.08:490][608]LogModuleManager: Shutting down and abandoning module IntroTutorials (422)
+[2017.06.29-16.44.08:490][608]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (421)
+[2017.06.29-16.44.08:490][608]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (418)
+[2017.06.29-16.44.08:490][608]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (416)
+[2017.06.29-16.44.08:490][608]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (414)
+[2017.06.29-16.44.08:490][608]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (412)
+[2017.06.29-16.44.08:490][608]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (411)
+[2017.06.29-16.44.08:947][608]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (408)
+[2017.06.29-16.44.08:947][608]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (406)
+[2017.06.29-16.44.08:947][608]LogModuleManager: Shutting down and abandoning module InputBindingEditor (404)
+[2017.06.29-16.44.08:947][608]LogModuleManager: Shutting down and abandoning module NiagaraEditor (402)
+[2017.06.29-16.44.08:947][608]LogModuleManager: Shutting down and abandoning module MergeActors (400)
+[2017.06.29-16.44.08:947][608]LogModuleManager: Shutting down and abandoning module SizeMap (398)
+[2017.06.29-16.44.08:947][608]LogModuleManager: Shutting down and abandoning module TreeMap (396)
+[2017.06.29-16.44.08:947][608]LogModuleManager: Shutting down and abandoning module ReferenceViewer (394)
+[2017.06.29-16.44.08:947][608]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (392)
+[2017.06.29-16.44.08:947][608]LogModuleManager: Shutting down and abandoning module LocalizationService (391)
+[2017.06.29-16.44.08:947][608]LogModuleManager: Shutting down and abandoning module HardwareTargeting (388)
+[2017.06.29-16.44.08:947][608]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (386)
+[2017.06.29-16.44.08:947][608]LogModuleManager: Shutting down and abandoning module UndoHistory (384)
+[2017.06.29-16.44.08:947][608]LogModuleManager: Shutting down and abandoning module UserFeedback (382)
+[2017.06.29-16.44.08:947][608]LogModuleManager: Shutting down and abandoning module XmlParser (380)
+[2017.06.29-16.44.08:947][608]LogModuleManager: Shutting down and abandoning module Blutility (378)
+[2017.06.29-16.44.08:947][608]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (376)
+[2017.06.29-16.44.08:947][608]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (375)
+[2017.06.29-16.44.08:947][608]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (372)
+[2017.06.29-16.44.08:947][608]LogModuleManager: Shutting down and abandoning module SettingsEditor (370)
+[2017.06.29-16.44.08:948][608]LogModuleManager: Shutting down and abandoning module ProjectLauncher (368)
+[2017.06.29-16.44.08:948][608]LogModuleManager: Shutting down and abandoning module SessionFrontend (366)
+[2017.06.29-16.44.08:948][608]LogModuleManager: Shutting down and abandoning module ProfilerClient (364)
+[2017.06.29-16.44.08:948][608]LogModuleManager: Shutting down and abandoning module DeviceManager (362)
+[2017.06.29-16.44.08:948][608]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (361)
+[2017.06.29-16.44.09:000][608]LogModuleManager: Shutting down and abandoning module AutomationController (358)
+[2017.06.29-16.44.09:000][608]LogModuleManager: Shutting down and abandoning module AutomationWindow (356)
+[2017.06.29-16.44.09:000][608]LogModuleManager: Shutting down and abandoning module Layers (354)
+[2017.06.29-16.44.09:000][608]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (352)
+[2017.06.29-16.44.09:000][608]LogModuleManager: Shutting down and abandoning module DetailCustomizations (350)
+[2017.06.29-16.44.09:000][608]LogModuleManager: Shutting down and abandoning module PackagesDialog (348)
+[2017.06.29-16.44.09:000][608]LogModuleManager: Shutting down and abandoning module Persona (346)
+[2017.06.29-16.44.09:000][608]LogModuleManager: Shutting down and abandoning module AnimGraph (345)
+[2017.06.29-16.44.09:000][608]LogModuleManager: Shutting down and abandoning module Kismet (342)
+[2017.06.29-16.44.09:007][608]LogModuleManager: Shutting down and abandoning module GraphEditor (340)
+[2017.06.29-16.44.09:007][608]LogModuleManager: Shutting down and abandoning module ClassViewer (338)
+[2017.06.29-16.44.09:009][608]LogModuleManager: Shutting down and abandoning module Toolbox (336)
+[2017.06.29-16.44.09:009][608]LogModuleManager: Shutting down and abandoning module ModuleUI (334)
+[2017.06.29-16.44.09:009][608]LogModuleManager: Shutting down and abandoning module MovieSceneTools (332)
+[2017.06.29-16.44.09:009][608]LogModuleManager: Shutting down and abandoning module OutputLog (330)
+[2017.06.29-16.44.09:009][608]LogModuleManager: Shutting down and abandoning module GammaUI (328)
+[2017.06.29-16.44.09:009][608]LogModuleManager: Shutting down and abandoning module Documentation (326)
+[2017.06.29-16.44.09:009][608]LogModuleManager: Shutting down and abandoning module Niagara (324)
+[2017.06.29-16.44.09:009][608]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (322)
+[2017.06.29-16.44.09:009][608]LogModuleManager: Shutting down and abandoning module AnalyticsET (320)
+[2017.06.29-16.44.09:009][608]LogModuleManager: Shutting down and abandoning module PortalServices (318)
+[2017.06.29-16.44.09:009][608]LogModuleManager: Shutting down and abandoning module PortalRpc (316)
+[2017.06.29-16.44.09:009][608]LogModuleManager: Shutting down and abandoning module MessagingRpc (314)
+[2017.06.29-16.44.09:009][608]LogModuleManager: Shutting down and abandoning module AIModule (312)
+[2017.06.29-16.44.09:009][608]LogModuleManager: Shutting down and abandoning module GameplayDebugger (311)
+[2017.06.29-16.44.09:009][608]LogModuleManager: Shutting down and abandoning module AITestSuite (309)
+[2017.06.29-16.44.09:009][608]LogModuleManager: Shutting down and abandoning module ProfilerService (306)
+[2017.06.29-16.44.09:063][608]LogModuleManager: Shutting down and abandoning module TaskGraph (304)
+[2017.06.29-16.44.09:063][608]LogModuleManager: Shutting down and abandoning module SteamVRController (302)
+[2017.06.29-16.44.09:063][608]LogModuleManager: Shutting down and abandoning module SteamVR (300)
+[2017.06.29-16.44.09:063][608]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (298)
+[2017.06.29-16.44.09:063][608]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (296)
+[2017.06.29-16.44.09:063][608]LogModuleManager: Shutting down and abandoning module OculusLibrary (294)
+[2017.06.29-16.44.09:063][608]LogModuleManager: Shutting down and abandoning module OculusInput (292)
+[2017.06.29-16.44.09:063][608]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (290)
+[2017.06.29-16.44.09:063][608]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (288)
+[2017.06.29-16.44.09:063][608]LogModuleManager: Shutting down and abandoning module CableComponent (286)
+[2017.06.29-16.44.09:063][608]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (284)
+[2017.06.29-16.44.09:063][608]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (280)
+[2017.06.29-16.44.09:063][608]LogModuleManager: Shutting down and abandoning module HTML5Networking (278)
+[2017.06.29-16.44.09:063][608]LogModuleManager: Shutting down and abandoning module AlembicImporter (276)
+[2017.06.29-16.44.09:063][608]LogModuleManager: Shutting down and abandoning module AlembicLibrary (275)
+[2017.06.29-16.44.09:063][608]LogModuleManager: Shutting down and abandoning module GeometryCache (274)
+[2017.06.29-16.44.09:063][608]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (273)
+[2017.06.29-16.44.09:063][608]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (268)
+[2017.06.29-16.44.09:063][608]LogModuleManager: Shutting down and abandoning module SuperSearch (267)
+[2017.06.29-16.44.09:063][608]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (264)
+[2017.06.29-16.44.09:063][608]LogModuleManager: Shutting down and abandoning module PluginBrowser (262)
+[2017.06.29-16.44.09:063][608]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (260)
+[2017.06.29-16.44.09:063][608]LogModuleManager: Shutting down and abandoning module EpicSurvey (258)
+[2017.06.29-16.44.09:063][608]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (256)
+[2017.06.29-16.44.09:063][608]LogModuleManager: Shutting down and abandoning module DesktopPlatform (255)
+[2017.06.29-16.44.09:063][608]LogModuleManager: Shutting down and abandoning module UObjectPlugin (252)
+[2017.06.29-16.44.09:063][608]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (250)
+[2017.06.29-16.44.09:063][608]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (248)
+[2017.06.29-16.44.09:063][608]LogModuleManager: Shutting down and abandoning module GitSourceControl (246)
+[2017.06.29-16.44.09:063][608]LogModuleManager: Shutting down and abandoning module SourceControl (245)
+[2017.06.29-16.44.09:064][608]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (242)
+[2017.06.29-16.44.09:064][608]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (240)
+[2017.06.29-16.44.09:064][608]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (238)
+[2017.06.29-16.44.09:064][608]LogModuleManager: Shutting down and abandoning module Paper2DEditor (236)
+[2017.06.29-16.44.09:064][608]LogModuleManager: Shutting down and abandoning module MeshPaint (235)
+[2017.06.29-16.44.09:064][608]LogModuleManager: Shutting down and abandoning module LevelEditor (233)
+[2017.06.29-16.44.09:064][608]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (232)
+[2017.06.29-16.44.09:064][608]LogModuleManager: Shutting down and abandoning module MainFrame (230)
+[2017.06.29-16.44.09:064][608]LogModuleManager: Shutting down and abandoning module HotReload (229)
+[2017.06.29-16.44.09:065][608]LogModuleManager: Shutting down and abandoning module ContentBrowser (225)
+[2017.06.29-16.44.09:066][608]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (222)
+[2017.06.29-16.44.09:066][608]LogModuleManager: Shutting down and abandoning module PhysXVehicles (220)
+[2017.06.29-16.44.09:066][608]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (218)
+[2017.06.29-16.44.09:066][608]LogModuleManager: Shutting down and abandoning module UdpMessaging (216)
+[2017.06.29-16.44.09:166][608]LogModuleManager: Shutting down and abandoning module TcpMessaging (214)
+[2017.06.29-16.44.09:267][608]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (212)
+[2017.06.29-16.44.09:267][608]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (210)
+[2017.06.29-16.44.09:267][608]LogModuleManager: Shutting down and abandoning module FacialAnimation (208)
+[2017.06.29-16.44.09:267][608]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (206)
+[2017.06.29-16.44.09:267][608]LogModuleManager: Shutting down and abandoning module Paper2D (204)
+[2017.06.29-16.44.09:267][608]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (202)
+[2017.06.29-16.44.09:267][608]LogModuleManager: Shutting down and abandoning module WmfMedia (200)
+[2017.06.29-16.44.09:267][608]LogModuleManager: Shutting down and abandoning module MfMedia (198)
+[2017.06.29-16.44.09:267][608]LogModuleManager: Shutting down and abandoning module MediaAssets (196)
+[2017.06.29-16.44.09:267][608]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (194)
+[2017.06.29-16.44.09:267][608]LogModuleManager: Shutting down and abandoning module VREditor (192)
+[2017.06.29-16.44.09:267][608]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (190)
+[2017.06.29-16.44.09:267][608]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (188)
+[2017.06.29-16.44.09:267][608]LogModuleManager: Shutting down and abandoning module FunctionalTesting (186)
+[2017.06.29-16.44.09:267][608]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (184)
+[2017.06.29-16.44.09:267][608]LogModuleManager: Shutting down and abandoning module UMG (182)
+[2017.06.29-16.44.09:267][608]LogModuleManager: Shutting down and abandoning module UMGEditor (181)
+[2017.06.29-16.44.09:268][608]LogModuleManager: Shutting down and abandoning module Sequencer (180)
+[2017.06.29-16.44.09:268][608]LogModuleManager: Shutting down and abandoning module AssetTools (178)
+[2017.06.29-16.44.09:268][608]LogModuleManager: Shutting down and abandoning module MessageLog (177)
+[2017.06.29-16.44.09:268][608]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (176)
+[2017.06.29-16.44.09:268][608]LogModuleManager: Shutting down and abandoning module SlateReflector (170)
+[2017.06.29-16.44.09:268][608]LogModuleManager: Shutting down and abandoning module Slate (168)
+[2017.06.29-16.44.09:268][608]LogModuleManager: Shutting down and abandoning module EditorStyle (166)
+[2017.06.29-16.44.09:270][608]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (164)
+[2017.06.29-16.44.09:270][608]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (162)
+[2017.06.29-16.44.09:270][608]LogModuleManager: Shutting down and abandoning module XAudio2 (160)
+[2017.06.29-16.44.09:270][608]LogModuleManager: Shutting down and abandoning module Networking (158)
+[2017.06.29-16.44.09:270][608]LogModuleManager: Shutting down and abandoning module Core (154)
+[2017.06.29-16.44.09:270][608]LogModuleManager: Shutting down and abandoning module AssetRegistry (152)
+[2017.06.29-16.44.09:389][608]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.06.29-16.44.09:389][608]LogDirectoryWatcher: A directory notification for '../../../../../../Users/LabUser/Documents/GitHub/skagame/SkaGame/Content/' was aborted.
+[2017.06.29-16.44.09:389][608]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.06.29-16.44.09:389][608]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (151)
+[2017.06.29-16.44.09:390][608]LogModuleManager: Shutting down and abandoning module KismetCompiler (148)
+[2017.06.29-16.44.09:390][608]LogModuleManager: Shutting down and abandoning module PhysXFormats (146)
+[2017.06.29-16.44.09:390][608]LogModuleManager: Shutting down and abandoning module MeshUtilities (144)
+[2017.06.29-16.44.09:390][608]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (143)
+[2017.06.29-16.44.09:390][608]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (141)
+[2017.06.29-16.44.09:390][608]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (139)
+[2017.06.29-16.44.09:390][608]LogModuleManager: Shutting down and abandoning module PropertyEditor (137)
+[2017.06.29-16.44.09:390][608]LogModuleManager: Shutting down and abandoning module DerivedDataCache (134)
+[2017.06.29-16.44.09:410][608]LogDerivedDataCache: Shutdown
+[2017.06.29-16.44.09:410][608]LogModuleManager: Shutting down and abandoning module TargetPlatform (132)
+[2017.06.29-16.44.09:410][608]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (131)
+[2017.06.29-16.44.09:410][608]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (129)
+[2017.06.29-16.44.09:410][608]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (127)
+[2017.06.29-16.44.09:410][608]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (125)
+[2017.06.29-16.44.09:410][608]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (123)
+[2017.06.29-16.44.09:410][608]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (121)
+[2017.06.29-16.44.09:410][608]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (119)
+[2017.06.29-16.44.09:410][608]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (117)
+[2017.06.29-16.44.09:410][608]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (115)
+[2017.06.29-16.44.09:410][608]LogModuleManager: Shutting down and abandoning module ImageWrapper (114)
+[2017.06.29-16.44.09:410][608]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (111)
+[2017.06.29-16.44.09:410][608]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (109)
+[2017.06.29-16.44.09:410][608]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (107)
+[2017.06.29-16.44.09:410][608]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (105)
+[2017.06.29-16.44.09:410][608]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (103)
+[2017.06.29-16.44.09:410][608]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (101)
+[2017.06.29-16.44.09:410][608]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (99)
+[2017.06.29-16.44.09:410][608]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (97)
+[2017.06.29-16.44.09:410][608]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (95)
+[2017.06.29-16.44.09:410][608]LogModuleManager: Shutting down and abandoning module Messaging (93)
+[2017.06.29-16.44.09:410][608]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (91)
+[2017.06.29-16.44.09:410][608]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (89)
+[2017.06.29-16.44.09:410][608]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (87)
+[2017.06.29-16.44.09:411][608]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (85)
+[2017.06.29-16.44.09:411][608]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (83)
+[2017.06.29-16.44.09:411][608]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (81)
+[2017.06.29-16.44.09:411][608]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (79)
+[2017.06.29-16.44.09:411][608]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (77)
+[2017.06.29-16.44.09:411][608]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (75)
+[2017.06.29-16.44.09:411][608]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (73)
+[2017.06.29-16.44.09:411][608]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (71)
+[2017.06.29-16.44.09:411][608]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (69)
+[2017.06.29-16.44.09:411][608]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (67)
+[2017.06.29-16.44.09:411][608]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (65)
+[2017.06.29-16.44.09:411][608]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (63)
+[2017.06.29-16.44.09:411][608]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (61)
+[2017.06.29-16.44.09:411][608]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (59)
+[2017.06.29-16.44.09:411][608]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (57)
+[2017.06.29-16.44.09:411][608]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (55)
+[2017.06.29-16.44.09:411][608]LogModuleManager: Shutting down and abandoning module InputCore (52)
+[2017.06.29-16.44.09:411][608]LogModuleManager: Shutting down and abandoning module Settings (50)
+[2017.06.29-16.44.09:411][608]LogModuleManager: Shutting down and abandoning module OculusRift (48)
+[2017.06.29-16.44.09:411][608]LogHMD: Oculus shutdown.
+[2017.06.29-16.44.09:411][608]LogModuleManager: Shutting down and abandoning module GearVR (46)
+[2017.06.29-16.44.09:411][608]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
+[2017.06.29-16.44.09:411][608]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
+[2017.06.29-16.44.09:411][608]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
+[2017.06.29-16.44.09:411][608]LogOnline:Display: Unloading online subsystem: NULL
+[2017.06.29-16.44.09:411][608]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2017.06.29-16.44.09:412][608]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2017.06.29-16.44.09:412][608]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.06.29-16.44.09:412][608]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BFDA947AE-4597-8149-65E6-BD918EEDA758%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.3-3450819%2B%2B%2BUE4%2BRelease-4.15&UserID=52acccce407e24ece51e80b212d3eba6%7C96e91b22db194cfa8006f4b66d834199%7C406f1225-0bbf-40c7-9991-a717783443fb&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.06.29-16.44.09:430][608]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2017.06.29-16.44.09:432][608]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.06.29-16.44.09:432][608]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.06.29-16.44.09:432][608]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.06.29-16.44.09:432][608]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.06.29-16.44.09:432][608]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.06.29-16.44.09:435][608]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.06.29-16.44.09:435][608]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.06.29-16.44.09:435][608]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.06.29-16.44.09:435][608]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.06.29-16.44.09:435][608]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.06.29-16.44.09:435][608]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.06.29-16.44.09:435][608]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.06.29-16.44.09:435][608]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.06.29-16.44.09:435][608]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.06.29-16.44.09:435][608]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.06.29-16.44.09:436][608]LogExit: Exiting.
+[2017.06.29-16.44.09:461][608]Log file closed, 06/29/17 12:44:09
