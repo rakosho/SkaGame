@@ -367,3 +367,793 @@ LogInit: Object subsystem initialized
 [2017.07.06-13.06.08:510][ 21]LogSavePackage: Save=128.72ms
 [2017.07.06-13.06.08:510][ 21]LogSavePackage: Moving '../../../../../../SVN/Fetch Test/SkaGame/SkaGame/Saved/SideScrollerCharacter6765493A40BD7F77151D448478E30B12.tmp' to '../../../../../../SVN/Fetch Test/SkaGame/SkaGame/Content/SkaGameAssets/Brad/Blueprints/SideScrollerCharacter.uasset'
 [2017.07.06-13.06.08:513][ 21]LogSavePackage:Display: Finished SavePackage ../../../../../../SVN/Fetch Test/SkaGame/SkaGame/Content/SkaGameAssets/Brad/Blueprints/SideScrollerCharacter.uasset
+[2017.07.06-13.07.02:271][741]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.07.25:176][402]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.07.25:178][402]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.07.25:180][402]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.07.25:181][402]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.07.25:183][402]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.07.25:199][402]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.07.31:587][835]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.07.31:589][835]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.07.31:591][835]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.07.31:592][835]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.07.31:594][835]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.07.31:607][835]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.07.38:397][298]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.07.38:399][298]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.07.38:400][298]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.07.38:402][298]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.07.38:403][298]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.07.38:414][298]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.07.44:079][708]BlueprintLog: New page: Compile SideScrollerCharacter
+[2017.07.06-13.07.44:220][708]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.07.44:223][708]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.07.44:225][708]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.07.44:227][708]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.07.44:229][708]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.07.44:318][708]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.07.44:318][708]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.07.44:318][708]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.07.44:319][708]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.07.44:319][708]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.07.44:408][708]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.07.44:409][708]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.07.44:411][708]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.07.44:412][708]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.07.44:414][708]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.07.44:449][708]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.07.44:450][708]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.07.44:452][708]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.07.44:453][708]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.07.44:454][708]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.07.44:537][708]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.07.48:655][997]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.07.48:657][997]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.07.48:659][997]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.07.48:660][997]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.07.48:662][997]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.07.48:673][997]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.07.56:680][584]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.07.56:682][584]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.07.56:684][584]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.07.56:686][584]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.07.56:687][584]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.07.56:689][584]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.07.56:691][584]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.07.56:692][584]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.07.56:693][584]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.07.56:694][584]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.07.56:696][584]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.07.56:698][584]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.07.56:699][584]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.07.56:700][584]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.07.56:702][584]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.07.56:761][584]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.07.57:457][637]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.07.57:459][637]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.07.57:461][637]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.07.57:462][637]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.07.57:464][637]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.07.57:465][637]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.07.57:467][637]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.07.57:470][637]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.07.57:472][637]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.07.57:474][637]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.07.57:477][637]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.07.57:479][637]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.07.57:481][637]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.07.57:482][637]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.07.57:483][637]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.07.57:496][637]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.08.04:945][186]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.08.04:947][186]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.08.04:949][186]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.08.04:951][186]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.08.04:952][186]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.08.04:967][186]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.08.13:336][799]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.08.13:338][799]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.08.13:340][799]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.08.13:342][799]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.08.13:343][799]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.08.13:355][799]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.08.37:717][342]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.08.37:719][342]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.08.37:721][342]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.08.37:723][342]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.08.37:724][342]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.08.37:737][342]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.08.40:853][554]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.08.40:855][554]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.08.40:857][554]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.08.40:859][554]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.08.40:860][554]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.08.40:874][554]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.08.43:204][719]BlueprintLog: New page: Compile SideScrollerCharacter
+[2017.07.06-13.08.43:351][719]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.08.43:354][719]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.08.43:357][719]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.08.43:358][719]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.08.43:359][719]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.08.43:443][719]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.08.43:443][719]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.08.43:444][719]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.08.43:444][719]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.08.43:444][719]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.08.43:444][719]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.08.43:444][719]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.08.43:444][719]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.08.43:444][719]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.08.43:551][719]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.08.43:555][719]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.08.43:557][719]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.08.43:559][719]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.08.43:560][719]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.08.43:601][719]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.08.43:603][719]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.08.43:605][719]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.08.43:606][719]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.08.43:607][719]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.08.43:707][719]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.09.19:906][104]BlueprintLog: New page: Compile SideScrollerCharacter
+[2017.07.06-13.09.20:078][104]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.09.20:079][104]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.09.20:081][104]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.09.20:083][104]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.09.20:085][104]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.09.20:172][104]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.09.20:173][104]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.09.20:173][104]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.09.20:173][104]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.09.20:173][104]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.09.20:173][104]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.09.20:173][104]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.09.20:173][104]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.09.20:174][104]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.09.20:174][104]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.09.20:174][104]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.09.20:174][104]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.09.20:174][104]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.09.20:266][104]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.09.20:269][104]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.09.20:271][104]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.09.20:272][104]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.09.20:274][104]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.09.20:304][104]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.09.20:307][104]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.09.20:308][104]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.09.20:309][104]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.09.20:310][104]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.09.23:148][326]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.06-13.09.23:191][326]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SkaGameAssets/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/SkaGameAssets/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.07.06-13.09.23:192][326]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.06-13.09.23:198][326]PIE: New page: PIE session: MainMenu (Jul 6, 2017, 5:09:23 AM)
+[2017.07.06-13.09.23:199][326]LogPlayLevel: Creating play world package: /Game/SkaGameAssets/Levels/UEDPIE_0_MainMenu
+[2017.07.06-13.09.23:203][326]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004170s)
+[2017.07.06-13.09.23:204][326]LogAIModule: Creating AISystem for world MainMenu
+[2017.07.06-13.09.23:204][326]LogPlayLevel: PIE: World Init took: (0.000725s)
+[2017.07.06-13.09.23:205][326]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SkaGameAssets/Levels/MainMenu.MainMenu to /Game/SkaGameAssets/Levels/UEDPIE_0_MainMenu.MainMenu (0.005953s)
+[2017.07.06-13.09.23:243][326]LogInit: XAudio2 using 'Speakers (2- Logitech G930 Gaming Headset)' : 8 channels at 48 kHz using 16 bits per sample (channel mask 0x63f)
+[2017.07.06-13.09.23:259][326]LogInit: FAudioDevice initialized.
+[2017.07.06-13.09.23:662][326]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.07.06-13.09.23:665][326]LogWorld: Bringing World /Game/SkaGameAssets/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2017.07.06-09.09.23
+[2017.07.06-13.09.23:666][326]LogWorld: Bringing up level for play took: 0.001952
+[2017.07.06-13.09.23:678][326]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.07.06-13.09.23:738][326]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0009 seconds. Added 11 classes and 0 folders.
+[2017.07.06-13.09.23:763][326]PIE: Info Play in editor start time for /Game/SkaGameAssets/Levels/UEDPIE_0_MainMenu 1.299
+[2017.07.06-13.09.23:764][326]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SkaGameAssets/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/SkaGameAssets/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.07.06-13.09.31:726][247]LogNet: Browse: /Game/SkaGameAssets/Levels/Graveyard_Act1Final
+[2017.07.06-13.09.31:726][247]LogLoad: LoadMap: /Game/SkaGameAssets/Levels/Graveyard_Act1Final
+[2017.07.06-13.09.31:769][247]Cmd: MEM
+[2017.07.06-13.09.31:789][247]LogMemory: Platform Memory Stats for Windows
+[2017.07.06-13.09.31:789][247]LogMemory: Process Physical Memory: 1518.69 MB used, 1540.02 MB peak
+[2017.07.06-13.09.31:789][247]LogMemory: Process Virtual Memory: 2082.42 MB used, 2108.75 MB peak
+[2017.07.06-13.09.31:789][247]LogMemory: Physical Memory: 7953.41 MB used,  8325.77 MB free, 16279.18 MB total
+[2017.07.06-13.09.31:789][247]LogMemory: Virtual Memory: 2864.63 MB used,  8325.77 MB free, 134217728.00 MB total
+[2017.07.06-13.09.31:789][247]LogMemory: 
+[2017.07.06-13.09.31:789][247]Allocator Stats for TBB: (not implemented)
+[2017.07.06-13.09.32:074][247]LogBlueprint:Warning: [PilPol_BP] 'AIState' variable not found. Base class was probably changed.
+[2017.07.06-13.09.32:074][247]LogBlueprint:Warning: [PilPol_BP] 'AIState' variable not found. Base class was probably changed.
+[2017.07.06-13.09.34:969][247]LogAIModule: Creating AISystem for world Graveyard_Act1Final
+[2017.07.06-13.09.34:969][247]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.07.06-13.09.34:997][247]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.09.35:014][247]LogWorld: Bringing World /Game/SkaGameAssets/Levels/UEDPIE_0_Graveyard_Act1Final.Graveyard_Act1Final up for play (max tick rate 0) at 2017.07.06-09.09.35
+[2017.07.06-13.09.35:033][247]LogWorld: Bringing up level for play took: 0.062475
+[2017.07.06-13.09.35:036][247]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.07.06-13.09.35:041][247]LogLoad: Took 3.314943 seconds to LoadMap(/Game/SkaGameAssets/Levels/Graveyard_Act1Final)
+[2017.07.06-13.10.33:748][873]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SkaGameAssets/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/SkaGameAssets/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.07.06-13.10.33:819][873]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SkaGameAssets/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/SkaGameAssets/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.07.06-13.10.50:315][492]LogEditorTransaction: Undo Move Node
+[2017.07.06-13.10.50:355][492]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.10.50:357][492]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.10.50:359][492]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.10.50:361][492]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.10.50:364][492]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.11.13:236][885]BlueprintLog: New page: Compile SideScrollerCharacter
+[2017.07.06-13.11.13:503][885]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.11.13:505][885]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.11.13:507][885]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.11.13:508][885]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.11.13:510][885]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.11.13:614][885]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.11.13:614][885]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.11.13:614][885]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.11.13:614][885]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.11.13:615][885]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.11.13:726][885]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.11.13:728][885]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.11.13:729][885]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.11.13:731][885]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.11.13:732][885]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.11.13:771][885]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.11.13:772][885]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.11.13:773][885]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.11.13:775][885]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.11.13:776][885]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.11.29:528][852]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.11.29:531][852]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.11.29:533][852]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.11.29:535][852]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.11.29:537][852]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.11.35:901][137]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.11.35:904][137]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.11.35:906][137]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.11.35:907][137]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.11.35:909][137]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.11.40:820][471]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.11.40:822][471]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.11.40:824][471]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.11.40:827][471]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.11.40:829][471]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.11.40:871][471]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.11.40:873][471]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.11.40:875][471]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.11.40:876][471]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.11.40:878][471]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.12.16:094][793]BlueprintLog: New page: Compile SideScrollerCharacter
+[2017.07.06-13.12.16:334][793]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.12.16:336][793]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.12.16:338][793]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.12.16:339][793]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.12.16:341][793]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.12.16:459][793]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.12.16:460][793]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.12.16:460][793]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.12.16:460][793]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.12.16:460][793]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.12.16:608][793]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.12.16:611][793]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.12.16:613][793]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.12.16:615][793]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.12.16:616][793]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.12.16:661][793]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.12.16:663][793]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.12.16:664][793]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.12.16:666][793]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.12.16:667][793]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.13.11:873][109]BlueprintLog: New page: Compile SideScrollerCharacter
+[2017.07.06-13.13.12:156][109]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.13.12:159][109]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.13.12:162][109]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.13.12:164][109]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.13.12:165][109]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.13.12:284][109]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.13.12:284][109]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.13.12:284][109]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.13.12:285][109]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.13.12:285][109]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.13.12:285][109]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.13.12:285][109]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.13.12:285][109]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.13.12:285][109]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.13.12:441][109]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.13.12:445][109]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.13.12:448][109]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.13.12:450][109]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.13.12:452][109]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.13.12:515][109]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.13.12:517][109]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.13.12:520][109]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.13.12:522][109]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.13.12:525][109]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.13.29:977][348]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.06-13.13.30:006][348]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SkaGameAssets/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/SkaGameAssets/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.07.06-13.13.30:006][348]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.06-13.13.30:006][348]PIE: New page: PIE session: MainMenu (Jul 6, 2017, 5:13:30 AM)
+[2017.07.06-13.13.30:006][348]LogPlayLevel: Creating play world package: /Game/SkaGameAssets/Levels/UEDPIE_0_MainMenu
+[2017.07.06-13.13.30:007][348]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000868s)
+[2017.07.06-13.13.30:008][348]LogAIModule: Creating AISystem for world MainMenu
+[2017.07.06-13.13.30:008][348]LogPlayLevel: PIE: World Init took: (0.000646s)
+[2017.07.06-13.13.30:008][348]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SkaGameAssets/Levels/MainMenu.MainMenu to /Game/SkaGameAssets/Levels/UEDPIE_0_MainMenu.MainMenu (0.001751s)
+[2017.07.06-13.13.30:049][348]LogInit: XAudio2 using 'Speakers (2- Logitech G930 Gaming Headset)' : 8 channels at 48 kHz using 16 bits per sample (channel mask 0x63f)
+[2017.07.06-13.13.30:071][348]LogInit: FAudioDevice initialized.
+[2017.07.06-13.13.30:104][348]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.07.06-13.13.30:106][348]LogWorld: Bringing World /Game/SkaGameAssets/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2017.07.06-09.13.30
+[2017.07.06-13.13.30:106][348]LogWorld: Bringing up level for play took: 0.001162
+[2017.07.06-13.13.30:107][348]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.07.06-13.13.30:110][348]PIE: Info Play in editor start time for /Game/SkaGameAssets/Levels/UEDPIE_0_MainMenu -0.354
+[2017.07.06-13.13.30:111][348]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SkaGameAssets/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/SkaGameAssets/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.07.06-13.13.30:957][436]LogNet: Browse: /Game/SkaGameAssets/Levels/Graveyard_Act1Final
+[2017.07.06-13.13.30:957][436]LogLoad: LoadMap: /Game/SkaGameAssets/Levels/Graveyard_Act1Final
+[2017.07.06-13.13.30:983][436]Cmd: MEM
+[2017.07.06-13.13.31:012][436]LogMemory: Platform Memory Stats for Windows
+[2017.07.06-13.13.31:012][436]LogMemory: Process Physical Memory: 1383.97 MB used, 1853.89 MB peak
+[2017.07.06-13.13.31:012][436]LogMemory: Process Virtual Memory: 2488.37 MB used, 2488.61 MB peak
+[2017.07.06-13.13.31:012][436]LogMemory: Physical Memory: 8030.35 MB used,  8248.84 MB free, 16279.18 MB total
+[2017.07.06-13.13.31:012][436]LogMemory: Virtual Memory: 3244.95 MB used,  8248.84 MB free, 134217728.00 MB total
+[2017.07.06-13.13.31:012][436]LogMemory: 
+[2017.07.06-13.13.31:012][436]Allocator Stats for TBB: (not implemented)
+[2017.07.06-13.13.31:618][436]LogAIModule: Creating AISystem for world Graveyard_Act1Final
+[2017.07.06-13.13.31:618][436]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.07.06-13.13.31:633][436]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.13.31:651][436]LogWorld: Bringing World /Game/SkaGameAssets/Levels/UEDPIE_0_Graveyard_Act1Final.Graveyard_Act1Final up for play (max tick rate 0) at 2017.07.06-09.13.31
+[2017.07.06-13.13.31:654][436]LogWorld: Bringing up level for play took: 0.034311
+[2017.07.06-13.13.31:654][436]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.07.06-13.13.31:656][436]LogLoad: Took 0.699221 seconds to LoadMap(/Game/SkaGameAssets/Levels/Graveyard_Act1Final)
+[2017.07.06-13.14.03:788][827]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SkaGameAssets/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/SkaGameAssets/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.07.06-13.14.03:831][827]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SkaGameAssets/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/SkaGameAssets/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.07.06-13.14.06:026][ 79]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.06-13.14.06:051][ 79]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SkaGameAssets/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/SkaGameAssets/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.07.06-13.14.06:051][ 79]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.06-13.14.06:051][ 79]PIE: New page: PIE session: MainMenu (Jul 6, 2017, 5:14:06 AM)
+[2017.07.06-13.14.06:051][ 79]LogPlayLevel: Creating play world package: /Game/SkaGameAssets/Levels/UEDPIE_0_MainMenu
+[2017.07.06-13.14.06:052][ 79]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000759s)
+[2017.07.06-13.14.06:053][ 79]LogAIModule: Creating AISystem for world MainMenu
+[2017.07.06-13.14.06:053][ 79]LogPlayLevel: PIE: World Init took: (0.000589s)
+[2017.07.06-13.14.06:053][ 79]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SkaGameAssets/Levels/MainMenu.MainMenu to /Game/SkaGameAssets/Levels/UEDPIE_0_MainMenu.MainMenu (0.001545s)
+[2017.07.06-13.14.06:092][ 79]LogInit: XAudio2 using 'Speakers (2- Logitech G930 Gaming Headset)' : 8 channels at 48 kHz using 16 bits per sample (channel mask 0x63f)
+[2017.07.06-13.14.06:110][ 79]LogInit: FAudioDevice initialized.
+[2017.07.06-13.14.06:147][ 79]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.07.06-13.14.06:148][ 79]LogWorld: Bringing World /Game/SkaGameAssets/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2017.07.06-09.14.06
+[2017.07.06-13.14.06:148][ 79]LogWorld: Bringing up level for play took: 0.000728
+[2017.07.06-13.14.06:149][ 79]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.07.06-13.14.06:151][ 79]PIE: Info Play in editor start time for /Game/SkaGameAssets/Levels/UEDPIE_0_MainMenu -0.313
+[2017.07.06-13.14.06:151][ 79]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SkaGameAssets/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/SkaGameAssets/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.07.06-13.14.07:154][193]LogNet: Browse: /Game/SkaGameAssets/Levels/Graveyard_Act1Final
+[2017.07.06-13.14.07:154][193]LogLoad: LoadMap: /Game/SkaGameAssets/Levels/Graveyard_Act1Final
+[2017.07.06-13.14.07:175][193]Cmd: MEM
+[2017.07.06-13.14.07:194][193]LogMemory: Platform Memory Stats for Windows
+[2017.07.06-13.14.07:194][193]LogMemory: Process Physical Memory: 1454.18 MB used, 1853.89 MB peak
+[2017.07.06-13.14.07:194][193]LogMemory: Process Virtual Memory: 2532.03 MB used, 2623.73 MB peak
+[2017.07.06-13.14.07:194][193]LogMemory: Physical Memory: 7917.76 MB used,  8361.43 MB free, 16279.18 MB total
+[2017.07.06-13.14.07:194][193]LogMemory: Virtual Memory: 3387.38 MB used,  8361.43 MB free, 134217728.00 MB total
+[2017.07.06-13.14.07:194][193]LogMemory: 
+[2017.07.06-13.14.07:194][193]Allocator Stats for TBB: (not implemented)
+[2017.07.06-13.14.07:663][193]LogAIModule: Creating AISystem for world Graveyard_Act1Final
+[2017.07.06-13.14.07:663][193]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.07.06-13.14.07:676][193]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.14.07:690][193]LogWorld: Bringing World /Game/SkaGameAssets/Levels/UEDPIE_0_Graveyard_Act1Final.Graveyard_Act1Final up for play (max tick rate 0) at 2017.07.06-09.14.07
+[2017.07.06-13.14.07:693][193]LogWorld: Bringing up level for play took: 0.029238
+[2017.07.06-13.14.07:694][193]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.07.06-13.14.07:696][193]LogLoad: Took 0.541525 seconds to LoadMap(/Game/SkaGameAssets/Levels/Graveyard_Act1Final)
+[2017.07.06-13.14.07:799][198]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array ImageClick of length 0!
+[2017.07.06-13.14.07:813][199]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array ImageClick of length 0!
+[2017.07.06-13.14.07:823][200]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array ImageClick of length 0!
+[2017.07.06-13.14.07:835][201]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array ImageClick of length 0!
+[2017.07.06-13.14.07:843][202]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array ImageClick of length 0!
+[2017.07.06-13.14.07:851][203]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array ImageClick of length 0!
+[2017.07.06-13.14.07:862][204]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array ImageClick of length 0!
+[2017.07.06-13.14.07:869][205]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array ImageClick of length 0!
+[2017.07.06-13.14.07:881][206]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array ImageClick of length 0!
+[2017.07.06-13.14.07:890][207]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array ImageClick of length 0!
+[2017.07.06-13.14.07:898][208]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array ImageClick of length 0!
+[2017.07.06-13.14.07:908][209]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array ImageClick of length 0!
+[2017.07.06-13.14.07:917][210]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array ImageClick of length 0!
+[2017.07.06-13.14.07:926][211]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array ImageClick of length 0!
+[2017.07.06-13.14.07:933][212]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array ImageClick of length 0!
+[2017.07.06-13.14.07:943][213]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array ImageClick of length 0!
+[2017.07.06-13.14.07:952][214]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array ImageClick of length 0!
+[2017.07.06-13.14.07:960][215]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array ImageClick of length 0!
+[2017.07.06-13.14.07:969][216]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array ImageClick of length 0!
+[2017.07.06-13.14.07:977][217]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array ImageClick of length 0!
+[2017.07.06-13.14.07:984][218]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array ImageClick of length 0!
+[2017.07.06-13.14.07:993][219]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array ImageClick of length 0!
+[2017.07.06-13.14.08:002][220]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array ImageClick of length 0!
+[2017.07.06-13.14.08:011][221]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array ImageClick of length 0!
+[2017.07.06-13.14.08:020][222]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array ImageClick of length 0!
+[2017.07.06-13.14.08:027][223]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array ImageClick of length 0!
+[2017.07.06-13.14.08:035][224]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array ImageClick of length 0!
+[2017.07.06-13.14.08:046][225]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array ImageClick of length 0!
+[2017.07.06-13.14.08:053][226]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array ImageClick of length 0!
+[2017.07.06-13.14.08:063][227]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array ImageClick of length 0!
+[2017.07.06-13.14.08:072][228]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array ImageClick of length 0!
+[2017.07.06-13.14.08:080][229]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array ImageClick of length 0!
+[2017.07.06-13.14.08:088][230]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array ImageClick of length 0!
+[2017.07.06-13.14.08:095][231]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array ImageClick of length 0!
+[2017.07.06-13.14.08:105][232]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array ImageClick of length 0!
+[2017.07.06-13.14.08:116][233]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array ImageClick of length 0!
+[2017.07.06-13.14.08:124][234]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array ImageClick of length 0!
+[2017.07.06-13.14.08:132][235]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array ImageClick of length 0!
+[2017.07.06-13.14.08:143][236]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array ImageClick of length 0!
+[2017.07.06-13.14.08:151][237]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array ImageClick of length 0!
+[2017.07.06-13.14.08:162][238]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array ImageClick of length 0!
+[2017.07.06-13.14.08:169][239]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array ImageClick of length 0!
+[2017.07.06-13.14.08:178][240]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array ImageClick of length 0!
+[2017.07.06-13.14.08:187][241]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array ImageClick of length 0!
+[2017.07.06-13.14.08:197][242]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array ImageClick of length 0!
+[2017.07.06-13.14.08:204][243]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array ImageClick of length 0!
+[2017.07.06-13.14.08:214][244]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array ImageClick of length 0!
+[2017.07.06-13.14.08:220][245]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array ImageClick of length 0!
+[2017.07.06-13.14.08:230][246]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array ImageClick of length 0!
+[2017.07.06-13.14.08:239][247]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array ImageClick of length 0!
+[2017.07.06-13.14.08:249][248]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array ImageClick of length 0!
+[2017.07.06-13.14.08:256][249]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array ImageClick of length 0!
+[2017.07.06-13.14.08:263][250]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array ImageClick of length 0!
+[2017.07.06-13.14.08:273][251]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array ImageClick of length 0!
+[2017.07.06-13.14.08:280][252]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array ImageClick of length 0!
+[2017.07.06-13.14.08:289][253]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array ImageClick of length 0!
+[2017.07.06-13.14.08:297][254]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array ImageClick of length 0!
+[2017.07.06-13.14.08:307][255]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array ImageClick of length 0!
+[2017.07.06-13.14.08:316][256]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array ImageClick of length 0!
+[2017.07.06-13.14.08:326][257]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array ImageClick of length 0!
+[2017.07.06-13.14.08:333][258]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array ImageClick of length 0!
+[2017.07.06-13.14.08:344][259]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array ImageClick of length 0!
+[2017.07.06-13.14.08:352][260]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array ImageClick of length 0!
+[2017.07.06-13.14.08:360][261]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array ImageClick of length 0!
+[2017.07.06-13.14.08:369][262]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array ImageClick of length 0!
+[2017.07.06-13.14.08:378][263]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array ImageClick of length 0!
+[2017.07.06-13.14.08:387][264]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array ImageClick of length 0!
+[2017.07.06-13.14.08:394][265]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array ImageClick of length 0!
+[2017.07.06-13.14.08:403][266]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array ImageClick of length 0!
+[2017.07.06-13.14.08:413][267]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array ImageClick of length 0!
+[2017.07.06-13.14.08:421][268]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array ImageClick of length 0!
+[2017.07.06-13.14.08:431][269]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array ImageClick of length 0!
+[2017.07.06-13.14.08:439][270]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array ImageClick of length 0!
+[2017.07.06-13.14.08:446][271]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array ImageClick of length 0!
+[2017.07.06-13.14.08:456][272]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array ImageClick of length 0!
+[2017.07.06-13.14.08:463][273]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array ImageClick of length 0!
+[2017.07.06-13.14.08:473][274]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array ImageClick of length 0!
+[2017.07.06-13.14.08:481][275]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array ImageClick of length 0!
+[2017.07.06-13.14.08:490][276]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array ImageClick of length 0!
+[2017.07.06-13.14.08:498][277]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array ImageClick of length 0!
+[2017.07.06-13.14.08:508][278]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array ImageClick of length 0!
+[2017.07.06-13.14.08:518][279]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array ImageClick of length 0!
+[2017.07.06-13.14.08:528][280]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array ImageClick of length 0!
+[2017.07.06-13.14.08:535][281]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array ImageClick of length 0!
+[2017.07.06-13.14.25:494][130]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SkaGameAssets/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/SkaGameAssets/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.07.06-13.14.25:532][130]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SkaGameAssets/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/SkaGameAssets/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.07.06-13.14.45:134][443]BlueprintLog: New page: Compile SideScrollerCharacter
+[2017.07.06-13.14.45:419][443]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.14.45:421][443]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.14.45:424][443]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.14.45:426][443]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.14.45:429][443]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.14.45:541][443]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.14.45:541][443]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.14.45:541][443]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.14.45:541][443]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.14.45:541][443]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.14.45:667][443]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.14.45:669][443]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.14.45:671][443]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.14.45:673][443]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.14.45:675][443]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.14.45:718][443]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.14.45:721][443]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.14.45:724][443]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.14.45:726][443]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.14.45:727][443]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.14.53:281][985]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.06-13.14.53:311][985]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SkaGameAssets/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/SkaGameAssets/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.07.06-13.14.53:311][985]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.06-13.14.53:312][985]PIE: New page: PIE session: MainMenu (Jul 6, 2017, 5:14:53 AM)
+[2017.07.06-13.14.53:312][985]LogPlayLevel: Creating play world package: /Game/SkaGameAssets/Levels/UEDPIE_0_MainMenu
+[2017.07.06-13.14.53:313][985]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000944s)
+[2017.07.06-13.14.53:313][985]LogAIModule: Creating AISystem for world MainMenu
+[2017.07.06-13.14.53:313][985]LogPlayLevel: PIE: World Init took: (0.000715s)
+[2017.07.06-13.14.53:314][985]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SkaGameAssets/Levels/MainMenu.MainMenu to /Game/SkaGameAssets/Levels/UEDPIE_0_MainMenu.MainMenu (0.001901s)
+[2017.07.06-13.14.53:353][985]LogInit: XAudio2 using 'Speakers (2- Logitech G930 Gaming Headset)' : 8 channels at 48 kHz using 16 bits per sample (channel mask 0x63f)
+[2017.07.06-13.14.53:376][985]LogInit: FAudioDevice initialized.
+[2017.07.06-13.14.53:410][985]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.07.06-13.14.53:412][985]LogWorld: Bringing World /Game/SkaGameAssets/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2017.07.06-09.14.53
+[2017.07.06-13.14.53:412][985]LogWorld: Bringing up level for play took: 0.000729
+[2017.07.06-13.14.53:413][985]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.07.06-13.14.53:415][985]PIE: Info Play in editor start time for /Game/SkaGameAssets/Levels/UEDPIE_0_MainMenu 0.95
+[2017.07.06-13.14.53:415][985]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SkaGameAssets/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/SkaGameAssets/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.07.06-13.14.54:785][138]LogNet: Browse: /Game/SkaGameAssets/Levels/Graveyard_Act1Final
+[2017.07.06-13.14.54:785][138]LogLoad: LoadMap: /Game/SkaGameAssets/Levels/Graveyard_Act1Final
+[2017.07.06-13.14.54:804][138]Cmd: MEM
+[2017.07.06-13.14.54:825][138]LogMemory: Platform Memory Stats for Windows
+[2017.07.06-13.14.54:825][138]LogMemory: Process Physical Memory: 1432.74 MB used, 1853.89 MB peak
+[2017.07.06-13.14.54:825][138]LogMemory: Process Virtual Memory: 2544.66 MB used, 2633.91 MB peak
+[2017.07.06-13.14.54:825][138]LogMemory: Physical Memory: 7880.79 MB used,  8398.39 MB free, 16279.18 MB total
+[2017.07.06-13.14.54:825][138]LogMemory: Virtual Memory: 3390.57 MB used,  8398.39 MB free, 134217728.00 MB total
+[2017.07.06-13.14.54:825][138]LogMemory: 
+[2017.07.06-13.14.54:825][138]Allocator Stats for TBB: (not implemented)
+[2017.07.06-13.14.55:292][138]LogAIModule: Creating AISystem for world Graveyard_Act1Final
+[2017.07.06-13.14.55:292][138]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.07.06-13.14.55:303][138]AnimBlueprint:Warning: Warning SLOTNODE: 'RootMotion' in animation instance class Brad_Anim_BP_C already exists. Remove duplicates from the animation graph for this class.
+[2017.07.06-13.14.55:317][138]LogWorld: Bringing World /Game/SkaGameAssets/Levels/UEDPIE_0_Graveyard_Act1Final.Graveyard_Act1Final up for play (max tick rate 0) at 2017.07.06-09.14.55
+[2017.07.06-13.14.55:319][138]LogWorld: Bringing up level for play took: 0.025974
+[2017.07.06-13.14.55:320][138]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.07.06-13.14.55:323][138]LogLoad: Took 0.538318 seconds to LoadMap(/Game/SkaGameAssets/Levels/Graveyard_Act1Final)
+[2017.07.06-13.15.03:953][ 62]Cmd: LevelEditor.ToggleImmersive
+[2017.07.06-13.15.04:103][ 63]LogRenderer: Reallocating scene render targets to support 1468x724 NumSamples 1 (Frame:116588).
+[2017.07.06-13.15.04:154][ 64]LogRenderer: Reallocating scene render targets to support 1920x1040 NumSamples 1 (Frame:116590).
+[2017.07.06-13.15.49:344][276]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SkaGameAssets/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/SkaGameAssets/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.07.06-13.15.49:419][276]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SkaGameAssets/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/SkaGameAssets/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/SkaGameAssets/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/SkaGameAssets/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.07.06-13.17.07:883][183]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SkaGameAssets/Levels/MainMenu' took 0.018
+[2017.07.06-13.17.07:885][183]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SkaGameAssets/Brad/Blueprints/SideScrollerCharacter] ([1] browsable assets)...
+[2017.07.06-13.17.07:907][183]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/SkaGameAssets/Brad/Blueprints/SideScrollerCharacter.SideScrollerCharacter]
+[2017.07.06-13.17.07:907][183]OBJ SavePackage: Finished generating thumbnails for package [/Game/SkaGameAssets/Brad/Blueprints/SideScrollerCharacter]
+[2017.07.06-13.17.08:071][183]LogSavePackage: Save=151.68ms
+[2017.07.06-13.17.08:071][183]LogSavePackage: Moving '../../../../../../SVN/Fetch Test/SkaGame/SkaGame/Saved/SideScrollerCharacter_Auto240624003476600AB1F20828D005A309B.tmp' to '../../../../../../SVN/Fetch Test/SkaGame/SkaGame/Saved/Autosaves/Game/SkaGameAssets/Brad/Blueprints/SideScrollerCharacter_Auto2.uasset'
+[2017.07.06-13.17.08:072][183]LogSavePackage:Display: Finished SavePackage ../../../../../../SVN/Fetch Test/SkaGame/SkaGame/Saved/Autosaves/Game/SkaGameAssets/Brad/Blueprints/SideScrollerCharacter_Auto2.uasset
+[2017.07.06-13.17.08:072][183]LogFileHelpers: Auto-saving content packages took 0.188
+[2017.07.06-13.17.17:040][418]LogSavePackage: Save=143.72ms
+[2017.07.06-13.17.17:040][418]LogSavePackage: Moving '../../../../../../SVN/Fetch Test/SkaGame/SkaGame/Saved/SideScrollerCharacter31165CB44548BFE626F8B98FFAEEC32D.tmp' to '../../../../../../SVN/Fetch Test/SkaGame/SkaGame/Content/SkaGameAssets/Brad/Blueprints/SideScrollerCharacter.uasset'
+[2017.07.06-13.17.17:046][418]LogSavePackage:Display: Finished SavePackage ../../../../../../SVN/Fetch Test/SkaGame/SkaGame/Content/SkaGameAssets/Brad/Blueprints/SideScrollerCharacter.uasset
+[2017.07.06-13.17.17:161][418]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.07.06-13.17.17:367][419]Cmd: QUIT_EDITOR
+[2017.07.06-13.17.18:073][419]LogExit: Preparing to exit.
+[2017.07.06-13.17.18:879][419]LogDirectoryWatcher: A directory notification for 'C:/SVN/Fetch Test/SkaGame/SkaGame/Content/' was aborted.
+[2017.07.06-13.17.18:928][419]LogExit: Editor shut down
+[2017.07.06-13.17.18:928][419]LogExit: Transaction tracking system shut down
+[2017.07.06-13.17.19:088][419]LogObj: Freed 0b from 0 cluster array pools.
+[2017.07.06-13.17.19:088][419]LogExit: Object subsystem successfully closed.
+[2017.07.06-13.17.19:113][419]LogD3D11RHI: Shutdown
+[2017.07.06-13.17.19:113][419]LogD3D11RHI: CleanupD3DDevice
+[2017.07.06-13.17.19:244][419]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.07.06-13.17.19:264][419]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (504)
+[2017.07.06-13.17.19:264][419]LogModuleManager: Shutting down and abandoning module BlueprintGraph (502)
+[2017.07.06-13.17.19:264][419]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (500)
+[2017.07.06-13.17.19:267][419]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (498)
+[2017.07.06-13.17.19:267][419]LogModuleManager: Shutting down and abandoning module CrashTracker (496)
+[2017.07.06-13.17.19:267][419]LogModuleManager: Shutting down and abandoning module SceneOutliner (494)
+[2017.07.06-13.17.19:267][419]LogModuleManager: Shutting down and abandoning module AddContentDialog (492)
+[2017.07.06-13.17.19:267][419]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.15/FeaturePacks/' was aborted.
+[2017.07.06-13.17.19:270][419]LogModuleManager: Shutting down and abandoning module WidgetCarousel (491)
+[2017.07.06-13.17.19:270][419]LogModuleManager: Shutting down and abandoning module EditorWidgets (488)
+[2017.07.06-13.17.19:270][419]LogModuleManager: Shutting down and abandoning module CollectionManager (486)
+[2017.07.06-13.17.19:270][419]LogDirectoryWatcher: A directory notification for 'C:/SVN/Fetch Test/SkaGame/SkaGame/Content/Collections/' was aborted.
+[2017.07.06-13.17.19:270][419]LogDirectoryWatcher: A directory notification for 'C:/SVN/Fetch Test/SkaGame/SkaGame/Content/Developers/Ethan/Collections/' was aborted.
+[2017.07.06-13.17.19:270][419]LogDirectoryWatcher: A directory notification for 'C:/SVN/Fetch Test/SkaGame/SkaGame/Saved/Collections/' was aborted.
+[2017.07.06-13.17.19:270][419]LogModuleManager: Shutting down and abandoning module StatsViewer (484)
+[2017.07.06-13.17.19:270][419]LogModuleManager: Shutting down and abandoning module FoliageEdit (482)
+[2017.07.06-13.17.19:270][419]LogModuleManager: Shutting down and abandoning module LandscapeEditor (480)
+[2017.07.06-13.17.19:270][419]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (478)
+[2017.07.06-13.17.19:270][419]LogModuleManager: Shutting down and abandoning module ActorPickerMode (476)
+[2017.07.06-13.17.19:270][419]LogModuleManager: Shutting down and abandoning module GeometryMode (474)
+[2017.07.06-13.17.19:270][419]LogModuleManager: Shutting down and abandoning module TextureAlignMode (472)
+[2017.07.06-13.17.19:270][419]LogModuleManager: Shutting down and abandoning module BspMode (470)
+[2017.07.06-13.17.19:270][419]LogModuleManager: Shutting down and abandoning module HardwareSurvey (468)
+[2017.07.06-13.17.19:270][419]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (466)
+[2017.07.06-13.17.19:270][419]LogModuleManager: Shutting down and abandoning module AutomationWorker (464)
+[2017.07.06-13.17.19:271][419]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (462)
+[2017.07.06-13.17.19:271][419]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (460)
+[2017.07.06-13.17.19:271][419]LogModuleManager: Shutting down and abandoning module PlacementMode (459)
+[2017.07.06-13.17.19:271][419]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (456)
+[2017.07.06-13.17.19:271][419]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (454)
+[2017.07.06-13.17.19:271][419]LogModuleManager: Shutting down and abandoning module MfMediaFactory (452)
+[2017.07.06-13.17.19:271][419]LogModuleManager: Shutting down and abandoning module MfMediaEditor (450)
+[2017.07.06-13.17.19:271][419]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (448)
+[2017.07.06-13.17.19:271][419]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (446)
+[2017.07.06-13.17.19:271][419]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (444)
+[2017.07.06-13.17.19:271][419]LogModuleManager: Shutting down and abandoning module Media (443)
+[2017.07.06-13.17.19:271][419]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (440)
+[2017.07.06-13.17.19:271][419]LogModuleManager: Shutting down and abandoning module CharacterAI (438)
+[2017.07.06-13.17.19:271][419]LogModuleManager: Shutting down and abandoning module AudioCapture (436)
+[2017.07.06-13.17.19:271][419]LogModuleManager: Shutting down and abandoning module SequenceRecorder (435)
+[2017.07.06-13.17.19:271][419]LogModuleManager: Shutting down and abandoning module SmartSnapping (432)
+[2017.07.06-13.17.19:271][419]LogModuleManager: Shutting down and abandoning module SessionServices (430)
+[2017.07.06-13.17.19:271][419]LogModuleManager: Shutting down and abandoning module ViewportSnapping (428)
+[2017.07.06-13.17.19:271][419]LogModuleManager: Shutting down and abandoning module ViewportInteraction (426)
+[2017.07.06-13.17.19:271][419]LogModuleManager: Shutting down and abandoning module LogVisualizer (424)
+[2017.07.06-13.17.19:271][419]LogModuleManager: Shutting down and abandoning module IntroTutorials (422)
+[2017.07.06-13.17.19:271][419]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (421)
+[2017.07.06-13.17.19:271][419]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (418)
+[2017.07.06-13.17.19:271][419]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (416)
+[2017.07.06-13.17.19:271][419]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (414)
+[2017.07.06-13.17.19:271][419]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (412)
+[2017.07.06-13.17.19:271][419]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (411)
+[2017.07.06-13.17.19:500][419]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (408)
+[2017.07.06-13.17.19:500][419]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (406)
+[2017.07.06-13.17.19:500][419]LogModuleManager: Shutting down and abandoning module InputBindingEditor (404)
+[2017.07.06-13.17.19:500][419]LogModuleManager: Shutting down and abandoning module NiagaraEditor (402)
+[2017.07.06-13.17.19:500][419]LogModuleManager: Shutting down and abandoning module MergeActors (400)
+[2017.07.06-13.17.19:500][419]LogModuleManager: Shutting down and abandoning module SizeMap (398)
+[2017.07.06-13.17.19:500][419]LogModuleManager: Shutting down and abandoning module TreeMap (396)
+[2017.07.06-13.17.19:500][419]LogModuleManager: Shutting down and abandoning module ReferenceViewer (394)
+[2017.07.06-13.17.19:500][419]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (392)
+[2017.07.06-13.17.19:500][419]LogModuleManager: Shutting down and abandoning module LocalizationService (391)
+[2017.07.06-13.17.19:500][419]LogModuleManager: Shutting down and abandoning module HardwareTargeting (388)
+[2017.07.06-13.17.19:500][419]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (386)
+[2017.07.06-13.17.19:500][419]LogModuleManager: Shutting down and abandoning module UndoHistory (384)
+[2017.07.06-13.17.19:500][419]LogModuleManager: Shutting down and abandoning module UserFeedback (382)
+[2017.07.06-13.17.19:500][419]LogModuleManager: Shutting down and abandoning module XmlParser (380)
+[2017.07.06-13.17.19:500][419]LogModuleManager: Shutting down and abandoning module Blutility (378)
+[2017.07.06-13.17.19:500][419]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (376)
+[2017.07.06-13.17.19:500][419]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (375)
+[2017.07.06-13.17.19:501][419]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (372)
+[2017.07.06-13.17.19:501][419]LogModuleManager: Shutting down and abandoning module SettingsEditor (370)
+[2017.07.06-13.17.19:501][419]LogModuleManager: Shutting down and abandoning module ProjectLauncher (368)
+[2017.07.06-13.17.19:501][419]LogModuleManager: Shutting down and abandoning module SessionFrontend (366)
+[2017.07.06-13.17.19:501][419]LogModuleManager: Shutting down and abandoning module ProfilerClient (364)
+[2017.07.06-13.17.19:501][419]LogModuleManager: Shutting down and abandoning module DeviceManager (362)
+[2017.07.06-13.17.19:501][419]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (361)
+[2017.07.06-13.17.19:543][419]LogModuleManager: Shutting down and abandoning module AutomationController (358)
+[2017.07.06-13.17.19:543][419]LogModuleManager: Shutting down and abandoning module AutomationWindow (356)
+[2017.07.06-13.17.19:543][419]LogModuleManager: Shutting down and abandoning module Layers (354)
+[2017.07.06-13.17.19:543][419]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (352)
+[2017.07.06-13.17.19:543][419]LogModuleManager: Shutting down and abandoning module DetailCustomizations (350)
+[2017.07.06-13.17.19:543][419]LogModuleManager: Shutting down and abandoning module PackagesDialog (348)
+[2017.07.06-13.17.19:543][419]LogModuleManager: Shutting down and abandoning module Persona (346)
+[2017.07.06-13.17.19:543][419]LogModuleManager: Shutting down and abandoning module AnimGraph (345)
+[2017.07.06-13.17.19:543][419]LogModuleManager: Shutting down and abandoning module Kismet (342)
+[2017.07.06-13.17.19:559][419]LogModuleManager: Shutting down and abandoning module GraphEditor (340)
+[2017.07.06-13.17.19:559][419]LogModuleManager: Shutting down and abandoning module ClassViewer (338)
+[2017.07.06-13.17.19:559][419]LogModuleManager: Shutting down and abandoning module Toolbox (336)
+[2017.07.06-13.17.19:559][419]LogModuleManager: Shutting down and abandoning module ModuleUI (334)
+[2017.07.06-13.17.19:559][419]LogModuleManager: Shutting down and abandoning module MovieSceneTools (332)
+[2017.07.06-13.17.19:559][419]LogModuleManager: Shutting down and abandoning module OutputLog (330)
+[2017.07.06-13.17.19:559][419]LogModuleManager: Shutting down and abandoning module GammaUI (328)
+[2017.07.06-13.17.19:559][419]LogModuleManager: Shutting down and abandoning module Documentation (326)
+[2017.07.06-13.17.19:559][419]LogModuleManager: Shutting down and abandoning module Niagara (324)
+[2017.07.06-13.17.19:559][419]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (322)
+[2017.07.06-13.17.19:559][419]LogModuleManager: Shutting down and abandoning module AnalyticsET (320)
+[2017.07.06-13.17.19:559][419]LogModuleManager: Shutting down and abandoning module PortalServices (318)
+[2017.07.06-13.17.19:559][419]LogModuleManager: Shutting down and abandoning module PortalRpc (316)
+[2017.07.06-13.17.19:559][419]LogModuleManager: Shutting down and abandoning module MessagingRpc (314)
+[2017.07.06-13.17.19:559][419]LogModuleManager: Shutting down and abandoning module AIModule (312)
+[2017.07.06-13.17.19:559][419]LogModuleManager: Shutting down and abandoning module GameplayDebugger (311)
+[2017.07.06-13.17.19:559][419]LogModuleManager: Shutting down and abandoning module AITestSuite (309)
+[2017.07.06-13.17.19:559][419]LogModuleManager: Shutting down and abandoning module ProfilerService (306)
+[2017.07.06-13.17.19:724][419]LogModuleManager: Shutting down and abandoning module TaskGraph (304)
+[2017.07.06-13.17.19:724][419]LogModuleManager: Shutting down and abandoning module SteamVRController (302)
+[2017.07.06-13.17.19:724][419]LogModuleManager: Shutting down and abandoning module SteamVR (300)
+[2017.07.06-13.17.19:724][419]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (298)
+[2017.07.06-13.17.19:724][419]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (296)
+[2017.07.06-13.17.19:724][419]LogModuleManager: Shutting down and abandoning module OculusLibrary (294)
+[2017.07.06-13.17.19:724][419]LogModuleManager: Shutting down and abandoning module OculusInput (292)
+[2017.07.06-13.17.19:724][419]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (290)
+[2017.07.06-13.17.19:724][419]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (288)
+[2017.07.06-13.17.19:724][419]LogModuleManager: Shutting down and abandoning module CableComponent (286)
+[2017.07.06-13.17.19:724][419]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (284)
+[2017.07.06-13.17.19:724][419]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (280)
+[2017.07.06-13.17.19:724][419]LogModuleManager: Shutting down and abandoning module HTML5Networking (278)
+[2017.07.06-13.17.19:724][419]LogModuleManager: Shutting down and abandoning module AlembicImporter (276)
+[2017.07.06-13.17.19:724][419]LogModuleManager: Shutting down and abandoning module AlembicLibrary (275)
+[2017.07.06-13.17.19:724][419]LogModuleManager: Shutting down and abandoning module GeometryCache (274)
+[2017.07.06-13.17.19:724][419]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (273)
+[2017.07.06-13.17.19:724][419]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (268)
+[2017.07.06-13.17.19:724][419]LogModuleManager: Shutting down and abandoning module SuperSearch (267)
+[2017.07.06-13.17.19:724][419]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (264)
+[2017.07.06-13.17.19:724][419]LogModuleManager: Shutting down and abandoning module PluginBrowser (262)
+[2017.07.06-13.17.19:724][419]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (260)
+[2017.07.06-13.17.19:724][419]LogModuleManager: Shutting down and abandoning module EpicSurvey (258)
+[2017.07.06-13.17.19:724][419]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (256)
+[2017.07.06-13.17.19:724][419]LogModuleManager: Shutting down and abandoning module DesktopPlatform (255)
+[2017.07.06-13.17.19:724][419]LogModuleManager: Shutting down and abandoning module UObjectPlugin (252)
+[2017.07.06-13.17.19:724][419]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (250)
+[2017.07.06-13.17.19:724][419]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (248)
+[2017.07.06-13.17.19:724][419]LogModuleManager: Shutting down and abandoning module GitSourceControl (246)
+[2017.07.06-13.17.19:724][419]LogModuleManager: Shutting down and abandoning module SourceControl (245)
+[2017.07.06-13.17.19:724][419]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (242)
+[2017.07.06-13.17.19:724][419]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (240)
+[2017.07.06-13.17.19:724][419]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (238)
+[2017.07.06-13.17.19:724][419]LogModuleManager: Shutting down and abandoning module Paper2DEditor (236)
+[2017.07.06-13.17.19:724][419]LogModuleManager: Shutting down and abandoning module MeshPaint (235)
+[2017.07.06-13.17.19:724][419]LogModuleManager: Shutting down and abandoning module LevelEditor (233)
+[2017.07.06-13.17.19:725][419]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (232)
+[2017.07.06-13.17.19:725][419]LogModuleManager: Shutting down and abandoning module MainFrame (230)
+[2017.07.06-13.17.19:725][419]LogModuleManager: Shutting down and abandoning module HotReload (229)
+[2017.07.06-13.17.19:726][419]LogModuleManager: Shutting down and abandoning module ContentBrowser (225)
+[2017.07.06-13.17.19:727][419]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (222)
+[2017.07.06-13.17.19:728][419]LogModuleManager: Shutting down and abandoning module PhysXVehicles (220)
+[2017.07.06-13.17.19:728][419]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (218)
+[2017.07.06-13.17.19:728][419]LogModuleManager: Shutting down and abandoning module UdpMessaging (216)
+[2017.07.06-13.17.19:828][419]LogModuleManager: Shutting down and abandoning module TcpMessaging (214)
+[2017.07.06-13.17.19:929][419]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (212)
+[2017.07.06-13.17.19:929][419]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (210)
+[2017.07.06-13.17.19:929][419]LogModuleManager: Shutting down and abandoning module FacialAnimation (208)
+[2017.07.06-13.17.19:929][419]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (206)
+[2017.07.06-13.17.19:929][419]LogModuleManager: Shutting down and abandoning module Paper2D (204)
+[2017.07.06-13.17.19:929][419]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (202)
+[2017.07.06-13.17.19:929][419]LogModuleManager: Shutting down and abandoning module WmfMedia (200)
+[2017.07.06-13.17.19:929][419]LogModuleManager: Shutting down and abandoning module MfMedia (198)
+[2017.07.06-13.17.19:929][419]LogModuleManager: Shutting down and abandoning module MediaAssets (196)
+[2017.07.06-13.17.19:929][419]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (194)
+[2017.07.06-13.17.19:929][419]LogModuleManager: Shutting down and abandoning module VREditor (192)
+[2017.07.06-13.17.19:929][419]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (190)
+[2017.07.06-13.17.19:929][419]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (188)
+[2017.07.06-13.17.19:929][419]LogModuleManager: Shutting down and abandoning module FunctionalTesting (186)
+[2017.07.06-13.17.19:929][419]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (184)
+[2017.07.06-13.17.19:929][419]LogModuleManager: Shutting down and abandoning module UMG (182)
+[2017.07.06-13.17.19:929][419]LogModuleManager: Shutting down and abandoning module UMGEditor (181)
+[2017.07.06-13.17.19:930][419]LogModuleManager: Shutting down and abandoning module Sequencer (180)
+[2017.07.06-13.17.19:930][419]LogModuleManager: Shutting down and abandoning module AssetTools (178)
+[2017.07.06-13.17.19:930][419]LogModuleManager: Shutting down and abandoning module MessageLog (177)
+[2017.07.06-13.17.19:930][419]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (176)
+[2017.07.06-13.17.19:930][419]LogModuleManager: Shutting down and abandoning module SlateReflector (170)
+[2017.07.06-13.17.19:930][419]LogModuleManager: Shutting down and abandoning module Slate (168)
+[2017.07.06-13.17.19:930][419]LogModuleManager: Shutting down and abandoning module EditorStyle (166)
+[2017.07.06-13.17.19:932][419]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (164)
+[2017.07.06-13.17.19:932][419]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (162)
+[2017.07.06-13.17.19:932][419]LogModuleManager: Shutting down and abandoning module XAudio2 (160)
+[2017.07.06-13.17.19:932][419]LogModuleManager: Shutting down and abandoning module Networking (158)
+[2017.07.06-13.17.19:932][419]LogModuleManager: Shutting down and abandoning module Core (154)
+[2017.07.06-13.17.19:932][419]LogModuleManager: Shutting down and abandoning module AssetRegistry (152)
+[2017.07.06-13.17.20:107][419]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.07.06-13.17.20:107][419]LogDirectoryWatcher: A directory notification for '../../../../../../SVN/Fetch Test/SkaGame/SkaGame/Content/' was aborted.
+[2017.07.06-13.17.20:107][419]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.07.06-13.17.20:107][419]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (151)
+[2017.07.06-13.17.20:108][419]LogModuleManager: Shutting down and abandoning module KismetCompiler (148)
+[2017.07.06-13.17.20:108][419]LogModuleManager: Shutting down and abandoning module PhysXFormats (146)
+[2017.07.06-13.17.20:108][419]LogModuleManager: Shutting down and abandoning module MeshUtilities (144)
+[2017.07.06-13.17.20:108][419]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (143)
+[2017.07.06-13.17.20:108][419]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (141)
+[2017.07.06-13.17.20:108][419]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (139)
+[2017.07.06-13.17.20:108][419]LogModuleManager: Shutting down and abandoning module PropertyEditor (137)
+[2017.07.06-13.17.20:108][419]LogModuleManager: Shutting down and abandoning module DerivedDataCache (134)
+[2017.07.06-13.17.20:140][419]LogDerivedDataCache: Shutdown
+[2017.07.06-13.17.20:140][419]LogModuleManager: Shutting down and abandoning module TargetPlatform (132)
+[2017.07.06-13.17.20:140][419]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (131)
+[2017.07.06-13.17.20:140][419]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (129)
+[2017.07.06-13.17.20:140][419]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (127)
+[2017.07.06-13.17.20:140][419]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (125)
+[2017.07.06-13.17.20:140][419]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (123)
+[2017.07.06-13.17.20:140][419]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (121)
+[2017.07.06-13.17.20:140][419]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (119)
+[2017.07.06-13.17.20:140][419]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (117)
+[2017.07.06-13.17.20:140][419]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (115)
+[2017.07.06-13.17.20:140][419]LogModuleManager: Shutting down and abandoning module ImageWrapper (114)
+[2017.07.06-13.17.20:140][419]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (111)
+[2017.07.06-13.17.20:140][419]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (109)
+[2017.07.06-13.17.20:140][419]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (107)
+[2017.07.06-13.17.20:140][419]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (105)
+[2017.07.06-13.17.20:140][419]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (103)
+[2017.07.06-13.17.20:140][419]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (101)
+[2017.07.06-13.17.20:140][419]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (99)
+[2017.07.06-13.17.20:140][419]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (97)
+[2017.07.06-13.17.20:140][419]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (95)
+[2017.07.06-13.17.20:140][419]LogModuleManager: Shutting down and abandoning module Messaging (93)
+[2017.07.06-13.17.20:140][419]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (91)
+[2017.07.06-13.17.20:140][419]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (89)
+[2017.07.06-13.17.20:140][419]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (87)
+[2017.07.06-13.17.20:140][419]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (85)
+[2017.07.06-13.17.20:140][419]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (83)
+[2017.07.06-13.17.20:140][419]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (81)
+[2017.07.06-13.17.20:140][419]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (79)
+[2017.07.06-13.17.20:140][419]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (77)
+[2017.07.06-13.17.20:141][419]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (75)
+[2017.07.06-13.17.20:141][419]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (73)
+[2017.07.06-13.17.20:141][419]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (71)
+[2017.07.06-13.17.20:141][419]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (69)
+[2017.07.06-13.17.20:141][419]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (67)
+[2017.07.06-13.17.20:141][419]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (65)
+[2017.07.06-13.17.20:141][419]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (63)
+[2017.07.06-13.17.20:141][419]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (61)
+[2017.07.06-13.17.20:141][419]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (59)
+[2017.07.06-13.17.20:141][419]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (57)
+[2017.07.06-13.17.20:141][419]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (55)
+[2017.07.06-13.17.20:141][419]LogModuleManager: Shutting down and abandoning module InputCore (52)
+[2017.07.06-13.17.20:141][419]LogModuleManager: Shutting down and abandoning module Settings (50)
+[2017.07.06-13.17.20:141][419]LogModuleManager: Shutting down and abandoning module OculusRift (48)
+[2017.07.06-13.17.20:141][419]LogModuleManager: Shutting down and abandoning module GearVR (46)
+[2017.07.06-13.17.20:141][419]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
+[2017.07.06-13.17.20:141][419]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
+[2017.07.06-13.17.20:141][419]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
+[2017.07.06-13.17.20:141][419]LogOnline:Display: Unloading online subsystem: NULL
+[2017.07.06-13.17.20:141][419]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2017.07.06-13.17.20:141][419]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2017.07.06-13.17.20:141][419]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.07.06-13.17.20:141][419]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B1ECE3068-4B1E-1298-8689-A5B4C1051E16%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.3-3450819%2B%2B%2BUE4%2BRelease-4.15&UserID=27a260b74bf32bfc714e53b0493334c1%7C96e91b22db194cfa8006f4b66d834199%7C3dabaf2d-b3bf-48c3-a165-143585034302&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.07.06-13.17.20:172][419]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2017.07.06-13.17.20:174][419]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.07.06-13.17.20:174][419]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.07.06-13.17.20:174][419]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.07.06-13.17.20:174][419]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.07.06-13.17.20:174][419]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.07.06-13.17.20:177][419]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.07.06-13.17.20:177][419]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.07.06-13.17.20:177][419]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.07.06-13.17.20:177][419]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.07.06-13.17.20:177][419]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.07.06-13.17.20:177][419]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.07.06-13.17.20:177][419]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.07.06-13.17.20:177][419]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.07.06-13.17.20:177][419]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.07.06-13.17.20:177][419]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.07.06-13.17.20:179][419]LogExit: Exiting.
+[2017.07.06-13.17.20:185][419]Log file closed, 07/06/17 09:17:20
